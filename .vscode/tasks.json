@@ -1,0 +1,16 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "CMake: configure",
+			"command": "C:/dev/venv/Scripts/activate.bat && python brytonTrainerPlan/main.py",
+			"problemMatcher": [],
+			"detail": "CMake template configure task",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}
