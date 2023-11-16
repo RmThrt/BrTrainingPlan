@@ -1,6 +1,6 @@
 import os
 import threading
-from WorkoutInjector import inject_workout
+from WorkoutInjector import WorkoutCreator
 from prepareWorkout import prepare_workout_dict
 
 threaded = False
@@ -11,7 +11,7 @@ def process_file(filename):
     os.system("python ./brytonTrainerPlan/zwoparse.py " + directory + filename + " -f 266 -k 71 -t csv")
 
     workout_df = prepare_workout_dict(filename_without_ext + ".csv")
-    inject_workout(filename_without_ext, workout_df, headless)
+    WorkoutCreator(filename_without_ext, workout_df, headless)
     print(filename_without_ext + ' workout injected')
 
 directory = "C:/dev/Perso/BrTrainingPlan/KoM_Builder/"
