@@ -11,3 +11,9 @@ You will need to fill your email and password in config.json file, here is an ex
     "pwd" : "yourpassword"
 }
 ```
+
+
+#To-Do List
+
+- [ ] clean it and make it more POO oriented  
+- [ ] make it work headlessly
