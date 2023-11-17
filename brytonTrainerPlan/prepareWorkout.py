@@ -13,7 +13,7 @@ def prepare_workout_dict( filename) -> pd.DataFrame:
     data.loc[data['Type'] == 'Steady state', 'Type'] = activityFlag
     data.loc[data['Type'] == 'Free ride', 'Type'] = recoveryFlag
     data.loc[data['Type'] == 'Cool down', 'Type'] = coolDownFlag
-    data['Duration'] = data['Duration'].apply(lambda x: str(timedelta(seconds=int(x))))
+    data['Duration'] = data['Duration'].apply(lambda x: (str(timedelta(seconds=int(x)))[:-1]))
     
     data = data[['Type', 'Duration', 'Min Power (% FTP)', 'Max Power  (% FTP)', 'Cadence']]
     data.rename(columns={'Type': col_type}, inplace=True)

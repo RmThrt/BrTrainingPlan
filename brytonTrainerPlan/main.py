@@ -4,7 +4,7 @@ from WorkoutInjector import WorkoutCreator
 from prepareWorkout import prepare_workout_dict
 
 threaded = False
-headless = False
+headless = True
     
 def process_file(filename):
     filename_without_ext = os.path.splitext(filename)[0]
