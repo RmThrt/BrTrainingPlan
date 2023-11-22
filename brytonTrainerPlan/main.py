@@ -16,7 +16,7 @@ def process_file(filename, page):
 
     workout_df = prepare_workout_dict(csvName)
     WorkoutCreator(filename_without_ext, workout_df, page)
-    print(filename_without_ext + ' workout injected')
+    
     
     
 
@@ -29,9 +29,12 @@ threads = []
 
 browserManager = BrowserManager(headless)
 
+index = 0
+
 if threaded:
     for filename in zwo_filenames:
-        print('Injecting ' + filename + '...')
+        index += 1
+        print(filename + ' - file ' + str(index) + '/' + str(len(zwo_filenames)) + ' injecting...')
         
         thread = threading.Thread(target=process_file, args=(filename,))
         thread.start()
@@ -42,7 +45,9 @@ if threaded:
         thread.join()
 else:
     for filename in zwo_filenames:
-        print('Injecting ' + filename + '...')
+        index += 1
+        print(filename + ' - file ' + str(index) + '/' + str(len(zwo_filenames)) + ' injecting...')
         process_file(filename, browserManager.getPage())
+        print( filename + ' - file ' + str(index) + '/' + str(len(zwo_filenames)) + ' injected')
 
 browserManager.dispose()
