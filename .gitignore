@@ -4,3 +4,5 @@
 /brytonTrainerPlan/__pycache__/
 /*.zwo
 /*.csv
+/inputs/
+/tmp/

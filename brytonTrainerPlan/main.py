@@ -1,27 +1,38 @@
 import os
 import threading
-from WorkoutInjector import WorkoutCreator
+from WorkoutInjector import WorkoutCreator, BrowserManager
 from prepareWorkout import prepare_workout_dict
 
 threaded = False
 headless = True
-    
-def process_file(filename):
+csvFolder = "tmp/"
+directory = "./inputs/KoM_Builder/"
+
+
+def process_file(filename, page):
     filename_without_ext = os.path.splitext(filename)[0]
-    os.system("python ./brytonTrainerPlan/zwoparse.py " + directory + filename + " -f 266 -k 71 -t csv")
+    csvName = "tmp/" + filename_without_ext + ".csv"
+    os.system("python ./brytonTrainerPlan/zwoparse.py " + directory + filename + " -f 266 -k 71 -t csv -o " + csvName)
 
-    workout_df = prepare_workout_dict(filename_without_ext + ".csv")
-    WorkoutCreator(filename_without_ext, workout_df, headless)
+    workout_df = prepare_workout_dict(csvName)
+    WorkoutCreator(filename_without_ext, workout_df, page)
     print(filename_without_ext + ' workout injected')
+    
+    
 
-directory = "C:/dev/Perso/BrTrainingPlan/KoM_Builder/"
+if not os.path.exists(csvFolder):
+    os.mkdir(csvFolder)
+
 zwo_filenames = [f for f in os.listdir(directory) if f.endswith('.zwo')]
 
 threads = []
 
+browserManager = BrowserManager(headless)
+
 if threaded:
     for filename in zwo_filenames:
         print('Injecting ' + filename + '...')
+        
         thread = threading.Thread(target=process_file, args=(filename,))
         thread.start()
         threads.append(thread)
@@ -32,6 +43,6 @@ if threaded:
 else:
     for filename in zwo_filenames:
         print('Injecting ' + filename + '...')
-        process_file(filename)
-        print( filename + ' workout injected')
-    
+        process_file(filename, browserManager.getPage())
+
+browserManager.dispose()
