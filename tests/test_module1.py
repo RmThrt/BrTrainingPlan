@@ -1,7 +1,7 @@
 # from playwright.sync_api import sync_playwright
 
 
-# brytonActiveWorkoutUrl="https://active.brytonsport.com/workout" 
+# url ="https://whatsonzwift.com/workouts/build-me-up#week-0-prep" 
 
 # with sync_playwright() as p:
 #     # Make sure to run headed.
@@ -15,16 +15,9 @@
 #     page = context.new_page()
 #     context = browser.new_context()
 #     page = context.new_page()
-#     page.goto(brytonActiveWorkoutUrl)
-#     page.goto("https://active.brytonsport.com/")
-#     # page.get_by_placeholder("Email Address").click()
-#     page.get_by_placeholder("Email Address").fill("remi10_7@hotmail.fr")
-#     # page.get_by_placeholder("Email Address").press("Tab")
-#     # page.get_by_role("button", name="Log In", exact=True).click()
-#     # page.get_by_role("button", name="OK", exact=True).click()
-#     # page.get_by_placeholder("Password").click()
-#     page.get_by_placeholder("Password").fill("remithrt")
-#     page.get_by_role("button", name="Log In", exact=True).click()
-#     page.get_by_text("Workout").click()
-#     page.get_by_role("button", name="Add").click()
+#     page.goto(url)
+#     page.frame_locator("#gdpr-consent-notice").get_by_role("button", name="Reject All").click()
+#     page.frame_locator("#gdpr-consent-notice").get_by_role("button", name="Reject").click()
+#     # page.get_by_role("article").nth(1).click()
+
 #     page.pause()

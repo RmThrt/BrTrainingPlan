@@ -1,13 +1,14 @@
 import os
 import threading
 from WorkoutInjector import WorkoutCreator, BrowserManager
+from WorkkoutExtractor import ZwitBrowserManager, ZwiftWorkoutExtractor, ZwiftWorkoutsBrower
 from prepareWorkout import prepare_workout_dict
 
 threaded = False
-headless = True
+headless = False
 csvFolder = "tmp/"
 directory = "./inputs/KoM_Builder/"
-
+Zwift = True
 
 def process_file(filename, page):
     filename_without_ext = os.path.splitext(filename)[0]
@@ -18,36 +19,43 @@ def process_file(filename, page):
     WorkoutCreator(filename_without_ext, workout_df, page)
     
     
+if Zwift:
     
+    
+    zwiftBrowserManager = ZwitBrowserManager(headless, "https://whatsonzwift.com/workouts/build-me-up")
+    zwiftWorkoutsBrower =  ZwiftWorkoutsBrower(zwiftBrowserManager.getPage())
+    zwwiftWorkoutsLocators = zwiftWorkoutsBrower.get_workouts(0)
+    zwiftBrowserManager.getPage().pause()
+    
+else :    
+    if not os.path.exists(csvFolder):
+        os.mkdir(csvFolder)
 
-if not os.path.exists(csvFolder):
-    os.mkdir(csvFolder)
+    zwo_filenames = [f for f in os.listdir(directory) if f.endswith('.zwo')]
 
-zwo_filenames = [f for f in os.listdir(directory) if f.endswith('.zwo')]
+    threads = []
 
-threads = []
+    browserManager = BrowserManager(headless)
 
-browserManager = BrowserManager(headless)
+    index = 0
 
-index = 0
+    if threaded:
+        for filename in zwo_filenames:
+            index += 1
+            print(filename + ' - file ' + str(index) + '/' + str(len(zwo_filenames)) + ' injecting...')
+            
+            thread = threading.Thread(target=process_file, args=(filename,))
+            thread.start()
+            threads.append(thread)
 
-if threaded:
-    for filename in zwo_filenames:
-        index += 1
-        print(filename + ' - file ' + str(index) + '/' + str(len(zwo_filenames)) + ' injecting...')
-        
-        thread = threading.Thread(target=process_file, args=(filename,))
-        thread.start()
-        threads.append(thread)
+        # Wait for all threads to finish
+        for thread in threads:
+            thread.join()
+    else:
+        for filename in zwo_filenames:
+            index += 1
+            print(filename + ' - file ' + str(index) + '/' + str(len(zwo_filenames)) + ' injecting...')
+            process_file(filename, browserManager.getPage())
+            print( filename + ' - file ' + str(index) + '/' + str(len(zwo_filenames)) + ' injected')
 
-    # Wait for all threads to finish
-    for thread in threads:
-        thread.join()
-else:
-    for filename in zwo_filenames:
-        index += 1
-        print(filename + ' - file ' + str(index) + '/' + str(len(zwo_filenames)) + ' injecting...')
-        process_file(filename, browserManager.getPage())
-        print( filename + ' - file ' + str(index) + '/' + str(len(zwo_filenames)) + ' injected')
-
-browserManager.dispose()
+    browserManager.dispose()
