@@ -102,8 +102,10 @@ class WorkoutCreator:
         self.page.get_by_role("paragraph").filter(has_text="Distance").click()
         self.page.get_by_role("listitem").filter(has_text="Time").click()
         duration_locator = self.page.locator("div > .wo-itv-content-frame > .wo-itv-content > .wo-itv-duration-frame")
-        
+        # page.locator(".wo-itv-repeat-div > .wo-itv-content-frame > .wo-itv-content > .wo-itv-duration-frame > div:nth-child(2)")
+        duration_locator = self.page.locator("#work-" + str(self.sectionCount + 1) + " > .wo-itv-repeat-div > .wo-itv-content-frame > .wo-itv-content > .wo-itv-duration-frame > div:nth-child(2)")
         self.locate(self.page.get_by_role("paragraph").filter(has_text=re.compile(r"^0:50:0$", re.IGNORECASE)), self.page.get_by_placeholder(re.compile(r"^0:50:0$", re.IGNORECASE)), duration)
+        self.locate(duration_locator,duration_locator, duration)
 
     def change_ftp(self, ftp, isLowRange):
         base_selector = ".wo-itv-content-frame > .wo-itv-content > .wo-itv-range-frame > .wo-range-low"
@@ -112,17 +114,24 @@ class WorkoutCreator:
         self.locate(ftp_locator, None, ftp)
 
     def locate(self, locator, locator_placeholder_param, value):
+        # Wait for 20 milliseconds to ensure all elements on the page are fully loaded
         self.page.wait_for_timeout(20)
+
+        # If locator_placeholder_param is not provided, find a placeholder using a regular expression
         locator_placeholder = locator_placeholder_param
-        if( locator_placeholder == None):
+        if locator_placeholder is None:
             locator_placeholder = locator.get_by_placeholder(re.compile(r".*", re.IGNORECASE))
-        
-        if self.sectionCount >= 1 and locator_placeholder_param == None:
+
+        # If sectionCount is greater than or equal to 1 and locator_placeholder_param is None
+        # perform a series of actions on the nth element of locator and locator_placeholder
+        if self.sectionCount >= 1 and locator_placeholder_param is None:
             locator.nth(self.sectionCount).click()
             locator_placeholder.nth(self.sectionCount).click(timeout=5000)
             locator_placeholder.nth(self.sectionCount).fill(value)
             locator_placeholder.nth(self.sectionCount).press("Enter")
         else:
+            # If the conditions are not met, simply click the locator and locator_placeholder
+            # fill it with the value, and press "Enter"
             locator.click()
             locator_placeholder.click(timeout=5000)
             locator_placeholder.fill(value)
