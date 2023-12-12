@@ -1,5 +1,6 @@
 import json
 import re
+
 from tqdm import tqdm
 from playwright.sync_api import sync_playwright
 
@@ -45,6 +46,77 @@ class ZwitBrowserManager:
         
     def dispose(self):
         self.close_browser(self.browser, self.context)
+
+class WorkoutLine:
+    def __init__(self, number_of_time,  time_in_seconds, low_power, high_power, power_unit, cadence):
+        self.number_of_time = number_of_time
+        self.time_in_seconds = time_in_seconds
+        self.low_power = low_power
+        self.high_power = high_power
+        self.power_unit = power_unit
+        self.cadence = cadence
+        
+        print("workout line : ", str(self.number_of_time), str(self.time_in_seconds), str(self.low_power), str(self.high_power), str(self.power_unit), str(self.cadence))
+    
+class Workout:
+    def __init__(self, title, description, workoutLines):
+        self.title = title
+        self.description = description
+        self.build_workout(workoutLines)
+    
+    def build_workout(self, workoutLines):
+        self.workoutLines = []
+        for workoutLine in workoutLines:
+            print ("line: " , workoutLine)
+            number_of_time = self.get_number_of_time(workoutLine)
+            cadence = self.get_rpm(workoutLine)
+            time_in_seconds =  self.get_time_in_seconds(workoutLine)
+            low_power , high_power, power_unit  = self.get_power(workoutLine)
+            self.workoutLines.append(WorkoutLine(number_of_time, time_in_seconds,low_power, high_power, power_unit, cadence))
+                       
+    def get_number_of_time(self, workoutLine):
+        searches = re.search(r'^(\d+)x ', workoutLine)
+        if searches is not None:
+            return searches.group(1)
+        else:
+            return 1
+        
+    def get_rpm(self, workoutLine):
+        searches = re.search(r'(\d+)rpm', workoutLine)
+        if searches is not None:
+            return searches.group(1)
+        else:
+            return 0
+
+    def get_power(self, workoutLine):
+        searches = re.search(r'from (\d+) to (\d+)(%|W)', workoutLine)
+        if searches is not None:
+            return searches.group(1), searches.group(2),  searches.group(3)
+        else:
+            searches = re.search(r'(\d+)(%|W)', workoutLine)
+            if searches is not None:
+                return searches.group(1), searches.group(1), searches.group(2)
+            else : 
+                searches = re.search(r'free ride', workoutLine)
+                if searches is not None:
+                    return 0, 0, 0
+                else:
+                    raise Exception("Didn't find power in workout line: " + workoutLine ) 
+
+        
+    def get_time_in_seconds(self, workoutLine):
+        searches = re.search(r'(\d+)min', workoutLine)
+        if searches is not None:
+            return int(searches.group(1)) * 60
+        else:
+            searches = re.search(r'(\d+)sec', workoutLine)
+            if searches is not None:
+                return searches.group(1)
+            else:
+                return 0
+        
+        
+        
         
 class ZwiftWorkoutsBrower:
     def __init__(self, page):
@@ -64,11 +136,12 @@ class ZwiftWorkoutsBrower:
         count = div_list.count()
         array_html = []
         array_text = []
+        WorkoutLines = []
         for i in range(count):
             div= div_list.nth(i)
             array_html.append(div.evaluate("el => el.innerHTML"))
             array_text.append(div.text_content())
-        print(array_text)
+        Workout('test','test', array_text)
 
     
 class ZwiftWorkoutExtractor:
