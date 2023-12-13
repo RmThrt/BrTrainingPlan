@@ -1,5 +1,7 @@
 import json
 import re
+import os
+from openai import OpenAI
 
 from tqdm import tqdm
 from playwright.sync_api import sync_playwright
@@ -59,14 +61,15 @@ class WorkoutLine:
         print("workout line : ", str(self.number_of_time), str(self.time_in_seconds), str(self.low_power), str(self.high_power), str(self.power_unit), str(self.cadence))
     
 class Workout:
-    def __init__(self, title, description, workoutLines):
+    def __init__(self, title, description, workout):
         self.title = title
         self.description = description
-        self.build_workout(workoutLines)
+        self.workout = workout
+        
     
-    def build_workout(self, workoutLines):
+    def build_workout(self):
         self.workoutLines = []
-        for workoutLine in workoutLines:
+        for workoutLine in self.workout:
             print ("line: " , workoutLine)
             number_of_time = self.get_number_of_time(workoutLine)
             cadence = self.get_rpm(workoutLine)
@@ -111,16 +114,48 @@ class Workout:
         else:
             searches = re.search(r'(\d+)sec', workoutLine)
             if searches is not None:
-                return searches.group(1)
+                return int(searches.group(1))
             else:
                 return 0
         
         
+class OpenAIWorkoutExtractor:
+    
+    def __init__(self):
+        config_data = self.read_json_file('config.json')
+        self.client = OpenAI(
+            # This is the default and can be omitted
+            api_key=config_data['openai_key'],
+        )
+    
+    def read_json_file(self, file_path):
+        with open(file_path, 'r') as json_file:
+            
+            data = json.load(json_file)
+        return data
+    
+    def ask_openai_convert_workout_to_zwo(self, workout):
+        self.ask_to_openai("Convert the following workout to zwo format: " + "\n".join(workout))
+        
+    def ask_to_openai(self, question):
+        response = self. client.chat.completions.create(
+            messages=[
+                {
+                    "role": "user",
+                    "content": question,
+                }
+            ],
+            model="gpt-3.5-turbo",
+        )
+        print(response)
+        return response
+
         
         
 class ZwiftWorkoutsBrower:
     def __init__(self, page):
         self.page = page
+
         
     def get_workouts_locators(self):
         locators = self.page.get_by_role("article")
@@ -141,8 +176,12 @@ class ZwiftWorkoutsBrower:
             div= div_list.nth(i)
             array_html.append(div.evaluate("el => el.innerHTML"))
             array_text.append(div.text_content())
-        Workout('test','test', array_text)
-
+        wk = Workout('test','test', array_text)
+        wk.build_workout()
+        
+        print(array_text)
+        zwoFileContent = OpenAIWorkoutExtractor().ask_openai_convert_workout_to_zwo(array_text)
+        print("zxoFileContent: " , zwoFileContent)
     
 class ZwiftWorkoutExtractor:
     sectionCount = -1   

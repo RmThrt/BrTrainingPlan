@@ -1,7 +1,7 @@
 import os
 import threading
 from WorkoutInjector import WorkoutCreator, BrowserManager
-from WorkkoutExtractor import ZwitBrowserManager, ZwiftWorkoutExtractor, ZwiftWorkoutsBrower
+from workoutExtractor.WorkoutExtractor import ZwitBrowserManager, ZwiftWorkoutExtractor, ZwiftWorkoutsBrower
 from prepareWorkout import prepare_workout_dict
 
 threaded = False
