@@ -24,7 +24,7 @@ if Zwift:
     
     zwiftBrowserManager = ZwitBrowserManager(headless, "https://whatsonzwift.com/workouts/build-me-up")
     zwiftWorkoutsBrower =  ZwiftWorkoutsBrower(zwiftBrowserManager.getPage())
-    zwwiftWorkoutsLocators = zwiftWorkoutsBrower.get_workouts(0)
+    zwwiftWorkoutsLocators = zwiftWorkoutsBrower.get_workouts(2)
     zwiftBrowserManager.getPage().pause()
     
 else :    

@@ -92,32 +92,39 @@ class Workout:
             return 0
 
     def get_power(self, workoutLine):
-        searches = re.search(r'from (\d+) to (\d+)(%|W)', workoutLine)
-        if searches is not None:
-            return searches.group(1), searches.group(2),  searches.group(3)
-        else:
-            searches = re.search(r'(\d+)(%|W)', workoutLine)
-            if searches is not None:
-                return searches.group(1), searches.group(1), searches.group(2)
-            else : 
-                searches = re.search(r'free ride', workoutLine)
-                if searches is not None:
-                    return 0, 0, 0
-                else:
-                    raise Exception("Didn't find power in workout line: " + workoutLine ) 
+        searches = re.findall(r'from (\d+) to (\d+)(%|W)|(\d+)(%|W)|(free ride)', workoutLine)
+        if len(searches) > 0:
+            for i, _ in enumerate(searches):
+                if searches[i][0] != '':
+                    searches[i] = (searches[i][0], searches[i][1], searches[i][2])
+                    continue
+                elif searches[i][3] != '':
+                    searches[i] =  (searches[i][3], searches[i][3], searches[i][4])
+                    continue
+                elif searches[i][5] != '':
+                    searches[i] =  (0, 0, 0)
+                    continue
 
+        return searches
         
-    def get_time_in_seconds(self, workoutLine):
-        searches = re.search(r'(\d+)min', workoutLine)
-        if searches is not None:
-            return int(searches.group(1)) * 60
+    def get_time_in_seconds(self, workoutLine, isInterval=False):
+        
+        rslt_time_in_min = re.findall(r'(\d+)min', workoutLine)
+        
+        if  len(rslt_time_in_min) > 0 :
+            return [int(numeric_string) *60 for numeric_string in rslt_time_in_min] 
         else:
-            searches = re.search(r'(\d+)sec', workoutLine)
-            if searches is not None:
-                return int(searches.group(1))
-            else:
-                return 0
+            return  [int(numeric_string) for numeric_string in re.findall(r'(\d+)sec', workoutLine)]
         
+
+
+    
+def return_regex_int_value(regex, workoutLine):
+    searches = re.findall(regex, workoutLine)
+    if len(searches) > 0 :
+        return int(searches[0]) if len(searches) < 2 else int(searches[0]), int(searches[1])
+    else:
+        return None
         
 class OpenAIWorkoutExtractor:
     
@@ -182,6 +189,7 @@ class ZwiftWorkoutsBrower:
         print(array_text)
         zwoFileContent = OpenAIWorkoutExtractor().ask_openai_convert_workout_to_zwo(array_text)
         print("zxoFileContent: " , zwoFileContent)
+
     
 class ZwiftWorkoutExtractor:
     sectionCount = -1   
