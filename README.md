@@ -2,6 +2,9 @@
 Scripts  to inject workout in Bryton active app
 
 
+# Installation
+use Task install in tasks.json
+
 # requirements
 ### config.json
 You will need to fill your email and password in config.json file, here is an example of config.json  

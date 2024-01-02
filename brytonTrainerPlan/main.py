@@ -1,14 +1,16 @@
 import os
 import threading
 from WorkoutInjector import WorkoutCreator, BrowserManager
-from workoutExtractor.WorkoutExtractor import ZwitBrowserManager, ZwiftWorkoutExtractor, ZwiftWorkoutsBrower
+from workoutExtractor.WorkoutExtractor import ZwitBrowserManager, ZwiftWorkoutExtractor, ZwiftWorkoutsBrowser
 from prepareWorkout import prepare_workout_dict
+from tqdm import tqdm
 
 threaded = False
-headless = False
+headless = True
 csvFolder = "tmp/"
 directory = "./inputs/KoM_Builder/"
 Zwift = True
+training_plan = "active-offseason"
 
 def process_file(filename, page):
     filename_without_ext = os.path.splitext(filename)[0]
@@ -20,12 +22,12 @@ def process_file(filename, page):
     
     
 if Zwift:
+    zwiftBrowserManager = ZwitBrowserManager(headless, "https://whatsonzwift.com/workouts/" + training_plan)
+    ZwiftWorkoutsBrowser =  ZwiftWorkoutsBrowser(zwiftBrowserManager.getPage(), 'outputs/' + training_plan)
+    for i in tqdm(range(100), total=100):
+        zwwiftWorkoutsLocators = ZwiftWorkoutsBrowser.extract_workouts(i)
     
-    
-    zwiftBrowserManager = ZwitBrowserManager(headless, "https://whatsonzwift.com/workouts/build-me-up")
-    zwiftWorkoutsBrower =  ZwiftWorkoutsBrower(zwiftBrowserManager.getPage())
-    zwwiftWorkoutsLocators = zwiftWorkoutsBrower.get_workouts(2)
-    zwiftBrowserManager.getPage().pause()
+    zwiftBrowserManager.dispose()
     
 else :    
     if not os.path.exists(csvFolder):

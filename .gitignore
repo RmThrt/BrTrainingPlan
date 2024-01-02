@@ -14,3 +14,4 @@
 /.pytest_cache/v/cache/stepwise
 /brytonTrainerPlan/workoutExtractor/__pycache__/
 /__pycache__/
+/outputs/*

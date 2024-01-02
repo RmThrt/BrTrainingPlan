@@ -3,8 +3,20 @@
 	"tasks": [
 		{
 			"type": "shell",
-			"label": "CMake: configure",
-			"command": "C:/dev/venv/Scripts/activate.bat && python brytonTrainerPlan/main.py",
+			
+			"label": "install",
+			"command": "pip install -r ./requirements.txt && python -m playwright install",
+			"problemMatcher": [],
+			"detail": "CMake template configure task",
+			"group": {
+				"kind": "build",
+				"isDefault": false
+			}
+		}, 
+		{
+			"type": "shell",
+			"label": "run main.py",
+			"command": "python brytonTrainerPlan/main.py",
 			"problemMatcher": [],
 			"detail": "CMake template configure task",
 			"group": {
