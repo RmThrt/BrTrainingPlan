@@ -257,10 +257,7 @@ class OpenAIWorkoutExtractor:
 class ZwiftWorkoutsBrowser:
     def __init__(self, page, output_folder):
         self.page = page
-        self.output_folder = output_folder
-        if not os.path.exists(output_folder):
-            os.makedirs(output_folder)
-
+        self.output_folder = output_folder  
 
         
     def get_workouts_locators(self):
