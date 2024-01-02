@@ -2,9 +2,8 @@ import csv
 import json
 import re
 import numpy as np
-import os
-from datetime import datetime, timedelta
 import re
+from utils import slugify
 
 from tqdm import tqdm
 from playwright.sync_api import sync_playwright
@@ -48,13 +47,10 @@ class ZwitBrowserManager:
     def getPage(self): 
         return self.page 
 
-    def close_browser(self, browser, context):
-        context.close()
-        
-        browser.close()
-        
     def dispose(self):
-        self.close_browser(self.browser, self.context)
+        self.context.close()
+        self.browser.close()
+        self.playwright.stop()
 
 class WorkoutLine:
     def __init__(self, number_of_time,  time_in_seconds,  low_power, high_power,power_unit, cadence, time_in_seconds2, low_power2, high_power2,  power_unit2, cadence2):
@@ -262,15 +258,18 @@ class ZwiftWorkoutsBrowser:
         
     def get_workouts_locators(self):
         locators = self.page.get_by_role("article")
-        element = self.page.locator("div > main > section > section:nth-child(2) > article").nth(1).locator(".one-third").evaluate("el => el.innerHTML") 
+        element = self.page.locator("div > main > section > section:nth-child(2) > article").nth(1).locator(".one-third").evaluate("el => el.innerHTML")
         print(element)
         locator = locators.first()
         locator.textContent()
         print(locator.get_by_role("h4").text_content())
+
+    def get_workouts_count(self):
+        return self.page.locator("div > main > section > section:nth-child(2) > article").count()
         
     def extract_workouts(self, index):
         workout = self.page.locator("div > main > section > section:nth-child(2) > article").nth(index).locator(".one-third")
-        workout_title = self.page.locator("div > main > section > section:nth-child(2) > article").nth(index).locator("h4").text_content()
+        workout_title = slugify(self.page.locator("div > main > section > section:nth-child(2) > article").nth(index).locator("h4").text_content())
         workout_description = self.page.locator("div > main > section > section:nth-child(2) > article").nth(index).locator(".two-thirds > p").nth(0).text_content()
         div_list = workout.locator("div")
         count = div_list.count()

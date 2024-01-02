@@ -1,6 +1,6 @@
 from datetime import timedelta
 import pandas as pd
-from WorkoutInjector import warmupFlag, activityFlag, recoveryFlag, coolDownFlag, col_duration, col_max_power, col_min_power, col_type, col_cadence
+from workoutInjector import warmupFlag, activityFlag, recoveryFlag, coolDownFlag, col_duration, col_max_power, col_min_power, col_type, col_cadence
 
 def prepare_workout_dict( filename) -> pd.DataFrame:
     data = pd.read_csv(filename)

@@ -1,53 +1,37 @@
-from urllib.request import Request, urlopen
 import os
 import threading
-from WorkoutInjector import WorkoutCreator, BrowserManager
-from workoutExtractor.WorkoutExtractor import ZwitBrowserManager, ZwiftWorkoutExtractor, ZwiftWorkoutsBrowser
-from prepareWorkout import prepare_workout_dict
+from workoutInjector import  BrowserManager
+from utils import prepare_output_folder, process_file
+from workoutExtractor.workoutExtractor import ZwitBrowserManager,  ZwiftWorkoutsBrowser
 from tqdm import tqdm
+
 
 threaded = False
 headless = True
 csvFolder = "tmp/"
 directory = "./inputs/KoM_Builder/"
 Zwift = True
-training_plan = "active-offseason"
+training_plans = ["active-offseason", "back-to-fitness", "build-me-up", "build-me-up-lite", "crit-crusher", "dirt-destroyer", "fast-track-fitness","fondo", "ftp-builder", "gran-fondo", "gravel-grinder", "pebble-pounder", "singletrack-slayer", "tt-tuneup", "zwift-101-cycling", "zwift-racing-plan"]
 
-def prepare_output_folder(output_folder, training_plan):
-    os.makedirs(output_folder) if not os.path.exists(output_folder) else None
 
-    req = Request(zwift_url)
-    req.add_header('User-Agent', 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11')
-    req.add_header('Accept', 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8')
-    req.add_header('Accept-Charset', 'ISO-8859-1,utf-8;q=0.7,*;q=0.3')
-    req.add_header('Accept-Encoding', 'none')
-    req.add_header('Accept-Language', 'en-US,en;q=0.8')
-    req.add_header('Connection', 'keep-alive')
-    cnt = str(urlopen(req).read())
-    f = open(output_folder + "/" + training_plan + ".html", 'w', encoding='utf-8')
-    f.write(cnt)
-    f.close
-
-def process_file(filename, page):
-    filename_without_ext = os.path.splitext(filename)[0]
-    csvName = "tmp/" + filename_without_ext + ".csv"
-    os.system("python ./brytonTrainerPlan/zwoparse.py " + directory + filename + " -f 266 -k 71 -t csv -o " + csvName)
-
-    workout_df = prepare_workout_dict(csvName)
-    WorkoutCreator(filename_without_ext, workout_df, page)
     
     
 if Zwift:
-    zwift_url =  "https://whatsonzwift.com/workouts/" + training_plan
-    zwiftBrowserManager = ZwitBrowserManager(headless,zwift_url)
-    output_folder = 'outputs/' + training_plan
-    prepare_output_folder(output_folder, training_plan)
+    for training_plan in training_plans:
+        print("training_plan:", training_plan)
+        zwift_url =  "https://whatsonzwift.com/workouts/" + training_plan
+        zwiftBrowserManager = ZwitBrowserManager(headless,zwift_url)
+        output_folder = 'outputs/' + training_plan
+        prepare_output_folder(output_folder, training_plan, zwift_url)
 
-    ZwiftWorkoutsBrowser =  ZwiftWorkoutsBrowser(zwiftBrowserManager.getPage(), output_folder)
-    for i in tqdm(range(100), total=100):
-        zwwiftWorkoutsLocators = ZwiftWorkoutsBrowser.extract_workouts(i)
-    
-    zwiftBrowserManager.dispose()
+        zwiftWorkoutsBrowser =  ZwiftWorkoutsBrowser(zwiftBrowserManager.getPage(), output_folder)
+        workout_count = zwiftWorkoutsBrowser.get_workouts_count()
+        print("workout_count:", workout_count)
+        for i in tqdm(range(workout_count), total=workout_count):
+            zwwiftWorkoutsLocators = zwiftWorkoutsBrowser.extract_workouts(i)
+        
+        zwiftBrowserManager.dispose()
+        del zwiftBrowserManager
     
 else :    
     if not os.path.exists(csvFolder):
@@ -66,7 +50,7 @@ else :
             index += 1
             print(filename + ' - file ' + str(index) + '/' + str(len(zwo_filenames)) + ' injecting...')
             
-            thread = threading.Thread(target=process_file, args=(filename,))
+            thread = threading.Thread(target=process_file, args=(directory, filename,))
             thread.start()
             threads.append(thread)
 
