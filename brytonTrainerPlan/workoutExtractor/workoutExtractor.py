@@ -3,10 +3,11 @@ import json
 import re
 import numpy as np
 import re
-from utils import slugify
 
 from tqdm import tqdm
 from playwright.sync_api import sync_playwright
+
+from brytonTrainerPlan.utils import slugify
 
 warmupFlag = r"^Warm Up$"
 activityFlag = r"^Work$"

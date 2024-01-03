@@ -1,6 +1,6 @@
 import pytest 
 
-from  brytonTrainerPlan.workoutExtractor.WorkoutExtractor import Workout, WorkoutLine
+from  brytonTrainerPlan.workoutExtractor.workoutExtractor import Workout, WorkoutLine
 
 workout = ['5min free ride', '1min @ 85rpm, 100W', '1min @ 85rpm, 120W', '1min @ 85rpm, 140W', '1min @ 85rpm, 160W', '1min @ 85rpm, 180W', '1min @ 85rpm, 200W', '1min @ 85rpm, 220W', '1min @ 85rpm, 240W', '1min @ 85rpm, 260W', '1min @ 85rpm, 280W', '1min @ 85rpm, 300W', '1min @ 85rpm, 320W', '1min @ 85rpm, 340W', '1min @ 85rpm, 360W', '1min @ 85rpm, 380W', '1min @ 85rpm, 400W', '1min @ 85rpm, 420W', '1min @ 85rpm, 440W', '1min @ 85rpm, 460W', '1min @ 85rpm, 480W', '1min @ 85rpm, 500W', '1min @ 85rpm, 520W', '1min @ 85rpm, 540W', '1min @ 85rpm, 560W', '1min @ 85rpm, 580W', '1min @ 85rpm, 600W', '1min @ 85rpm, 620W', '1min @ 85rpm, 640W', '10min from 75 to 70W']
 workout2 = ['10min from 25 to 75% FTP', '1x 30sec @ 95rpm, 95% FTP,30sec @ 85rpm, 50% FTP', '1x 30sec @ 105rpm, 105% FTP,30sec @ 85rpm, 50% FTP', '1x 30sec @ 115rpm, 115% FTP,30sec @ 85rpm, 50% FTP', '2min @ 85rpm, 50% FTP', '10min @ 90rpm, 90% FTP', '4min @ 85rpm, 55% FTP', '10min @ 80rpm, 90% FTP', '4min @ 85rpm, 55% FTP', '2min @ 90rpm, 90% FTP', '1min @ 70rpm, 90% FTP', '2min @ 90rpm, 90% FTP', '1min @ 70rpm, 90% FTP', '4min @ 100rpm, 90% FTP', '7min from 55 to 25% FTP']
