@@ -2,9 +2,6 @@ import os
 import re
 import unicodedata
 from urllib.request import urlopen, Request
-from workoutInjector import WorkoutCreator
-
-from prepareWorkout import prepare_workout_dict
 
 
 def prepare_output_folder(output_folder, training_plan,zwift_url):
@@ -22,13 +19,11 @@ def prepare_output_folder(output_folder, training_plan,zwift_url):
     f.write(cnt)
     f.close
 
-def process_file(directory, filename, page):
-    filename_without_ext = slugify(os.path.splitext(filename)[0])
-    csvName = "tmp/" + filename_without_ext + ".csv"
+def zwo_to_csv(directory, filename, csvName):
     os.system("python ./brytonTrainerPlan/zwoparse.py " + directory + filename + " -f 266 -k 71 -t csv -o " + csvName)
 
-    workout_df = prepare_workout_dict(csvName)
-    WorkoutCreator(filename_without_ext, workout_df, page)
+
+
 
 def slugify(value, allow_unicode=False):
     """

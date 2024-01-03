@@ -1,15 +1,13 @@
 import os
-import threading
 from workoutInjector import  BrowserManager
-from utils import prepare_output_folder, process_file
+from utils import prepare_output_folder, slugify, zwo_to_csv
 from workoutExtractor.workoutExtractor import ZwitBrowserManager,  ZwiftWorkoutsBrowser
 from tqdm import tqdm
 
 
-threaded = False
-headless = True
-csvFolder = "tmp/"
-directory = "./inputs/KoM_Builder/"
+headless = False
+csvFolder = "outputs_examples/"
+directory = "./examples/zwo_workouts/"
 Zwift = True
 training_plans = ["active-offseason", "back-to-fitness", "build-me-up", "build-me-up-lite", "crit-crusher", "dirt-destroyer", "fast-track-fitness","fondo", "ftp-builder", "gran-fondo", "gravel-grinder", "pebble-pounder", "singletrack-slayer", "tt-tuneup", "zwift-101-cycling", "zwift-racing-plan"]
 
@@ -45,24 +43,18 @@ else :
 
     index = 0
 
-    if threaded:
-        for filename in zwo_filenames:
-            index += 1
-            print(filename + ' - file ' + str(index) + '/' + str(len(zwo_filenames)) + ' injecting...')
-            
-            thread = threading.Thread(target=process_file, args=(directory, filename,))
-            thread.start()
-            threads.append(thread)
+    for filename in zwo_filenames:
+        index += 1
+        print(filename + ' - file ' + str(index) + '/' + str(len(zwo_filenames)) + ' injecting...')
 
-        # Wait for all threads to finish
-        for thread in threads:
-            thread.join()
-    else:
-        for filename in zwo_filenames:
-            index += 1
-            print(filename + ' - file ' + str(index) + '/' + str(len(zwo_filenames)) + ' injecting...')
-            process_file(filename, browserManager.getPage())
-            print( filename + ' - file ' + str(index) + '/' + str(len(zwo_filenames)) + ' injected')
+        filename_without_ext = slugify(os.path.splitext(filename)[0])
+        csvName = "tmp/" + filename_without_ext + ".csv"
+        zwo_to_csv(directory, filename, csvName)
+        
+        workout_df = prepare_workout_dict(csvName)
+        WorkoutCreator(filename_without_ext, workout_df, browserManager.getPage())
+
+        print( filename + ' - file ' + str(index) + '/' + str(len(zwo_filenames)) + ' injected')
 
     browserManager.dispose()
 
