@@ -1,0 +1,66 @@
+Type, StartTime, EndTime, Duration, Duration Formatted, Min Power (% FTP), Min Power (W), Min Power (W/Kg), Max Power  (% FTP), Min Power (W), Min Power (W/Kg), Cadence, Work
+Warm up,0,600,600,10 mins,40,107,1.5,75,200,2.8,,False
+Work Interval,600,630,30,30 secs,97,259,3.7,103,275,3.9,105,True
+Rest Interval,630,720,90,1 mins 30 secs,67,179,2.5,73,195,2.8,95,False
+Work Interval,720,750,30,30 secs,97,259,3.7,103,275,3.9,105,True
+Rest Interval,750,840,90,1 mins 30 secs,67,179,2.5,73,195,2.8,95,False
+Work Interval,840,870,30,30 secs,97,259,3.7,103,275,3.9,105,True
+Rest Interval,870,960,90,1 mins 30 secs,67,179,2.5,73,195,2.8,95,False
+Steady state,960,1140,180,3 mins,52,139,2.0,58,155,2.2,,False
+Work Interval,1140,1230,90,1 mins 30 secs,92,245,3.5,98,261,3.7,100,True
+Rest Interval,1230,1260,30,30 secs,67,179,2.5,73,195,2.8,90,False
+Work Interval,1260,1350,90,1 mins 30 secs,92,245,3.5,98,261,3.7,100,True
+Rest Interval,1350,1380,30,30 secs,67,179,2.5,73,195,2.8,90,False
+Work Interval,1380,1470,90,1 mins 30 secs,92,245,3.5,98,261,3.7,100,True
+Rest Interval,1470,1500,30,30 secs,67,179,2.5,73,195,2.8,90,False
+Work Interval,1500,1590,90,1 mins 30 secs,92,245,3.5,98,261,3.7,100,True
+Rest Interval,1590,1620,30,30 secs,67,179,2.5,73,195,2.8,90,False
+Work Interval,1620,1710,90,1 mins 30 secs,92,245,3.5,98,261,3.7,100,True
+Rest Interval,1710,1740,30,30 secs,67,179,2.5,73,195,2.8,90,False
+Work Interval,1740,1830,90,1 mins 30 secs,92,245,3.5,98,261,3.7,100,True
+Rest Interval,1830,1860,30,30 secs,67,179,2.5,73,195,2.8,90,False
+Steady state,1860,2040,180,3 mins,47,126,1.8,53,142,2.0,90,False
+Steady state,2040,2520,480,8 mins,82,218,3.1,88,234,3.3,100,False
+Steady state,2520,2700,180,3 mins,47,126,1.8,53,142,2.0,90,False
+Work Interval,2700,2745,45,45 secs,92,244,3.4,98,260,3.7,100,True
+Rest Interval,2745,2760,15,15 secs,72,191,2.7,78,207,2.9,90,False
+Work Interval,2760,2805,45,45 secs,92,244,3.4,98,260,3.7,100,True
+Rest Interval,2805,2820,15,15 secs,72,191,2.7,78,207,2.9,90,False
+Work Interval,2820,2865,45,45 secs,92,244,3.4,98,260,3.7,100,True
+Rest Interval,2865,2880,15,15 secs,72,191,2.7,78,207,2.9,90,False
+Work Interval,2880,2925,45,45 secs,92,244,3.4,98,260,3.7,100,True
+Rest Interval,2925,2940,15,15 secs,72,191,2.7,78,207,2.9,90,False
+Work Interval,2940,2985,45,45 secs,92,244,3.4,98,260,3.7,100,True
+Rest Interval,2985,3000,15,15 secs,72,191,2.7,78,207,2.9,90,False
+Work Interval,3000,3045,45,45 secs,92,244,3.4,98,260,3.7,100,True
+Rest Interval,3045,3060,15,15 secs,72,191,2.7,78,207,2.9,90,False
+Work Interval,3060,3105,45,45 secs,92,244,3.4,98,260,3.7,100,True
+Rest Interval,3105,3120,15,15 secs,72,191,2.7,78,207,2.9,90,False
+Work Interval,3120,3165,45,45 secs,92,244,3.4,98,260,3.7,100,True
+Rest Interval,3165,3180,15,15 secs,72,191,2.7,78,207,2.9,90,False
+Work Interval,3180,3225,45,45 secs,92,244,3.4,98,260,3.7,100,True
+Rest Interval,3225,3240,15,15 secs,72,191,2.7,78,207,2.9,90,False
+Work Interval,3240,3285,45,45 secs,92,244,3.4,98,260,3.7,100,True
+Rest Interval,3285,3300,15,15 secs,72,191,2.7,78,207,2.9,90,False
+Work Interval,3300,3345,45,45 secs,92,244,3.4,98,260,3.7,100,True
+Rest Interval,3345,3360,15,15 secs,72,191,2.7,78,207,2.9,90,False
+Steady state,3360,3540,180,3 mins,47,126,1.8,53,142,2.0,,False
+Steady state,3540,4020,480,8 mins,92,244,3.4,98,260,3.7,100,False
+Steady state,4020,4200,180,3 mins,47,126,1.8,53,142,2.0,90,False
+Work Interval,4200,4260,60,60 secs,97,258,3.6,103,273,3.9,105,True
+Rest Interval,4260,4290,30,30 secs,77,204,2.9,83,220,3.1,90,False
+Work Interval,4290,4350,60,60 secs,97,258,3.6,103,273,3.9,105,True
+Rest Interval,4350,4380,30,30 secs,77,204,2.9,83,220,3.1,90,False
+Work Interval,4380,4440,60,60 secs,97,258,3.6,103,273,3.9,105,True
+Rest Interval,4440,4470,30,30 secs,77,204,2.9,83,220,3.1,90,False
+Work Interval,4470,4530,60,60 secs,97,258,3.6,103,273,3.9,105,True
+Rest Interval,4530,4560,30,30 secs,77,204,2.9,83,220,3.1,90,False
+Work Interval,4560,4620,60,60 secs,97,258,3.6,103,273,3.9,105,True
+Rest Interval,4620,4650,30,30 secs,77,204,2.9,83,220,3.1,90,False
+Work Interval,4650,4710,60,60 secs,97,258,3.6,103,273,3.9,105,True
+Rest Interval,4710,4740,30,30 secs,77,204,2.9,83,220,3.1,90,False
+Work Interval,4740,4800,60,60 secs,97,258,3.6,103,273,3.9,105,True
+Rest Interval,4800,4830,30,30 secs,77,204,2.9,83,220,3.1,90,False
+Work Interval,4830,4890,60,60 secs,97,258,3.6,103,273,3.9,105,True
+Rest Interval,4890,4920,30,30 secs,77,204,2.9,83,220,3.1,90,False
+Cool down,4920,5400,480,8 mins,65,174,2.5,50,134,1.9,,False

@@ -1,0 +1,22 @@
+Type, StartTime, EndTime, Duration, Duration Formatted, Min Power (% FTP), Min Power (W), Min Power (W/Kg), Max Power  (% FTP), Min Power (W), Min Power (W/Kg), Cadence, Work
+Warm up,0,360,360,6 mins,30,79,1.1,70,186,2.6,,False
+Work Interval,360,420,60,60 secs,147,391,5.5,153,406,5.7,,True
+Rest Interval,420,510,90,1 mins 30 secs,52,138,1.9,58,154,2.2,,False
+Work Interval,510,570,60,60 secs,147,391,5.5,153,406,5.7,,True
+Rest Interval,570,660,90,1 mins 30 secs,52,138,1.9,58,154,2.2,,False
+Work Interval,660,720,60,60 secs,147,391,5.5,153,406,5.7,,True
+Rest Interval,720,810,90,1 mins 30 secs,52,138,1.9,58,154,2.2,,False
+Steady state,810,820,10,10 secs,262,696,9.8,268,712,10.0,,False
+Steady state,820,940,120,2 mins,62,164,2.3,68,180,2.5,,False
+Steady state,940,950,10,10 secs,262,696,9.8,268,712,10.0,,False
+Steady state,950,1040,90,1 mins 30 secs,52,138,1.9,58,154,2.2,,False
+Steady state,1040,1050,10,10 secs,262,696,9.8,268,712,10.0,,False
+Steady state,1050,1110,60,60 secs,42,111,1.6,48,127,1.8,,False
+Steady state,1110,1120,10,10 secs,262,696,9.8,268,712,10.0,,False
+Steady state,1120,1150,30,30 secs,32,85,1.2,38,101,1.4,,False
+Steady state,1150,1160,10,10 secs,262,696,9.8,268,712,10.0,,False
+Steady state,1160,1460,300,5 mins,57,151,2.1,63,167,2.4,,False
+Steady state,1460,2060,600,10 mins,86,228,3.2,92,244,3.4,,False
+Steady state,2060,2360,300,5 mins,57,151,2.1,63,167,2.4,,False
+Steady state,2360,2960,600,10 mins,86,228,3.2,92,244,3.4,,False
+Cool down,2960,3260,300,5 mins,70,186,2.6,30,79,1.1,,False
