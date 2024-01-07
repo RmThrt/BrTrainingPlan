@@ -1,5 +1,9 @@
 
+import os
+import subprocess
+from brytonTrainerPlan.utils import search_in_google
 from brytonTrainerPlan.zwoBuilder import RowBuilder, RowField, WorkoutRowType, ZwoBuilder
+from pathlib import Path
 
 zwo_content_expected = []
 
@@ -25,6 +29,7 @@ def test_start_zwo_file():
 
     assert zwoBuilderChainBreaker.start_zwo_file(
         title, description) == expected_result
+        
 
 
 def test_end_zwo_file():
@@ -76,7 +81,7 @@ def test_define_type_of_row():
 def test_row_builder():
     row = dict({'description': '', 'time_in_seconds': '600', 'low_power': '40', 'high_power': '40',
                 'power_unit':  '%', 'cadence': '', 'time_in_seconds2': '', 'low_power2': '', 'high_power2': '', 'power_unit2': '',
-                'cadence2': ''})
+                'cadence2': ''})    
 
     time_in_seconds = "600"
     lowPower = "0.4"
@@ -85,34 +90,36 @@ def test_row_builder():
     # SteadyState
     row_calculated = RowBuilder(
         row=row, index=9, last_row_index=10).build_Row()
-    assert row_calculated == "<SteadyState Duration=" + time_in_seconds +\
-        " Power=" + lowPower + "/>"
+    assert row_calculated == "<SteadyState Duration=\"" + time_in_seconds +\
+        "\" Power=\"" + lowPower + "\" />"
 
     highPower = "0.75"
     row[RowField.high_power.value] = str(float(highPower) * 100)
 
     # warmup
-    assert RowBuilder(row=row, index=0, last_row_index=0).build_Row() == "<Warmup Duration=" + time_in_seconds +\
-        " PowerLow=" + lowPower + \
-        " PowerHigh=" + highPower + "/>"
+    assert RowBuilder(row=row, index=0, last_row_index=0).build_Row() == "<Warmup Duration=\"" + time_in_seconds +\
+        "\" PowerLow=\"" + lowPower + \
+        "\" PowerHigh=\"" + highPower + "\" />"
     # cooldown
-    assert RowBuilder(row=row, index=10, last_row_index=10).build_Row() == "<Cooldown Duration=" + time_in_seconds +\
-        " PowerLow=" + lowPower + \
-        " PowerHigh=" + highPower + "/>"
+    assert RowBuilder(row=row, index=10, last_row_index=10).build_Row() == "<Cooldown Duration=\"" + time_in_seconds +\
+        "\" PowerLow=\"" + lowPower + \
+        "\" PowerHigh=\"" + highPower + "\" />"
 
     # Ramp
     row_calculated = RowBuilder(
         row=row, index=9, last_row_index=10).build_Row()
-    assert row_calculated == "<Ramp Duration=" + time_in_seconds +\
-        " PowerLow=" + lowPower + \
-        " PowerHigh=" + highPower + "/>"
+    assert row_calculated == "<Ramp Duration=\"" + time_in_seconds +\
+        "\" PowerLow=\"" + lowPower + \
+        "\" PowerHigh=\"" + highPower + "\" />"
 
     # Max Effort
     row[RowField.power_unit.value] = 'Max'
 
     row_calculated = RowBuilder(
         row=row, index=9, last_row_index=10).build_Row()
-    assert row_calculated == "<MaxEffort Duration=" + time_in_seconds
+    assert row_calculated == "<MaxEffort Duration=\"" + time_in_seconds + "\" />"
+
+    row[RowField.power_unit.value] = '%'
 
     # IntervalT
     number_of_time = '5'
@@ -128,27 +135,44 @@ def test_row_builder():
 
     row_calculated = RowBuilder(
         row=row, index=9, last_row_index=10).build_Row()
-    assert row_calculated == "<IntervalsT " + "Repeat=" + number_of_time + \
-        " OnDuration=" + time_in_seconds + \
-        " OffDuration=" + time_in_seconds2 + \
-        " PowerOnLow=" + lowPower + \
-        " PowerOnHigh=" + highPower + \
-        " PowerOffLow=" + lowPower2 + \
-        " PowerOffHigh=" + highPower2 + \
-        "/>"
+    assert row_calculated == "<IntervalsT " + "Repeat=\"" + number_of_time + \
+        "\" OnDuration=\"" + time_in_seconds + \
+        "\" OffDuration=\"" + time_in_seconds2 + \
+        "\" PowerOnLow=\"" + lowPower + \
+        "\" PowerOnHigh=\"" + highPower + \
+        "\" PowerOffLow=\"" + lowPower2 + \
+        "\" PowerOffHigh=\"" + highPower2 + \
+        "\" />"
 
     # with cadence
     row[RowField.cadence.value] = cadence
 
     row_calculated = RowBuilder(
         row=row, index=9, last_row_index=10).build_Row()
-    assert row_calculated == "<IntervalsT " + "Repeat=" + number_of_time + \
-        " OnDuration=" + time_in_seconds + \
-        " OffDuration=" + time_in_seconds2 + \
-        " PowerOnLow=" + lowPower + \
-        " PowerOnHigh=" + highPower + \
-        " PowerOffLow=" + lowPower2 + \
-        " PowerOffHigh=" + highPower2 + \
-        " CadenceLow=" + cadence + \
-        " CadenceHigh=" + cadence + \
-        "/>"
+    assert row_calculated == "<IntervalsT " + "Repeat=\"" + number_of_time + \
+        "\" OnDuration=\"" + time_in_seconds + \
+        "\" OffDuration=\"" + time_in_seconds2 + \
+        "\" PowerOnLow=\"" + lowPower + \
+        "\" PowerOnHigh=\"" + highPower + \
+        "\" PowerOffLow=\"" + lowPower2 + \
+        "\" PowerOffHigh=\"" + highPower2 + \
+        "\" Cadence=\"" + cadence + \
+        "\" CadenceLow=\"" + cadence + \
+        "\" CadenceHigh=\"" + cadence + \
+        "\" />"
+    
+
+def test_build_zwo_workout():
+    directory = 'csv_to_zwo_inputs'
+    csv_filenames = [f for f in Path(directory).rglob('*.csv')]
+
+
+    for filename in csv_filenames:
+        zwoBuildertest = ZwoBuilder(filename)
+        workout = zwoBuildertest.build_zwo_workout()
+        zwoBuildertest.write_zwo_file('outputs_zwo')
+        # search_in_google('zwift ' + zwoBuildertest.get_title())
+
+
+    # assert workout == ''
+

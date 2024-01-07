@@ -2,6 +2,7 @@
 import csv
 import os
 from enum import Enum
+from bs4 import BeautifulSoup as bs
 
 
 class RowField(Enum):
@@ -18,6 +19,7 @@ class RowField(Enum):
     power_unit2 = "power_unit2"
     cadence2 = "cadence2"
 
+
 class WorkoutRowType(Enum):
     Cooldown = "Cooldown"
     FreeRide = "FreeRide"
@@ -30,15 +32,25 @@ class WorkoutRowType(Enum):
     Warmup = "Warmup"
 
 
+def keyval(key, val):
+    return key + "=\"" + val + "\" "
+
+
 class RowBuilder:
-    def __init__(self, row, index, last_row_index) -> None:
+    def __init__(self, row, index, last_row_index):
+        if len(row) == 1 and row[RowField.description.value] != None:
+            self.row_parsed = row[RowField.description.value]
+            return
         self.dict = row
         self.index = index
         self.last_row_index = last_row_index
 
         self.workoutDefineType = self.define_type_of_row()
         self.check_row_validity()
-        self.build_Row()
+        self.row_parsed = self.build_Row()
+
+    def get_row(self):
+        return self.row_parsed
 
     def define_type_of_row(self):
 
@@ -51,16 +63,17 @@ class RowBuilder:
                 return WorkoutRowType.MaxEffort
             if self.dict[RowField.low_power.value] != self.dict[RowField.high_power.value]:
                 return WorkoutRowType.Ramp
-            if self.dict[RowField.low_power.value] == 0 and self.dict[RowField.high_power.value] == 0:
-                return WorkoutRowType.FreeRide
+            # if self.dict[RowField.low_power.value] == '0' and self.dict[RowField.high_power.value] == '0':
+            #     return WorkoutRowType.FreeRide
             return WorkoutRowType.SteadyState
         else:
             return WorkoutRowType.IntervalsT
 
     def check_row_validity(self):
-        if self.dict[RowField.power_unit.value] != '%' and self.dict[RowField.power_unit.value] != 'Max' and self.dict[RowField.power_unit.value] != '':
+        valid_units = ['', '%', 'Max', '0', 'W']
+        if self.dict[RowField.power_unit.value] not in valid_units:
             raise ValueError("Power unit must be in percentage")
-        if self.dict[RowField.power_unit2.value] != '%' and self.dict[RowField.power_unit2.value] != 'Max' and self.dict[RowField.power_unit2.value] != '':
+        if self.dict[RowField.power_unit2.value] not in valid_units:
             raise ValueError("Power unit 2 must be in percentage")
 
     def build_Row(self):
@@ -76,26 +89,62 @@ class RowBuilder:
             return self.build_steady_state_row()
         if self.workoutDefineType == WorkoutRowType.Warmup:
             return self.build_warmup_row()
+        else:
+            raise ValueError('cannot handle this row')
 
     def power_convert(self, power) -> str:
+        if power == '0':
+            return '0'
         if float(power) < 2:
             raise ValueError(
                 "Power must be greater than 2,as it has to be in percentage")
         if float(power) == 2000 and self.workoutDefineType == WorkoutRowType.IntervalsT:
             return str(300/100)
+        if self.dict[RowField.power_unit.value] == 'W':
+            return power
         return str(float(power)/100)
 
     def add_cadence(self):
+        cadences = ''
         if self.dict[RowField.cadence.value] != '':
-            return " CadenceLow=" + self.dict[RowField.cadence.value] + " CadenceHigh=" + self.dict[RowField.cadence.value]
-        return ''
+            cadences += keyval("Cadence", self.dict[RowField.cadence.value])
+            cadences += keyval("CadenceLow", self.dict[RowField.cadence.value])
+            cadences += keyval("CadenceHigh",
+                               self.dict[RowField.cadence.value])
+        if self.dict[RowField.cadence2.value] != '':
+            cadences += keyval("CadenceResting",
+                               self.dict[RowField.cadence2.value])
 
-    def build_common_parts(self):
-        str = "Duration=" + self.dict[RowField.time_in_seconds.value]
-        str += " PowerLow=" + \
-            self.power_convert(self.dict[RowField.low_power.value])
-        str += " PowerHigh=" + \
-            self.power_convert(self.dict[RowField.high_power.value])
+        return cadences
+
+    def add_power(self, intervals=False):
+        powers = ''
+        suffix = ['']
+        on_off_suffix = ['']
+        if self.dict[RowField.power_unit.value] == 'Max':
+            return powers
+
+        if intervals:
+            suffix = ['', '2']
+            on_off_suffix = ['On', 'Off']
+
+        for i in range(len(on_off_suffix)):
+
+            if self.dict[RowField.low_power.value + suffix[i]] == self.dict[RowField.high_power.value + suffix[i]]:
+                powers += keyval(on_off_suffix[i] + "Power",  self.power_convert(
+                    self.dict[RowField.low_power.value + suffix[i]]))
+            else:
+                powers += keyval("Power" + on_off_suffix[i] + "Low", self.power_convert(
+                    self.dict[RowField.low_power.value + suffix[i]]))
+                powers += keyval("Power" + on_off_suffix[i] + "High", self.power_convert(
+                    self.dict[RowField.high_power.value + suffix[i]]))
+
+        return powers
+
+    def build_simple_row(self, workout_type):
+        str = "<" + workout_type + " "
+        str += keyval("Duration", self.dict[RowField.time_in_seconds.value])
+        str += self.add_power()
         str += self.add_cadence()
         str += "/>"
         return str
@@ -107,7 +156,7 @@ class RowBuilder:
         #     <textevent distoffset duration message mssage textscale timeoffset y>
         #     <TextNotification duration font_size text timeOffset x y>
 
-        return "<Cooldown " + self.build_common_parts()
+        return self.build_simple_row("Cooldown")
 
     def build_intervals_t_row(self):
         # <IntervalsT Cadence CadenceHigh CadenceLow CadenceResting FlatRoad OffDuration OffPower OnDuration OnPower OverUnder pace PowerOffHigh PowerOffLow PowerOffZone PowerOnHigh PowerOnLow PowerOnZone Repeat units>
@@ -115,55 +164,47 @@ class RowBuilder:
         #     <textevent distoffset duration message mssage textscale timeoffset y>
         #     <TextNotification duration font_size text timeOffset x y>
 
-        if self.dict[RowField.cadence.value] != '' and self.dict[RowField.cadence2.value] != '' and self.dict[RowField.cadence.value] != self.dict[RowField.cadence2.value]:
-            raise ValueError(
-                'There is different cadences for 1st and 2nd part of interval, this is not handled')
-        str = "<IntervalsT " + "Repeat=" + self.dict[RowField.number_of_time.value] + \
-            " OnDuration=" + self.dict[RowField.time_in_seconds.value] + \
-            " OffDuration=" + self.dict[RowField.time_in_seconds2.value] + \
-            " PowerOnLow=" + self.power_convert(self.dict[RowField.low_power.value]) + \
-            " PowerOnHigh=" + self.power_convert(self.dict[RowField.high_power.value]) + \
-            " PowerOffLow=" + self.power_convert(self.dict[RowField.low_power2.value]) + \
-            " PowerOffHigh=" + \
-            self.power_convert(self.dict[RowField.high_power2.value])
+        str = "<IntervalsT "
+        str += keyval("Repeat", self.dict[RowField.number_of_time.value])
+        str += keyval("OnDuration", self.dict[RowField.time_in_seconds.value])
+        str += keyval("OffDuration",
+                      self.dict[RowField.time_in_seconds2.value])
+        str += self.add_power(True)
         str += self.add_cadence()
         str += "/>"
         return str
 
     def build_maxEffort_row(self):
         # <MaxEffort Duration>
-        
-        return "<MaxEffort Duration=" + self.dict[RowField.time_in_seconds.value]
+
+        return self.build_simple_row("MaxEffort")
 
     def build_ramp_row(self):
         # <Ramp Cadence CadenceResting Duration pace Power PowerHigh PowerLow show_avg>
         #     <textevent distoffset duration message mssage textscale timeoffset y>
 
-        return "<Ramp " + self.build_common_parts()
+        return self.build_simple_row("Ramp")
 
     def build_steady_state_row(self):
         # <SteadyState Cadence CadenceHigh CadenceLow CadenceResting Duration FailThresholdDuration Forced_Performance_Test forced_performance_test NeverFails OffPower pace Power PowerHigh PowerLow ramptest replacement_prescription replacement_verb show_avg Target Text units Zone>
         #     <TextEvent Duration message TimeOffset timeoffset>
         #     <textevent distoffset duration message mssage textscale timeoffset y>
 
-        str =  "<SteadyState " + "Duration=" + self.dict[RowField.time_in_seconds.value] + \
-            " Power=" + self.power_convert(self.dict[RowField.low_power.value])
-        str += self.add_cadence()
-        str += "/>"
-        return str
+        return self.build_simple_row("SteadyState")
 
     def build_warmup_row(self):
         # <Warmup Cadence CadenceHigh CadenceLow CadenceResting Duration pace Power PowerHigh PowerLow Quantize replacement_prescription replacement_verb Text units Zone>
         #     <TextEvent Duration message TimeOffset timeoffset>
         #     <textevent distoffset duration message mssage textscale timeoffset y>
 
-        return "<Warmup " + self.build_common_parts()
+        return self.build_simple_row("Warmup")
 
 
 class ZwoBuilder:
 
     def __init__(self, csv_path=None) -> None:
-        self.title, _ = os.path.splitext(os.path.basename(csv_path))
+        self.csv_path = str(csv_path.absolute())  
+        self.title, _ = os.path.splitext(self.csv_path)
 
         self.csv_content = csv.DictReader(open(csv_path, newline='\n'))
         self.zwo_content = ""
@@ -186,21 +227,35 @@ class ZwoBuilder:
         if csv_content is None:
             csv_content = self.csv_content
 
-        last_row_index = 0
-
-        index = 0
-
-        for row in csv_content:
-            rowBuilder = RowBuilder(
-                row, index, last_row_index)
-            workoutRowType = rowBuilder.define_type_of_row()
-            index += 1
-            duration = row[' Duration']
-            print('DURATION :' + row[' Duration'])
-
         title = self.title
         description = "Workout generated from csv file"
         self.zwo_content += self.start_zwo_file(title, description)
 
+        rows = list(csv_content)
+        totalrows = len(rows)
+        for i, row in enumerate(rows):
+            try:
+
+                rowBuilder = RowBuilder(
+                    row, i, totalrows - 1)
+                self.zwo_content += rowBuilder.get_row() + '\n'
+            except Exception as e:
+                print('title : '+  self.csv_path)
+                print('row number  : ' +  str(i))
+                print('row: ' + str(row))
+                raise e
+
         self.zwo_content += self.end_zwo_file()
+        # soup = bs(self.zwo_content)  # make BeautifulSoup
+        # self.zwo_content = soup.prettify()  # prettify the html
         return self.zwo_content
+
+    def get_title(self):
+        return self.title
+
+    def write_zwo_file(self, folder):
+        if not os.path.exists(folder):
+            os.mkdir(folder)
+        with open(os.path.join(folder, self.title + '.zwo'), 'w') as f:
+            f.write(self.zwo_content)
+        self.zwo_content

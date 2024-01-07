@@ -1,6 +1,10 @@
 import os
 import re
 import unicodedata
+
+import requests
+from bs4 import BeautifulSoup
+import webbrowser
 from urllib.request import urlopen, Request
 
 
@@ -40,3 +44,22 @@ def slugify(value, allow_unicode=False):
         value = unicodedata.normalize('NFKD', value).encode('ascii', 'ignore').decode('ascii')
     value = re.sub(r'[^\w\s-]', '', value.lower())
     return re.sub(r'[-\s]+', '-', value).strip('-_')
+
+
+def search_in_google(search_term):      
+    url = f"https://google.com/search?q={search_term}"
+
+    headers = {
+	'Accept' : '*/*',
+	'Accept-Language': 'en-US,en;q=0.5',
+	'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82',
+    }
+    parameters = {'q': search_term}
+    content = requests.get(url, headers = headers, params = parameters).text
+    soup = BeautifulSoup(content, "html.parser")
+
+    search = soup.find(id = 'search')
+    first_link = search.find('a')
+
+
+    webbrowser.open(first_link['href'])

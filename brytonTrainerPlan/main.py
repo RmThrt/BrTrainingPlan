@@ -1,4 +1,6 @@
 import os
+from pathlib import Path
+from zwoBuilder import ZwoBuilder
 from workoutInjector import  BrowserManager
 from utils import prepare_output_folder, slugify, zwo_to_csv
 from workoutExtractor.workoutExtractor import ZwitBrowserManager,  ZwiftWorkoutsBrowser
@@ -8,13 +10,23 @@ from tqdm import tqdm
 headless = False
 csvFolder = "outputs_examples/"
 directory = "./examples/zwo_workouts/"
-Zwift = True
+Zwift = False
+csvToZwo = True
 training_plans = ["active-offseason", "back-to-fitness", "build-me-up", "build-me-up-lite", "crit-crusher", "dirt-destroyer", "fast-track-fitness","fondo", "ftp-builder", "gran-fondo", "gravel-grinder", "pebble-pounder", "singletrack-slayer", "tt-tuneup", "zwift-101-cycling", "zwift-racing-plan"]
 
+directory = 'csv_to_zwo_inputs'
+csv_filenames = [f for f in Path(directory).rglob('*.csv')]
 
+if csvToZwo:
+
+    for filename in csv_filenames:
+        zwoBuildertest = ZwoBuilder(filename)
+        workout = zwoBuildertest.build_zwo_workout()
+        zwoBuildertest.write_zwo_file('outputs_zwo')
+        # search_in_google('zwift ' + zwoBuildertest.get_title())  
     
     
-if Zwift:
+elif Zwift:
     for training_plan in training_plans:
         print("training_plan:", training_plan)
         zwift_url =  "https://whatsonzwift.com/workouts/" + training_plan

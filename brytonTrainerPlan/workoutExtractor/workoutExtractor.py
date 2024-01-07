@@ -7,7 +7,7 @@ import re
 from tqdm import tqdm
 from playwright.sync_api import sync_playwright
 
-from brytonTrainerPlan.utils import slugify
+from utils import slugify
 
 warmupFlag = r"^Warm Up$"
 activityFlag = r"^Work$"
