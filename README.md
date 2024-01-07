@@ -15,6 +15,10 @@ You will need to fill your email and password in config.json file, here is an ex
 }
 ```
 
+# Documentation
+
+Zwo file format reference: https://github.com/h4l/zwift-workout-file-reference/blob/master/zwift_workout_file_tag_reference.md
+
 
 # To-Do List
 

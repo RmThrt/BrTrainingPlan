@@ -8,21 +8,21 @@ activityFlag = r"^Work$"
 recoveryFlag = r"^Recovery$"
 coolDownFlag = r"^Cool Down$"
 
-col_type="type"
-col_duration="duration"
-col_min_power="min_power"
-col_max_power="max_power"
-col_cadence="cadence"
+col_type = "type"
+col_duration = "duration"
+col_min_power = "min_power"
+col_max_power = "max_power"
+col_cadence = "cadence"
 
 brytonActiveWorkoutUrl = "https://active.brytonsport.com/"
+
 
 class BrowserManager:
     def __init__(self, headless):
         self.headless = headless
-        
+
         self.setup_browser()
-        
-            
+
     def setup_browser(self):
         self.playwright = sync_playwright().start()
         self.browser = self.playwright.firefox.launch(headless=self.headless)
@@ -33,12 +33,12 @@ class BrowserManager:
 
     def read_json_file(self, file_path):
         with open(file_path, 'r') as json_file:
-            
+
             data = json.load(json_file)
         return data
-    
-    def getPage(self): 
-        return self.page 
+
+    def getPage(self):
+        return self.page
 
     def login(self):
         print("Login...")
@@ -47,65 +47,68 @@ class BrowserManager:
         self.page.get_by_placeholder("Email Address").fill(config_data['mail'])
         self.page.get_by_placeholder("Password").fill(config_data['pwd'])
         self.page.get_by_role("button", name="Log In", exact=True).click()
-        
-    def go_to_workout_page(self):
-        self.page.get_by_text("Workout").click()    
-        self.page.wait_for_timeout(3000)
 
+    def go_to_workout_page(self):
+        self.page.get_by_text("Workout").click()
+        self.page.wait_for_timeout(3000)
 
     def close_browser(self, browser, context):
         context.close()
         browser.close()
-        
+
     def dispose(self):
         self.close_browser(self.browser, self.context)
 
 
 class WorkoutCreator:
-    sectionCount = -1   
-    
+    sectionCount = -1
+
     def __init__(self,  title, workout_df, page):
         self.page = page
         self.title = title
         self.workout_df = workout_df
         self.create_workout()
 
-
     def create_workout(self):
         self.page.get_by_role("button", name="Add").click()
-        
+
         self.page.wait_for_timeout(200)
 
-        self.page.get_by_role("paragraph").filter(has_text=re.compile(r"bsWO.*", re.IGNORECASE)).click()
-        self.page.get_by_placeholder(re.compile(r"bsWO.*", re.IGNORECASE)).fill(self.title)
-        
+        self.page.get_by_role("paragraph").filter(
+            has_text=re.compile(r"bsWO.*", re.IGNORECASE)).click()
+        self.page.get_by_placeholder(re.compile(
+            r"bsWO.*", re.IGNORECASE)).fill(self.title)
+
         for index, row in tqdm(self.workout_df.iterrows(), total=self.workout_df.shape[0]):
             self.add_new_section(str(row[col_type]))
-            self.set_duration(str(row[col_duration]))   
-            
-            #self.page.wait_for_timeout(3000)
-        
+            self.set_duration(str(row[col_duration]))
+
+            # self.page.wait_for_timeout(3000)
+
         self.save_workout()
 
-        
     def save_workout(self):
         self.page.get_by_text("Save").click()
         # self.page.locator("#dlg-body").get_by_text("Don't show this again.").click()
         self.page.get_by_role("button", name="OK").click()
 
     def add_new_section(self, regex):
-        self.page.locator("div").filter(has_text=re.compile(regex)).locator("div").click()
-        self.sectionCount += 1 
-        #self.page.wait_for_timeout(500)
+        self.page.locator("div").filter(
+            has_text=re.compile(regex)).locator("div").click()
+        self.sectionCount += 1
+        # self.page.wait_for_timeout(500)
 
     def set_duration(self, duration):
         self.page.get_by_role("paragraph").filter(has_text="Distance").click()
         self.page.get_by_role("listitem").filter(has_text="Time").click()
-        duration_locator = self.page.locator("div > .wo-itv-content-frame > .wo-itv-content > .wo-itv-duration-frame")
+        duration_locator = self.page.locator(
+            "div > .wo-itv-content-frame > .wo-itv-content > .wo-itv-duration-frame")
         # page.locator(".wo-itv-repeat-div > .wo-itv-content-frame > .wo-itv-content > .wo-itv-duration-frame > div:nth-child(2)")
-        duration_locator = self.page.locator("#work-" + str(self.sectionCount + 1) + " > .wo-itv-repeat-div > .wo-itv-content-frame > .wo-itv-content > .wo-itv-duration-frame > div:nth-child(2)")
-        self.locate(self.page.get_by_role("paragraph").filter(has_text=re.compile(r"^0:50:0$", re.IGNORECASE)), self.page.get_by_placeholder(re.compile(r"^0:50:0$", re.IGNORECASE)), duration)
-        self.locate(duration_locator,duration_locator, duration)
+        duration_locator = self.page.locator("#work-" + str(self.sectionCount + 1) +
+                                             " > .wo-itv-repeat-div > .wo-itv-content-frame > .wo-itv-content > .wo-itv-duration-frame > div:nth-child(2)")
+        self.locate(self.page.get_by_role("paragraph").filter(has_text=re.compile(
+            r"^0:50:0$", re.IGNORECASE)), self.page.get_by_placeholder(re.compile(r"^0:50:0$", re.IGNORECASE)), duration)
+        self.locate(duration_locator, duration_locator, duration)
 
     def change_ftp(self, ftp, isLowRange):
         base_selector = ".wo-itv-content-frame > .wo-itv-content > .wo-itv-range-frame > .wo-range-low"
@@ -120,7 +123,8 @@ class WorkoutCreator:
         # If locator_placeholder_param is not provided, find a placeholder using a regular expression
         locator_placeholder = locator_placeholder_param
         if locator_placeholder is None:
-            locator_placeholder = locator.get_by_placeholder(re.compile(r".*", re.IGNORECASE))
+            locator_placeholder = locator.get_by_placeholder(
+                re.compile(r".*", re.IGNORECASE))
 
         # If sectionCount is greater than or equal to 1 and locator_placeholder_param is None
         # perform a series of actions on the nth element of locator and locator_placeholder
@@ -140,4 +144,4 @@ class WorkoutCreator:
     def change_ftp_range(self, min, max):
         self.change_ftp(min, True)
         self.change_ftp(max, False)
-        #print("FTP range changed")
+        # print("FTP range changed")
