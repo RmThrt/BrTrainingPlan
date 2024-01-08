@@ -1,0 +1,12 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"The sweet spot zone training zone is between 84% to 97% of FTP. The sweet spot workouts in this plan thread the needle at 90% FTP. Today we'll continue to progress our sweet spot-focused workout. After a warm-up, we'll go into 2, 12min long sweet spot intervals with 4min of rest in between, then cool down. This is another 2min more than last week. Look at you go!",1,300,25,75,%,,,,,,
+,1,30,95,95,%,95,30,50,50,%,85
+,1,30,105,105,%,105,30,50,50,%,85
+,1,30,115,115,%,115,30,50,50,%,85
+,1,120,50,50,%,85,,,,,
+,2,300,90,90,%,90,60,90,90,%,65
+,1,180,55,55,%,85,,,,,
+,1,60,90,90,%,90,,,,,
+,5,60,90,90,%,100,60,90,90,%,70
+,1,60,90,90,%,90,,,,,
+,1,180,55,25,%,,,,,,

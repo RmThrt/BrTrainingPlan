@@ -1,0 +1,48 @@
+<workout_file>
+    <author></author>
+    <name>gravel-grinder_week-9_race-simulation</name>
+    <description>Yup. You've most definitely done this workout before, and I want to see how you've progressed. Well, I can't see it, but I want YOU to see how you progressed. Keep in mind if you've adjusted your FTP since then it may adjust your results, obviously. The point of this set is to stretch your limits and push you right up to a race effort here on Zwift. This really is how a race could go down in the heat of the battle, so working yourself here will help you prepare for it as well. The main set will act like 3 climbs up over a steep section over 100% FTP and back down the other side. Then a nice block build to finish at a summit. Go get em yo!</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="480" PowerLow="0.45" PowerHigh="0.65" />
+<SteadyState Duration="15" Power="0.8" />
+<SteadyState Duration="15" Power="0.9" />
+<SteadyState Duration="15" Power="1.0" />
+<SteadyState Duration="15" Power="1.1" />
+<SteadyState Duration="30" Power="0.6" />
+<SteadyState Duration="15" Power="0.8" />
+<SteadyState Duration="15" Power="0.9" />
+<SteadyState Duration="15" Power="1.0" />
+<SteadyState Duration="15" Power="1.1" />
+<SteadyState Duration="30" Power="0.6" />
+<SteadyState Duration="15" Power="0.8" />
+<SteadyState Duration="15" Power="0.9" />
+<SteadyState Duration="15" Power="1.0" />
+<SteadyState Duration="15" Power="1.1" />
+<SteadyState Duration="270" Power="0.6" />
+<SteadyState Duration="60" Power="1.0" />
+<SteadyState Duration="60" Power="0.55" />
+<SteadyState Duration="60" Power="1.1" />
+<SteadyState Duration="60" Power="0.55" />
+<SteadyState Duration="60" Power="1.2" />
+<SteadyState Duration="60" Power="0.55" />
+<SteadyState Duration="240" Power="1.0" />
+<SteadyState Duration="120" Power="0.55" />
+<SteadyState Duration="180" Power="0.9" />
+<SteadyState Duration="120" Power="1.1" />
+<SteadyState Duration="60" Power="1.0" />
+<SteadyState Duration="180" Power="0.85" />
+<SteadyState Duration="180" Power="0.55" />
+<SteadyState Duration="180" Power="0.9" />
+<SteadyState Duration="120" Power="1.1" />
+<SteadyState Duration="60" Power="1.0" />
+<SteadyState Duration="180" Power="0.85" />
+<SteadyState Duration="180" Power="0.55" />
+<SteadyState Duration="240" Power="0.9" />
+<SteadyState Duration="180" Power="1.0" />
+<SteadyState Duration="120" Power="1.1" />
+<SteadyState Duration="60" Power="1.2" />
+<Cooldown Duration="450" Power="0.45" />
+</workout>
+    </workout_file>

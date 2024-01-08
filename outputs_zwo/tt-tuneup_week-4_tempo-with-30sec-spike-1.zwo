@@ -1,0 +1,29 @@
+<workout_file>
+    <author></author>
+    <name>tt-tuneup_week-4_tempo-with-30sec-spike-1</name>
+    <description>Steady tempo efforts are great. But by incorporating some high intensity efforts into them, you will improve your body's ability to work aerobically for long periods. Today's sessions consists of long tempo efforts with a surge every few minutes.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="180" Power="0.5" />
+<IntervalsT Repeat="4" OnDuration="10" OffDuration="50" OnPower="2.0" OffPower="0.5" />
+<Ramp Duration="180" PowerLow="0.6" PowerHigh="0.75" />
+<SteadyState Duration="120" Power="0.5" />
+<Ramp Duration="300" PowerLow="0.9" PowerHigh="1.04" />
+<SteadyState Duration="180" Power="0.5" />
+<Ramp Duration="30" PowerLow="1.06" PowerHigh="1.2" />
+<Ramp Duration="210" PowerLow="0.76" PowerHigh="0.9" />
+<Ramp Duration="30" PowerLow="1.06" PowerHigh="1.2" />
+<Ramp Duration="210" PowerLow="0.76" PowerHigh="0.9" />
+<Ramp Duration="30" PowerLow="1.06" PowerHigh="1.2" />
+<Ramp Duration="210" PowerLow="0.76" PowerHigh="0.9" />
+<SteadyState Duration="300" Power="0.5" />
+<Ramp Duration="30" PowerLow="1.06" PowerHigh="1.2" />
+<Ramp Duration="210" PowerLow="0.76" PowerHigh="0.9" />
+<Ramp Duration="30" PowerLow="1.06" PowerHigh="1.2" />
+<Ramp Duration="210" PowerLow="0.76" PowerHigh="0.9" />
+<Ramp Duration="30" PowerLow="1.06" PowerHigh="1.2" />
+<Ramp Duration="210" PowerLow="0.76" PowerHigh="0.9" />
+<Cooldown Duration="300" PowerLow="0.7" PowerHigh="0.45" />
+</workout>
+    </workout_file>

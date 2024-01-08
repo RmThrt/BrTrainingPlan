@@ -1,0 +1,23 @@
+<workout_file>
+    <author></author>
+    <name>build-me-up_week-6_attack</name>
+    <description>With a focus on short efforts, the focus here is on your ability to Attack(!) the group and recover after. The kind of punchy top end acceleration that you will need to compete... against a group or just your own PRs!</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="600" PowerLow="0.25" PowerHigh="0.75" />
+<IntervalsT Repeat="1" OnDuration="30" OffDuration="30" OnPower="0.95" OffPower="0.5" Cadence="95" CadenceLow="95" CadenceHigh="95" CadenceResting="85" />
+<IntervalsT Repeat="1" OnDuration="30" OffDuration="30" OnPower="1.05" OffPower="0.5" Cadence="105" CadenceLow="105" CadenceHigh="105" CadenceResting="85" />
+<IntervalsT Repeat="1" OnDuration="30" OffDuration="30" OnPower="1.15" OffPower="0.5" Cadence="115" CadenceLow="115" CadenceHigh="115" CadenceResting="85" />
+<SteadyState Duration="120" Power="0.5" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="30" Power="1.5" Cadence="110" CadenceLow="110" CadenceHigh="110" />
+<SteadyState Duration="570" Power="0.8" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="180" Power="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="30" Power="1.5" Cadence="110" CadenceLow="110" CadenceHigh="110" />
+<SteadyState Duration="630" Power="0.8" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="180" Power="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="30" Power="1.5" Cadence="110" CadenceLow="110" CadenceHigh="110" />
+<SteadyState Duration="750" Power="0.8" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<Cooldown Duration="300" PowerLow="0.8" PowerHigh="0.25" />
+</workout>
+    </workout_file>

@@ -5,10 +5,29 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python:debug",
+            "name": "1debug:parse-zwift:training-plan:active-offseason",
             "type": "python",
             "request": "launch",
-            "program": "brytonTrainerPlan/main.py",
+            "program": "main.py",
+            "args": [ "--parse-zwift", "--training-plan", "active-offseason","--headless", "False", "-o", "output_csv_new" ],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "2debug:csv-to-zwo",
+            "type": "python",
+            "request": "launch",
+            "program": "main.py",
+            "args": [ "--csv-to-zwo",  "-i", "output_csv_new", "-o", "output_zwo_new"  ],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "3debug:inject-in-bryton",
+            "type": "python",
+            "request": "launch",
+            "program": "main.py",
+            "args": [ "--inject-in-bryton", "--headless", "False", "-i", "output_zwo_new" ],
             "console": "integratedTerminal",
             "justMyCode": true
         }

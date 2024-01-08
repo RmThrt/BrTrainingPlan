@@ -1,0 +1,4 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"Start with a 10 minute warm up - Zone 1. Then 40 minutes Zone 2, but for the first 20 seconds of each and every minute, lift your cadence to 110 rpm - whilst maintaining the same power. So lower the resistence/gear and raise your cadence. 10 min cool down",1,600,25,75,%,,,,,,
+,1,2400,65,65,%,,,,,,
+,1,600,75,25,%,,,,,,

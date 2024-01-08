@@ -1,0 +1,10 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"When we complete short steep climbs, the lower cadence results in high crank torque, which in turn recruits more of your fast twitch fibers. With this in mind, it's important that our training meets the demands of this movement.Today we are performing lower cadence intervals but with power just above threshold.",1,300,50,50,%,,,,,,
+,5,30,65,65,%,,30,80,80,%,
+,1,180,50,50,%,,,,,,
+,1,300,80,80,%,,,,,,
+,1,60,50,50,%,,,,,,
+,10,120,75,75,%,85,60,104,104,%,65
+,1,120,50,50,%,,,,,,
+,1,300,80,80,%,,,,,,
+,1,300,50,50,%,,,,,,

@@ -1,0 +1,33 @@
+<workout_file>
+    <author></author>
+    <name>build-me-up_week-11_aspire</name>
+    <description>One of the hardest workouts in this plan, the workload here is designed to give you something to ASPIRE to! What do you think is possible? And what actually is? This workout is designed to show you that you are stronger than you may believe!</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="300" PowerLow="0.25" PowerHigh="0.65" />
+<SteadyState Duration="300" Power="0.65" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="60" Power="0.8" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<SteadyState Duration="60" Power="0.75" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<SteadyState Duration="60" Power="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="0.9" Cadence="105" CadenceLow="105" CadenceHigh="105" />
+<SteadyState Duration="60" Power="0.85" Cadence="105" CadenceLow="105" CadenceHigh="105" />
+<SteadyState Duration="60" Power="0.55" />
+<SteadyState Duration="60" Power="1.0" Cadence="110" CadenceLow="110" CadenceHigh="110" />
+<SteadyState Duration="60" Power="0.95" Cadence="110" CadenceLow="110" CadenceHigh="110" />
+<SteadyState Duration="60" Power="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="30" Power="1.08" Cadence="110" CadenceLow="110" CadenceHigh="110" />
+<SteadyState Duration="60" Power="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="30" Power="1.15" Cadence="115" CadenceLow="115" CadenceHigh="115" />
+<SteadyState Duration="60" Power="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="180" Power="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<IntervalsT Repeat="5" OnDuration="120" OffDuration="120" OnPower="1.05" OffPower="0.88" Cadence="100" CadenceLow="100" CadenceHigh="100" CadenceResting="85" />
+<SteadyState Duration="300" Power="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<IntervalsT Repeat="5" OnDuration="90" OffDuration="150" OnPower="1.05" OffPower="0.88" Cadence="100" CadenceLow="100" CadenceHigh="100" CadenceResting="85" />
+<SteadyState Duration="300" Power="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<IntervalsT Repeat="5" OnDuration="60" OffDuration="180" OnPower="1.05" OffPower="0.88" Cadence="70" CadenceLow="70" CadenceHigh="70" CadenceResting="90" />
+<SteadyState Duration="300" Power="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<IntervalsT Repeat="7" OnDuration="60" OffDuration="60" OnPower="1.15" OffPower="0.55" Cadence="100" CadenceLow="100" CadenceHigh="100" CadenceResting="85" />
+<Cooldown Duration="360" PowerLow="0.55" PowerHigh="0.25" />
+</workout>
+    </workout_file>

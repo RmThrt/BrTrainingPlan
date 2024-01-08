@@ -1,0 +1,22 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"The Ham Sandwich features sweet spot over/unders, with 30/30s ""sandwiched"" in between. The over/under intervals are alternate between 2 minutes Z3 (88%) and 30 seconds Z5 (110%). The 30/30s up the ante a bit and alternate between 30 seconds Z6 (130%) and 30 seconds Z1 (50%). Yes, there are rest breaks, but they are purposely short to keep the heart rate and metabolic demands up, and I dislike rest (kidding!) Better eat your sandwich quick before the bread gets soggy...",1,600,40,75,%,,,,,,
+,1,30,80,80,%,95,,,,,
+,1,30,95,95,%,95,,,,,
+,1,30,80,80,%,85,,,,,
+,1,30,105,105,%,105,,,,,
+,1,30,80,80,%,85,,,,,
+,1,30,110,110,%,110,,,,,
+,1,120,50,50,%,85,,,,,
+,1,30,50,88,%,,,,,,
+,4,120,88,88,%,90,30,110,110,%,110
+,1,30,88,50,%,,,,,,
+,1,150,50,50,%,85,,,,,
+,5,30,130,130,%,110,30,50,50,%,85
+,1,120,50,50,%,85,,,,,
+,5,30,130,130,%,110,30,50,50,%,85
+,1,120,50,50,%,85,,,,,
+,5,30,130,130,%,110,30,50,50,%,85
+,1,120,50,50,%,85,,,,,
+,1,30,50,88,%,,,,,,
+,4,120,88,88,%,90,30,110,110,%,110
+,1,120,50,25,%,,,,,,

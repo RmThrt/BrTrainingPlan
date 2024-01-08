@@ -1,0 +1,8 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"Warm up for 10 minutes then perform 10 minutes of 10 secs full gas, 20 seconds recovery (barely any pressure on the pedals). Spin your legs for 5 minutes then perform 10 minutes of  20 seconds on / 40 off , recover for 5 minutes then a final 10 minute set of 10 secs on / 20 off , warm down for 10 minutes.",1,600,25,75,%,,,,,,
+,20,10,200,200,%,,20,50,50,%,
+,1,300,50,50,%,,,,,,
+,10,20,175,175,%,,40,50,50,%,
+,1,300,50,50,%,,,,,,
+,20,10,200,200,%,,20,50,50,%,
+,1,600,75,25,%,,,,,,

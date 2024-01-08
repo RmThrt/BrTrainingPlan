@@ -1,0 +1,12 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+Sweet Spot Training (or SST for short) will give great bang for buck as you can spend quite a bit of time in the Sweet Spot of your power curve without building up undue amounts of training stress.,1,600,40,85,%,,,,,,
+,3,300,95,95,%,,300,86,86,%,
+,1,780,50,50,%,,,,,,
+,1,60,110,110,%,,,,,,
+,1,60,50,50,%,,,,,,
+,3,300,95,95,%,,300,86,86,%,
+,1,780,50,50,%,,,,,,
+,1,60,110,110,%,,,,,,
+,1,60,50,50,%,,,,,,
+,4,300,95,95,%,,300,86,86,%,
+,1,300,75,55,%,,,,,,

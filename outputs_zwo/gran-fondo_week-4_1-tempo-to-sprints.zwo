@@ -1,0 +1,30 @@
+<workout_file>
+    <author></author>
+    <name>gran-fondo_week-4_1-tempo-to-sprints</name>
+    <description>The challenge is to complete 4 short, high intensity intervals of increasing power, after first opening with a steady 15min Tempo effort. By working aerobically in the early 15min effort you will be improving the ability to deliver oxygen to the working muscles and preserve your carbohydrate stores for the finishing maximal efforts. Can you achieve the same max power in both sets?</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="300" Power="0.5" />
+<IntervalsT Repeat="5" OnDuration="30" OffDuration="30" OnPower="0.65" OffPower="0.8" Cadence="80" CadenceLow="80" CadenceHigh="80" CadenceResting="95" />
+<SteadyState Duration="180" Power="0.5" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="600" Power="0.81" />
+<SteadyState Duration="60" Power="1.5" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<SteadyState Duration="60" Power="0.5" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="30" Power="1.7" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<SteadyState Duration="30" Power="0.5" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="15" Power="2.0" Cadence="110" CadenceLow="110" CadenceHigh="110" />
+<SteadyState Duration="45" Power="0.5" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="10" Power="2.0" Cadence="110" CadenceLow="110" CadenceHigh="110" />
+<SteadyState Duration="300" Power="0.5" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="600" Power="0.81" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="60" Power="1.5" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<SteadyState Duration="60" Power="0.5" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="30" Power="1.7" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<SteadyState Duration="30" Power="0.5" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="15" Power="2.0" Cadence="110" CadenceLow="110" CadenceHigh="110" />
+<SteadyState Duration="45" Power="0.5" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="10" Power="2.0" Cadence="110" CadenceLow="110" CadenceHigh="110" />
+<Cooldown Duration="220" PowerLow="0.5" PowerHigh="0.35" />
+</workout>
+    </workout_file>

@@ -1,0 +1,12 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"Looking for a solid effort done in 30 minutes or less? This is a fun workout to do. A little something for the sprinters, and a steady state block to build a little FTP (Functional Threshold Power). You'll get to use everything you've learned so far.",1,300,30,70,%,,,,,,
+,2,60,150,150,%,,30,64,64,%,
+,1,120,75,75,%,,,,,,
+,1,10,150,150,%,,,,,,
+,1,60,75,75,%,,,,,,
+,1,10,200,200,%,,,,,,
+,1,60,75,75,%,,,,,,
+,1,10,250,250,%,,,,,,
+,1,240,60,60,%,,,,,,
+,1,600,65,89,%,,,,,,
+,1,180,70,30,%,,,,,,
