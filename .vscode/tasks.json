@@ -16,7 +16,7 @@
 		{
 			"type": "shell",
 			"label": "run main.py",
-			"command": "python brytonTrainerPlan/main.py",
+			"command": "python main.py",
 			"problemMatcher": [],
 			"detail": "CMake template configure task",
 			"group": {

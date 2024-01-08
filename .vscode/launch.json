@@ -8,7 +8,7 @@
             "name": "Python:debug",
             "type": "python",
             "request": "launch",
-            "program": "brytonTrainerPlan/main.py",
+            "program": "main.py",
             "console": "integratedTerminal",
             "justMyCode": true
         }

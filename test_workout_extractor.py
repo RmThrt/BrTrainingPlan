@@ -34,6 +34,8 @@ def test_power_extraction():
     assert wk.get_power('1x 1min @ 85rpm, from 0 to 15% FTP,1min @ 85rpm, from 7 to 18% FTP') == [('0', '15', '%', ),('7', '18', '%' )]
     assert wk.get_power('5min free ride') ==  [(0, 0, 0)]
     assert wk.get_power('8sec @ MAX') == [(2000,2000,'Max')]
+    assert wk.get_power('1min @ 85rpm, 320W') == [('320','320','W')]
+    assert wk.get_power('10min from 75 to 70W') == [('75','70','W')]
 
 
 def test_rpm_extraction():
@@ -41,6 +43,7 @@ def test_rpm_extraction():
     assert wk.get_rpm('1x 1min @ 85rpm, from 0 to 15% FTP,1min @ 85rpm, from 0 to 15% FTP') == [85, 85]
     assert wk.get_rpm('1hr 30min @ 95rpm, 73% FTP') == [95]
     assert wk.get_rpm('8sec @ MAX') == [None]
+    assert wk.get_rpm('1hr 30min @ 95rpm, 73% FTP') == [95]
 
 
 def test_workout_extraction():

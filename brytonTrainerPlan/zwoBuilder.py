@@ -63,8 +63,8 @@ class RowBuilder:
                 return WorkoutRowType.MaxEffort
             if self.dict[RowField.low_power.value] != self.dict[RowField.high_power.value]:
                 return WorkoutRowType.Ramp
-            # if self.dict[RowField.low_power.value] == '0' and self.dict[RowField.high_power.value] == '0':
-            #     return WorkoutRowType.FreeRide
+            if self.dict[RowField.low_power.value] == '0' and self.dict[RowField.high_power.value] == '0':
+                return WorkoutRowType.FreeRide
             return WorkoutRowType.SteadyState
         else:
             return WorkoutRowType.IntervalsT
@@ -87,6 +87,8 @@ class RowBuilder:
             return self.build_ramp_row()
         if self.workoutDefineType == WorkoutRowType.SteadyState:
             return self.build_steady_state_row()
+        if self.workoutDefineType == WorkoutRowType.FreeRide:
+            return self.build_free_ride_row()
         if self.workoutDefineType == WorkoutRowType.Warmup:
             return self.build_warmup_row()
         else:
@@ -121,6 +123,10 @@ class RowBuilder:
         powers = ''
         suffix = ['']
         on_off_suffix = ['']
+
+        if self.dict[RowField.power_unit.value] == '0':
+            return powers
+
         if self.dict[RowField.power_unit.value] == 'Max':
             return powers
 
@@ -156,7 +162,7 @@ class RowBuilder:
         #     <textevent distoffset duration message mssage textscale timeoffset y>
         #     <TextNotification duration font_size text timeOffset x y>
 
-        return self.build_simple_row("Cooldown")
+        return self.build_simple_row(WorkoutRowType.Cooldown.value)
 
     def build_intervals_t_row(self):
         # <IntervalsT Cadence CadenceHigh CadenceLow CadenceResting FlatRoad OffDuration OffPower OnDuration OnPower OverUnder pace PowerOffHigh PowerOffLow PowerOffZone PowerOnHigh PowerOnLow PowerOnZone Repeat units>
@@ -177,34 +183,41 @@ class RowBuilder:
     def build_maxEffort_row(self):
         # <MaxEffort Duration>
 
-        return self.build_simple_row("MaxEffort")
+        return self.build_simple_row(WorkoutRowType.MaxEffort.value)
 
     def build_ramp_row(self):
         # <Ramp Cadence CadenceResting Duration pace Power PowerHigh PowerLow show_avg>
         #     <textevent distoffset duration message mssage textscale timeoffset y>
 
-        return self.build_simple_row("Ramp")
+        return self.build_simple_row(WorkoutRowType.Ramp.value)
 
     def build_steady_state_row(self):
         # <SteadyState Cadence CadenceHigh CadenceLow CadenceResting Duration FailThresholdDuration Forced_Performance_Test forced_performance_test NeverFails OffPower pace Power PowerHigh PowerLow ramptest replacement_prescription replacement_verb show_avg Target Text units Zone>
         #     <TextEvent Duration message TimeOffset timeoffset>
         #     <textevent distoffset duration message mssage textscale timeoffset y>
 
-        return self.build_simple_row("SteadyState")
+        return self.build_simple_row(WorkoutRowType.SteadyState.value)
 
     def build_warmup_row(self):
         # <Warmup Cadence CadenceHigh CadenceLow CadenceResting Duration pace Power PowerHigh PowerLow Quantize replacement_prescription replacement_verb Text units Zone>
         #     <TextEvent Duration message TimeOffset timeoffset>
         #     <textevent distoffset duration message mssage textscale timeoffset y>
 
-        return self.build_simple_row("Warmup")
+        return self.build_simple_row(WorkoutRowType.Warmup.value)
+
+    def build_free_ride_row(self):
+        # <FreeRide Cadence CadenceHigh CadenceLow Duration FailThresholdDuration FlatRoad ftptest Power ramptest show_avg>
+        #     <TextEvent Duration message TimeOffset timeoffset>
+        #     <textevent distoffset duration message mssage textscale timeoffset y>
+
+        return self.build_simple_row(WorkoutRowType.FreeRide.value)
 
 
 class ZwoBuilder:
 
-    def __init__(self, csv_path=None) -> None:
-        self.csv_path = str(csv_path.absolute())  
-        self.title, _ = os.path.splitext(self.csv_path)
+    def __init__(self, csv_path=None, training_plan ='') -> None:
+        self.csv_path = csv_path
+        self.title = training_plan + '_' + os.path.splitext(os.path.basename(csv_path))[0]
 
         self.csv_content = csv.DictReader(open(csv_path, newline='\n'))
         self.zwo_content = ""
@@ -228,20 +241,21 @@ class ZwoBuilder:
             csv_content = self.csv_content
 
         title = self.title
-        description = "Workout generated from csv file"
-        self.zwo_content += self.start_zwo_file(title, description)
 
         rows = list(csv_content)
         totalrows = len(rows)
         for i, row in enumerate(rows):
             try:
+                if i == 0:
+                    description = row[RowField.description.value].replace('&','&amp;').replace("<", "&lt;").replace(">", "&gt;")
+                    self.zwo_content += self.start_zwo_file(title, description)
 
                 rowBuilder = RowBuilder(
                     row, i, totalrows - 1)
                 self.zwo_content += rowBuilder.get_row() + '\n'
             except Exception as e:
-                print('title : '+  self.csv_path)
-                print('row number  : ' +  str(i))
+                print('title : ' + self.csv_path)
+                print('row number  : ' + str(i))
                 print('row: ' + str(row))
                 raise e
 
@@ -256,6 +270,8 @@ class ZwoBuilder:
     def write_zwo_file(self, folder):
         if not os.path.exists(folder):
             os.mkdir(folder)
-        with open(os.path.join(folder, self.title + '.zwo'), 'w') as f:
+        file_path = os.path.join(folder,  self.title + '.zwo')
+        with open(file_path, 'w') as f:
             f.write(self.zwo_content)
         self.zwo_content
+        return os.path.abspath(file_path)

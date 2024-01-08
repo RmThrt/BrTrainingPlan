@@ -4,7 +4,6 @@ import unicodedata
 
 import requests
 from bs4 import BeautifulSoup
-import webbrowser
 from urllib.request import urlopen, Request
 
 
@@ -51,15 +50,19 @@ def search_in_google(search_term):
 
     headers = {
 	'Accept' : '*/*',
-	'Accept-Language': 'en-US,en;q=0.5',
+	'Accept-Language': 'fr-FR,fr;q=0.5',
 	'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82',
     }
+    # headers ={'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:20.0) Gecko/20100101 Firefox/20.0'}
     parameters = {'q': search_term}
     content = requests.get(url, headers = headers, params = parameters).text
     soup = BeautifulSoup(content, "html.parser")
+    try:
+        search = soup.find(id = 'search')
+        first_link = search.find('a')
+        return first_link['href']
+    except : 
+        return url
 
-    search = soup.find(id = 'search')
-    first_link = search.find('a')
-
-
-    webbrowser.open(first_link['href'])
+    
+    

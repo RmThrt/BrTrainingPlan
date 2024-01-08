@@ -160,7 +160,7 @@ def test_row_builder():
         "\" CadenceLow=\"" + cadence + \
         "\" CadenceHigh=\"" + cadence + \
         "\" />"
-    
+
 
 def test_build_zwo_workout():
     directory = 'csv_to_zwo_inputs'
@@ -168,7 +168,7 @@ def test_build_zwo_workout():
 
 
     for filename in csv_filenames:
-        zwoBuildertest = ZwoBuilder(filename)
+        zwoBuildertest = ZwoBuilder(str(filename.absolute()))
         workout = zwoBuildertest.build_zwo_workout()
         zwoBuildertest.write_zwo_file('outputs_zwo')
         # search_in_google('zwift ' + zwoBuildertest.get_title())
