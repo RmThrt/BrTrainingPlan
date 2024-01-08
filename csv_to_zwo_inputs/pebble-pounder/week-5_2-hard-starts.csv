@@ -1,0 +1,10 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"Today's workout is all about recovering after a hard effort. Sometimes you need to respond at the base of a climb, close a gap in the paceline, or move around a dropped rider during a gravel event. This requires a hard surge well over threshold, then a steady effort once you're back on the group again. Today will challenge you.",1,300,40,75,%,0,,,,,
+,2,10,150,150,%,110,50,65,65,%,85
+,1,180,50,50,%,85,,,,,
+,1,30,125,125,%,105,390,90,90,%,90
+,1,180,65,65,%,90,,,,,
+,1,30,125,125,%,105,390,90,90,%,90
+,1,180,65,65,%,90,,,,,
+,1,30,125,125,%,105,390,90,90,%,90
+,1,300,65,40,%,0,,,,,

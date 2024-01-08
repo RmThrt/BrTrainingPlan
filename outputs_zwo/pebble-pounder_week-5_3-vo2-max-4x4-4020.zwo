@@ -1,0 +1,22 @@
+<workout_file>
+    <author></author>
+    <name>pebble-pounder_week-5_3-vo2-max-4x4-4020</name>
+    <description>The final workout of the 5th week of the Pebble Pounder features some more VO2 Max work. Today, we'll be aiming for just a little more VO2 Max time relative to last week, but also incorporating a 40/20 interval approach which will challenge you for sure! Let's make it happen today! REMINDER: You can always adjust the FTP bias via the arrow keys on your keyboard, or the Zwift Companion app. Once you get over threshold, using a %FTP for workout prescription can get murky, so always adjust as needed.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="300" PowerLow="0.4" PowerHigh="0.75" Cadence="0" CadenceLow="0" CadenceHigh="0" />
+<IntervalsT Repeat="3" OnDuration="30" OffDuration="30" OnPower="1.05" OffPower="0.65" Cadence="105" CadenceLow="105" CadenceHigh="105" CadenceResting="85" />
+<SteadyState Duration="120" Power="0.5" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<IntervalsT Repeat="2" OnDuration="10" OffDuration="50" OnPower="1.5" OffPower="0.65" Cadence="110" CadenceLow="110" CadenceHigh="110" CadenceResting="85" />
+<SteadyState Duration="180" Power="0.5" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<IntervalsT Repeat="4" OnDuration="40" OffDuration="20" OnPower="1.15" OffPower="0.65" Cadence="100" CadenceLow="100" CadenceHigh="100" CadenceResting="85" />
+<SteadyState Duration="240" Power="0.5" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<IntervalsT Repeat="4" OnDuration="40" OffDuration="20" OnPower="1.15" OffPower="0.65" Cadence="100" CadenceLow="100" CadenceHigh="100" CadenceResting="85" />
+<SteadyState Duration="240" Power="0.5" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<IntervalsT Repeat="4" OnDuration="40" OffDuration="20" OnPower="1.15" OffPower="0.65" Cadence="100" CadenceLow="100" CadenceHigh="100" CadenceResting="85" />
+<SteadyState Duration="240" Power="0.5" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<IntervalsT Repeat="4" OnDuration="40" OffDuration="20" OnPower="1.15" OffPower="0.65" Cadence="100" CadenceLow="100" CadenceHigh="100" CadenceResting="85" />
+<Cooldown Duration="300" PowerLow="0.65" PowerHigh="0.4" Cadence="0" CadenceLow="0" CadenceHigh="0" />
+</workout>
+    </workout_file>

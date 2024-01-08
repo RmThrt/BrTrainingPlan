@@ -1,0 +1,12 @@
+<workout_file>
+    <author></author>
+    <name>active-offseason_week-8_day-5-endurance</name>
+    <description>Build some time on the bike today with an ENDURANCE Ride!</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="600" PowerLow="0.25" PowerHigh="0.59" />
+<SteadyState Duration="4500" Power="0.65" />
+<Cooldown Duration="600" PowerLow="0.6" PowerHigh="0.25" />
+</workout>
+    </workout_file>

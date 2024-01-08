@@ -1,0 +1,10 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"This is an endurance focused session featuring intermittent 15sec surges. These surges are low intensity, where high cadence is the key. The majority of the workout is low intensity, with no residual fatigue expected from such a workout.",1,300,42,70,%,,,,,,
+,1,120,50,50,%,,,,,,
+,1,240,70,70,%,,,,,,
+,4,10,135,135,%,,50,50,50,%,
+,1,120,60,60,%,,,,,,
+,1,300,85,85,%,,,,,,
+,1,180,60,60,%,,,,,,
+,8,15,106,106,%,,225,65,65,%,
+,1,180,50,50,%,,,,,,

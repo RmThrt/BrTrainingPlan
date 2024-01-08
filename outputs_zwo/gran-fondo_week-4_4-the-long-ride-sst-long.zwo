@@ -1,0 +1,20 @@
+<workout_file>
+    <author></author>
+    <name>gran-fondo_week-4_4-the-long-ride-sst-long</name>
+    <description>Sweet Spot Training (or SST for short) will give great bang for buck as you can spend quite a bit of time in the Sweet Spot of your power curve without building up undue amounts of training stress.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="600" PowerLow="0.4" PowerHigh="0.85" />
+<IntervalsT Repeat="3" OnDuration="300" OffDuration="300" OnPower="0.95" OffPower="0.86" />
+<SteadyState Duration="780" Power="0.5" />
+<SteadyState Duration="60" Power="1.1" />
+<SteadyState Duration="60" Power="0.5" />
+<IntervalsT Repeat="3" OnDuration="300" OffDuration="300" OnPower="0.95" OffPower="0.86" />
+<SteadyState Duration="780" Power="0.5" />
+<SteadyState Duration="60" Power="1.1" />
+<SteadyState Duration="60" Power="0.5" />
+<IntervalsT Repeat="4" OnDuration="300" OffDuration="300" OnPower="0.95" OffPower="0.86" />
+<Cooldown Duration="300" PowerLow="0.75" PowerHigh="0.55" />
+</workout>
+    </workout_file>

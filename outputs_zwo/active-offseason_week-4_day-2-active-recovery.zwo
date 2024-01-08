@@ -1,0 +1,10 @@
+<workout_file>
+    <author></author>
+    <name>active-offseason_week-4_day-2-active-recovery</name>
+    <description>Today is an Active Recovery day. Focus on relaxing on the bike and enjoying the ride.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="3600" Power="0.53" />
+</workout>
+    </workout_file>

@@ -1,0 +1,12 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+Foundation training: Relatively low intensity ride with goal of spending a large proportion of the ride into Endurance Zone 2.,1,600,40,73,%,85,,,,,
+,1,300,73,73,%,70,,,,,
+,1,120,53,53,%,85,,,,,
+,1,300,73,73,%,100,,,,,
+,1,120,53,53,%,85,,,,,
+,1,300,73,73,%,,,,,,
+,1,120,53,53,%,85,,,,,
+,4,60,73,73,%,70,15,73,73,%,100
+,1,120,53,53,%,85,,,,,
+,1,300,73,73,%,100,,,,,
+,1,300,60,40,%,85,,,,,

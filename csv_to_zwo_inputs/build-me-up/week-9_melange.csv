@@ -1,0 +1,18 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"Featuring a blend of work across a range of zones, this is a potent cocktail designed to boost your fitness.",1,300,25,55,%,,,,,,
+,1,300,55,55,%,95,,,,,
+,1,300,65,65,%,100,,,,,
+,1,30,90,90,%,100,,,,,
+,1,60,55,55,%,85,,,,,
+,1,30,100,100,%,105,,,,,
+,1,60,55,55,%,85,,,,,
+,1,30,110,110,%,110,,,,,
+,1,60,55,55,%,,,,,,
+,1,150,55,55,%,85,,,,,
+,1,600,85,85,%,75,,,,,
+,1,600,65,65,%,90,,,,,
+,6,120,100,100,%,100,60,55,55,%,85
+,1,600,65,65,%,90,,,,,
+,8,20,130,130,%,110,40,55,55,%,85
+,1,600,65,65,%,90,,,,,
+,1,120,50,25,%,,,,,,

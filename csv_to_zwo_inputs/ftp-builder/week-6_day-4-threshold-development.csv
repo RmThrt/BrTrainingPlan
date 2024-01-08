@@ -1,0 +1,15 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+Threshold Development: This training is targeting the increase in lactate threshold (FTP) with relatively short intervals at intensity of Zone 4.,1,600,40,73,%,85,,,,,
+,1,120,73,73,%,90,,,,,
+,1,120,88,88,%,95,,,,,
+,1,60,100,100,%,100,,,,,
+,1,300,53,53,%,85,,,,,
+,2,180,88,88,%,60,180,88,88,%,90
+,1,360,53,53,%,85,,,,,
+,2,180,88,88,%,60,180,88,88,%,90
+,1,300,100,100,%,95,,,,,
+,1,180,53,53,%,85,,,,,
+,1,300,100,100,%,95,,,,,
+,1,180,53,53,%,85,,,,,
+,1,300,100,100,%,95,,,,,
+,1,180,53,40,%,85,,,,,

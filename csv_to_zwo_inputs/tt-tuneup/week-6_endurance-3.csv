@@ -1,0 +1,16 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"Endurance sessions are the ideal time to focus on improving your pedaling. Power is not the focus in this session. Throughout today's endurance ride we will be increasing the focus on your cardiovascular endurance, by challenging your ability to pedal at a high cadence. A fun session that includes a range of high RPM intervals.",1,180,45,60,%,,,,,,
+,1,60,60,60,%,,,,,,
+,1,60,65,65,%,,,,,,
+,1,60,81,81,%,,,,,,
+,1,60,109,109,%,,,,,,
+,1,120,50,50,%,,,,,,
+,1,180,90,90,%,,,,,,
+,1,180,50,50,%,,,,,,
+,6,60,85,85,%,110,60,50,50,%,85
+,1,300,60,75,%,,,,,,
+,1,20,110,110,%,,,,,,
+,1,300,75,60,%,,,,,,
+,2,300,90,90,%,100,300,60,60,%,90
+,2,60,85,85,%,110,60,50,50,%,85
+,1,300,75,45,%,,,,,,

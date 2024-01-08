@@ -1,0 +1,8 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"Long base ride to give the endurance needed to tackle the Zwift Fondo. This is the longest ride you will do in advance of taking on the Fondo. From here, you will taper to rest, recover, and sharpen up over the next week.",1,900,50,85,%,,,,,,
+,5,120,85,85,%,,120,55,55,%,
+,1,300,55,55,%,,,,,,
+,1,1500,85,85,%,,,,,,
+,1,600,65,65,%,,,,,,
+,1,900,85,85,%,,,,,,
+,1,600,65,50,%,,,,,,

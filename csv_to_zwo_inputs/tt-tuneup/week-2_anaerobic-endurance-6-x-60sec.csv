@@ -1,0 +1,12 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"After completing a good warm up the main sets consist of sustained high-power intervals with full recovery. Anaerobic endurance involves high cadence and big power, along with the ability to resist fatigue. Throughout each  interval observe your cadence and heart rate. Is your cadence dropping with fatigue and your heart rate rising?",1,240,45,75,%,,,,,,
+,1,60,50,50,%,,,,,,
+,1,60,109,109,%,,,,,,
+,1,120,50,50,%,,,,,,
+,1,180,50,90,%,,,,,,
+,1,180,90,90,%,,,,,,
+,1,180,50,50,%,,,,,,
+,6,60,121,121,%,,180,55,55,%,
+,1,120,55,55,%,,,,,,
+,6,60,121,121,%,,180,55,55,%,
+,1,300,75,45,%,,,,,,

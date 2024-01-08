@@ -1,0 +1,15 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+Tempo training: The goal of this training is to spend time in Zone 3 at an intensity where the use of sugar and fats as fuel is equal. Time spent in this zone increases muscle glycogen storages.,1,600,40,73,%,85,,,,,
+,4,240,88,88,%,90,120,53,53,%,85
+,1,120,53,53,%,85,,,,,
+,1,180,86,86,%,90,,,,,
+,1,180,89,89,%,100,,,,,
+,1,180,53,53,%,85,,,,,
+,1,180,89,89,%,90,,,,,
+,1,180,86,86,%,100,,,,,
+,1,180,53,53,%,85,,,,,
+,1,180,86,86,%,90,,,,,
+,1,180,89,89,%,100,,,,,
+,1,180,53,53,%,85,,,,,
+,5,60,100,100,%,100,180,53,53,%,85
+,1,180,53,40,%,85,,,,,

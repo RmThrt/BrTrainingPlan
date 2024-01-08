@@ -1,0 +1,8 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"Start with a good warm up. Then 4 x 5 mins at FTP with 5 mins recovery between efforts, spin your legs easily for 10 minutes then 6 x 1 minute Upper Z6 power efforts with 2 minutes recovery in between - spin your legs out for 10 minutes then finally 10 x 15 second max sprint efforts with 45 seconds rest inbetweeen efforts.",1,600,25,75,%,,,,,,
+,4,300,100,100,%,,300,50,50,%,
+,1,300,50,50,%,,,,,,
+,6,60,125,125,%,,120,50,50,%,
+,1,450,50,50,%,,,,,,
+,10,15,175,175,%,,45,50,50,%,
+,1,600,75,25,%,,,,,,
