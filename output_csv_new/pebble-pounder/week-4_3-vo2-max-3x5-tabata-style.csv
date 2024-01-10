@@ -1,0 +1,12 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"Time for another VO2 Max workout! We're going to be using a micro-interval again today, and more specifically 20sec on, 10 sec off, AKA Tabata Intervals. Get ready to put the work in today! REMINDER: You can always adjust the FTP bias via the arrow keys on your keyboard, or the Zwift Companion app. Once you get over threshold, using a %FTP for workout prescription can get murky, so always adjust as needed.",1,300,40,75,%,,,,,,
+,3,30,105,105,%,105,30,65,65,%,85
+,1,120,50,50,%,85,,,,,
+,2,10,150,150,%,110,50,65,65,%,85
+,1,180,50,50,%,85,,,,,
+,10,20,119,119,%,100,10,50,50,%,85
+,1,300,50,50,%,85,,,,,
+,10,20,119,119,%,100,10,50,50,%,85
+,1,300,50,50,%,85,,,,,
+,10,20,119,119,%,100,10,50,50,%,85
+,1,300,65,40,%,,,,,,

@@ -1,11 +1,12 @@
 import csv
+import os
 import re
 import numpy as np
 import re
 
 from playwright.sync_api import sync_playwright
 
-from brytonTrainerPlan.utils import slugify
+from brytonTrainerPlan.utils import increment_filename_if_necessary, slugify
 
 warmupFlag = r"^Warm Up$"
 activityFlag = r"^Work$"
@@ -23,34 +24,60 @@ verbose = False
 
 
 class ZwitBrowserManager:
-    def __init__(self, headless, workouts_url):
+    def __init__(self, headless, timeout = 5000):
         self.headless = headless
-        self.workouts_url = workouts_url
+        self.setup_browser(timeout)
+       
         
-        self.setup_browser()
-        self.page.goto(workouts_url)
+    def goto(self, url):
         if verbose: print("page loaded")
-        self.reject_all_cookies()
-        
-            
-    def setup_browser(self):
+        self.page.goto(url, timeout=60000)
+        try:
+            self.reject_all_cookies()
+        except:
+            pass
+
+
+    def setup_browser(self, timeout):
         self.playwright = sync_playwright().start()
-        self.browser = self.playwright.chromium.launch(headless=self.headless)
+        self.browser = self.playwright.chromium.launch(headless=self.headless)  
         if verbose: print("browser launched")
         self.context = self.browser.new_context()
         if verbose: print("context created")
         self.page = self.context .new_page()
+        self.context.set_default_timeout(timeout)
         if verbose: print("page created")
         
-    def reject_all_cookies(self):
-        self.page.frame_locator("#gdpr-consent-notice").get_by_role("button", name="Reject All").click()
-        self.page.frame_locator("#gdpr-consent-notice").get_by_role("button", name="Reject").click()
+    def reject_all_cookies(self,timeout = 20):
+        self.page.frame_locator("#gdpr-consent-notice").get_by_role("button", name="Reject All").click(timeout)
+        self.page.frame_locator("#gdpr-consent-notice").get_by_role("button", name="Reject").click(timeout)
+
+    def get_training_plans(self):
+        training_plans = []
+        for div in  self.page.locator('.card').all():
+            sport_card = div.locator('.card-sports')
+            training_plan_name = div.locator('.card-title').text_content(timeout = 5000)
+            if sport_card.locator('.flaticon-bike').count() > 0:
+                training_plans.append(training_plan_name)
+            else: 
+                print('warn - training plan : \"' + training_plan_name + '\" is a running training plan, not converted')
+        training_plans = [x.replace("+", "plus").replace("L'Etape", 'l-etape')  for x in training_plans]
+        training_plans = [slugify(x) for x in training_plans]
+        training_plans = [x.replace("4wk-prudential-ride-london-prl-prep", "4wk-prl-prep")\
+                        .replace('zwift-academy-2016','zwift-academy'\
+                        .replace('ride-on-for-world-bicycle-relief-watopia-1-lap-tt-plan', 'ride-on-for-world-bicycle-relief-watopia-1lap-tt-plan')\
+                        .replace('mattias-thyrs-unstructured-workouts', 'mattias-thyr-unstructured-workouts')\
+                        .replace('leandro-messineos-poison-dart-frog-intervals', 'leandro-messineo-poison-dart-frog-intervals')\
+                        .replace('dig-deep-coaching-3-week-grand-tour-2018', 'dig-deep-coaching-3-week-grand-tour')\
+                        .replace('classics-and-climbing', 'classics-climbing')\
+                        )  for x in training_plans]
+        return training_plans
 
     def getPage(self): 
         return self.page 
 
     def dispose(self):
-        self.context.close()
+        self.context.close()    
         self.browser.close()
         self.playwright.stop()
 
@@ -129,7 +156,10 @@ class Workout:
             for key, value  in vars(self.workoutLines[0]).items():
                 header.append(key)
 
-        with open(output_folder + "/" + self.title + ".csv", mode='w', newline='') as csv_file:
+        filename = increment_filename_if_necessary(output_folder + "/" + self.title + ".csv")
+
+
+        with open(filename, mode='w', newline='') as csv_file:
             # Create a CSV writer object
             csv_writer = csv.writer(csv_file)
 
@@ -226,25 +256,21 @@ class ZwiftWorkoutsBrowser:
         self.page = page
         self.output_folder = output_folder  
 
-        
-    def get_workouts_locators(self):
-        locators = self.page.get_by_role("article")
-        element = self.page.locator("div > main > section > section:nth-child(2) > article").nth(1).locator(".one-third").evaluate("el => el.innerHTML")
-        if verbose: print(element)
-        locator = locators.first()
-        locator.textContent()
-        if verbose: print(locator.get_by_role("h4").text_content())
 
     def get_workouts_count(self):
-        return self.page.locator("div > main > section > section:nth-child(2) > article").count()
+        return self.page.locator("div > main > section > section:nth-child(2) > article > div > div > div > .flaticon-bike").count()
         
     def extract_workouts(self, index):  
-        workout = self.page.locator("div > main > section > section:nth-child(2) > article").nth(index).locator(".one-third")
+        article_locator = self.page.locator("div > main > section > section:nth-child(2) > article").nth(index)
+        workout = article_locator.locator(".one-third")
         try:
-            workout_prefix_title = slugify(self.page.locator("div > main > section > section:nth-child(2) > article").nth(index).locator(".breadcrumbs > a").nth(1).text_content(timeout=2000)) + "_" 
+            workout_prefix_title = slugify(article_locator.locator(".breadcrumbs > a").nth(1).text_content(timeout=2000)) + "_" 
         except:
             workout_prefix_title = ''
-        workout_title = workout_prefix_title + slugify(self.page.locator("div > main > section > section:nth-child(2) > article").nth(index).locator("h4").text_content())
+        workout_title = workout_prefix_title + slugify(article_locator.locator("h4").text_content())
+        if article_locator.locator('.flaticon-run').count() > 0: 
+            print('warn - workout : \"' + workout_title + '\" is a running workout, not converted')
+            return 
         workout_description = self.page.locator("div > main > section > section:nth-child(2) > article").nth(index).locator(".two-thirds > p").nth(0).text_content()
         div_list = workout.locator("div")
         count = div_list.count()

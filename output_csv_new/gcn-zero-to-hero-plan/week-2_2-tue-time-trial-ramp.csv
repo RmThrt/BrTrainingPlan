@@ -1,0 +1,13 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"This session is one that you feel like you have completely under control until the final few intervals... and then the wheels have the potential to fall off. As the duration of the interval decreases, the power increases, so by the end of the session you will have 20min of work done. I call this ""The Creep""... it sneaks up on you... and then... boof! Bites you hard in the final!",1,600,40,96,%,85,,,,,
+,1,110,50,50,%,85,,,,,
+,1,10,125,125,%,100,,,,,
+,1,180,40,40,%,85,,,,,
+,1,480,95,95,%,90,,,,,
+,1,120,45,45,%,85,,,,,
+,1,360,100,100,%,95,,,,,
+,1,120,45,45,%,85,,,,,
+,1,240,105,105,%,95,,,,,
+,1,120,45,45,%,85,,,,,
+,1,120,110,110,%,100,,,,,
+,1,180,45,30,%,85,,,,,

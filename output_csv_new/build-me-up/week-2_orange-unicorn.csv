@@ -1,0 +1,20 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"All the Unicorn workouts are based off of the visual spectrum (Red, Orange, Yellow, Green, Blue, Indigo, Violet (purple)) with the same order of easiest to hardest.  So, Red Unicorn features the least training load, Orange Unicorn the second, etc.",1,600,25,75,%,,,,,,
+,1,60,80,80,%,95,,,,,
+,1,30,95,95,%,95,,,,,
+,1,30,55,55,%,85,,,,,
+,1,60,80,80,%,105,,,,,
+,1,30,105,105,%,105,,,,,
+,1,30,55,55,%,85,,,,,
+,1,60,80,80,%,110,,,,,
+,1,30,115,115,%,110,,,,,
+,1,30,55,55,%,85,,,,,
+,1,240,55,55,%,85,,,,,
+,6,120,85,85,%,,30,105,105,%,
+,1,120,55,55,%,,,,,,
+,6,120,85,85,%,75,30,105,105,%,110
+,1,120,55,55,%,,,,,,
+,6,120,85,85,%,65,30,105,105,%,65
+,1,120,55,55,%,,,,,,
+,6,120,85,85,%,,30,105,105,%,
+,1,240,75,25,%,,,,,,

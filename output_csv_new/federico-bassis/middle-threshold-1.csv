@@ -1,0 +1,6 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+Author: f.bassis,1,600,56,87,%,,,,,,
+,1,1200,87,87,%,,,,,,
+,1,300,0,0,0,,,,,,
+,2,600,99,99,%,,300,50,50,%,
+,1,300,75,41,%,,,,,,

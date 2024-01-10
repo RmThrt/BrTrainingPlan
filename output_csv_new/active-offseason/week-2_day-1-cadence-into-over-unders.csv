@@ -1,0 +1,5 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"Spend 10 minutes warming up in Zone 2. Follow with 15 minutes of cadence drills, ending with some hard intervals and a 10 minute cool down.",1,600,70,75,%,,,,,,
+,1,900,0,0,0,,,,,,
+,6,30,115,115,%,,60,88,88,%,
+,1,600,75,70,%,,,,,,

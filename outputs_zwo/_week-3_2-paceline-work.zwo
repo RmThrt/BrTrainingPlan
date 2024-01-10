@@ -1,0 +1,23 @@
+<workout_file>
+    <author></author>
+    <name>_week-3_2-paceline-work</name>
+    <description>This is a great workout for mimicking the demands of working in a paceline. Although gravel events feature mainly off-road and gnarly terrain, they also typically have asphalt and smoother dirt roads. Being able to stay in and work with a group as the speed inevitably increases over this terrain is crucial to achieve maximum speed due to the aerodynamic advantage gained.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="300" PowerLow="0.4" PowerHigh="0.75" Cadence="0" CadenceLow="0" CadenceHigh="0" />
+<IntervalsT Repeat="3" OnDuration="30" OffDuration="30" OnPower="1.05" OffPower="0.65" Cadence="105" CadenceLow="105" CadenceHigh="105" CadenceResting="85" />
+<SteadyState Duration="120" Power="0.5" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<Ramp Duration="30" PowerLow="1.1" PowerHigh="1.2" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<SteadyState Duration="300" Power="0.95" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="30" Power="0.5" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<Ramp Duration="30" PowerLow="1.2" PowerHigh="1.1" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<SteadyState Duration="300" Power="0.65" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<Ramp Duration="30" PowerLow="1.1" PowerHigh="1.2" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<SteadyState Duration="300" Power="0.95" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="30" Power="0.5" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<Ramp Duration="30" PowerLow="1.2" PowerHigh="1.1" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<SteadyState Duration="300" Power="0.65" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<Cooldown Duration="300" PowerLow="0.65" PowerHigh="0.4" Cadence="0" CadenceLow="0" CadenceHigh="0" />
+</workout>
+    </workout_file>

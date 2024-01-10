@@ -1,0 +1,9 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"A set of long intervals focused on endurance in Zone 2. Nothing fancy here, just long bouts of solid work here. This is your last long ride, and is designed to help keep rhythm but without adding any significant fatigue. You should have the fitness by now to execute this and recover fully.",1,300,45,75,%,,,,,,
+,1,60,50,50,%,,,,,,
+,1,120,65,65,%,,,,,,
+,1,60,50,50,%,,,,,,
+,1,120,91,91,%,,,,,,
+,1,120,50,50,%,,,,,,
+,6,1200,76,76,%,,600,50,50,%,
+,1,120,65,45,%,,,,,,

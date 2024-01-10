@@ -1,0 +1,15 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"This workout was developed around Valentine's Day and is a special present for a special someone... YOU! The workout is almost bafflingly challenging at times, hence the name. Will it be your sweetheart? Or leave you wondering what just happened? Only one way to find out...",1,600,25,75,%,,,,,,
+,1,30,95,95,%,95,,,,,
+,1,30,50,50,%,85,,,,,
+,1,30,105,105,%,105,,,,,
+,1,30,50,50,%,85,,,,,
+,1,30,115,115,%,115,,,,,
+,1,30,50,50,%,85,,,,,
+,1,120,50,50,%,85,,,,,
+,10,40,120,120,%,110,20,55,55,%,85
+,1,300,65,65,%,85,,,,,
+,10,30,130,130,%,110,30,55,55,%,85
+,1,300,65,65,%,85,,,,,
+,10,20,140,140,%,110,40,55,55,%,85
+,1,300,55,25,%,,,,,,

@@ -1,0 +1,11 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"Looking to extend your time to exhaustion in this session, by extending the length of the interval and including some time spent near threshold.The intensity is low enough that the interval can be completed comfortably, yet still creating enough of a stress to improve aerobic capabilities.The aim is to record the same HR response for both intervals.",1,360,42,70,%,,,,,,
+,1,60,50,50,%,,,,,,
+,1,60,109,109,%,95,,,,,
+,1,120,50,50,%,,,,,,
+,1,240,90,90,%,95,,,,,
+,1,180,50,50,%,,,,,,
+,2,420,83,83,%,90,180,95,95,%,95
+,1,300,50,50,%,,,,,,
+,2,420,83,83,%,90,180,95,95,%,95
+,1,300,50,50,%,,,,,,

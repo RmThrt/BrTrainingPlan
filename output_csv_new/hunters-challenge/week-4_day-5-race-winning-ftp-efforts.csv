@@ -1,0 +1,10 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"The goal of this exercise is to start out too hard in order to load up the system, and then demand a steady output for a short period of time, then scaling back in order to prevent from exploding, and forcing you to hold just at your threshold power or a touch above. In the end you finally ramp back up in order to push in the very end.",1,900,55,72,%,,,,,,
+,1,300,114,114,%,,,,,,
+,1,300,72,72,%,,,,,,
+,1,360,110,96,%,,,,,,
+,1,420,96,110,%,,,,,,
+,1,300,72,72,%,,,,,,
+,1,360,110,96,%,,,,,,
+,1,420,96,110,%,,,,,,
+,1,600,72,55,%,,,,,,

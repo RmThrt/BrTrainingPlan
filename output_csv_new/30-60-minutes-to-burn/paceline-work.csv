@@ -1,0 +1,15 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"Although gravel events feature mainly off-road and gnarly terrain, they also typically have asphalt and smoother dirt roads. Being able to stay in and work with a group as the speed inevitably increases over this terrain is crucial to achieve maximum speed due to the aerodynamic advantage gained.",1,300,40,75,%,,,,,,
+,3,30,105,105,%,105,30,65,65,%,85
+,1,120,50,50,%,85,,,,,
+,1,30,110,120,%,100,,,,,
+,1,300,95,95,%,90,,,,,
+,1,30,50,50,%,90,,,,,
+,1,30,120,110,%,100,,,,,
+,1,300,65,65,%,90,,,,,
+,1,30,110,120,%,100,,,,,
+,1,300,95,95,%,90,,,,,
+,1,30,50,50,%,90,,,,,
+,1,30,120,110,%,100,,,,,
+,1,300,65,65,%,90,,,,,
+,1,300,65,40,%,,,,,,

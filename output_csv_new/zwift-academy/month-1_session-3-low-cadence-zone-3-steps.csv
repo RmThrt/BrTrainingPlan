@@ -1,0 +1,13 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"Warm up for 10 minutes, Zone 1, progressing into mid Zone 2. Then perform blocks of the following, with 4 minutes easy spinning in between efforts So Zone 3 at 8/10/12/10/8 minutes (4 minute recovery between each effort). Keep good form on the bike focusing on smooth, fluid power! Finish with 10 minutes easy Zone 1. This session is designed to work on your ability to generate power through torque - low cadence, high power efforts are something that every rider will benefit from.",1,600,45,65,%,,,,,,
+,1,480,88,88,%,,,,,,
+,1,240,52,52,%,,,,,,
+,1,600,88,88,%,,,,,,
+,1,240,52,52,%,,,,,,
+,1,720,88,88,%,,,,,,
+,1,240,52,52,%,,,,,,
+,1,600,88,88,%,,,,,,
+,1,240,52,52,%,,,,,,
+,1,480,88,88,%,,,,,,
+,1,240,52,52,%,,,,,,
+,1,600,65,45,%,,,,,,

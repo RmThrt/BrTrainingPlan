@@ -1,0 +1,13 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"This workout simulated the demands of a race or hard ride where you've forced to go between ""hard"" and ""harder."" It's a tough one, but it packs a lot of intensity into a little amount of time. Better yet, it will help you handle even tougher rides in the future!",1,300,25,75,%,85,,,,,
+,1,180,100,100,%,90,,,,,
+,1,30,125,125,%,110,,,,,
+,1,150,100,100,%,90,,,,,
+,1,30,120,120,%,110,,,,,
+,1,120,100,100,%,90,,,,,
+,1,30,115,115,%,110,,,,,
+,1,90,100,100,%,90,,,,,
+,1,30,110,110,%,110,,,,,
+,1,60,100,100,%,90,,,,,
+,1,30,105,105,%,110,,,,,
+,1,150,50,25,%,,,,,,

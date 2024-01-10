@@ -1,0 +1,6 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"Warm-up for 10minutes ramping up to the top of Z2 at the end of 10 minutes.  Then do 3 x 1 minute fast pedaling drills.  The goal here is to increase your cadence to 110-120 rpm and hold it there for the full minute, normal cadence of 85-95rpm between each one.  The wattages are low for both the fast pedaing and recovery. Now ride for 5minutes at tempo pace, and prepare for your first sprint.  You are going to do 10 sprints for 20 seconds each to start.  These aren't all out sprints, but the top of Zone 6. Ride at 90 rpm between each in Zone 2. Cool-down for remaining time",1,600,25,75,%,,,,,,
+,3,60,75,75,%,,60,50,50,%,
+,1,300,81,81,%,,,,,,
+,10,20,200,200,%,,180,75,75,%,
+,1,340,75,25,%,,,,,,

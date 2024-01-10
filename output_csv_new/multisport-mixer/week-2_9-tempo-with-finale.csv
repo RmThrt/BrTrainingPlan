@@ -1,0 +1,11 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"After first completing a 15min Tempo effort, you will go straight into 4 x 2min VO2 efforts.With no recovery period after the initial 15min, this session will challenge your aerobic efficiency.",1,300,50,50,%,,,,,,
+,2,10,175,175,%,110,50,50,50,%,80
+,1,120,50,50,%,85,,,,,
+,1,60,109,109,%,95,,,,,
+,1,120,50,50,%,85,,,,,
+,1,300,90,90,%,95,,,,,
+,1,180,50,50,%,,,,,,
+,1,900,81,81,%,90,,,,,
+,4,120,109,109,%,95,180,75,75,%,80
+,1,300,50,50,%,,,,,,

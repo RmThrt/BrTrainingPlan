@@ -1,0 +1,10 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"The opening 5 minute threshold effort prepares you for the following 2 x 10 Sub-Threshold Interval.Note your heart rate at the completion of the 10 minute Sub-Threshold intervals. Did max HR rise, or were you able to maintain?",1,600,50,75,%,,,,,,
+,1,60,50,50,%,,,,,,
+,1,300,98,98,%,,,,,,
+,1,300,55,55,%,,,,,,
+,1,600,89,89,%,,,,,,
+,1,300,55,55,%,,,,,,
+,1,600,89,89,%,,,,,,
+,1,300,55,55,%,,,,,,
+,1,300,75,50,%,,,,,,

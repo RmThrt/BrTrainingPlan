@@ -1,0 +1,25 @@
+<workout_file>
+    <author></author>
+    <name>_week-2_4-strength-surges</name>
+    <description>This session aims to replicate the demands of a mountain bike ride / event. Mountain biking generally involves far more variations in effort compared with road riding - so plenty of surges and time spent being over geared!We touch upon all of these aspects in todays session, as we ramp our effort up at a low cadence to replicate climbing a technical section, picking our way around rocks, before a Z4 effort on a fire road, before heading back in to the forest and up a really steep technical section where once again we are forced to ride at an uncomfortably low cadence, in the saddle!</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="600" PowerLow="0.25" PowerHigh="0.75" />
+<SteadyState Duration="60" Power="0.5" />
+<SteadyState Duration="10" Power="1.09" />
+<SteadyState Duration="120" Power="0.5" />
+<Ramp Duration="300" PowerLow="0.65" PowerHigh="0.9" Cadence="70" CadenceLow="70" CadenceHigh="70" />
+<SteadyState Duration="180" Power="0.92" />
+<SteadyState Duration="40" Power="1.15" Cadence="65" CadenceLow="65" CadenceHigh="65" />
+<SteadyState Duration="240" Power="0.4" />
+<Ramp Duration="300" PowerLow="0.65" PowerHigh="0.9" Cadence="70" CadenceLow="70" CadenceHigh="70" />
+<SteadyState Duration="180" Power="0.92" />
+<SteadyState Duration="40" Power="1.15" Cadence="65" CadenceLow="65" CadenceHigh="65" />
+<SteadyState Duration="240" Power="0.4" />
+<Ramp Duration="300" PowerLow="0.65" PowerHigh="0.9" Cadence="70" CadenceLow="70" CadenceHigh="70" />
+<SteadyState Duration="180" Power="0.9" />
+<SteadyState Duration="40" Power="1.15" Cadence="65" CadenceLow="65" CadenceHigh="65" />
+<Cooldown Duration="360" PowerLow="0.55" PowerHigh="0.25" />
+</workout>
+    </workout_file>

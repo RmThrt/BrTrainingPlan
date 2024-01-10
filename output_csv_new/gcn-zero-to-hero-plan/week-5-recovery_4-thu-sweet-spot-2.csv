@@ -1,0 +1,11 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"We'll be working at sweet spot (SST) zone today, featuring an extensive 20min effort ramping up from 85% to 91% FTP. This makes us efficient at riding at a high pace during the day of racing. The session is finished with 8 x 1 min efforts right at FTP. FTP efforts feel a lot harder after spending 20 mins at SST, so be prepared :-)",1,180,45,60,%,85,,,,,
+,1,60,60,60,%,90,,,,,
+,1,60,65,65,%,95,,,,,
+,1,60,81,81,%,100,,,,,
+,1,60,109,109,%,105,,,,,
+,1,180,50,50,%,85,,,,,
+,1,1200,85,91,%,90,,,,,
+,1,180,50,50,%,85,,,,,
+,8,60,100,100,%,100,60,50,50,%,85
+,1,120,50,40,%,85,,,,,

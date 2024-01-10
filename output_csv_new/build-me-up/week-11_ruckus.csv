@@ -1,0 +1,9 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+Stand up and make some noise... Or power! A mix of standing and sitting intervals that are designed to help you speak loudly without saying a word!,1,300,40,65,%,,,,,,
+,1,300,65,65,%,95,,,,,
+,1,180,80,80,%,100,,,,,
+,1,120,55,55,%,85,,,,,
+,7,120,100,100,%,90,60,75,75,%,70
+,1,180,55,55,%,,,,,,
+,6,120,100,100,%,90,60,75,75,%,70
+,1,180,74,25,%,,,,,,

@@ -1,0 +1,12 @@
+<workout_file>
+    <author></author>
+    <name>_week-10_day-3-3x20min-sst-low</name>
+    <description>SST Intervals. On trainer, out on road or in a group, SST intervals are part of our continued effort to build and maintain base.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="900" PowerLow="0.25" PowerHigh="0.75" />
+<IntervalsT Repeat="3" OnDuration="1200" OffDuration="300" OnPower="0.88" OffPower="0.5" />
+<Cooldown Duration="900" PowerLow="0.75" PowerHigh="0.25" />
+</workout>
+    </workout_file>

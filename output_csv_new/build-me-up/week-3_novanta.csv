@@ -1,0 +1,12 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"Named after the number 90 in Italian, this workout is focused sweet spot training, centered around 90% of FTP. This pairs with Halvfems (90 in Danish) and Devedeset (90 in Croatian) to make up the sweet spot trifecta in this plan. The workouts are alphabetically ordered from easiest to hardest, so enjoy the hardest of these three challenging workouts today...",1,420,25,75,%,,,,,,
+,1,30,95,95,%,95,30,50,50,%,85
+,1,30,105,105,%,105,30,50,50,%,85
+,1,30,115,115,%,115,30,50,50,%,85
+,1,120,50,50,%,85,,,,,
+,4,240,90,90,%,90,60,90,90,%,65
+,1,180,55,55,%,85,,,,,
+,1,300,90,90,%,90,,,,,
+,5,60,90,90,%,100,60,90,90,%,70
+,1,300,90,90,%,90,,,,,
+,1,300,55,25,%,,,,,,

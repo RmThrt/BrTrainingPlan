@@ -1,0 +1,11 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+Threshold Dev,1,600,50,65,%,,,,,,
+,1,300,50,100,%,,,,,,
+,1,120,65,65,%,,,,,,
+,1,120,81,81,%,,,,,,
+,1,60,95,95,%,,,,,,
+,1,300,50,50,%,,,,,,
+,5,120,95,95,%,,120,81,81,%,
+,1,600,50,50,%,,,,,,
+,5,120,95,95,%,,120,81,81,%,
+,1,300,65,50,%,,,,,,

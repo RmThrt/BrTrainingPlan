@@ -9,7 +9,16 @@
             "type": "python",
             "request": "launch",
             "program": "main.py",
-            "args": [ "--parse-zwift", "--training-plan", "active-offseason","--headless", "False", "-o", "output_csv_new" ],
+            "args": [ "--parse-zwift", "--training-plans", "active-offseason","--headless", "False", "-o", "output_csv_new" ],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "11debug:parse-zwift:training-plan:active-offseason",
+            "type": "python",
+            "request": "launch",
+            "program": "main.py",
+            "args": [ "--parse-zwift", "--website-url-to-get-training-plans","https://whatsonzwift.com/workouts","--headless", "True", "-o", "output_csv_new" ],
             "console": "integratedTerminal",
             "justMyCode": true
         },

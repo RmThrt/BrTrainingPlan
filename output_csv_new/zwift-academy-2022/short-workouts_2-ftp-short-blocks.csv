@@ -1,0 +1,7 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"In this workout our goal is to accumulate as much time around FTP as possible, without going to failure. We do this by having short blocks of 90 sec to 2 1/2min of intensity. This allows you to maintain good rhythm in each rep but also have small rest periods of 30sec between so we have enough stimulus which sees positive adaptations. We do this by having 3 sets of interval blocks lasting from 8 min, 10 min and 12min, this is a perfect session to push up the aerobic adaptations which will help with FTP developments and endurance capacities.",1,480,40,80,%,,,,,,
+,1,180,55,55,%,,,,,,
+,4,90,105,105,%,,30,55,55,%,
+,1,240,55,55,%,,,,,,
+,4,120,102,102,%,,30,55,55,%,
+,1,240,55,35,%,,,,,,

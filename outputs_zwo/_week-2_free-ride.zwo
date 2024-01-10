@@ -1,0 +1,12 @@
+<workout_file>
+    <author></author>
+    <name>_week-2_free-ride</name>
+    <description>Sometimes ya just gotta ride your bike. Get on the current course for the day and ride mixed terrain. I would like to see you riding Z1-Z2 throughout the ride, but some very low Z3 is clearly ok if the terrain demands it. Today is NOT about going hard though, I just want to see some good aerobic deposits!</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="600" Power="0.55" />
+<FreeRide Duration="4200" />
+<Cooldown Duration="600" Power="0.55" />
+</workout>
+    </workout_file>

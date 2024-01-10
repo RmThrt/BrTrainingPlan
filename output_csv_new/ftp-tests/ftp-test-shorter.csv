@@ -1,0 +1,11 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"Ever wondered what """"FTP"""" means? It stands for """"functional threshold power,"""" and it's the maximum wattage you can sustain. This workout will (literally) test your legs, and give you an accurate FTP number. You can use that number to structure all the rest of the workouts and re-test anytime to measure your progress.   Word to the wise: An FTP test is no walk in the park. Come in rested and prepare your food and hydration well in advance. Don't go out too hard; you'll have to hold this power for 20 minutes. And bring lots of towels!",1,300,30,70,%,,,,,,
+,1,20,80,80,%,,,,,,
+,1,20,100,100,%,,,,,,
+,1,20,120,120,%,,,,,,
+,1,180,50,50,%,,,,,,
+,1,180,110,110,%,,,,,,
+,1,120,120,120,%,,,,,,
+,1,360,50,50,%,,,,,,
+,1,1200,0,0,0,,,,,,
+,1,300,50,30,%,,,,,,

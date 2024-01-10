@@ -1,0 +1,12 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+Introductory workout to be done prior to starting a training plan. This should be done after a ramp test. The focus today is making sure your FTP is accurate from the ramp test. Please adjust your FTP up or down based on how each zone feels today.,1,300,25,65,%,,,,,,
+,1,300,65,65,%,,,,,,
+,1,120,0,0,0,,,,,,
+,1,240,80,80,%,,,,,,
+,1,120,0,0,0,,,,,,
+,1,180,95,95,%,,,,,,
+,1,120,0,0,0,,,,,,
+,1,120,109,109,%,,,,,,
+,1,120,0,0,0,,,,,,
+,1,60,125,125,%,,,,,,
+,1,120,0,0,0,,,,,,

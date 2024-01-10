@@ -1,0 +1,10 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"This endurance session focuses on replicating the demands of outdoor rolling hills. Just like outdoors, we have a targeted lower cadence for the hills, but the power is well under threshold. The body of this workout involves repeated medium intensity efforts ranging in length from 2 to 3min.",1,300,45,75,%,,,,,,
+,1,60,60,60,%,,,,,,
+,1,300,80,80,%,,,,,,
+,1,60,65,65,%,,,,,,
+,5,30,75,75,%,,30,90,90,%,
+,1,120,65,65,%,,,,,,
+,4,120,80,80,%,70,180,60,60,%,90
+,2,180,85,85,%,70,180,60,60,%,90
+,1,300,65,50,%,,,,,,

@@ -1,0 +1,10 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"By building up some lactate prior to completing a sub-threshold effort, you will be training your body to clear lactate while improving the efficiency of your aerobic system.After warming up you will complete 4min of 40/20, leading straight into 10min sub-threshold.",1,300,50,50,%,,,,,,
+,5,30,65,65,%,90,30,80,80,%,95
+,1,180,50,50,%,,,,,,
+,4,40,121,121,%,95,30,50,50,%,80
+,1,600,95,95,%,90,,,,,
+,1,600,50,50,%,,,,,,
+,4,40,121,121,%,95,20,50,50,%,80
+,1,600,95,95,%,90,,,,,
+,1,300,50,50,%,,,,,,

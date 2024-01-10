@@ -1,0 +1,6 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+An over/under workout where you'll alternate 1min under 5k pace and 1min over 5k pace. The focus of this workout is to become more efficient with higher intensity efforts and to teach the body how to recover after hard efforts.,1,480,65,80,%,,,,,,
+,4,60,95,95,%,,60,105,105,%,
+,1,180,65,65,%,,,,,,
+,4,60,95,95,%,,60,105,105,%,
+,1,180,70,50,%,,,,,,

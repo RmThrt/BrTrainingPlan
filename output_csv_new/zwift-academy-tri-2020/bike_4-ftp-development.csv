@@ -1,0 +1,12 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"We know how critical it is to have a high FTP for cycling performance. FTP is the maximum intensity you can hold for 40–60 minutes continuously. Threshold sessions with minimal recovery are great ways to adapt to that specific intensity and thereby become more efficient.         This session consists of four sets of 4x2 minute reps at FTP, with just 30 seconds of recovery between reps. It’s a great way to trick the body and mind to get lots of time at FTP.        For WHOOP users - This workout is ideally done on a Green Recovery day. These FTP intervals will challenge you and result in a higher strain score. If you aren’t well recovered, get some rest and come back to this workout on another day.",1,300,45,80,%,,,,,,
+,5,30,98,98,%,,30,55,55,%,
+,1,60,55,55,%,,,,,,
+,4,120,100,100,%,,30,55,55,%,
+,1,120,55,55,%,,,,,,
+,4,120,100,100,%,,30,55,55,%,
+,1,120,55,55,%,,,,,,
+,4,120,100,100,%,,30,55,55,%,
+,1,120,55,55,%,,,,,,
+,4,120,100,100,%,,30,55,55,%,
+,1,180,75,55,%,,,,,,

@@ -1,0 +1,7 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+Strength,1,780,50,90,%,,,,,,
+,1,300,52,52,%,,,,,,
+,5,10,200,200,%,,110,52,52,%,
+,1,600,63,63,%,,,,,,
+,5,10,200,200,%,,110,52,52,%,
+,1,600,65,50,%,,,,,,

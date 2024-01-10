@@ -1,0 +1,19 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"You've made it to the most challenging unicorn workout of Build Me Up Lite, congrats to you! Today, we're adding another challenging step to the intervals in the form of another 30sec over interval. So, you'll do 2min under, 1min over, and another 30sec over! Is it mean to do that? Maybe... but your fitness will thank you later! Get after it today!",1,300,25,75,%,,,,,,
+,1,30,85,85,%,95,30,50,50,%,85
+,1,30,95,95,%,105,30,50,50,%,85
+,1,30,115,115,%,115,30,50,50,%,85
+,1,120,50,50,%,85,,,,,
+,1,180,85,85,%,90,,,,,
+,1,60,105,105,%,65,,,,,
+,1,30,115,115,%,65,,,,,
+,1,180,85,85,%,90,,,,,
+,1,60,105,105,%,65,,,,,
+,1,30,115,115,%,65,,,,,
+,1,180,85,85,%,90,,,,,
+,1,60,105,105,%,65,,,,,
+,1,30,115,115,%,65,,,,,
+,1,180,85,85,%,90,,,,,
+,1,60,105,105,%,65,,,,,
+,1,30,115,115,%,65,,,,,
+,1,180,55,25,%,,,,,,

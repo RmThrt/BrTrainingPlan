@@ -1,0 +1,6 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"Prepare the mind and body for hill attacks.  You are attacking up the hill at the front of the peloton and inflicting devastation upon the peloton.  Attack after attack, the peloton is getting blown apart by your relentless attacks.  Warm-up for 10minutes and do 3 x 1minute fast pedaling drills>110rpm. A nice tempo pace for 5minutes and then do (10) x 1minute hill attacks.   Rest for 2 minutes between each.  Cool-down.",1,600,25,75,%,,,,,,
+,3,60,75,75,%,110,60,50,50,%,80
+,1,300,81,81,%,,,,,,
+,10,60,140,140,%,90,120,50,50,%,80
+,1,600,75,25,%,,,,,,

@@ -1,0 +1,13 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"A set of long intervals focused on endurance across a range of zones. Nothing fancy here, just long bouts of solid work here.",1,60,50,50,%,,,,,,
+,2,60,50,50,%,,60,91,91,%,
+,2,60,50,50,%,,60,107,107,%,
+,1,60,50,50,%,,,,,,
+,1,360,98,98,%,,,,,,
+,1,120,55,55,%,,,,,,
+,1,360,98,98,%,,,,,,
+,1,120,55,55,%,,,,,,
+,1,360,98,98,%,,,,,,
+,1,120,55,55,%,,,,,,
+,1,1200,78,78,%,,,,,,
+,1,300,75,50,%,,,,,,

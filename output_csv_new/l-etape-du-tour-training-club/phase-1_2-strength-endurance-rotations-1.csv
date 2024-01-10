@@ -1,0 +1,14 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"This early phase of training for L'Etape du Tour is about building a base for higher intensity work later in the plan. It's also the phase where we look to extend our endurance capabilities. One such method to achieve this is through Strength Endurance work. Strength Endurance intervals on the bike are targeted around achieving high crank torque. To do this, we produce high power with low cadence.This high crank torque engages more of your fast twitch fibers, which allows you to gain endurance. However, the target power is below your FTP, allowing you to extend the effort.",1,180,45,60,%,,,,,,
+,1,60,65,65,%,,,,,,
+,1,60,81,81,%,,,,,,
+,1,60,109,109,%,,,,,,
+,1,60,50,50,%,,,,,,
+,1,240,51,85,%,,,,,,
+,1,120,50,50,%,,,,,,
+,3,180,75,75,%,65,60,95,95,%,95
+,1,180,50,50,%,,,,,,
+,3,180,75,75,%,65,60,95,95,%,95
+,1,180,50,50,%,,,,,,
+,3,180,75,75,%,65,60,95,95,%,95
+,1,300,50,50,%,,,,,,

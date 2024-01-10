@@ -1,0 +1,12 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+Author: Direct Power Coaching (Zwift Fitness),1,600,25,75,%,,,,,,
+,1,300,80,80,%,75,,,,,
+,1,300,75,95,%,80,,,,,
+,1,60,105,105,%,85,,,,,
+,1,300,50,50,%,,,,,,
+,1,600,55,105,%,95,,,,,
+,1,60,120,120,%,90,,,,,
+,1,300,50,50,%,,,,,,
+,1,600,65,110,%,90,,,,,
+,1,60,150,150,%,100,,,,,
+,1,300,75,25,%,,,,,,

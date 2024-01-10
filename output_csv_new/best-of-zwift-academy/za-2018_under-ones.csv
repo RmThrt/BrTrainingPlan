@@ -1,0 +1,13 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"This is a challenging HIIT (High Intensity Interval Training) session that focuses on repeated efforts under 1 minute. The workout consists of just 5 minutes of high intensity work. However, with short recovery periods, your lactate tolerance will be tested!The session is divided into 3 blocks of work. 12 x 10sec sprints with 50secs recovery. 6 x 15sec sprints with 45secs recovery. And 3 x 30sec sprints with 30sec recovery.If you use a smart trainer it's recommended that you disable ERG mode for this workout due to how short and explosive the sprint efforts are. You can toggle ERG mode on and off either within Zwift or by using the Zwift Companion mobile app.",1,300,45,75,%,,,,,,
+,2,10,130,130,%,,60,50,50,%,
+,2,60,80,80,%,,60,65,65,%,
+,2,60,98,98,%,,60,65,65,%,
+,1,180,50,50,%,,,,,,
+,12,10,161,161,%,,50,65,65,%,
+,1,300,50,50,%,,,,,,
+,6,15,150,150,%,,45,65,65,%,
+,1,300,50,50,%,,,,,,
+,3,30,130,130,%,,30,65,65,%,
+,1,180,50,50,%,,,,,,
+,1,300,75,45,%,,,,,,

@@ -1,0 +1,9 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+This session is designed to get you used to delivering power at a range of cadences. The low cadence work focuses on leg strength and the higher cadence trains your heart and lungs. ,1,1200,25,75,%,,,,,,
+,1,600,65,65,%,95,,,,,
+,1,600,50,50,%,,,,,,
+,1,600,81,81,%,70,,,,,
+,1,600,81,81,%,95,,,,,
+,1,300,81,81,%,70,,,,,
+,1,300,81,81,%,95,,,,,
+,1,600,75,25,%,,,,,,

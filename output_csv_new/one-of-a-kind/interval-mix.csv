@@ -1,0 +1,6 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+Author: M.De Jode (TK.be),1,600,35,73,%,,,,,,
+,3,300,110,110,%,,240,69,69,%,
+,2,120,125,125,%,,180,69,69,%,
+,2,30,159,159,%,,120,69,69,%,
+,1,480,62,35,%,,,,,,

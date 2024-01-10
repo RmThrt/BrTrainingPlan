@@ -1,0 +1,8 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+What's your limit? It's time to expand it. The Expand workout runs you through a series of high-power surges that increase in length. This targets your ability to surge over and over and hold those efforts longer.,1,480,50,75,%,85,,,,,
+,1,180,75,75,%,95,15,120,120,%,100
+,1,180,75,75,%,95,30,120,120,%,105
+,1,180,75,75,%,95,45,120,120,%,110
+,1,180,75,75,%,95,60,120,120,%,105
+,1,180,75,75,%,95,75,120,120,%,100
+,1,195,65,30,%,,,,,,

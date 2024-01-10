@@ -1,0 +1,8 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"This session is a progression from the 30 minute Start-Stop workout where you will tackle 3 blocks of 4 efforts, with each block's effort increasing in intensity but decreasing in duration.Each block roughly equates to the same training stress, but just varying type of stress and effort.",1,300,25,70,%,,,,,,
+,4,60,80,80,%,,60,40,40,%,
+,1,180,46,46,%,,,,,,
+,4,45,100,100,%,,75,40,40,%,
+,1,180,45,45,%,,,,,,
+,4,30,105,105,%,,90,40,40,%,
+,1,300,65,35,%,,,,,,

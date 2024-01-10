@@ -1,0 +1,12 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"Warm up followed by;3 x 6 minute efforts @ 98%, 95% and 91% FTP respectively with 2min recovery.Observe your Heart Rate response to each interval. Is it decreasing with the reduction of target power in each interval?",1,300,50,75,%,,,,,,
+,1,60,55,55,%,,,,,,
+,1,300,81,81,%,,,,,,
+,1,180,50,50,%,,,,,,
+,1,360,98,98,%,,,,,,
+,1,120,55,55,%,,,,,,
+,1,360,95,95,%,,,,,,
+,1,120,55,55,%,,,,,,
+,1,360,91,91,%,,,,,,
+,1,120,55,55,%,,,,,,
+,1,600,75,50,%,,,,,,

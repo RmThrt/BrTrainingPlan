@@ -1,0 +1,39 @@
+<workout_file>
+    <author></author>
+    <name>_week-0-prep_ramp-test</name>
+    <description>This variation of the Ramp Test is designed for more experienced and larger riders. If you're below 60kg/132lbs or are just newer to cycling, you might prefer the Ramp Test Lite. You can find it in the same folder as this version.      A ramp test is designed to estimate your FTP. It uses a relatively short progressive build of one minute steps to quickly identify the upper limit of your aerobic capacity. The ramp portion of the test should, ideally, take about 5-20 minutes to complete. It should start out feeling extremely easy. And then, rather suddenly, it will get much, much harder. It is at that point - when the difficulty really shifts - that you need to dig in. From there, you should max out within 3-5 minutes. This is a maximal effort until exhaustion. You are trying to record your absolute best one minute power. So keep pedaling until you simply cannot go any further. At that point, stop pedaling and the test will automatically end and will shift to a nice long cooldown.     This is a seated test with a focus on smoothness and consistency. Focus on keeping a good position on the bike with a nice steady cadence of ideally over 80-95rpm. Expect your cadence to fall a bit near the end of the test; that is normal. Just don't let yourself get bogged down and mashing. The focus here is on aerobic power. Good luck!</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="300" />
+<SteadyState Duration="60" Power="100" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="120" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="140" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="160" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="180" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="200" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="220" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="240" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="260" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="280" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="300" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="320" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="340" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="360" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="380" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="400" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="420" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="440" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="460" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="480" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="500" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="520" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="540" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="560" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="580" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="600" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="620" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="640" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<Cooldown Duration="600" PowerLow="75" PowerHigh="70" />
+</workout>
+    </workout_file>

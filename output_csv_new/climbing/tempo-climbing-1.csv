@@ -1,0 +1,11 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"The basis of today's session is to simulate long tempo climbs. However, each tempo interval is completed with a different high intensity effort.The tempo portion of each interval is performed at a low climbing cadence, before completing the closing effort at a self selected cadence.",1,600,50,75,%,,,,,,
+,1,600,88,88,%,75,,,,,
+,1,30,150,150,%,,,,,,
+,1,300,55,55,%,,,,,,
+,1,480,80,80,%,80,,,,,
+,1,420,98,98,%,,,,,,
+,1,300,55,55,%,,,,,,
+,1,300,80,80,%,85,,,,,
+,1,300,105,105,%,,,,,,
+,1,300,75,50,%,,,,,,

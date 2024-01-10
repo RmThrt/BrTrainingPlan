@@ -1,0 +1,10 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"Anaerobic intervals improve the body's ability to produce energy without oxygen, which is critical for high-intensity efforts such as sprinting. By training the body to produce energy anaerobically, cyclists can improve their power output and overall speed. ",1,600,50,75,%,,,,,,
+,2,60,100,100,%,90,60,80,80,%,85
+,1,30,110,110,%,100,30,50,50,%,85
+,1,30,120,120,%,105,30,50,50,%,85
+,1,120,50,50,%,,,,,,
+,4,30,163,163,%,110,60,30,30,%,85
+,1,600,65,65,%,85,,,,,
+,4,30,163,163,%,110,60,30,30,%,85
+,1,300,55,35,%,,,,,,

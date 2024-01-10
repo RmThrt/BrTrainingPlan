@@ -1,0 +1,8 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"For the first day of training camp with UCI WorldTour team Movistar we are going to start with low torque efforts, to build cycling specific strength contrasted with high cadence recoveries to get improvements in your pedal stroke. The Main set is 2 rounds, the 1st round is 4 x 2 min low cadence efforts at 80% of FTP followed by 4 min recovery at 100 rpms. The 2nd round is 4 x 3 min low cadence efforts at 80% of FTP, followed by 4 min at 100 rpms for recovery.",1,600,40,80,%,,,,,,
+,1,120,50,50,%,,,,,,
+,4,120,80,80,%,60,40,45,45,%,65
+,1,240,55,55,%,100,,,,,
+,4,180,80,80,%,60,40,45,45,%,65
+,1,240,55,55,%,100,,,,,
+,1,120,50,40,%,,,,,,

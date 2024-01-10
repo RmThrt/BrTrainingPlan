@@ -1,0 +1,16 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"One of the tricks of the pros in order to improve their time trialing speed is to do some motorpacing for short distances, but at a fast speed. You are going to simulate these kinds of intervals by doing 4 minute efforts near your FTP and keeping the cadence quick.",1,600,25,75,%,,,,,,
+,3,60,75,75,%,110,60,50,50,%,80
+,1,300,85,85,%,,,,,,
+,1,240,100,98,%,90,,,,,
+,1,180,65,65,%,,,,,,
+,1,240,100,98,%,90,,,,,
+,1,180,65,65,%,,,,,,
+,1,240,105,100,%,83,,,,,
+,1,240,65,65,%,,,,,,
+,1,240,107,100,%,93,,,,,
+,1,240,65,65,%,,,,,,
+,1,240,110,97,%,93,,,,,
+,1,240,65,65,%,,,,,,
+,1,240,113,95,%,88,,,,,
+,1,600,75,25,%,,,,,,

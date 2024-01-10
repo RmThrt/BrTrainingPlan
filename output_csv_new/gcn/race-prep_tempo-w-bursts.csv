@@ -1,0 +1,6 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"Riding in the peloton requires plenty of speed and cadence changes, along with sustained output.It's important that you are ready for those changes, and doing this workout will help!Warm-up for 10 minutes and then do 3 x 1 minute fast pedaling drills at >110rpm with 1 minute at 80rpm between each.   Then begin a 40minute block at tempo pace, 80% of FTP, and do a ""burst"" for 15 seconds every two minutes.  Each burst is at 120% of FTP, and return to previous pace of 80% of FTP after each. Cool down.",1,600,25,75,%,,,,,,
+,3,60,75,75,%,,60,50,50,%,
+,1,120,80,80,%,,,,,,
+,18,20,120,120,%,,120,80,80,%,
+,1,600,75,25,%,,,,,,

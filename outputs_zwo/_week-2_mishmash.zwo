@@ -1,0 +1,32 @@
+<workout_file>
+    <author></author>
+    <name>_week-2_mishmash</name>
+    <description>Some of this. Some of that. A mishmash of multi-zone work and cadence changes designed with a singular focus - making you faster!</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="600" PowerLow="0.4" PowerHigh="0.7" />
+<IntervalsT Repeat="1" OnDuration="180" OffDuration="60" OnPower="0.8" OffPower="1.05" Cadence="95" CadenceLow="95" CadenceHigh="95" CadenceResting="65" />
+<SteadyState Duration="60" Power="0.65" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<IntervalsT Repeat="1" OnDuration="180" OffDuration="60" OnPower="0.8" OffPower="1.05" Cadence="100" CadenceLow="100" CadenceHigh="100" CadenceResting="65" />
+<SteadyState Duration="60" Power="0.65" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<IntervalsT Repeat="1" OnDuration="180" OffDuration="60" OnPower="0.8" OffPower="1.05" Cadence="70" CadenceLow="70" CadenceHigh="70" CadenceResting="100" />
+<SteadyState Duration="60" Power="0.65" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<IntervalsT Repeat="1" OnDuration="180" OffDuration="60" OnPower="0.8" OffPower="1.05" Cadence="95" CadenceLow="95" CadenceHigh="95" CadenceResting="65" />
+<SteadyState Duration="120" Power="0.65" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="240" Power="0.9" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="240" Power="0.8" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="240" Power="0.7" Cadence="75" CadenceLow="75" CadenceHigh="75" />
+<SteadyState Duration="240" Power="0.9" Cadence="75" CadenceLow="75" CadenceHigh="75" />
+<SteadyState Duration="240" Power="0.8" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="240" Power="0.7" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<Ramp Duration="720" PowerLow="0.9" PowerHigh="0.6" />
+<SteadyState Duration="120" Power="0.75" Cadence="65" CadenceLow="65" CadenceHigh="65" />
+<SteadyState Duration="60" Power="0.75" Cadence="65" CadenceLow="65" CadenceHigh="65" />
+<SteadyState Duration="120" Power="0.75" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="60" Power="0.75" Cadence="65" CadenceLow="65" CadenceHigh="65" />
+<SteadyState Duration="120" Power="0.75" Cadence="65" CadenceLow="65" CadenceHigh="65" />
+<IntervalsT Repeat="6" OnDuration="60" OffDuration="60" OnPower="0.75" OffPower="0.75" Cadence="100" CadenceLow="100" CadenceHigh="100" CadenceResting="60" />
+<Cooldown Duration="180" Power="0.5" />
+</workout>
+    </workout_file>

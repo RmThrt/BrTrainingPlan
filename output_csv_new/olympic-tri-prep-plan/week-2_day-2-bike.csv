@@ -1,0 +1,4 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+Bike - 90 min. -30 min. warm up-30 min. big gear 70 rpm @ 88% FTP-30 min. cool @ 60% FTP,1,600,50,75,%,,,,,,
+,1,1800,88,88,%,,,,,,
+,1,1200,60,60,%,,,,,,

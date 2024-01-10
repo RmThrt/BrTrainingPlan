@@ -1,0 +1,10 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+Author: Matt Bottrill Performance Coaching - Stu Auckland,1,600,55,75,%,95,,,,,
+,2,180,89,89,%,85,60,98,98,%,85
+,1,300,55,55,%,95,,,,,
+,2,180,89,89,%,85,60,98,98,%,85
+,1,300,55,55,%,95,,,,,
+,2,180,89,89,%,85,60,98,98,%,85
+,1,300,55,55,%,95,,,,,
+,2,180,89,89,%,85,60,98,98,%,85
+,1,480,65,45,%,95,,,,,

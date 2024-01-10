@@ -1,0 +1,10 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+Foundation,1,720,45,65,%,,,,,,
+,1,180,77,77,%,,,,,,
+,1,180,88,88,%,,,,,,
+,1,180,52,52,%,,,,,,
+,1,180,88,88,%,,,,,,
+,1,180,77,77,%,,,,,,
+,1,180,52,52,%,,,,,,
+,5,300,72,72,%,,120,52,52,%,
+,1,600,65,50,%,,,,,,

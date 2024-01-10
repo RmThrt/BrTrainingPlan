@@ -1,0 +1,12 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"TEMPO / VO2MAX #1After first completing some Endurance, perform a steady tempo effort, leading into Vo2 Max intervals.-----WU:10 Min increasing power through Power Zone 1 and 2. Include 3 x 30 Sec high cadence / low power efforts during warm up period.-----MS1:30 Min Tempo effortTARGET: Power Zone 3CADENCE: 90-100rpm.TERRAIN: Flat / Rolling-----MS3:3 x 2 Min Vo2 MaxTARGET: Power Zone 5CADENCE: 90-100rpm.RECOVERY: 2min",1,180,50,50,%,,,,,,
+,3,30,90,90,%,,60,60,60,%,
+,1,150,72,72,%,,,,,,
+,1,1800,82,82,%,,,,,,
+,1,120,117,117,%,,,,,,
+,1,180,55,55,%,,,,,,
+,1,120,117,117,%,,,,,,
+,1,180,55,55,%,,,,,,
+,1,120,117,117,%,,,,,,
+,1,180,55,55,%,,,,,,
+,1,300,75,50,%,,,,,,

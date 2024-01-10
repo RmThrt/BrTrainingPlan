@@ -1,0 +1,12 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"In today's workout, you will complete 3 x 12 minute blocks of Zone 3, with some surges thrown in for good measure! The Zone 3 riding should feel nice and comfortable, however the surges may sting a little. The surges in each block increase in intensity, but decrease in duration; Block 1 - 100% of FTP for 30 seconds, Block 2 - 110% of FTP for 20 seconds, Block 3 - 115% of FTP for 15 seconds. At the end of each 12 minute block, there is a 1 minute 'Free Ride' - depending on your current level of fitness, you can either drop the hammer and give it your max effort, or take some extra recovery. The significant volume of Tempo riding, coupled with the surges will help develop your endurance.",1,480,35,95,%,,,,,,
+,1,120,45,45,%,,,,,,
+,4,30,100,100,%,,150,70,70,%,
+,1,60,0,0,0,,,,,,
+,1,180,50,50,%,,,,,,
+,4,20,110,110,%,,160,70,70,%,
+,1,60,0,0,0,,,,,,
+,1,180,50,50,%,,,,,,
+,4,15,115,115,%,,165,70,70,%,
+,1,60,0,0,0,,,,,,
+,1,300,60,35,%,,,,,,

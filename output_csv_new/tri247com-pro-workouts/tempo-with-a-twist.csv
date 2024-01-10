@@ -1,0 +1,10 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+Author: J.Levison,1,240,40,70,%,,,,,,
+,3,15,105,105,%,,30,50,50,%,
+,3,15,115,115,%,,30,50,50,%,
+,3,10,125,125,%,,30,50,50,%,
+,1,180,60,60,%,,,,,,
+,4,60,105,105,%,,240,88,88,%,
+,1,180,50,50,%,,,,,,
+,4,60,105,105,%,,240,88,88,%,
+,1,210,60,40,%,,,,,,

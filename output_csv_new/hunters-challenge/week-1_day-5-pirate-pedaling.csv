@@ -1,0 +1,16 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"One leg pedaling intervals, and 20 minutes Sub FTP. 10 x 1 minute pedaling interval - 1 minute per leg. Then 10 x 1 minute fast pedals with 1 minute rest in between each. Then 10 minutes at 80% of FTP.",1,600,55,72,%,90,,,,,
+,1,120,40,40,%,60,,,,,
+,1,120,40,40,%,60,,,,,
+,1,120,35,35,%,60,,,,,
+,1,120,35,35,%,60,,,,,
+,1,120,40,40,%,60,,,,,
+,1,120,40,40,%,60,,,,,
+,1,120,35,35,%,60,,,,,
+,1,120,35,35,%,60,,,,,
+,1,120,40,40,%,60,,,,,
+,1,120,40,40,%,60,,,,,
+,1,300,72,72,%,100,,,,,
+,10,60,87,87,%,110,60,72,72,%,90
+,1,600,80,80,%,90,,,,,
+,1,600,75,60,%,,,,,,

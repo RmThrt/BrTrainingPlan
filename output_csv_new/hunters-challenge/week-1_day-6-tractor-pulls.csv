@@ -1,0 +1,10 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"Tractor Pulls help to build muscular strength and even improve your sprint! Make sure to slowly get into this gear, so start at less than 8mph, keep your hands in the drops, tighten your abdominals and stay seated for the entire interval. ONLY start the 30 second clock once you are in the gear and actually controlled and rolling smooth. Your cadence should be 40-50 RPM when you start and around 95rpm when you stop. This is about strength, not speed.",1,600,55,72,%,,,,,,
+,1,300,95,95,%,90,,,,,
+,1,300,72,72,%,,,,,,
+,1,540,95,95,%,90,,,,,
+,1,300,72,72,%,,,,,,
+,10,60,114,114,%,55,60,95,95,%,90
+,1,300,72,72,%,,,,,,
+,6,60,87,87,%,55,60,72,72,%,90
+,1,900,72,55,%,,,,,,

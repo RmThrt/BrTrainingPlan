@@ -1,0 +1,12 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"This workout is a key workout that Annika uses as preparation for key events. In mountain biking, to get up a short steep climb, or to get through some mud or over roots, the best way is to do it quickly - lots of power for a short period of time.This session gets our anaerobic energy systems firing, as we make repeated 30 second efforts at 170% of FTP, simulating those short spikes in effort to get up a steep bank or through a technical part of the course. Don't be discouraged if your power drops throughout the blocks. You'll burn a lot of matches as you progress through the session, so just try and hold on as long as you can as you will still benefit from the effort.In the same fashion - don't go out too hard! This is a fairly long session, so in the first block, just do what you need to do. 170% of FTP - no more.",1,420,44,75,%,,,,,,
+,1,30,109,109,%,,,,,,
+,1,180,50,50,%,,,,,,
+,1,30,109,109,%,,,,,,
+,1,300,50,50,%,,,,,,
+,8,30,170,170,%,,30,50,50,%,
+,1,570,50,50,%,,,,,,
+,8,30,170,170,%,,30,50,50,%,
+,1,570,50,50,%,,,,,,
+,8,30,170,170,%,,30,50,50,%,
+,1,600,50,50,%,,,,,,

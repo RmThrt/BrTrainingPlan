@@ -1,0 +1,8 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"This session is focused on helping to build comfort at and around our FTP. This workout consists of periods at a high intensity - 110% FTP, with recovery at a moderate intensity - 78% FTP. Working around threshold values in this way is very effective to push up FTP values, as well as teaching your physiology to produce and use lactate as a fuel source.",1,600,30,78,%,,,,,,
+,5,40,70,70,%,,20,102,102,%,
+,1,180,55,55,%,,,,,,
+,4,240,78,78,%,90,60,110,110,%,100
+,1,180,55,55,%,,,,,,
+,1,300,81,81,%,,300,78,78,%,
+,1,540,60,30,%,,,,,,

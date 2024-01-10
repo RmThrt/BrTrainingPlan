@@ -1,0 +1,10 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"A short session to get you started on your FTP journey.        With 4 x 5min moderate intensity intervals, you will be introducing yourself to the duration of the final test session in 4 weeks time.        Training at the top end of your tempo range will improve aerobic capabilities by increasing muscle glycogen stores.",1,300,42,70,%,,,,,,
+,1,120,50,50,%,,,,,,
+,1,180,70,70,%,,,,,,
+,4,10,175,175,%,110,50,50,50,%,80
+,1,120,50,50,%,,,,,,
+,1,300,90,90,%,95,,,,,
+,1,180,50,50,%,85,,,,,
+,4,300,80,80,%,,60,61,61,%,
+,1,240,50,50,%,85,,,,,

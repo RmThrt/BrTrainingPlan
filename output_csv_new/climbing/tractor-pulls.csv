@@ -1,0 +1,5 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"Tractor Pulls are big gear intervals that are designed to improve your muscular strength, as you push hard as possible against maximum resistance.  Stay Seated during these intervals and grip the handlebars tightly and push hard on those pedals for each interval.",1,600,25,75,%,,,,,,
+,3,60,75,75,%,110,60,50,50,%,90
+,10,25,300,300,%,50,180,75,75,%,90
+,1,600,75,25,%,,,,,,

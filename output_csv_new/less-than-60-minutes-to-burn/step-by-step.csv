@@ -1,0 +1,18 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"You can accomplish so much in 40 minutes, and this threshold workout is proof. This session opens with a quick warm up before the the main set of intervals kick in: 90 seconds of high power work, 30 seconds of recovery. You'll get stronger with every step.",1,300,50,75,%,85,,,,,
+,1,30,95,95,%,95,30,50,50,%,85
+,1,30,105,105,%,105,30,50,50,%,85
+,1,30,115,115,%,115,30,50,50,%,85
+,1,120,50,50,%,85,,,,,
+,1,90,110,110,%,95,30,50,50,%,85
+,1,90,112,112,%,95,30,50,50,%,85
+,1,90,114,114,%,95,30,50,50,%,85
+,1,90,116,116,%,95,30,50,50,%,85
+,1,90,118,118,%,95,30,50,50,%,85
+,1,300,50,50,%,85,,,,,
+,1,90,110,110,%,95,30,50,50,%,85
+,1,90,112,112,%,95,30,50,50,%,85
+,1,90,114,114,%,95,30,50,50,%,85
+,1,90,116,116,%,95,30,50,50,%,85
+,1,90,118,118,%,95,30,50,50,%,85
+,1,300,50,30,%,85,,,,,

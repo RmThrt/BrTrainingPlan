@@ -1,0 +1,6 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+Bike - 110 min.-35 min. @ 65% FTP-30 min. @ 70% FTP-20 min. @ 75% FTP-15 min. @ 80% FTP-10 min. @ 84% FTP ,1,2100,65,65,%,,,,,,
+,1,1800,70,70,%,,,,,,
+,1,1200,75,75,%,,,,,,
+,1,900,80,80,%,,,,,,
+,1,600,84,84,%,,,,,,

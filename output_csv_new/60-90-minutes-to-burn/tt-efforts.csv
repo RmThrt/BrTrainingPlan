@@ -1,0 +1,13 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"Time trial simulations are key to improve your time trial, along with pacing. Each of these mini-time trials is 6 minutes long and I want you to seperate each into 2 minute sections.",1,600,25,75,%,,,,,,
+,3,60,75,75,%,,60,50,50,%,
+,1,360,105,105,%,,,,,,
+,1,300,50,50,%,,,,,,
+,1,360,105,105,%,,,,,,
+,1,300,50,50,%,,,,,,
+,1,360,105,105,%,,,,,,
+,1,300,50,50,%,,,,,,
+,1,360,105,105,%,,,,,,
+,1,300,50,50,%,,,,,,
+,1,360,105,105,%,,,,,,
+,1,600,75,25,%,,,,,,

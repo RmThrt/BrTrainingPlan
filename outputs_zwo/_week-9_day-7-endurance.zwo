@@ -1,0 +1,12 @@
+<workout_file>
+    <author></author>
+    <name>_week-9_day-7-endurance</name>
+    <description>Endurance ride. Set a pace at Endurance Power and hold this pace for the prescribed workout time. Focus on riding smooth and staying relaxed. Vary your cadence.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="600" PowerLow="0.25" PowerHigh="0.7" />
+<SteadyState Duration="6000" Power="0.7" />
+<Cooldown Duration="600" PowerLow="0.67" PowerHigh="0.25" />
+</workout>
+    </workout_file>

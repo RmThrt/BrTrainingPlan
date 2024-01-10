@@ -1,0 +1,4 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"10x1min hard (Z5) with 4min recovery at steady base aerobic power. The idea here is getting comfortable with power output in the near-MAP (Maximal Aerobic Power) range but with good full recovery. The interval duration is too long to be a sprint - and you should stay seated for the entire interval - but not so long as to be overly taxing, especially with the long recovery. Keep the power up at a reasonable intensity during the recovery - it's not coasting.",1,420,33,69,%,,,,,,
+,10,60,117,117,%,,180,55,55,%,
+,1,120,55,33,%,,,,,,

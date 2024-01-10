@@ -1,0 +1,12 @@
+<workout_file>
+    <author></author>
+    <name>_week-10_free-ride</name>
+    <description>Aerobic riding on tap today after some real good work this week. This workout may be ranked a little lower in order of importance, but a very important ingredient in the overall recipe. Stay in Z1-Z2 and just ride for the fun of riding. Great day to venture out into that unknown paradise know as the outside, or find some paradise on a Zwift free ride. DO NOT test your fitness though today. It's about going easy here. Please.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="900" PowerLow="0.25" PowerHigh="0.65" />
+<SteadyState Duration="7200" Power="0.7" />
+<Cooldown Duration="900" Power="0.5" />
+</workout>
+    </workout_file>

@@ -1,0 +1,7 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"This TrainSharp test is designed to measure your 3 minute Critical Power. As with any test or race, ensure you are appropriately warmed up and motivated for this test. It is a short, but sharp, session today! The effort itself is 3 minutes in total duration. It is designed to be an un-paced effort, so ERG mode will automatically turn off for the interval. You’re on your own for those 3 min. Hit the first 30 seconds as hard as you can, out of the saddle, trying to achieve your maximum power (we will be assessing your sprint power from the first 30 seconds of this test). As you fade through the effort, use your gears to reduce the resistance and maintain cadence. Aiming for 90-100 rpm for the duration of the test. Finish this effort completely spent, go all-out. This will feel like a very long 3 minutes, the key is to not bail on the effort regardless of how much your power fades or how hard it feels!",1,900,49,92,%,,,,,,
+,1,180,51,51,%,,,,,,
+,2,30,125,125,%,105,150,49,49,%,100
+,1,300,51,51,%,,,,,,
+,1,180,0,0,0,92,,,,,
+,1,1200,64,51,%,,,,,,

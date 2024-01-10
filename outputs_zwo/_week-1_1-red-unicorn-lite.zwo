@@ -1,0 +1,35 @@
+<workout_file>
+    <author></author>
+    <name>_week-1_1-red-unicorn-lite</name>
+    <description>Going above and below functional threshold power (FTP) is a great way to increase the training impact of a workout - this is also known as 'over/unders.' Today's workout is the first of this plan's progressive over/under workout series. After a warm-up, we'll go into 2 sets of 6x (1min under and 30sec over), then cool down.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="300" PowerLow="0.4" PowerHigh="0.6" />
+<SteadyState Duration="60" Power="0.8" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="30" Power="0.95" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="30" Power="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="0.8" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<SteadyState Duration="30" Power="1.05" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<SteadyState Duration="30" Power="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="0.8" Cadence="105" CadenceLow="105" CadenceHigh="105" />
+<SteadyState Duration="30" Power="1.15" Cadence="105" CadenceLow="105" CadenceHigh="105" />
+<SteadyState Duration="30" Power="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="0.8" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="30" Power="1.05" Cadence="70" CadenceLow="70" CadenceHigh="70" />
+<SteadyState Duration="60" Power="0.8" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="30" Power="1.05" Cadence="70" CadenceLow="70" CadenceHigh="70" />
+<SteadyState Duration="60" Power="0.8" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="30" Power="1.05" Cadence="70" CadenceLow="70" CadenceHigh="70" />
+<SteadyState Duration="60" Power="0.8" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="30" Power="1.05" Cadence="70" CadenceLow="70" CadenceHigh="70" />
+<SteadyState Duration="60" Power="0.8" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="30" Power="1.05" Cadence="70" CadenceLow="70" CadenceHigh="70" />
+<SteadyState Duration="60" Power="0.8" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="30" Power="1.05" Cadence="70" CadenceLow="70" CadenceHigh="70" />
+<SteadyState Duration="120" Power="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<IntervalsT Repeat="6" OnDuration="60" OffDuration="30" OnPower="0.8" OffPower="1.05" Cadence="70" CadenceLow="70" CadenceHigh="70" CadenceResting="100" />
+<Cooldown Duration="180" PowerLow="0.75" PowerHigh="0.4" />
+</workout>
+    </workout_file>

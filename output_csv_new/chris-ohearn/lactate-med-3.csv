@@ -1,0 +1,10 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+Author: C.OHearn Z50,1,1200,55,80,%,,,,,,
+,1,720,95,95,%,,,,,,
+,1,195,55,55,%,,,,,,
+,1,600,95,95,%,,,,,,
+,1,180,55,55,%,,,,,,
+,1,480,95,95,%,,,,,,
+,1,150,55,55,%,,,,,,
+,1,600,75,55,%,,,,,,
+,1,300,0,0,0,,,,,,

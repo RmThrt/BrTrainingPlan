@@ -1,0 +1,9 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"Another low intensity workout where we focus on leg speed today. The majority of the session is spent within zone 2. However, we hit some 90sec high cadence efforts during the session. All this then culminates with a steady state zone 3 effort.",1,300,50,70,%,,,,,,
+,1,60,55,55,%,,,,,,
+,1,300,70,70,%,,,,,,
+,1,60,55,55,%,,,,,,
+,10,90,88,88,%,105,90,73,73,%,90
+,1,60,55,55,%,,,,,,
+,1,600,80,80,%,,,,,,
+,1,300,50,50,%,,,,,,

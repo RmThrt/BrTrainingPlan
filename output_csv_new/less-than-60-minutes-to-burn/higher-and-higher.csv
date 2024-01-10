@@ -1,0 +1,8 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"An endurance workout with a twist! Every 8min, we're increasing the incline by 2%, finishing at 10%!",1,480,65,80,%,,,,,,
+,1,480,95,95,%,,,,,,
+,1,480,92,92,%,,,,,,
+,1,480,90,90,%,,,,,,
+,1,480,88,88,%,,,,,,
+,1,480,85,85,%,,,,,,
+,1,300,75,50,%,,,,,,

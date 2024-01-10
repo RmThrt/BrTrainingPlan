@@ -1,0 +1,12 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"Continuing the focus on Early Base training, this session again incorporates high crank torque, interval work. However, this time we are increasing the power during the interval, while maintaining the same cadence.The session then includes some Zone 2 aerobic work with short high cadence surges.",1,300,45,75,%,,,,,,
+,2,60,80,80,%,,60,50,50,%,
+,2,60,98,98,%,,60,50,50,%,
+,1,120,50,50,%,,,,,,
+,1,480,76,91,%,80,,,,,
+,1,60,50,50,%,,,,,,
+,1,480,75,90,%,80,,,,,
+,1,60,50,50,%,,,,,,
+,1,120,50,50,%,,,,,,
+,6,165,75,75,%,,15,160,160,%,
+,1,180,50,50,%,,,,,,

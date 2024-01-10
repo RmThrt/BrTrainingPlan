@@ -1,0 +1,8 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+A zone 2 ride featuring low cadence work intervals.,1,300,30,50,%,85,,,,,
+,1,600,65,65,%,90,,,,,
+,1,600,75,75,%,75,,,,,
+,1,600,65,65,%,90,,,,,
+,1,600,75,75,%,75,,,,,
+,1,600,75,75,%,90,,,,,
+,1,300,50,30,%,,,,,,

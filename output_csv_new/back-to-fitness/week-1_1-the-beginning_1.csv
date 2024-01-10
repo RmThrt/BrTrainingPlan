@@ -1,0 +1,7 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"This workout contains a block of Zone 3 to gradually help ease you in to the workout, before completing 3 x 2 min Z5 (110% of FTP) efforts. This workout should feel like a challenge yet definitely be achievable so an ideal session for the start of a workout series.",1,300,40,105,%,,,,,,
+,1,120,50,50,%,,,,,,
+,1,300,88,88,%,,,,,,
+,1,240,50,50,%,,,,,,
+,3,120,110,110,%,,120,40,40,%,
+,1,300,70,40,%,,,,,,

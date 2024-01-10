@@ -68,3 +68,18 @@ def search_in_google(search_term):
         return first_link['href']
     except:
         return url
+
+def count_files(dir_path):
+    return len([entry for entry in os.listdir(dir_path) if os.path.isfile(os.path.join(dir_path, entry))])
+
+
+def increment_filename_if_necessary(file_path: str):
+    if os.path.exists(file_path):
+        basename, ext = os.path.splitext(file_path)
+        nb =  re.search(r'_(\d*)$',basename)
+        if nb != None and nb.group(1):
+            filename =  basename[:-len(nb.group(1))] + str(int(nb.group(1)) + 1)  + ext
+            return filename
+        return basename  + '_1' + ext
+        
+    return file_path

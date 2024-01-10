@@ -1,0 +1,12 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+Just to make sure you are being honest and getting in your threshold and Vo2 Max work.,1,600,55,72,%,,,,,,
+,6,60,95,95,%,105,60,87,87,%,85
+,1,300,72,72,%,,,,,,
+,10,30,95,95,%,,120,87,87,%,
+,1,300,87,87,%,,,,,,
+,10,30,95,95,%,,120,87,87,%,
+,1,300,87,87,%,,,,,,
+,1,300,114,114,%,,,,,,
+,1,300,87,87,%,,,,,,
+,1,300,114,114,%,,,,,,
+,1,600,72,55,%,,,,,,

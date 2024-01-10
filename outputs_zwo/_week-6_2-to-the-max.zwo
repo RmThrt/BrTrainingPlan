@@ -1,0 +1,18 @@
+<workout_file>
+    <author></author>
+    <name>_week-6_2-to-the-max</name>
+    <description>This workout takes you to the max, by completing 3 x Capacity Efforts; 5, 3 and 1 minute! Being able to produce more power for these relatively short durations translates to a much more enjoyable cycling experience - just think of those short hills that you could smash up! The key to these efforts is to be well rested and psychologically up for it - it's time to go deep!</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="300" PowerLow="0.4" PowerHigh="1.05" />
+<SteadyState Duration="120" Power="0.5" />
+<FreeRide Duration="300" />
+<SteadyState Duration="300" Power="0.5" />
+<FreeRide Duration="180" />
+<SteadyState Duration="300" Power="0.5" />
+<FreeRide Duration="60" />
+<SteadyState Duration="120" Power="0.5" />
+<Cooldown Duration="300" PowerLow="0.7" PowerHigh="0.4" />
+</workout>
+    </workout_file>

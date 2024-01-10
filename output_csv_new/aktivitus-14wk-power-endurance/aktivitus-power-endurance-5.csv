@@ -1,0 +1,10 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+Author: M.Lundqvist/Aktivitus Coaching(A),1,600,48,91,%,85,,,,,
+,2,180,100,100,%,70,60,50,50,%,80
+,2,180,105,105,%,60,60,50,50,%,90
+,2,180,110,110,%,50,60,50,50,%,100
+,1,240,42,42,%,,,,,,
+,20,10,200,200,%,,20,40,40,%,
+,7,10,200,200,%,,20,40,40,%,
+,1,30,200,200,%,,,,,,
+,1,300,38,49,%,,,,,,

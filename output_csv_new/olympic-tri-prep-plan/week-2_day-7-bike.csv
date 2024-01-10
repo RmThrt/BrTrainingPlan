@@ -1,0 +1,4 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"Bike - 65 min.-20 min. warm up-8x (20 sec. @ 135% FTP @ 85-90 rpm, 30 sec. total rest)-35 min. cooldown",1,1200,50,75,%,,,,,,
+,8,20,135,135,%,,30,10,10,%,
+,1,2100,75,50,%,,,,,,

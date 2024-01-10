@@ -1,0 +1,13 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"For the long ride this week, we start out with a block of SST intervals. The main long block of work consists of long, steady Zone 2 blocks punctuated by 5min of progressively more intensive SST.",1,600,50,75,%,,,,,,
+,1,300,75,75,%,,,,,,
+,10,120,95,95,%,,60,55,55,%,
+,1,1500,75,75,%,,,,,,
+,1,300,90,90,%,,,,,,
+,1,1500,75,75,%,,,,,,
+,1,300,95,95,%,,,,,,
+,1,1500,75,75,%,,,,,,
+,1,300,100,100,%,,,,,,
+,1,1500,75,75,%,,,,,,
+,1,300,105,105,%,,,,,,
+,1,600,75,50,%,,,,,,

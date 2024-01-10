@@ -1,0 +1,7 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"This is a variation of the classic ""Over-Under"" session where you alternate between riding just below your FTP and just above your FTP. Both of which will aid your ability to increase your threshold power and your bodies ability to process lactate.  Start with a progressive warm up, then into the main intervals. Which are 1 minute above threshold, or your 'pulling' powers then straight into 3 minutes at just below FTP, or your 'pushing' powers. Repeated for the duration of the intervals.  Recovery is 10 minutes between the two sets.  Try not to spike the power too much on the 'pulling/over' elements, aim to hold a smooth power. This effort is similar to riding in a breakaway situation - you don't want to surge when coming through and the same applies on the way back down to the 'pushing/under' element - keep on top of the resistance as it drops off.",1,900,30,90,%,,,,,,
+,1,300,38,38,%,,,,,,
+,5,60,105,105,%,,180,98,98,%,
+,1,600,38,38,%,,,,,,
+,5,60,105,105,%,,180,98,98,%,
+,1,600,46,30,%,,,,,,

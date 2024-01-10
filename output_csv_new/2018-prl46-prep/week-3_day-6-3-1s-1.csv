@@ -1,0 +1,9 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"12min intervals consisting of 3min @ 98% / 1min 62%.With the recovery period requiring some pressure on the pedals, monitor your heart rate to see if you are able to bring it back to normal recovery levels over the course of the 12min.",1,180,50,50,%,,,,,,
+,2,60,75,75,%,,60,50,50,%,
+,2,60,90,90,%,,60,50,50,%,
+,1,180,50,50,%,,,,,,
+,3,180,98,98,%,,60,62,62,%,
+,1,300,50,50,%,,,,,,
+,3,180,98,98,%,,60,62,62,%,
+,1,600,75,50,%,,,,,,

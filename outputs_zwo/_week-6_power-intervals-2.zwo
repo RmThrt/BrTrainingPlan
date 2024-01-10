@@ -1,0 +1,33 @@
+<workout_file>
+    <author></author>
+    <name>_week-6_power-intervals-2</name>
+    <description>The focus of today's session is to improve your ability to produce power. To be able to turn a big gear faster. By completing high power intervals with slightly less cadence, we increase the torque applied to the crank, boosting muscular endurance power.Two different sets of work today. The first set involves longer steady efforts, while the second set involves high power shorter efforts. However, both sets open up with a surge interval at lower cadence.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="300" PowerLow="0.45" PowerHigh="0.75" />
+<IntervalsT Repeat="2" OnDuration="60" OffDuration="60" OnPower="0.8" OffPower="0.5" />
+<IntervalsT Repeat="2" OnDuration="60" OffDuration="60" OnPower="0.98" OffPower="0.5" />
+<SteadyState Duration="60" Power="0.5" />
+<SteadyState Duration="30" Power="1.1" />
+<Ramp Duration="300" PowerLow="0.6" PowerHigh="0.75" />
+<SteadyState Duration="60" Power="0.5" />
+<SteadyState Duration="30" Power="1.1" />
+<Ramp Duration="300" PowerLow="0.6" PowerHigh="0.75" />
+<SteadyState Duration="120" Power="0.5" />
+<SteadyState Duration="30" Power="1.3" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<Ramp Duration="120" PowerLow="1.21" PowerHigh="1.5" />
+<SteadyState Duration="120" Power="0.5" />
+<SteadyState Duration="30" Power="1.3" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<Ramp Duration="120" PowerLow="1.21" PowerHigh="1.5" />
+<SteadyState Duration="120" Power="0.5" />
+<SteadyState Duration="30" Power="1.3" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<Ramp Duration="120" PowerLow="1.21" PowerHigh="1.5" />
+<SteadyState Duration="120" Power="0.5" />
+<SteadyState Duration="30" Power="1.3" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<Ramp Duration="120" PowerLow="1.21" PowerHigh="1.5" />
+<SteadyState Duration="120" Power="0.5" />
+<SteadyState Duration="480" Power="0.8" />
+<Cooldown Duration="300" PowerLow="0.75" PowerHigh="0.45" />
+</workout>
+    </workout_file>

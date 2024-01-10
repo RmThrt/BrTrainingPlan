@@ -1,0 +1,12 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"Lawson Craddock is an American professional cyclist racing for UCI WorldTeam Team BikeExchange-Jayco. This workout is a great session to build all-around fitness and build cycling specific strength. The main session is 3 min 30 seconds at 88% of FTP and 60 RPM's, right into 30 seconds at 105% of FTP anf 100+ RPM's.",1,300,50,60,%,,,,,,
+,1,300,65,90,%,,,,,,
+,1,120,55,55,%,,,,,,
+,1,210,88,88,%,60,30,105,105,%,100
+,1,180,65,65,%,,,,,,
+,1,210,88,88,%,60,30,105,105,%,100
+,1,180,65,65,%,,,,,,
+,1,210,88,88,%,60,30,105,105,%,100
+,1,180,65,65,%,,,,,,
+,1,210,88,88,%,60,30,105,105,%,100
+,1,300,65,50,%,,,,,,

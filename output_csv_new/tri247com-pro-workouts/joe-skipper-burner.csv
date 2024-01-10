@@ -1,0 +1,9 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+Author: Joe Skipper,1,360,50,75,%,,,,,,
+,1,120,50,50,%,,,,,,
+,1,600,100,100,%,,,,,,
+,1,240,50,50,%,,,,,,
+,5,180,115,115,%,,90,50,50,%,
+,1,150,50,50,%,,,,,,
+,1,600,100,100,%,,,,,,
+,1,480,60,50,%,,,,,,

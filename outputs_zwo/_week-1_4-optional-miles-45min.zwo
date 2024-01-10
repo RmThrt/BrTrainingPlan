@@ -1,0 +1,10 @@
+<workout_file>
+    <author></author>
+    <name>_week-1_4-optional-miles-45min</name>
+    <description>Today should ideally be done outdoors on your gravel bike. Aim to practice your bike handling skills, navigating around and over obstacles, and getting a feel for how different surfaces react. Otherwise, doing this ride on Zwift in the form of an unstructured endurance ride, or joining a group ride is perfect!.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="2700" />
+</workout>
+    </workout_file>

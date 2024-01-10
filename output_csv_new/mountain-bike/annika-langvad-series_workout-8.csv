@@ -1,0 +1,10 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"This workout can be likened to a race with a hard start - a steady middle and a hard finish as we complete 2 blocks of efforts at 115% of FTP (Zone 5 - Vo2 Max), with a 15 minute block of Zone 3 (82% of FTP) in the middle. We are going to complete all 6 of the Zone 5 efforts at a low cadence (60rpm) to simulate being stuck on a really steep section, where you are having to navigate around rocks - likely a fairly erratic pedalling style as your power output varies significantly from pedal stroke to pedal stroke!You will notice the second block of efforts is a lot harder, as we will have the first block of efforts already in our legs - plus the 15 minute aerobic effort too. This will help prepare you for the end of a hard race!",1,420,44,75,%,,,,,,
+,1,30,109,109,%,,,,,,
+,1,180,50,50,%,,,,,,
+,1,30,109,109,%,,,,,,
+,1,300,50,50,%,,,,,,
+,3,180,115,115,%,60,180,30,30,%,90
+,1,900,82,82,%,,,,,,
+,3,180,30,30,%,90,180,115,115,%,60
+,1,600,50,50,%,,,,,,

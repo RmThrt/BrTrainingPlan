@@ -1,0 +1,14 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"Welcome to the first bike workout in your Zwift Academy Tri journey! Specific strength is a critical component for long course triathlon. This session aims to produce large amounts of muscular force with limited disturbance to the cardiovascular systems.        Many professional and top long course triathletes include regular endurance strength work in their training routines, and for good reason. Research has shown that training at a lower cadence produces significant power benefits compared to training at a higher cadence.        These types of sessions are great if you’ve got tired legs but still want a quality workout. This session in particular is made up of 9x4 minute reps where the cadence is kept low (65–55 rpm) and at a moderate intensity (between 70.3 and long course effort). If you’ve ever done ""drop-sets"" in the gym, this is the cycling-specific equivalent.         For WHOOP users — This workout is good to do on a Yellow or Green Recovery day. Due to its lower training demands, expect a lower level of strain from this session, which is ideal for days where you aren’t fully recovered.",1,300,45,80,%,,,,,,
+,2,40,80,80,%,65,20,55,55,%,90
+,1,60,55,55,%,,,,,,
+,1,240,83,83,%,65,120,55,55,%,90
+,1,240,83,83,%,60,120,55,55,%,90
+,1,240,83,83,%,55,120,55,55,%,90
+,1,240,83,83,%,65,120,55,55,%,90
+,1,240,83,83,%,60,120,55,55,%,90
+,1,240,83,83,%,55,120,55,55,%,90
+,1,240,83,83,%,65,120,55,55,%,90
+,1,240,83,83,%,60,120,55,55,%,90
+,1,240,83,83,%,55,120,55,55,%,90
+,1,180,75,55,%,,,,,,

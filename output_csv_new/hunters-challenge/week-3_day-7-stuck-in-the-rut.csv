@@ -1,0 +1,7 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"Do 2 x20 minutes at Sub FTP watts (89%)-today, then 5 minutes rest. Then do 10x1 minute fast pedaling, but I want these to be HARDER than the normal ones. Put more effort into them. Recovery is still only one minute though. Just make sure you keep cadence over 105rpm.",1,300,55,72,%,,,,,,
+,1,1200,87,87,%,,,,,,
+,1,300,72,72,%,,,,,,
+,1,1200,87,87,%,,,,,,
+,10,60,114,114,%,105,60,72,72,%,85
+,1,600,72,55,%,,,,,,

@@ -1,0 +1,12 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"For this workout, we have a structured warm-up. Then there are two blocks of three-repetition over-under intervals that bracket a long block of free-ride, only for this workout, we leave the natural terrain of Zwift turned ON. So pick a route with some challenging terrain - in the middle of this workout you will be free-riding, but you will still feel the terrain. A nice mix here of structure and nature variance.",1,300,55,75,%,,,,,,
+,1,60,50,50,%,,,,,,
+,1,120,81,81,%,,,,,,
+,1,60,95,95,%,,,,,,
+,1,120,65,65,%,,,,,,
+,3,60,110,110,%,,90,90,90,%,
+,1,1180,0,0,0,,,,,,
+,1,120,65,65,%,,,,,,
+,1,60,81,81,%,,,,,,
+,3,20,135,135,%,,120,85,85,%,
+,1,110,65,45,%,,,,,,

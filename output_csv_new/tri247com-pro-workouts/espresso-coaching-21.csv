@@ -1,0 +1,11 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+Author: Espresso Performance Coaching,1,480,50,75,%,,,,,,
+,1,60,50,50,%,,,,,,
+,2,20,100,100,%,,20,50,50,%,
+,1,120,50,50,%,,,,,,
+,7,60,113,113,%,,30,50,50,%,
+,1,210,50,50,%,,,,,,
+,10,40,118,118,%,,20,50,50,%,
+,1,210,50,50,%,,,,,,
+,13,30,123,123,%,,15,50,50,%,
+,1,625,50,25,%,,,,,,

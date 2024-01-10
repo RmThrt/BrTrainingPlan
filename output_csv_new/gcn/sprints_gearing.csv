@@ -1,0 +1,8 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"Small ring and big ring sprints today.  The goal with the small ring is to enhance your explosiveness, so focus on your jump.  The Big rings are longer, designed to enhance your resistance to fatigue. Warm-up for 10 minutes, then do (3) x 1minute fast pedaling drills to finish your warm-up. Then do 3 minutes at tempo.  Then begin (6) x small ring sprints. These are short 15 seconds, explosive efforts.  After you complete these, then 3minutes at tempo and then do (6) Big Ring sprints , each is 25 second emphasizing your fatigue resistance.  Be sure to keep cadence at 90rpm between sprint and recover well. Cool down.",1,600,25,75,%,,,,,,
+,3,60,75,75,%,,60,50,50,%,
+,1,180,81,81,%,,,,,,
+,6,15,300,300,%,,180,75,75,%,
+,1,180,81,81,%,,,,,,
+,6,25,250,250,%,,180,50,50,%,
+,1,300,75,25,%,,,,,,
