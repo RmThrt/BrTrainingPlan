@@ -1,0 +1,18 @@
+<workout_file>
+    <author></author>
+    <name>week-2_day-1-the-quick-fix</name>
+    <description>Threshold and Vo2 Max! Just to make sure you are being honest and getting in your threshold and Vo2 Max work.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="600" PowerLow="0.55" PowerHigh="0.87" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<IntervalsT Repeat="6" OnDuration="60" OffDuration="60" OnPower="1.14" OffPower="0.95" Cadence="115" CadenceLow="115" CadenceHigh="115" CadenceResting="80" />
+<SteadyState Duration="300" Power="0.72" />
+<IntervalsT Repeat="5" OnDuration="120" OffDuration="30" OnPower="0.95" OffPower="1.15" />
+<SteadyState Duration="300" Power="0.72" />
+<IntervalsT Repeat="5" OnDuration="120" OffDuration="30" OnPower="0.95" OffPower="1.15" />
+<SteadyState Duration="300" Power="0.72" />
+<IntervalsT Repeat="2" OnDuration="300" OffDuration="300" OnPower="1.14" OffPower="0.72" />
+<Cooldown Duration="600" PowerLow="0.87" PowerHigh="0.72" />
+</workout>
+    </workout_file>

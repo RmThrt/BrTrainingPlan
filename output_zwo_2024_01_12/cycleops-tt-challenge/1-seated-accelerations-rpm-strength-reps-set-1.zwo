@@ -1,0 +1,12 @@
+<workout_file>
+    <author></author>
+    <name>1-seated-accelerations-rpm-strength-reps-set-1</name>
+    <description>Author: Pav Bryan (Direct Power Coaching)</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="900" Power="0.4" />
+<IntervalsT Repeat="6" OnDuration="30" OffDuration="180" OnPower="2.0" OffPower="0.55" />
+<Cooldown Duration="540" Power="0.4" />
+</workout>
+    </workout_file>

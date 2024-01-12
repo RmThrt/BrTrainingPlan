@@ -1,0 +1,24 @@
+<workout_file>
+    <author></author>
+    <name>gplama-ultimate-warm-up</name>
+    <description>Author: S.Miller | GPLama</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="420" />
+<SteadyState Duration="480" Power="0.85" />
+<FreeRide Duration="150" />
+<SteadyState Duration="60" Power="1.01" />
+<FreeRide Duration="150" />
+<SteadyState Duration="10" Power="1.5" />
+<FreeRide Duration="25" />
+<SteadyState Duration="10" Power="1.5" />
+<FreeRide Duration="25" />
+<SteadyState Duration="10" Power="1.5" />
+<FreeRide Duration="25" />
+<SteadyState Duration="10" Power="1.5" />
+<FreeRide Duration="25" />
+<SteadyState Duration="10" Power="1.5" />
+<Cooldown Duration="150" />
+</workout>
+    </workout_file>

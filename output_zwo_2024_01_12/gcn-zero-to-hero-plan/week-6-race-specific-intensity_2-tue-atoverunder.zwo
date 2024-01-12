@@ -1,0 +1,23 @@
+<workout_file>
+    <author></author>
+    <name>week-6-race-specific-intensity_2-tue-atoverunder</name>
+    <description>Today's intervals are designed to increase your body's ability to buffer lactic acid and increase lactate tolerance. The intervals themselves are 3, 3min intervals, starting off 'at' FTP, then going up to zone 5 (over), and finishing at zone 3 (under). So, these are 'at' over/under intervals more specifically :-)</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="600" PowerLow="0.48" PowerHigh="0.95" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="110" Power="0.54" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="180" Power="1.0" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="180" Power="1.08" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="180" Power="0.9" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="180" Power="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="180" Power="1.0" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="180" Power="1.08" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="180" Power="0.9" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="180" Power="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="180" Power="1.0" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="180" Power="1.08" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="180" Power="0.9" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<Cooldown Duration="180" PowerLow="0.65" PowerHigh="0.45" />
+</workout>
+    </workout_file>

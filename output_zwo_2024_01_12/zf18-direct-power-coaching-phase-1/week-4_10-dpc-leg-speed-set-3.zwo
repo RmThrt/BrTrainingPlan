@@ -1,0 +1,17 @@
+<workout_file>
+    <author></author>
+    <name>week-4_10-dpc-leg-speed-set-3</name>
+    <description>Author: Direct Power Coaching (Zwift Fitness)</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="300" PowerLow="0.25" PowerHigh="0.75" />
+<SteadyState Duration="900" Power="0.6" />
+<SteadyState Duration="300" Power="0.5" Cadence="70" CadenceLow="70" CadenceHigh="70" />
+<SteadyState Duration="900" Power="0.6" />
+<SteadyState Duration="300" Power="0.5" Cadence="70" CadenceLow="70" CadenceHigh="70" />
+<SteadyState Duration="900" Power="0.6" />
+<SteadyState Duration="300" Power="0.5" Cadence="70" CadenceLow="70" CadenceHigh="70" />
+<Cooldown Duration="300" PowerLow="0.5" PowerHigh="0.24" />
+</workout>
+    </workout_file>

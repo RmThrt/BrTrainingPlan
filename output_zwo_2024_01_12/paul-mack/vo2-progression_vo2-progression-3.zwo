@@ -1,0 +1,31 @@
+<workout_file>
+    <author></author>
+    <name>vo2-progression_vo2-progression-3</name>
+    <description>Author: Paul Mack</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="180" Power="0.6" />
+<SteadyState Duration="30" Power="0.95" />
+<SteadyState Duration="55" Power="0.45" />
+<SteadyState Duration="180" Power="0.6" />
+<SteadyState Duration="30" Power="0.95" />
+<SteadyState Duration="55" Power="0.45" />
+<SteadyState Duration="180" Power="0.6" />
+<SteadyState Duration="30" Power="0.95" />
+<SteadyState Duration="55" Power="0.45" />
+<SteadyState Duration="180" Power="0.6" />
+<SteadyState Duration="30" Power="0.95" />
+<SteadyState Duration="55" Power="0.45" />
+<SteadyState Duration="180" Power="0.6" />
+<SteadyState Duration="30" Power="0.95" />
+<SteadyState Duration="55" Power="0.45" />
+<IntervalsT Repeat="10" OnDuration="30" OffDuration="30" OnPower="1.2" OffPower="0.55" />
+<SteadyState Duration="300" Power="0.55" />
+<IntervalsT Repeat="10" OnDuration="15" OffDuration="15" OnPower="1.2" OffPower="0.55" />
+<SteadyState Duration="300" Power="0.55" />
+<IntervalsT Repeat="10" OnDuration="15" OffDuration="15" OnPower="1.2" OffPower="0.55" />
+<SteadyState Duration="300" Power="0.55" />
+<IntervalsT Repeat="3" OnDuration="360" OffDuration="305" OnPower="0.9" OffPower="0.55" />
+</workout>
+    </workout_file>

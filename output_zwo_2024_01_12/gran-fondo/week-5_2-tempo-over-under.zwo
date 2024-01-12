@@ -1,0 +1,12 @@
+<workout_file>
+    <author></author>
+    <name>week-5_2-tempo-over-under</name>
+    <description>This is a workout where topography can present a real challenge to effective execution outdoors. The speeds at race effort for elite athletes can likewise present a problem for more elite athletes. The purpose of this workout is to sustain work at a specific race-pace with recovery at a relatively high-intensity that nevertheless is easy enough to be sustainable.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="300" PowerLow="0.33" PowerHigh="0.66" />
+<IntervalsT Repeat="5" OnDuration="240" OffDuration="240" OnPower="0.91" OffPower="0.8" />
+<Cooldown Duration="300" />
+</workout>
+    </workout_file>

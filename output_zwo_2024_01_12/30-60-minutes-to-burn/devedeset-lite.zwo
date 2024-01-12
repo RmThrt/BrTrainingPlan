@@ -1,0 +1,18 @@
+<workout_file>
+    <author></author>
+    <name>devedeset-lite</name>
+    <description>Training in the power zone just below your functional threshold power (FTP) is a super effective and efficient way to raise your fitness - this is also called the 'sweet spot zone. Today's workout is this plan's introduction to that zone. After a warm-up, we'll go into 2, 8min long sweet spot intervals with 3min of rest in between, then cool down.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="300" PowerLow="0.25" PowerHigh="0.75" />
+<IntervalsT Repeat="1" OnDuration="30" OffDuration="30" OnPower="0.95" OffPower="0.5" Cadence="95" CadenceLow="95" CadenceHigh="95" CadenceResting="85" />
+<IntervalsT Repeat="1" OnDuration="30" OffDuration="30" OnPower="1.05" OffPower="0.5" Cadence="105" CadenceLow="105" CadenceHigh="105" CadenceResting="85" />
+<IntervalsT Repeat="1" OnDuration="30" OffDuration="30" OnPower="1.15" OffPower="0.5" Cadence="115" CadenceLow="115" CadenceHigh="115" CadenceResting="85" />
+<SteadyState Duration="120" Power="0.5" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="480" Power="0.9" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="180" Power="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="480" Power="0.9" Cadence="80" CadenceLow="80" CadenceHigh="80" />
+<Cooldown Duration="180" PowerLow="0.55" PowerHigh="0.25" />
+</workout>
+    </workout_file>

@@ -1,0 +1,5 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"Designed to increase your overall speed in a time trial, by improving your Functional Threshold Power, do these intervals with 5 rpm faster cadence than your normal cadence.  Warm-up for 10minutes with 3 x 1minute fast pedaling intervals >110rpm. Then do (4) x 10 minutes at 105% of your FTP with a cadence 5rpm faster than normal.  Rest for 5 minutes at endurance pace between each. Cool-down.",1,600,25,75,%,,,,,,
+,3,60,75,75,%,,60,50,50,%,
+,4,600,105,105,%,,300,70,70,%,
+,1,600,75,25,%,,,,,,

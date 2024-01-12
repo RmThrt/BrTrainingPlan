@@ -1,0 +1,25 @@
+<workout_file>
+    <author></author>
+    <name>recovery_odzwifters-spin-up-recovery</name>
+    <description>Author: ODZwifters</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="300" Power="0.3" />
+<SteadyState Duration="30" Power="0.5" />
+<SteadyState Duration="300" Power="0.3" />
+<SteadyState Duration="30" Power="0.5" />
+<SteadyState Duration="300" Power="0.3" />
+<SteadyState Duration="30" Power="0.5" />
+<SteadyState Duration="300" Power="0.3" />
+<SteadyState Duration="30" Power="0.5" />
+<SteadyState Duration="300" Power="0.3" />
+<SteadyState Duration="30" Power="0.5" />
+<SteadyState Duration="300" Power="0.3" />
+<SteadyState Duration="30" Power="0.5" />
+<SteadyState Duration="300" Power="0.3" />
+<SteadyState Duration="30" Power="0.5" />
+<SteadyState Duration="300" Power="0.3" />
+<Cooldown Duration="30" Power="0.5" />
+</workout>
+    </workout_file>

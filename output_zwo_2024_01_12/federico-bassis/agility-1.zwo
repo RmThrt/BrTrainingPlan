@@ -1,0 +1,26 @@
+<workout_file>
+    <author></author>
+    <name>agility-1</name>
+    <description>Author: f.bassis</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="485" PowerLow="0.34" PowerHigh="0.75" />
+<SteadyState Duration="300" Power="0.81" />
+<Ramp Duration="300" PowerLow="0.81" PowerHigh="0.92" />
+<Ramp Duration="300" PowerLow="0.92" PowerHigh="1.05" />
+<FreeRide Duration="240" />
+<SteadyState Duration="180" Power="0.76" Cadence="105" CadenceLow="105" CadenceHigh="105" />
+<SteadyState Duration="120" Power="0.85" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="120" Power="1.0" Cadence="80" CadenceLow="80" CadenceHigh="80" />
+<SteadyState Duration="120" Power="0.85" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="180" Power="0.76" Cadence="105" CadenceLow="105" CadenceHigh="105" />
+<FreeRide Duration="180" />
+<SteadyState Duration="60" Power="1.07" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="180" Power="0.88" />
+<SteadyState Duration="180" Power="0.67" Cadence="105" CadenceLow="105" CadenceHigh="105" />
+<SteadyState Duration="180" Power="0.85" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="1.1" />
+<Cooldown Duration="420" PowerLow="0.75" PowerHigh="0.51" />
+</workout>
+    </workout_file>

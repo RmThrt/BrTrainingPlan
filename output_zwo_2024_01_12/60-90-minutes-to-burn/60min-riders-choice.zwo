@@ -1,0 +1,10 @@
+<workout_file>
+    <author></author>
+    <name>60min-riders-choice</name>
+    <description>Do what you want without the fear of hills and descents as this workout supplies you with a flat road to work with.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="3600" />
+</workout>
+    </workout_file>

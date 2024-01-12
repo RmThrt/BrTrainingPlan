@@ -1,0 +1,13 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"Cycling is about becoming comfortable at being uncomfortable. This type of effort is exactly that! The initial power will not hurt the legs but as the effort goes on and you start using up the substrate (fuel) in your body, it's amazing how quickly a relatively easy effort can turn quite nasty on you. A 20min effort is the main set, then once the legs are carrying some fatigue, we'll move onto 5 x 1min bang on FTP.",1,180,45,60,%,85,,,,,
+,1,60,60,60,%,90,,,,,
+,1,60,65,65,%,95,,,,,
+,1,60,81,81,%,100,,,,,
+,1,60,109,109,%,105,,,,,
+,1,120,50,50,%,85,,,,,
+,1,240,95,95,%,90,,,,,
+,1,180,50,50,%,85,,,,,
+,1,1200,85,91,%,90,,,,,
+,1,120,50,50,%,85,,,,,
+,5,60,100,100,%,100,120,50,50,%,85
+,1,120,50,40,%,85,,,,,

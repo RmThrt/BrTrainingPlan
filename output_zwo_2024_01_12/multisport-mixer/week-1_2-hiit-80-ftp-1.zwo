@@ -1,0 +1,18 @@
+<workout_file>
+    <author></author>
+    <name>week-1_2-hiit-80-ftp-1</name>
+    <description>A short session to get you started on your FTP journey.With 4 x 5min moderate intensity intervals, you will be introducing yourself to the duration of the final test session in 4 weeks time.Training at the top end of your tempo range will improve aerobic capabilities by increasing muscle glycogen stores.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="300" PowerLow="0.42" PowerHigh="0.7" />
+<SteadyState Duration="120" Power="0.5" />
+<SteadyState Duration="180" Power="0.7" />
+<IntervalsT Repeat="4" OnDuration="10" OffDuration="50" OnPower="1.75" OffPower="0.5" Cadence="110" CadenceLow="110" CadenceHigh="110" CadenceResting="80" />
+<SteadyState Duration="120" Power="0.5" />
+<SteadyState Duration="300" Power="0.9" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="180" Power="0.5" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<IntervalsT Repeat="4" OnDuration="300" OffDuration="60" OnPower="0.8" OffPower="0.61" />
+<Cooldown Duration="240" Power="0.5" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+</workout>
+    </workout_file>

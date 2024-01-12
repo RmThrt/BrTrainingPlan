@@ -1,0 +1,27 @@
+<workout_file>
+    <author></author>
+    <name>turning-the-screw</name>
+    <description>Author: Rhys Jones (JinxSport.com)</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="600" PowerLow="0.55" PowerHigh="0.8" />
+<SteadyState Duration="120" Power="0.6" />
+<IntervalsT Repeat="4" OnDuration="40" OffDuration="20" OnPower="1.1" OffPower="0.5" />
+<SteadyState Duration="120" Power="0.6" />
+<Ramp Duration="240" PowerLow="0.85" PowerHigh="1.2" />
+<SteadyState Duration="120" Power="0.5" />
+<Ramp Duration="240" PowerLow="0.85" PowerHigh="1.2" />
+<SteadyState Duration="120" Power="0.5" />
+<Ramp Duration="240" PowerLow="0.85" PowerHigh="1.2" />
+<SteadyState Duration="120" Power="0.5" />
+<Ramp Duration="240" PowerLow="0.85" PowerHigh="1.2" />
+<SteadyState Duration="120" Power="0.5" />
+<Ramp Duration="240" PowerLow="0.85" PowerHigh="1.2" />
+<SteadyState Duration="120" Power="0.5" />
+<Ramp Duration="240" PowerLow="0.85" PowerHigh="1.2" />
+<SteadyState Duration="120" Power="0.5" />
+<IntervalsT Repeat="4" OnDuration="40" OffDuration="20" OnPower="1.1" OffPower="0.5" />
+<Cooldown Duration="120" Power="0.6" />
+</workout>
+    </workout_file>

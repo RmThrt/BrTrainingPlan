@@ -1,0 +1,24 @@
+<workout_file>
+    <author></author>
+    <name>zeus</name>
+    <description>Author: Zee Kryder</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="420" PowerLow="0.47" PowerHigh="0.7" />
+<SteadyState Duration="60" Power="0.78" />
+<Ramp Duration="180" PowerLow="0.5" PowerHigh="0.62" />
+<SteadyState Duration="270" Power="0.63" />
+<Ramp Duration="180" PowerLow="0.6" PowerHigh="0.68" />
+<SteadyState Duration="30" Power="0.9" />
+<Ramp Duration="180" PowerLow="0.5" PowerHigh="0.62" />
+<SteadyState Duration="195" Power="0.63" />
+<Ramp Duration="180" PowerLow="0.6" PowerHigh="0.68" />
+<SteadyState Duration="45" Power="0.92" />
+<Ramp Duration="180" PowerLow="0.5" PowerHigh="0.62" />
+<SteadyState Duration="240" Power="0.63" />
+<Ramp Duration="180" PowerLow="0.63" PowerHigh="0.68" />
+<SteadyState Duration="60" Power="0.94" />
+<Cooldown Duration="300" />
+</workout>
+    </workout_file>

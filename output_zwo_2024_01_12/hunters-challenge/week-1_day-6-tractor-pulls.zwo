@@ -1,0 +1,18 @@
+<workout_file>
+    <author></author>
+    <name>week-1_day-6-tractor-pulls</name>
+    <description>Tractor Pulls help to build muscular strength and even improve your sprint! Make sure to slowly get into this gear, so start at less than 8mph, keep your hands in the drops, tighten your abdominals and stay seated for the entire interval. ONLY start the 30 second clock once you are in the gear and actually controlled and rolling smooth. Your cadence should be 40-50 RPM when you start and around 95rpm when you stop. This is about strength, not speed.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="600" PowerLow="0.55" PowerHigh="0.72" />
+<SteadyState Duration="300" Power="0.95" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="300" Power="0.72" />
+<SteadyState Duration="540" Power="0.95" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="300" Power="0.72" />
+<IntervalsT Repeat="10" OnDuration="60" OffDuration="60" OnPower="1.14" OffPower="0.95" Cadence="55" CadenceLow="55" CadenceHigh="55" CadenceResting="90" />
+<SteadyState Duration="300" Power="0.72" />
+<IntervalsT Repeat="6" OnDuration="60" OffDuration="60" OnPower="0.87" OffPower="0.72" Cadence="55" CadenceLow="55" CadenceHigh="55" CadenceResting="90" />
+<Cooldown Duration="900" PowerLow="0.72" PowerHigh="0.55" />
+</workout>
+    </workout_file>

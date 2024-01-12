@@ -1,0 +1,23 @@
+<workout_file>
+    <author></author>
+    <name>za-2017_vo2-intermittent-semi-finals</name>
+    <description>This VO2 session requires focus, a strong mindset and the ability to dig deep to complete the efforts. You may find this workout easier to complete out of ERG mode to ensure quick adjustment of the resistance. The main interval consists of 5 minutes at - or just below - your FTP, then straight into 5 minutes of seated sprints, repeated throughout the duration. Then to finish, 5 minutes of FTP again. Aim to hold the same power for this final 5 minutes as your first 5 minute effort. Aim to complete 3 of these 15 minute intervals, but we would rather you completed 2 really good ones than 3 intervals where you are barely hitting the power targets. Breathing during the efforts is strained and not rhythmic, you should feel as though you are on the brink of failure throughout the Intermittent intervals. Make sure you have enough fluids for this session, a good quality fan and even a gel to help you through it!</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="900" PowerLow="0.3" PowerHigh="0.9" />
+<SteadyState Duration="300" Power="0.35" />
+<SteadyState Duration="300" Power="0.95" />
+<IntervalsT Repeat="10" OnDuration="15" OffDuration="25" OnPower="2.4" OffPower="0.6" />
+<SteadyState Duration="300" Power="0.95" />
+<SteadyState Duration="300" Power="0.38" />
+<SteadyState Duration="300" Power="0.95" />
+<IntervalsT Repeat="10" OnDuration="15" OffDuration="25" OnPower="2.4" OffPower="0.6" />
+<SteadyState Duration="300" Power="0.95" />
+<SteadyState Duration="300" Power="0.38" />
+<SteadyState Duration="300" Power="0.95" />
+<IntervalsT Repeat="10" OnDuration="15" OffDuration="25" OnPower="2.4" OffPower="0.6" />
+<SteadyState Duration="300" Power="0.95" />
+<Cooldown Duration="600" PowerLow="0.46" PowerHigh="0.3" />
+</workout>
+    </workout_file>

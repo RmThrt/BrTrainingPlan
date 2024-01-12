@@ -1,0 +1,11 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+Author: Derek Rush,1,720,25,95,%,,,,,,
+,1,120,50,50,%,,,,,,
+,20,10,200,200,%,,20,30,30,%,
+,1,280,50,50,%,,,,,,
+,20,10,200,200,%,,20,30,30,%,
+,1,280,50,50,%,,,,,,
+,20,10,200,200,%,,10,30,30,%,
+,1,280,50,50,%,,,,,,
+,15,15,140,140,%,,165,75,75,%,
+,1,600,75,25,%,,,,,,

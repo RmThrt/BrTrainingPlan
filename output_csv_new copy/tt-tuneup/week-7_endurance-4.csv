@@ -1,0 +1,11 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"Building endurance doesn't just involve long, low power efforts. In this session we challenge your aerobic energy pathways with a range of efforts. Opening with a longer Zone 2 effort, we build into a some neuromuscular work, before finishing with a Zone 3 effort that starts at the top of the range and gradually decreases.",1,300,45,75,%,,,,,,
+,5,30,65,65,%,,30,89,89,%,
+,1,180,50,50,%,,,,,,
+,1,30,125,125,%,,,,,,
+,1,600,55,75,%,,,,,,
+,4,15,150,150,%,,300,76,76,%,
+,1,180,75,50,%,,,,,,
+,1,30,125,125,%,,,,,,
+,1,600,90,76,%,,,,,,
+,1,300,75,45,%,,,,,,

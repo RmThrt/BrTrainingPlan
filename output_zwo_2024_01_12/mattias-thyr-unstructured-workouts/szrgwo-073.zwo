@@ -1,0 +1,34 @@
+<workout_file>
+    <author></author>
+    <name>szrgwo-073</name>
+    <description>Author: Mattias Thyr</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="300" PowerLow="0.25" PowerHigh="0.75" />
+<Ramp Duration="450" PowerLow="0.75" PowerHigh="1.1" Cadence="110" CadenceLow="110" CadenceHigh="110" />
+<Ramp Duration="450" PowerLow="1.1" PowerHigh="0.8" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<SteadyState Duration="120" Power="0.8" />
+<SteadyState Duration="30" Power="1.1" />
+<SteadyState Duration="15" Power="1.25" />
+<SteadyState Duration="100" Power="0.8" />
+<SteadyState Duration="30" Power="1.1" />
+<SteadyState Duration="15" Power="1.25" />
+<SteadyState Duration="90" Power="0.8" />
+<SteadyState Duration="30" Power="1.1" />
+<SteadyState Duration="15" Power="1.25" />
+<SteadyState Duration="70" Power="0.8" />
+<SteadyState Duration="30" Power="1.1" />
+<SteadyState Duration="15" Power="1.25" />
+<SteadyState Duration="60" Power="0.8" />
+<SteadyState Duration="30" Power="1.1" />
+<SteadyState Duration="15" Power="1.25" />
+<FreeRide Duration="180" />
+<SteadyState Duration="420" Power="0.96" Cadence="105" CadenceLow="105" CadenceHigh="105" />
+<SteadyState Duration="60" Power="0.8" />
+<SteadyState Duration="300" Power="0.98" />
+<SteadyState Duration="60" Power="0.8" />
+<SteadyState Duration="300" Power="1.0" />
+<Cooldown Duration="180" PowerLow="0.75" PowerHigh="0.25" />
+</workout>
+    </workout_file>

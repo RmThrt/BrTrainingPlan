@@ -1,0 +1,35 @@
+<workout_file>
+    <author></author>
+    <name>tt4-training-for-the-1st-5-min</name>
+    <description>This workout has the goal to help the cardio-respiratory system reach the maximum efficiency without an excessive lactic acid accumulation at the start of a Time Trial, helping raise the Vo2 max (directly correlated to heart rate) as fast as possible.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="900" PowerLow="0.4" PowerHigh="0.75" />
+<SteadyState Duration="120" Power="0.51" />
+<Ramp Duration="30" PowerLow="0.55" PowerHigh="1.0" />
+<SteadyState Duration="90" Power="1.0" />
+<SteadyState Duration="120" Power="0.28" />
+<Ramp Duration="30" PowerLow="0.55" PowerHigh="1.0" />
+<SteadyState Duration="90" Power="1.0" />
+<SteadyState Duration="120" Power="0.28" />
+<Ramp Duration="30" PowerLow="0.55" PowerHigh="1.0" />
+<SteadyState Duration="90" Power="1.0" />
+<SteadyState Duration="120" Power="0.28" />
+<Ramp Duration="30" PowerLow="0.55" PowerHigh="1.0" />
+<SteadyState Duration="90" Power="1.0" />
+<SteadyState Duration="120" Power="0.28" />
+<Ramp Duration="30" PowerLow="0.55" PowerHigh="1.0" />
+<SteadyState Duration="90" Power="1.0" />
+<SteadyState Duration="120" Power="0.28" />
+<Ramp Duration="30" PowerLow="0.55" PowerHigh="1.0" />
+<SteadyState Duration="90" Power="1.0" />
+<SteadyState Duration="120" Power="0.28" />
+<Ramp Duration="30" PowerLow="0.55" PowerHigh="1.0" />
+<SteadyState Duration="90" Power="1.0" />
+<SteadyState Duration="120" Power="0.28" />
+<Ramp Duration="30" PowerLow="0.55" PowerHigh="1.0" />
+<SteadyState Duration="90" Power="1.0" />
+<Cooldown Duration="120" Power="0.28" />
+</workout>
+    </workout_file>

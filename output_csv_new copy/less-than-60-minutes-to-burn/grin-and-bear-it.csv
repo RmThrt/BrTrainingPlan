@@ -1,0 +1,9 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"Put on your spelunking helmet, because we're going deep into the pain cave. A series of short, hard efforts will wear you down, before a long mega-effort pushes you to the limit. The only way through is to grin and bear it.",1,300,50,75,%,85,,,,,
+,1,120,75,90,%,95,,,,,
+,1,60,90,100,%,100,,,,,
+,1,120,50,50,%,85,,,,,
+,10,30,105,105,%,95,30,50,50,%,85
+,10,30,108,108,%,95,30,50,50,%,85
+,1,300,110,110,%,90,,,,,
+,1,300,50,30,%,85,,,,,

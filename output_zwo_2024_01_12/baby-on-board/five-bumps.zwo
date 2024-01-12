@@ -1,0 +1,21 @@
+<workout_file>
+    <author></author>
+    <name>five-bumps</name>
+    <description>This session includes 5 x 2 minute progressive intervals, with 2 minutes recovery between each effort. You should always be able to talk throughout and remember to listen to your body.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="300" PowerLow="0.25" PowerHigh="0.7" />
+<SteadyState Duration="120" Power="0.51" />
+<Ramp Duration="120" PowerLow="0.75" PowerHigh="0.95" />
+<SteadyState Duration="120" Power="0.5" />
+<Ramp Duration="120" PowerLow="0.75" PowerHigh="0.95" />
+<SteadyState Duration="120" Power="0.5" />
+<Ramp Duration="120" PowerLow="0.75" PowerHigh="0.95" />
+<SteadyState Duration="120" Power="0.5" />
+<Ramp Duration="120" PowerLow="0.76" PowerHigh="0.96" />
+<SteadyState Duration="120" Power="0.5" />
+<Ramp Duration="120" PowerLow="0.75" PowerHigh="0.95" />
+<Cooldown Duration="300" PowerLow="0.65" PowerHigh="0.35" />
+</workout>
+    </workout_file>

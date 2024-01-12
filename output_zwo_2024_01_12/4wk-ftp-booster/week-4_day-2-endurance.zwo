@@ -1,0 +1,10 @@
+<workout_file>
+    <author></author>
+    <name>week-4_day-2-endurance</name>
+    <description>A steady endurance ride today.Don't forget it's fine to miss a day if you have to. Just move onto the next planned session.Ride as you feel aiming to keep power within Zone 2.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="3600" />
+</workout>
+    </workout_file>

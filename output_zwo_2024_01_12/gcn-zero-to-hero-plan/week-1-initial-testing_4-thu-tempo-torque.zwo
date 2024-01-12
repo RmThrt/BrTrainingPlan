@@ -1,0 +1,23 @@
+<workout_file>
+    <author></author>
+    <name>week-1-initial-testing_4-thu-tempo-torque</name>
+    <description>Today's session is all about pedaling technique and building efficiency in your pedal stroke. We'll break today's 15min efforts into 3 x 5min. The 1st and 3rd 5min is to be done at 80 RPM, but the middle 5min interval is to be done at 60 RPM. By pedaling slower we engage all our muscles throughout the pedal stroke. This teaches us a neuromuscular pathway that over time becomes stronger, more efficient, and second nature.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="180" PowerLow="0.45" PowerHigh="0.6" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="0.6" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="60" Power="0.65" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="60" Power="0.81" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<SteadyState Duration="60" Power="1.09" Cadence="105" CadenceLow="105" CadenceHigh="105" />
+<SteadyState Duration="180" Power="0.5" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<Ramp Duration="300" PowerLow="0.76" PowerHigh="0.89" Cadence="80" CadenceLow="80" CadenceHigh="80" />
+<Ramp Duration="300" PowerLow="0.76" PowerHigh="0.89" Cadence="60" CadenceLow="60" CadenceHigh="60" />
+<Ramp Duration="300" PowerLow="0.76" PowerHigh="0.89" Cadence="80" CadenceLow="80" CadenceHigh="80" />
+<SteadyState Duration="120" Power="0.5" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<Ramp Duration="300" PowerLow="0.76" PowerHigh="0.89" Cadence="80" CadenceLow="80" CadenceHigh="80" />
+<Ramp Duration="300" PowerLow="0.76" PowerHigh="0.89" Cadence="60" CadenceLow="60" CadenceHigh="60" />
+<Ramp Duration="300" PowerLow="0.76" PowerHigh="0.89" Cadence="80" CadenceLow="80" CadenceHigh="80" />
+<Cooldown Duration="300" PowerLow="0.75" PowerHigh="0.45" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+</workout>
+    </workout_file>

@@ -1,0 +1,14 @@
+<workout_file>
+    <author></author>
+    <name>week-3_b-88-ftp-3x20</name>
+    <description>Author: Shayne Gaffney | GC Coaching (via TrainingPeaks)</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="360" PowerLow="0.4" PowerHigh="0.6" />
+<SteadyState Duration="240" Power="0.6" />
+<SteadyState Duration="180" Power="0.8" />
+<SteadyState Duration="120" Power="0.55" />
+<IntervalsT Repeat="3" OnDuration="1200" OffDuration="180" OnPower="0.88" OffPower="0.55" />
+</workout>
+    </workout_file>

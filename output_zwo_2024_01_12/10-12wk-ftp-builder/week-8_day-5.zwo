@@ -1,0 +1,10 @@
+<workout_file>
+    <author></author>
+    <name>week-8_day-5</name>
+    <description>Foundation - Do this training in a fasted state (coffee allowed before)</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="2700" />
+</workout>
+    </workout_file>

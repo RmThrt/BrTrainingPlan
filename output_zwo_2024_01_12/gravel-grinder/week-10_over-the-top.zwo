@@ -1,0 +1,46 @@
+<workout_file>
+    <author></author>
+    <name>week-10_over-the-top</name>
+    <description>Yes, these is what I consider one of those "key" workouts, so we are doing it again. The focus is good strength in the over gearing stuff and being as "together' as you can be when close to spun out. RPM variability is KEY to gravel success so nailing this workout is key as well. If you feel you are knocking this one out of the park, power the RPMs on the lower stuff and hold the same power or a tiny bit more if you like. Be present in your pedal strokes! Sharp climbs up and over. Let's go!</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="510" PowerLow="0.25" PowerHigh="0.65" />
+<SteadyState Duration="60" Power="0.8" />
+<SteadyState Duration="60" Power="0.55" />
+<SteadyState Duration="60" Power="0.8" />
+<SteadyState Duration="60" Power="0.55" />
+<SteadyState Duration="60" Power="0.8" />
+<SteadyState Duration="60" Power="0.55" />
+<SteadyState Duration="60" Power="0.8" />
+<SteadyState Duration="60" Power="0.55" />
+<SteadyState Duration="20" Power="1.0" />
+<SteadyState Duration="20" Power="1.1" />
+<SteadyState Duration="20" Power="1.2" />
+<SteadyState Duration="60" Power="0.55" />
+<SteadyState Duration="20" Power="1.0" />
+<SteadyState Duration="20" Power="1.1" />
+<SteadyState Duration="20" Power="1.2" />
+<SteadyState Duration="60" Power="0.55" />
+<SteadyState Duration="20" Power="1.0" />
+<SteadyState Duration="20" Power="1.1" />
+<SteadyState Duration="20" Power="1.2" />
+<SteadyState Duration="60" Power="0.55" />
+<SteadyState Duration="240" Power="0.55" />
+<SteadyState Duration="120" Power="0.9" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="120" Power="1.0" Cadence="65" CadenceLow="65" CadenceHigh="65" />
+<SteadyState Duration="180" Power="0.8" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="120" Power="0.7" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="180" Power="0.55" />
+<SteadyState Duration="180" Power="0.9" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="90" Power="1.05" Cadence="65" CadenceLow="65" CadenceHigh="65" />
+<SteadyState Duration="180" Power="0.8" Cadence="80" CadenceLow="80" CadenceHigh="80" />
+<SteadyState Duration="120" Power="0.7" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="180" Power="0.55" />
+<SteadyState Duration="180" Power="0.9" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="60" Power="1.1" Cadence="65" CadenceLow="65" CadenceHigh="65" />
+<SteadyState Duration="180" Power="0.8" Cadence="75" CadenceLow="75" CadenceHigh="75" />
+<SteadyState Duration="120" Power="0.7" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<Cooldown Duration="300" Power="0.55" />
+</workout>
+    </workout_file>

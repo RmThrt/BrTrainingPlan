@@ -1,0 +1,12 @@
+<workout_file>
+    <author></author>
+    <name>week-5_15-dpc-ftp-test</name>
+    <description>Author: Direct Power Coaching (Zwift Fitness)</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="1200" PowerLow="0.3" PowerHigh="0.55" />
+<FreeRide Duration="1200" />
+<Cooldown Duration="1200" PowerLow="0.5" PowerHigh="0.3" />
+</workout>
+    </workout_file>

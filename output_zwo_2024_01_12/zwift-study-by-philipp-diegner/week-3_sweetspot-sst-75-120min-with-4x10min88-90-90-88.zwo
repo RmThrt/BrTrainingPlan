@@ -1,0 +1,22 @@
+<workout_file>
+    <author></author>
+    <name>week-3_sweetspot-sst-75-120min-with-4x10min88-90-90-88</name>
+    <description>Author: Zwift Study (via TrainingPeaks)</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="300" Power="0.5" />
+<SteadyState Duration="780" Power="0.65" />
+<SteadyState Duration="120" Power="0.75" />
+<SteadyState Duration="600" Power="0.88" />
+<SteadyState Duration="300" Power="0.5" />
+<SteadyState Duration="600" Power="0.9" />
+<SteadyState Duration="300" Power="0.5" />
+<SteadyState Duration="600" Power="0.9" />
+<SteadyState Duration="300" Power="0.5" />
+<SteadyState Duration="600" Power="0.88" />
+<SteadyState Duration="180" Power="0.5" />
+<SteadyState Duration="600" Power="0.65" />
+<Cooldown Duration="300" Power="0.5" />
+</workout>
+    </workout_file>

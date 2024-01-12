@@ -1,0 +1,6 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"Powerful and efficient, this high-intensity interval workout uses short bursts mixed with recovery periods to build up your energy and strength. In classic HIIT form, you'll do seven sets of 30 seconds of hard effort, and 1 minute of rest in between. Lucky you.",1,300,25,75,%,85,,,,,
+,7,30,120,120,%,110,60,65,65,%,85
+,1,120,40,40,%,85,,,,,
+,7,30,120,120,%,110,60,65,65,%,85
+,1,120,50,25,%,,,,,,

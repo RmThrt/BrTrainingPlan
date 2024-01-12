@@ -1,0 +1,23 @@
+<workout_file>
+    <author></author>
+    <name>38-tt-strength-reps-set-4</name>
+    <description>Author: Spokes Personal Coaching(TeamZF)</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="600" PowerLow="0.25" PowerHigh="0.65" />
+<SteadyState Duration="300" Power="0.5" />
+<SteadyState Duration="480" Power="0.9" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<FreeRide Duration="25" />
+<SteadyState Duration="300" Power="0.5" />
+<SteadyState Duration="480" Power="0.9" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<FreeRide Duration="25" />
+<SteadyState Duration="300" Power="0.5" />
+<SteadyState Duration="480" Power="0.9" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<FreeRide Duration="25" />
+<SteadyState Duration="300" Power="0.5" />
+<SteadyState Duration="480" Power="0.9" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<FreeRide Duration="25" />
+<Cooldown Duration="300" PowerLow="0.55" PowerHigh="0.25" />
+</workout>
+    </workout_file>

@@ -1,0 +1,10 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"Training in the power zone just below your functional threshold power (FTP) is a super effective and efficient way to raise your fitness - this is also called the 'sweet spot zone. Today's workout is this plan's introduction to that zone. After a warm-up, we'll go into 2, 8min long sweet spot intervals with 3min of rest in between, then cool down.",1,300,25,75,%,,,,,,
+,1,30,95,95,%,95,30,50,50,%,85
+,1,30,105,105,%,105,30,50,50,%,85
+,1,30,115,115,%,115,30,50,50,%,85
+,1,120,50,50,%,85,,,,,
+,1,480,90,90,%,90,,,,,
+,1,180,55,55,%,85,,,,,
+,1,480,90,90,%,80,,,,,
+,1,180,55,25,%,,,,,,

@@ -1,0 +1,23 @@
+<workout_file>
+    <author></author>
+    <name>flat-out-fast_finish-focus</name>
+    <description>Finishing fast is the key to winning the race.  This comes from being able to recover quickly after hard efforts, conserving energy in the race and also being able to attack hard and maintain to the finishline.  Warmup for 10minutes with 3 x 1 minute fast pedaling drills &gt;110rpm, then do (6) x 5 minute efforts with each beginning in a short sprint, followed by a effort that tapers to your FTP and then maintain FTP for the final 3 minutes.  Recover completely between each one for 3 minutes. Cool-down.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="600" PowerLow="0.25" PowerHigh="0.75" />
+<IntervalsT Repeat="3" OnDuration="60" OffDuration="60" OnPower="0.75" OffPower="0.5" />
+<Ramp Duration="300" PowerLow="1.2" PowerHigh="1.0" />
+<SteadyState Duration="180" Power="0.65" />
+<Ramp Duration="300" PowerLow="1.2" PowerHigh="1.0" />
+<SteadyState Duration="180" Power="0.65" />
+<Ramp Duration="300" PowerLow="1.2" PowerHigh="1.0" />
+<SteadyState Duration="180" Power="0.65" />
+<Ramp Duration="300" PowerLow="1.2" PowerHigh="1.0" />
+<SteadyState Duration="180" Power="0.65" />
+<Ramp Duration="300" PowerLow="1.2" PowerHigh="1.0" />
+<SteadyState Duration="180" Power="0.65" />
+<Ramp Duration="300" PowerLow="1.2" PowerHigh="1.0" />
+<Cooldown Duration="540" PowerLow="0.75" PowerHigh="0.25" />
+</workout>
+    </workout_file>

@@ -1,0 +1,9 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+Author: Andy Sexton,1,150,50,50,%,,,,,,
+,1,150,55,55,%,,,,,,
+,1,150,60,60,%,,,,,,
+,1,150,65,65,%,,,,,,
+,4,30,105,105,%,,30,55,55,%,
+,1,120,75,75,%,,,,,,
+,5,180,110,110,%,,240,50,50,%,
+,1,300,55,35,%,,,,,,

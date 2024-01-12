@@ -1,0 +1,11 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"Your heart rate is a precise indicator of the physiological stress your body undergoes during training and racing. In this long, steady-state workout, aim for minimal heart rate drift to extend your Time to Exhaustion (TTE) with a consistent strain. For best results during this workout, we suggest creating a cool ambient temperature with sufficient airflow, as these are essential for maintaining a steady and effective effort throughout the session. We know these long efforts are physically and mentally tough, so pick your favorite method to get through those efforts. Whether that's pairing your workout with your favourite TV show or listening to your favorite playlist, do whatever will get you through these efforts with with the most power possible!",1,360,50,70,%,,,,,,
+,1,60,70,70,%,,,,,,
+,1,60,80,80,%,,,,,,
+,1,30,90,90,%,,,,,,
+,1,30,100,100,%,,,,,,
+,1,120,55,55,%,,,,,,
+,1,600,90,90,%,,,,,,
+,1,180,55,55,%,,,,,,
+,1,1200,0,0,0,,,,,,
+,1,300,65,45,%,,,,,,

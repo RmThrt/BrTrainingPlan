@@ -1,0 +1,34 @@
+<workout_file>
+    <author></author>
+    <name>week-6_day-2-threshold-development</name>
+    <description>Threshold Development: This training is targeting the increase in lactate threshold (FTP) with relatively short intervals at intensity of Zone 4.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="600" PowerLow="0.4" PowerHigh="0.73" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="240" Power="0.88" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="120" Power="0.53" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<Ramp Duration="240" PowerLow="0.84" PowerHigh="0.92" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="120" Power="0.53" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<IntervalsT Repeat="2" OnDuration="60" OffDuration="60" OnPower="0.88" OffPower="0.88" Cadence="95" CadenceLow="95" CadenceHigh="95" CadenceResting="105" />
+<SteadyState Duration="120" Power="0.53" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="240" Power="0.88" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<SteadyState Duration="120" Power="0.53" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<Ramp Duration="240" PowerLow="0.84" PowerHigh="0.92" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="120" Power="0.53" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="300" Power="1.0" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="120" Power="0.53" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="1.0" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="60" Power="1.0" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="60" Power="1.0" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<SteadyState Duration="60" Power="1.0" Cadence="105" CadenceLow="105" CadenceHigh="105" />
+<SteadyState Duration="60" Power="1.0" Cadence="110" CadenceLow="110" CadenceHigh="110" />
+<SteadyState Duration="120" Power="0.53" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="300" Power="1.0" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<SteadyState Duration="120" Power="0.53" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<IntervalsT Repeat="2" OnDuration="75" OffDuration="75" OnPower="1.0" OffPower="1.0" Cadence="95" CadenceLow="95" CadenceHigh="95" CadenceResting="105" />
+<SteadyState Duration="120" Power="0.53" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="300" Power="1.0" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<Cooldown Duration="300" PowerLow="0.53" PowerHigh="0.4" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+</workout>
+    </workout_file>

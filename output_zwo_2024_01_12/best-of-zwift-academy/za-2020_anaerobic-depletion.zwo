@@ -1,0 +1,34 @@
+<workout_file>
+    <author></author>
+    <name>za-2020_anaerobic-depletion</name>
+    <description>If we plan to "attack," either by dropping friends on a hill during a group ride or going for victory in a road race, your anaerobic power needs to be strong. This session helps build your attacking power level for a solid punch. Short efforts all under 1min will make you feel the burn.	Attacking a group in a race or holding onto a fast peloton in Watopia calls for high anaerobic power. Today we hit some high peak efforts at the start–by the end, you will be fighting to keep the power high.		 	This session is broken up into two sections. After the warm-up, we complete 4x 30sec high powered maximal anaerobic efforts aiming for 170% of your FTP. To allow you to hit each effort with optimal anaerobic power, we have 5min full recovery between each.			At the end of the workout, we move into 1min build efforts. These are high power and high force efforts that will also be heart pumping. The recovery time gradually shortens– by the end, we'll have maxed out all energy pathways, forcing us to rely on our aerobic system.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="600" PowerLow="0.4" PowerHigh="0.7" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="120" Power="0.55" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<Ramp Duration="180" PowerLow="0.8" PowerHigh="1.0" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="180" Power="0.55" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<IntervalsT Repeat="2" OnDuration="30" OffDuration="120" OnPower="0.95" OffPower="0.55" Cadence="115" CadenceLow="115" CadenceHigh="115" CadenceResting="90" />
+<FreeRide Duration="30" />
+<SteadyState Duration="300" Power="0.5" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<FreeRide Duration="30" />
+<SteadyState Duration="300" Power="0.5" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<FreeRide Duration="30" />
+<SteadyState Duration="300" Power="0.5" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<FreeRide Duration="30" />
+<SteadyState Duration="300" Power="0.5" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="20" Power="1.2" />
+<SteadyState Duration="20" Power="1.4" />
+<SteadyState Duration="20" Power="1.6" />
+<SteadyState Duration="180" Power="0.5" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="20" Power="1.2" />
+<SteadyState Duration="20" Power="1.4" />
+<SteadyState Duration="20" Power="1.6" />
+<SteadyState Duration="180" Power="0.5" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="20" Power="1.2" />
+<SteadyState Duration="20" Power="1.4" />
+<SteadyState Duration="20" Power="1.6" />
+<Cooldown Duration="300" PowerLow="0.65" PowerHigh="0.45" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+</workout>
+    </workout_file>

@@ -1,0 +1,22 @@
+<workout_file>
+    <author></author>
+    <name>vault</name>
+    <description>You've got 20 minutes and need to make it count! This threshold workout opens with a quick warmup, followed by high-intensity intervals and recovery time in between. You'll be in an out before you know it.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="300" PowerLow="0.5" PowerHigh="0.75" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="0.9" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="30" Power="1.1" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<SteadyState Duration="120" Power="0.9" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="30" Power="1.2" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<SteadyState Duration="120" Power="0.9" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="30" Power="1.3" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<SteadyState Duration="120" Power="0.9" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="30" Power="1.2" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<SteadyState Duration="120" Power="0.9" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="30" Power="1.1" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<SteadyState Duration="60" Power="0.9" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<Cooldown Duration="150" PowerLow="0.5" PowerHigh="0.3" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+</workout>
+    </workout_file>

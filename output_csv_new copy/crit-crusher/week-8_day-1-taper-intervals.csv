@@ -1,0 +1,4 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"15 min easy warm up. Taper intervals are to be 90 sec in duration. Not too hard, but slightly above 10 mile TT power. Recover @ Z1 for 3 min.",1,900,25,75,%,,,,,,
+,5,90,105,105,%,,180,50,50,%,
+,1,600,75,25,%,,,,,,

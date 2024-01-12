@@ -1,0 +1,10 @@
+<workout_file>
+    <author></author>
+    <name>week-1_day-1-just-ride</name>
+    <description>No structured workout today. Go on an easy ride and explore the available roads. Use today as a recovery ride, maintaining power within Zone 1 &amp; 2, with cadence 90-100 RPM.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="3600" />
+</workout>
+    </workout_file>

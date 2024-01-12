@@ -1,0 +1,12 @@
+<workout_file>
+    <author></author>
+    <name>20-20-20</name>
+    <description>Author: C.Hui</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="1200" PowerLow="0.25" PowerHigh="0.75" />
+<SteadyState Duration="1200" Power="0.8" Cadence="80" CadenceLow="80" CadenceHigh="80" />
+<Cooldown Duration="1200" Power="0.95" Cadence="75" CadenceLow="75" CadenceHigh="75" />
+</workout>
+    </workout_file>

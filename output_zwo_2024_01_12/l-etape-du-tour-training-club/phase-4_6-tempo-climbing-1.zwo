@@ -1,0 +1,19 @@
+<workout_file>
+    <author></author>
+    <name>phase-4_6-tempo-climbing-1</name>
+    <description>The basis of today's session is to simulate long tempo climbs. However, each tempo interval is completed with a different high intensity effort.The tempo portion of each interval is performed at a low climbing cadence, before completing the closing effort at a self selected cadence.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="600" PowerLow="0.5" PowerHigh="0.75" />
+<SteadyState Duration="600" Power="0.88" Cadence="75" CadenceLow="75" CadenceHigh="75" />
+<SteadyState Duration="30" Power="1.5" />
+<SteadyState Duration="300" Power="0.55" />
+<SteadyState Duration="480" Power="0.8" Cadence="80" CadenceLow="80" CadenceHigh="80" />
+<SteadyState Duration="420" Power="0.98" />
+<SteadyState Duration="300" Power="0.55" />
+<SteadyState Duration="300" Power="0.8" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="300" Power="1.05" />
+<Cooldown Duration="300" PowerLow="0.75" PowerHigh="0.5" />
+</workout>
+    </workout_file>

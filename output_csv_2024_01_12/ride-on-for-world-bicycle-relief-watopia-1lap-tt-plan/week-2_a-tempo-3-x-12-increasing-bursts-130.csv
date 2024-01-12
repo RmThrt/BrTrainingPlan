@@ -1,0 +1,11 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+Author: Kurt Maw | GC Coaching (via TrainingPeaks),1,180,30,50,%,85,,,,,
+,1,180,60,60,%,95,,,,,
+,1,180,75,75,%,105,,,,,
+,1,120,55,55,%,,,,,,
+,3,210,75,75,%,90,30,100,100,%,115
+,1,240,55,55,%,,,,,,
+,3,210,75,75,%,90,30,115,115,%,115
+,1,240,55,55,%,,,,,,
+,3,210,75,75,%,90,30,130,130,%,115
+,1,300,55,35,%,,,,,,

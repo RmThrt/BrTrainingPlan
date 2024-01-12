@@ -1,0 +1,12 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+";Opening with a 10 minute Tempo effort, you will then complete 2 x 10min Intervals that progress through Zones 3, 4 and 6.Focusing on a higher cadence today with the target rpm increasing across the 3 intervals.",1,600,51,75,%,,,,,,
+,1,600,88,88,%,95,,,,,
+,1,300,55,55,%,,,,,,
+,1,360,88,88,%,90,,,,,
+,1,180,104,104,%,90,,,,,
+,1,60,120,120,%,90,,,,,
+,1,300,55,55,%,,,,,,
+,1,360,88,88,%,95,,,,,
+,1,180,104,104,%,95,,,,,
+,1,60,120,120,%,95,,,,,
+,1,300,75,50,%,,,,,,

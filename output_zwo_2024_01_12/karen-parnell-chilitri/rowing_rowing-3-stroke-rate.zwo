@@ -1,0 +1,27 @@
+<workout_file>
+    <author></author>
+    <name>rowing_rowing-3-stroke-rate</name>
+    <description>Author: Karen Parnell</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="300" PowerLow="0.25" PowerHigh="0.6" />
+<SteadyState Duration="120" Power="0.6" />
+<SteadyState Duration="120" Power="0.7" />
+<SteadyState Duration="120" Power="0.8" />
+<SteadyState Duration="120" Power="0.5" />
+<SteadyState Duration="120" Power="0.6" />
+<SteadyState Duration="120" Power="0.7" />
+<SteadyState Duration="120" Power="0.8" />
+<SteadyState Duration="120" Power="0.5" />
+<SteadyState Duration="120" Power="0.6" />
+<SteadyState Duration="120" Power="0.7" />
+<SteadyState Duration="120" Power="0.8" />
+<SteadyState Duration="120" Power="0.5" />
+<SteadyState Duration="120" Power="0.6" />
+<SteadyState Duration="120" Power="0.7" />
+<SteadyState Duration="120" Power="0.8" />
+<SteadyState Duration="120" Power="0.5" />
+<Cooldown Duration="120" PowerLow="0.5" PowerHigh="0.25" />
+</workout>
+    </workout_file>

@@ -1,0 +1,19 @@
+<workout_file>
+    <author></author>
+    <name>month-2_session-12-hill-reps</name>
+    <description>This session will feel like a gym workout on the bike as you work your cycling specific leg strength. Focus on keeping your upper body still and letting your legs and glutes do all the work.Cadence during the efforts should be 60 to 70 RPM and 90+ during recovery.This workout builds POWER!</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="1200" PowerLow="0.35" PowerHigh="0.85" />
+<SteadyState Duration="300" Power="0.4" />
+<SteadyState Duration="300" Power="0.92" />
+<SteadyState Duration="300" Power="0.4" />
+<SteadyState Duration="300" Power="0.92" />
+<SteadyState Duration="300" Power="0.4" />
+<SteadyState Duration="300" Power="0.92" />
+<SteadyState Duration="300" Power="0.4" />
+<SteadyState Duration="300" Power="0.92" />
+<Cooldown Duration="300" Power="0.4" />
+</workout>
+    </workout_file>

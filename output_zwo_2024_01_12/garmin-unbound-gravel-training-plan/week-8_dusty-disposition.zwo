@@ -1,0 +1,23 @@
+<workout_file>
+    <author></author>
+    <name>week-8_dusty-disposition</name>
+    <description>Race week is here, which means it's time to focus on Recovery. Regeneration. Renewal. It is just as important as the hard stuff. Fast cadence efforts facilitate flushing the legs without fatiguing them. Today is an active recovery day, so NO HARD EFFORTS! Save yourself for the Flint Hills. UNBOUND Gravel is a grassroots event, organized and managed by folks who are passionate about cycling, and have done so for the primary purpose of providing life-enriching cycling experiences for event participants.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="300" PowerLow="0.25" PowerHigh="0.5" />
+<SteadyState Duration="300" Power="0.5" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="60" Power="0.6" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<Ramp Duration="30" PowerLow="0.6" PowerHigh="0.7" />
+<SteadyState Duration="300" Power="0.5" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="60" Power="0.6" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<Ramp Duration="30" PowerLow="0.6" PowerHigh="0.7" />
+<SteadyState Duration="240" Power="0.5" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="60" Power="0.6" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<Ramp Duration="30" PowerLow="0.6" PowerHigh="0.7" />
+<SteadyState Duration="180" Power="0.5" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="60" Power="0.6" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<Ramp Duration="30" PowerLow="0.6" PowerHigh="0.7" />
+<Cooldown Duration="180" PowerLow="0.5" PowerHigh="0.3" />
+</workout>
+    </workout_file>

@@ -1,0 +1,10 @@
+<workout_file>
+    <author></author>
+    <name>week-4_b-active-recovery</name>
+    <description>Author: Shayne Gaffney | GC Coaching (via TrainingPeaks)</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="1800" Power="0.55" />
+</workout>
+    </workout_file>

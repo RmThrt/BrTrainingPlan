@@ -1,0 +1,8 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"Small ring and big ring sprints today.  The goal with the small ring is to enhance your explosiveness, so focus on your jump.  The Big rings are longer, designed to enhance your resistance to fatigue. ",1,600,25,75,%,,,,,,
+,3,60,75,75,%,110,60,50,50,%,80
+,1,180,81,81,%,85,,,,,
+,6,15,300,300,%,85,180,75,75,%,90
+,1,180,81,81,%,,,,,,
+,6,25,250,250,%,85,180,50,50,%,90
+,1,300,75,25,%,,,,,,

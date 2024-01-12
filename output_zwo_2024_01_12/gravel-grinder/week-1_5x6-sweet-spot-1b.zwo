@@ -1,0 +1,52 @@
+<workout_file>
+    <author></author>
+    <name>week-1_5x6-sweet-spot-1b</name>
+    <description>A little bit of sweet spot work on the docket for today. They call it the "sweet spot" for a reason and these efforts should be a blend of delight and pain. Hard enough to be working, but not hard enough to make you hate your life.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="600" Power="0.55" />
+<SteadyState Duration="10" Power="0.7" />
+<SteadyState Duration="10" Power="0.8" />
+<SteadyState Duration="10" Power="0.9" />
+<SteadyState Duration="60" Power="0.6" />
+<SteadyState Duration="10" Power="0.7" />
+<SteadyState Duration="10" Power="0.8" />
+<SteadyState Duration="10" Power="0.9" />
+<SteadyState Duration="60" Power="0.6" />
+<SteadyState Duration="10" Power="0.7" />
+<SteadyState Duration="10" Power="0.8" />
+<SteadyState Duration="10" Power="0.9" />
+<SteadyState Duration="60" Power="0.6" />
+<SteadyState Duration="10" Power="0.7" />
+<SteadyState Duration="10" Power="0.8" />
+<SteadyState Duration="10" Power="0.9" />
+<SteadyState Duration="60" Power="0.6" />
+<SteadyState Duration="10" Power="0.7" />
+<SteadyState Duration="10" Power="0.8" />
+<SteadyState Duration="10" Power="0.9" />
+<SteadyState Duration="60" Power="0.6" />
+<SteadyState Duration="240" Power="0.75" />
+<SteadyState Duration="120" Power="0.83" />
+<SteadyState Duration="120" Power="0.9" />
+<SteadyState Duration="120" Power="0.97" />
+<SteadyState Duration="180" Power="0.6" />
+<SteadyState Duration="120" Power="0.83" />
+<SteadyState Duration="120" Power="0.9" />
+<SteadyState Duration="120" Power="0.97" />
+<SteadyState Duration="180" Power="0.6" />
+<SteadyState Duration="120" Power="0.83" />
+<SteadyState Duration="120" Power="0.9" />
+<SteadyState Duration="120" Power="0.97" />
+<SteadyState Duration="180" Power="0.6" />
+<SteadyState Duration="120" Power="0.83" />
+<SteadyState Duration="120" Power="0.9" />
+<SteadyState Duration="120" Power="0.97" />
+<SteadyState Duration="180" Power="0.6" />
+<SteadyState Duration="120" Power="0.83" />
+<SteadyState Duration="120" Power="0.9" />
+<SteadyState Duration="120" Power="0.97" />
+<SteadyState Duration="180" Power="0.6" />
+<Cooldown Duration="210" Power="0.6" />
+</workout>
+    </workout_file>

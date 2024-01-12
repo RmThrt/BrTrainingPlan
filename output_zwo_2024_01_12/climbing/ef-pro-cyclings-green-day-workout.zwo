@@ -1,0 +1,22 @@
+<workout_file>
+    <author></author>
+    <name>ef-pro-cyclings-green-day-workout</name>
+    <description>EF Pro Cycling's Alex Howes says 'Racing generally follows an annoying but predictable pattern: we go way to hard right from the get go, most people blow up, and we all suffer to the end. This workout is great because it helps the body adapt to that rhythm while also helping us learn what our bodies are capable of in a dynamic race situation. The transition into torque is not necessarily the best for everyone (a more natural cadence might be better for you) but for me, living at 8500ft, I'm always looking for ways to add torque and strength efforts into my routine.'</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="600" PowerLow="0.45" PowerHigh="0.75" />
+<FreeRide Duration="30" />
+<SteadyState Duration="330" Power="0.95" Cadence="70" CadenceLow="70" CadenceHigh="70" />
+<SteadyState Duration="210" Power="0.4" />
+<FreeRide Duration="30" />
+<SteadyState Duration="330" Power="0.95" Cadence="70" CadenceLow="70" CadenceHigh="70" />
+<SteadyState Duration="210" Power="0.4" />
+<FreeRide Duration="30" />
+<SteadyState Duration="330" Power="0.95" Cadence="70" CadenceLow="70" CadenceHigh="70" />
+<SteadyState Duration="210" Power="0.4" />
+<FreeRide Duration="30" />
+<SteadyState Duration="330" Power="0.95" Cadence="70" CadenceLow="70" CadenceHigh="70" />
+<Cooldown Duration="300" PowerLow="0.65" PowerHigh="0.45" />
+</workout>
+    </workout_file>

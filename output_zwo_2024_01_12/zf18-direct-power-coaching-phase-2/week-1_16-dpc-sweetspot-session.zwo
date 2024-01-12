@@ -1,0 +1,15 @@
+<workout_file>
+    <author></author>
+    <name>week-1_16-dpc-sweetspot-session</name>
+    <description>Author: Direct Power Coaching (Zwift Fitness)</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="600" PowerLow="0.25" PowerHigh="0.75" />
+<SteadyState Duration="600" Power="0.9" />
+<SteadyState Duration="600" Power="0.92" />
+<SteadyState Duration="600" Power="0.95" />
+<SteadyState Duration="600" Power="0.98" />
+<Cooldown Duration="600" PowerLow="0.75" PowerHigh="0.25" />
+</workout>
+    </workout_file>

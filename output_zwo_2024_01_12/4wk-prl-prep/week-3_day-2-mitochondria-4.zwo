@@ -1,0 +1,19 @@
+<workout_file>
+    <author></author>
+    <name>week-3_day-2-mitochondria-4</name>
+    <description>After warming up you will complete the main set of 20 x 30sec @ 113%FTP with 1.5min recovery. These are controlled accelerations, NOT max sprints.Today the endurance part comes at the end. Observe your heart rate throughout the 'Mito' set. Is it returning to normal resting values after each 30sec surge?</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="180" Power="0.5" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="0.6" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="0.65" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="0.81" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="60" Power="1.09" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="120" Power="0.5" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="240" Power="0.9" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="180" Power="0.5" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<IntervalsT Repeat="20" OnDuration="30" OffDuration="90" OnPower="1.13" OffPower="0.5" />
+<Cooldown Duration="900" />
+</workout>
+    </workout_file>

@@ -1,0 +1,4 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+Author: Jesper Bondo Medhus,1,900,25,50,%,,,,,,
+,1,3000,0,0,0,,,,,,
+,1,600,65,25,%,,,,,,

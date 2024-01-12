@@ -1,0 +1,15 @@
+<workout_file>
+    <author></author>
+    <name>conditioning-above-ftp_conditioning-wk2-above-ftp</name>
+    <description>Author: C.Hui</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="600" PowerLow="0.25" PowerHigh="0.75" />
+<FreeRide Duration="300" />
+<IntervalsT Repeat="10" OnDuration="30" OffDuration="30" OnPower="1.2" OffPower="0.5" Cadence="110" CadenceLow="110" CadenceHigh="110" CadenceResting="65" />
+<SteadyState Duration="300" Power="0.81" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<IntervalsT Repeat="8" OnDuration="120" OffDuration="60" OnPower="0.65" OffPower="1.1" Cadence="65" CadenceLow="65" CadenceHigh="65" CadenceResting="80" />
+<Cooldown Duration="600" PowerLow="0.67" PowerHigh="0.25" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+</workout>
+    </workout_file>

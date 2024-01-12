@@ -1,0 +1,10 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"Let's see how cadence affects that HR at 85% of FT watts. Try a cadence of 105 rpm at 85% watts for 10 minutes and let's see what your HR does. Then 5 minutes easy. Then let's try cadence of 90 rpm at 85% of FT watts for 10 minutes, 5 minutes easy, then let's see what cadence of 75 rpm at 85% watts for 10 minutes does to your HR.",1,600,55,72,%,,,,,,
+,6,60,87,87,%,120,60,72,72,%,70
+,1,900,87,87,%,105,,,,,
+,1,300,72,72,%,68,,,,,
+,1,900,87,87,%,90,,,,,
+,1,300,72,72,%,68,,,,,
+,1,900,87,87,%,75,,,,,
+,1,300,72,72,%,68,,,,,
+,1,300,72,55,%,68,,,,,

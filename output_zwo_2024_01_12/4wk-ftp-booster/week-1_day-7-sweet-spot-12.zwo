@@ -1,0 +1,19 @@
+<workout_file>
+    <author></author>
+    <name>week-1_day-7-sweet-spot-12</name>
+    <description>Time to challenge your ability to complete High Intensity efforts after first accumulating some time at sweet spot.In this session you will complete 2 x 12min sweet spot efforts before finishing with 4 x 1min VO2max efforts.The more efficient you are in the 12min efforts...The better your VO2 max efforts will be!</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="300" Power="0.5" />
+<IntervalsT Repeat="2" OnDuration="10" OffDuration="50" OnPower="1.75" OffPower="0.5" Cadence="110" CadenceLow="110" CadenceHigh="110" CadenceResting="80" />
+<SteadyState Duration="120" Power="0.5" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="1.09" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="120" Power="0.5" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="180" Power="1.0" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="180" Power="0.5" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<IntervalsT Repeat="2" OnDuration="720" OffDuration="180" OnPower="0.91" OffPower="0.61" Cadence="95" CadenceLow="95" CadenceHigh="95" CadenceResting="80" />
+<IntervalsT Repeat="4" OnDuration="60" OffDuration="120" OnPower="1.06" OffPower="0.5" Cadence="95" CadenceLow="95" CadenceHigh="95" CadenceResting="80" />
+<Cooldown Duration="180" Power="0.5" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+</workout>
+    </workout_file>

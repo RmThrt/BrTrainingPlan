@@ -1,0 +1,34 @@
+<workout_file>
+    <author></author>
+    <name>hiit-the-tonniau</name>
+    <description>Author: L.T.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="420" PowerLow="0.25" PowerHigh="0.75" />
+<SteadyState Duration="30" Power="1.25" />
+<SteadyState Duration="60" Power="0.65" />
+<SteadyState Duration="30" Power="1.25" />
+<SteadyState Duration="60" Power="0.65" />
+<SteadyState Duration="30" Power="1.25" />
+<SteadyState Duration="60" Power="0.65" />
+<SteadyState Duration="30" Power="1.25" />
+<SteadyState Duration="240" Power="0.81" />
+<SteadyState Duration="30" Power="1.25" />
+<SteadyState Duration="60" Power="0.65" />
+<SteadyState Duration="30" Power="1.25" />
+<SteadyState Duration="60" Power="0.65" />
+<SteadyState Duration="30" Power="1.25" />
+<SteadyState Duration="60" Power="0.65" />
+<SteadyState Duration="30" Power="1.25" />
+<SteadyState Duration="180" Power="0.81" />
+<SteadyState Duration="30" Power="1.25" />
+<SteadyState Duration="60" Power="0.65" />
+<SteadyState Duration="30" Power="1.25" />
+<SteadyState Duration="60" Power="0.65" />
+<SteadyState Duration="30" Power="1.25" />
+<SteadyState Duration="60" Power="0.65" />
+<SteadyState Duration="30" Power="1.25" />
+<Cooldown Duration="300" PowerLow="0.75" PowerHigh="0.25" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+</workout>
+    </workout_file>

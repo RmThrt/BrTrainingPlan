@@ -1,0 +1,23 @@
+<workout_file>
+    <author></author>
+    <name>4-tt-strength-reps-set-2</name>
+    <description>Author: Pav Bryan (Direct Power Coaching)</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="900" Power="0.4" />
+<SteadyState Duration="290" Power="0.9" />
+<SteadyState Duration="10" Power="3.0" />
+<SteadyState Duration="300" Power="0.55" />
+<SteadyState Duration="290" Power="0.9" />
+<SteadyState Duration="10" Power="3.0" />
+<SteadyState Duration="300" Power="0.55" />
+<SteadyState Duration="290" Power="0.9" />
+<SteadyState Duration="10" Power="3.0" />
+<SteadyState Duration="300" Power="0.55" />
+<SteadyState Duration="290" Power="0.9" />
+<SteadyState Duration="10" Power="3.0" />
+<SteadyState Duration="300" Power="0.55" />
+<Cooldown Duration="900" Power="0.4" />
+</workout>
+    </workout_file>

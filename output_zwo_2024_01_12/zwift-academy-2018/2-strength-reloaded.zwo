@@ -1,0 +1,35 @@
+<workout_file>
+    <author></author>
+    <name>2-strength-reloaded</name>
+    <description>This session was a favorite from Zwift Academy 2017! This time with a little twist...The first part is designed to squeeze you. Working your strength and ability to generate power through high-torque efforts. Finishing the session with some 1 x 1 minute efforts, these simulate rolling through in a group, pushing hard on the front and having to maintain the power for the 'recovery' element.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="180" PowerLow="0.45" PowerHigh="0.6" />
+<SteadyState Duration="180" Power="0.7" />
+<SteadyState Duration="180" Power="0.8" />
+<SteadyState Duration="180" Power="0.9" />
+<SteadyState Duration="180" Power="0.55" />
+<SteadyState Duration="300" Power="0.85" Cadence="65" CadenceLow="65" CadenceHigh="65" />
+<SteadyState Duration="300" Power="0.55" />
+<SteadyState Duration="300" Power="0.85" Cadence="65" CadenceLow="65" CadenceHigh="65" />
+<SteadyState Duration="300" Power="0.55" />
+<SteadyState Duration="300" Power="0.85" Cadence="65" CadenceLow="65" CadenceHigh="65" />
+<SteadyState Duration="300" Power="0.55" />
+<SteadyState Duration="300" Power="0.85" Cadence="65" CadenceLow="65" CadenceHigh="65" />
+<SteadyState Duration="300" Power="0.55" />
+<SteadyState Duration="60" Power="1.38" />
+<SteadyState Duration="60" Power="0.69" />
+<SteadyState Duration="60" Power="1.38" />
+<SteadyState Duration="60" Power="0.69" />
+<SteadyState Duration="60" Power="1.38" />
+<SteadyState Duration="60" Power="0.69" />
+<SteadyState Duration="60" Power="1.38" />
+<SteadyState Duration="60" Power="0.69" />
+<SteadyState Duration="60" Power="1.38" />
+<SteadyState Duration="60" Power="0.69" />
+<SteadyState Duration="60" Power="1.38" />
+<SteadyState Duration="60" Power="0.69" />
+<Cooldown Duration="300" PowerLow="0.7" PowerHigh="0.45" />
+</workout>
+    </workout_file>

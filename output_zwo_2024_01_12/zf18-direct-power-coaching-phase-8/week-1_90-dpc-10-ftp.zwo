@@ -1,0 +1,16 @@
+<workout_file>
+    <author></author>
+    <name>week-1_90-dpc-10-ftp</name>
+    <description>Author: Direct Power Coaching (Zwift Fitness)</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="600" PowerLow="0.25" PowerHigh="0.75" />
+<SteadyState Duration="300" Power="1.0" />
+<SteadyState Duration="300" Power="0.5" />
+<SteadyState Duration="300" Power="1.0" />
+<SteadyState Duration="300" Power="0.5" />
+<SteadyState Duration="300" Power="1.0" />
+<Cooldown Duration="300" PowerLow="0.75" PowerHigh="0.25" />
+</workout>
+    </workout_file>

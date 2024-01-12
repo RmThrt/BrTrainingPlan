@@ -1,0 +1,13 @@
+<workout_file>
+    <author></author>
+    <name>getting-fit-in-january_frnkln-january-16</name>
+    <description>Author: Franklin Bespoke</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="600" PowerLow="0.4" PowerHigh="0.8" />
+<IntervalsT Repeat="3" OnDuration="720" OffDuration="180" OnPower="0.9" OffPower="0.8" Cadence="85" CadenceLow="85" CadenceHigh="85" CadenceResting="85" />
+<SteadyState Duration="180" Power="0.9" Cadence="92" CadenceLow="92" CadenceHigh="92" />
+<Cooldown Duration="420" PowerLow="0.7" PowerHigh="0.4" />
+</workout>
+    </workout_file>

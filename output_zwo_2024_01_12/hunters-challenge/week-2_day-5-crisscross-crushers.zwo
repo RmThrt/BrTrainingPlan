@@ -1,0 +1,18 @@
+<workout_file>
+    <author></author>
+    <name>week-2_day-5-crisscross-crushers</name>
+    <description>This is a solid workout at just below your threshold and then doing short, but hard little bursts above!</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="600" PowerLow="0.5" PowerHigh="0.65" />
+<IntervalsT Repeat="5" OnDuration="30" OffDuration="210" OnPower="1.6" OffPower="0.87" />
+<SteadyState Duration="300" Power="0.87" />
+<SteadyState Duration="300" Power="1.14" />
+<SteadyState Duration="300" Power="0.72" />
+<SteadyState Duration="300" Power="1.14" />
+<SteadyState Duration="300" Power="0.72" />
+<SteadyState Duration="300" Power="1.14" />
+<Cooldown Duration="300" PowerLow="0.72" PowerHigh="0.55" />
+</workout>
+    </workout_file>

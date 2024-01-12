@@ -1,0 +1,30 @@
+<workout_file>
+    <author></author>
+    <name>sara-martin-all-rounder</name>
+    <description>A huge discovery. As spectacular as the performances offered by young Spaniard Sara Martín during 2021 is the potential still in her pockets for the upcoming years. An impressive, all-around talent, a strong time trialist, and a solid climber, with attacking spirit and huge tactical intelligence, the rider from Aranda de Duero, Burgos, surprised the world already from her first top-ranked races last year. This is an easy ride with various cadence intervals from 65%, 62%, 60% of FTP with cadence changes from  95, 105, and 115 rpms to develop leg coordination.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="300" PowerLow="0.45" PowerHigh="0.65" />
+<SteadyState Duration="120" Power="0.65" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="60" Power="0.62" Cadence="105" CadenceLow="105" CadenceHigh="105" />
+<SteadyState Duration="30" Power="0.6" Cadence="115" CadenceLow="115" CadenceHigh="115" />
+<SteadyState Duration="60" Power="0.5" />
+<SteadyState Duration="120" Power="0.65" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="60" Power="0.62" Cadence="105" CadenceLow="105" CadenceHigh="105" />
+<SteadyState Duration="30" Power="0.6" Cadence="115" CadenceLow="115" CadenceHigh="115" />
+<SteadyState Duration="60" Power="0.5" />
+<SteadyState Duration="120" Power="0.65" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="60" Power="0.62" Cadence="105" CadenceLow="105" CadenceHigh="105" />
+<SteadyState Duration="30" Power="0.6" Cadence="115" CadenceLow="115" CadenceHigh="115" />
+<SteadyState Duration="60" Power="0.5" />
+<SteadyState Duration="120" Power="0.65" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="60" Power="0.62" Cadence="105" CadenceLow="105" CadenceHigh="105" />
+<SteadyState Duration="30" Power="0.6" Cadence="115" CadenceLow="115" CadenceHigh="115" />
+<SteadyState Duration="60" Power="0.5" />
+<SteadyState Duration="120" Power="0.65" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="60" Power="0.62" Cadence="105" CadenceLow="105" CadenceHigh="105" />
+<SteadyState Duration="30" Power="0.6" Cadence="115" CadenceLow="115" CadenceHigh="115" />
+<Cooldown Duration="420" PowerLow="0.65" PowerHigh="0.5" />
+</workout>
+    </workout_file>

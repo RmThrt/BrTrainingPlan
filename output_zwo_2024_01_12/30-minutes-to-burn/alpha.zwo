@@ -1,0 +1,20 @@
+<workout_file>
+    <author></author>
+    <name>alpha</name>
+    <description>This workout features a series of Leg Openers to prime the pump for a big effort. Enjoy this short and sharp workout designed to get you ready. Who's the "Alpha" after those past weeks of training now? YOU!</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="240" Power="0.4" Cadence="80" CadenceLow="80" CadenceHigh="80" />
+<SteadyState Duration="240" Power="0.53" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="240" Power="0.67" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<SteadyState Duration="240" Power="0.8" Cadence="110" CadenceLow="110" CadenceHigh="110" />
+<SteadyState Duration="120" Power="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="180" Power="1.05" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<SteadyState Duration="120" Power="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="1.15" Cadence="110" CadenceLow="110" CadenceHigh="110" />
+<SteadyState Duration="120" Power="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<IntervalsT Repeat="2" OnDuration="30" OffDuration="30" OnPower="1.2" OffPower="0.55" Cadence="110" CadenceLow="110" CadenceHigh="110" CadenceResting="85" />
+<Cooldown Duration="120" PowerLow="0.55" PowerHigh="0.25" />
+</workout>
+    </workout_file>

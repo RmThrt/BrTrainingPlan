@@ -1,0 +1,10 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"Named for the atomic number of Oxygen, this VO2 workout is all about what will be in short supply. Twice through a block of intervals up above threshold power will have you wishing for some extra O2, but you'll have to wait until the cool down to get it. Though there is a nice Zone 2 break between blocks of Z5 intervals where you can grab a little bit of extra air in your lungs.",1,600,25,75,%,,,,,,
+,1,30,95,95,%,95,30,50,50,%,85
+,1,30,105,105,%,105,30,50,50,%,85
+,1,30,115,115,%,115,30,50,50,%,85
+,1,120,50,50,%,85,,,,,
+,3,120,115,115,%,105,180,50,50,%,85
+,1,600,65,65,%,90,,,,,
+,3,120,115,115,%,105,180,50,50,%,85
+,1,300,50,25,%,,,,,,

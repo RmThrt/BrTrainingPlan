@@ -1,0 +1,12 @@
+<workout_file>
+    <author></author>
+    <name>week-4_free-ride</name>
+    <description>Easy days here today with some aerobic free riding. A short one today as it's "recovery week", and if you feel great I'll let you add 15-30min here, but please do not go above the watts prescribed. Really want you to just ride Z1-Z2 here today. Easy please!</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="600" PowerLow="0.35" PowerHigh="0.65" />
+<FreeRide Duration="2400" />
+<Cooldown Duration="600" Power="0.55" />
+</workout>
+    </workout_file>

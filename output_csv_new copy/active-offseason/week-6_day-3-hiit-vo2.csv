@@ -1,0 +1,8 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+A slow burn warmup followed by 4 sets of intervals of increasing intesity. Remember to push it hard!!,1,900,25,100,%,,,,,,
+,1,60,50,50,%,,,,,,
+,4,60,125,125,%,,60,50,50,%,
+,4,90,125,125,%,,60,50,50,%,
+,4,120,109,109,%,,300,50,50,%,
+,4,60,125,125,%,,60,50,50,%,
+,1,600,51,25,%,,,,,,

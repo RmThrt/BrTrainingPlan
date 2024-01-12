@@ -1,0 +1,22 @@
+<workout_file>
+    <author></author>
+    <name>shorter-workouts_2-fatigue-fighter</name>
+    <description>Dive into a workout designed to explore the depths of your endurance. The challenge with this workout is a set of 8-minute efforts while already being fatigued. When doing these efforts, the goal is to not only sustain, but to exceed your Functional Threshold Power (FTP). Going over your FTP for these sets shows that you're building your resilience to fatigue, getting you ready for long and grueling rides or races.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="120" Power="0.6" />
+<SteadyState Duration="120" Power="0.7" />
+<SteadyState Duration="120" Power="0.8" />
+<SteadyState Duration="60" Power="0.9" />
+<SteadyState Duration="180" Power="0.55" />
+<SteadyState Duration="120" Power="0.9" />
+<SteadyState Duration="120" Power="0.95" />
+<SteadyState Duration="120" Power="1.07" />
+<SteadyState Duration="180" Power="0.55" />
+<IntervalsT Repeat="2" OnDuration="180" OffDuration="120" OnPower="1.0" OffPower="0.55" />
+<SteadyState Duration="120" Power="0.55" />
+<FreeRide Duration="480" />
+<Cooldown Duration="300" PowerLow="0.65" PowerHigh="0.45" />
+</workout>
+    </workout_file>

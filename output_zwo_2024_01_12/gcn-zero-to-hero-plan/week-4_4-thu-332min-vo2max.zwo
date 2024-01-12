@@ -1,0 +1,24 @@
+<workout_file>
+    <author></author>
+    <name>week-4_4-thu-332min-vo2max</name>
+    <description>Today, we have variable VO2max efforts featuring increasing power as the duration shortens. Anaerobic capacity can be a rate limiting factor to our threshold Power. Today, we have our first session in this plan to produce large amounts of Lactate. Many aspects of cycling need these power zones. From attacking, to covering a move, or even hanging on for dear life over the final couple of minutes of a climb. The 'Red Zone' is where bike races are won or lost... be prepared to work today!</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="180" PowerLow="0.45" PowerHigh="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="20" Power="1.25" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<Ramp Duration="180" PowerLow="0.56" PowerHigh="0.65" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="20" Power="1.25" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<Ramp Duration="180" PowerLow="0.66" PowerHigh="0.75" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="20" Power="1.25" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<SteadyState Duration="180" Power="0.5" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<IntervalsT Repeat="1" OnDuration="180" OffDuration="180" OnPower="1.01" OffPower="0.35" />
+<IntervalsT Repeat="1" OnDuration="180" OffDuration="180" OnPower="1.11" OffPower="0.35" />
+<SteadyState Duration="120" Power="1.21" />
+<SteadyState Duration="300" Power="0.35" />
+<IntervalsT Repeat="1" OnDuration="180" OffDuration="180" OnPower="1.01" OffPower="0.35" />
+<IntervalsT Repeat="1" OnDuration="180" OffDuration="180" OnPower="1.11" OffPower="0.35" />
+<SteadyState Duration="120" Power="1.21" />
+<Cooldown Duration="180" PowerLow="0.5" PowerHigh="0.3" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+</workout>
+    </workout_file>

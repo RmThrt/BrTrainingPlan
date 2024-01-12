@@ -1,0 +1,7 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+Author: Paul deGrandis,1,600,30,80,%,,,,,,
+,3,180,106,106,%,,180,95,95,%,
+,1,900,64,64,%,,,,,,
+,3,40,205,205,%,,20,71,71,%,
+,4,300,106,106,%,,300,83,83,%,
+,1,300,75,45,%,,,,,,

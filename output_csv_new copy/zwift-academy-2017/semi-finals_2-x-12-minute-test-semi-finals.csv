@@ -1,0 +1,7 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"This test is designed to measure your aerobic threshold and is similar to the traditional 20 minute FTP test.  We use this variation of the test because the first 12 minute effort is often indicative of an what an individual can lift their 20 minute power up to. The purpose of the session is to treat each 12 minute interval as if it were the only effort to be completed. Ideally, you won't pace the effort with the second interval in-mind. We generally expect the first interval to be ~20 Watts higher than the second. As a tip, we recommend not looking at the power for the intervals and to just ride as hard as you can for the duration of the effort!",1,900,30,90,%,,,,,,
+,1,180,35,35,%,,,,,,
+,3,30,141,141,%,107,30,30,30,%,100
+,1,300,30,30,%,,,,,,
+,2,720,102,102,%,,900,30,30,%,
+,1,900,40,30,%,,,,,,

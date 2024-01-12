@@ -1,0 +1,47 @@
+<workout_file>
+    <author></author>
+    <name>getting-fit-in-january_frnkln-january-23</name>
+    <description>Author: Franklin Bespoke</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="180" PowerLow="0.4" PowerHigh="0.5" />
+<SteadyState Duration="20" Power="1.25" />
+<Ramp Duration="180" PowerLow="0.5" PowerHigh="0.6" />
+<SteadyState Duration="20" Power="1.25" />
+<Ramp Duration="180" PowerLow="0.6" PowerHigh="0.7" />
+<SteadyState Duration="20" Power="1.25" />
+<SteadyState Duration="240" Power="0.75" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="120" Power="0.9" />
+<SteadyState Duration="60" Power="1.0" />
+<SteadyState Duration="30" Power="1.15" />
+<SteadyState Duration="20" Power="1.25" />
+<SteadyState Duration="20" Power="1.4" />
+<SteadyState Duration="180" Power="0.81" />
+<SteadyState Duration="120" Power="0.9" />
+<SteadyState Duration="60" Power="1.0" />
+<SteadyState Duration="30" Power="1.15" />
+<SteadyState Duration="20" Power="1.25" />
+<SteadyState Duration="20" Power="1.4" />
+<SteadyState Duration="180" Power="0.81" />
+<SteadyState Duration="120" Power="0.9" />
+<SteadyState Duration="60" Power="1.0" />
+<SteadyState Duration="30" Power="1.15" />
+<SteadyState Duration="20" Power="1.25" />
+<SteadyState Duration="20" Power="1.4" />
+<SteadyState Duration="180" Power="0.81" />
+<SteadyState Duration="120" Power="0.9" />
+<SteadyState Duration="60" Power="1.0" />
+<SteadyState Duration="30" Power="1.15" />
+<SteadyState Duration="20" Power="1.25" />
+<SteadyState Duration="20" Power="1.4" />
+<SteadyState Duration="180" Power="0.81" />
+<SteadyState Duration="120" Power="0.9" />
+<SteadyState Duration="60" Power="1.0" />
+<SteadyState Duration="30" Power="1.15" />
+<SteadyState Duration="20" Power="1.25" />
+<SteadyState Duration="20" Power="1.4" />
+<SteadyState Duration="190" Power="0.7" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<Cooldown Duration="600" PowerLow="0.75" PowerHigh="0.25" />
+</workout>
+    </workout_file>

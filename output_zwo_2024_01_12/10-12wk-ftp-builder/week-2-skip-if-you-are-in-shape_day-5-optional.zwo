@@ -1,0 +1,23 @@
+<workout_file>
+    <author></author>
+    <name>week-2-skip-if-you-are-in-shape_day-5-optional</name>
+    <description>Optional</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="300" Power="0.52" />
+<SteadyState Duration="60" Power="0.73" />
+<SteadyState Duration="300" Power="0.52" />
+<SteadyState Duration="60" Power="0.73" />
+<SteadyState Duration="300" Power="0.52" />
+<SteadyState Duration="60" Power="0.73" />
+<SteadyState Duration="300" Power="0.52" />
+<SteadyState Duration="60" Power="0.73" />
+<SteadyState Duration="300" Power="0.52" />
+<SteadyState Duration="60" Power="0.73" />
+<SteadyState Duration="300" Power="0.52" />
+<SteadyState Duration="60" Power="0.73" />
+<SteadyState Duration="300" Power="0.52" />
+<Cooldown Duration="60" Power="0.73" />
+</workout>
+    </workout_file>

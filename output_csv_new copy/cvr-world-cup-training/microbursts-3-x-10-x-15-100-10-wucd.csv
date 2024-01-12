@@ -1,0 +1,12 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+Author: Sherman Cravens,1,120,55,55,%,,,,,,
+,1,120,60,60,%,,,,,,
+,1,120,65,65,%,,,,,,
+,1,120,70,70,%,,,,,,
+,1,120,75,75,%,,,,,,
+,20,15,150,150,%,,15,50,50,%,
+,1,300,75,75,%,,,,,,
+,20,15,150,150,%,,15,50,50,%,
+,1,300,75,75,%,,,,,,
+,20,15,150,150,%,,15,50,50,%,
+,1,600,55,55,%,,,,,,

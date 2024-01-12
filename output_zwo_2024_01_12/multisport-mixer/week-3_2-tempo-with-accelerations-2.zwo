@@ -1,0 +1,28 @@
+<workout_file>
+    <author></author>
+    <name>week-3_2-tempo-with-accelerations-2</name>
+    <description>Building upon the previous 'Tempo With Accelerations' session, this time we are extending the tempo portion to add a little more fatigue.By incorporating sprint efforts into a steady state effort, you will recruit additional muscle fibers and extend their ability to work aerobically.The sprint efforts increase in duration from 15sec, to 20sec and 30sec.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="360" PowerLow="0.41" PowerHigh="0.7" />
+<SteadyState Duration="60" Power="0.5" />
+<SteadyState Duration="120" Power="0.5" />
+<SteadyState Duration="240" Power="0.9" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="180" Power="0.5" />
+<SteadyState Duration="300" Power="0.84" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="15" Power="1.75" Cadence="110" CadenceLow="110" CadenceHigh="110" />
+<SteadyState Duration="300" Power="0.84" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="20" Power="1.7" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<SteadyState Duration="300" Power="0.84" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="30" Power="1.5" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<SteadyState Duration="300" Power="0.5" />
+<SteadyState Duration="300" Power="0.84" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="15" Power="1.75" Cadence="110" CadenceLow="110" CadenceHigh="110" />
+<SteadyState Duration="300" Power="0.84" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="20" Power="1.7" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<SteadyState Duration="300" Power="0.84" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="30" Power="1.5" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<Cooldown Duration="300" Power="0.5" />
+</workout>
+    </workout_file>

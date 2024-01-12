@@ -1,0 +1,35 @@
+<workout_file>
+    <author></author>
+    <name>vo2max_vo2-5x3-2x10-sst</name>
+    <description>Author: Shayne Gaffney</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="120" Power="0.6" />
+<SteadyState Duration="120" Power="0.68" />
+<SteadyState Duration="120" Power="0.75" />
+<SteadyState Duration="120" Power="0.83" />
+<SteadyState Duration="120" Power="0.9" />
+<SteadyState Duration="30" Power="1.2" />
+<SteadyState Duration="30" Power="0.5" />
+<SteadyState Duration="30" Power="1.2" />
+<SteadyState Duration="30" Power="0.5" />
+<SteadyState Duration="30" Power="1.2" />
+<SteadyState Duration="150" Power="0.5" />
+<SteadyState Duration="180" Power="1.15" />
+<SteadyState Duration="180" Power="0.55" />
+<SteadyState Duration="180" Power="1.15" />
+<SteadyState Duration="180" Power="0.55" />
+<SteadyState Duration="180" Power="1.15" />
+<SteadyState Duration="180" Power="0.55" />
+<SteadyState Duration="180" Power="1.15" />
+<SteadyState Duration="180" Power="0.55" />
+<SteadyState Duration="180" Power="1.15" />
+<SteadyState Duration="180" Power="0.55" />
+<SteadyState Duration="120" Power="0.55" />
+<SteadyState Duration="600" Power="0.9" />
+<SteadyState Duration="300" Power="0.55" />
+<SteadyState Duration="600" Power="0.9" />
+<Cooldown Duration="600" Power="0.4" />
+</workout>
+    </workout_file>

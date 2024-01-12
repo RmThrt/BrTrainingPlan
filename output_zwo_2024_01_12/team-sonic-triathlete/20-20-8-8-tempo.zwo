@@ -1,0 +1,15 @@
+<workout_file>
+    <author></author>
+    <name>20-20-8-8-tempo</name>
+    <description>Author: C.Hui</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="1200" PowerLow="0.25" PowerHigh="0.75" />
+<SteadyState Duration="1200" Power="0.81" Cadence="80" CadenceLow="80" CadenceHigh="80" />
+<SteadyState Duration="480" Power="0.95" Cadence="75" CadenceLow="75" CadenceHigh="75" />
+<SteadyState Duration="120" Power="0.65" />
+<SteadyState Duration="480" Power="0.95" Cadence="75" CadenceLow="75" CadenceHigh="75" />
+<Cooldown Duration="120" PowerLow="0.75" PowerHigh="0.25" />
+</workout>
+    </workout_file>

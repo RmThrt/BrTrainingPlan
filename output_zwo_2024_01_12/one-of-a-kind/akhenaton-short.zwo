@@ -1,0 +1,25 @@
+<workout_file>
+    <author></author>
+    <name>akhenaton-short</name>
+    <description>Author: R.Courtois</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="360" Power="0.53" />
+<SteadyState Duration="180" Power="0.93" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<SteadyState Duration="180" Power="0.93" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="180" Power="0.93" Cadence="80" CadenceLow="80" CadenceHigh="80" />
+<SteadyState Duration="180" Power="0.93" Cadence="70" CadenceLow="70" CadenceHigh="70" />
+<SteadyState Duration="180" Power="0.88" Cadence="60" CadenceLow="60" CadenceHigh="60" />
+<SteadyState Duration="180" Power="0.86" Cadence="50" CadenceLow="50" CadenceHigh="50" />
+<SteadyState Duration="240" Power="0.53" />
+<SteadyState Duration="240" Power="0.86" Cadence="60" CadenceLow="60" CadenceHigh="60" />
+<SteadyState Duration="240" Power="0.88" Cadence="70" CadenceLow="70" CadenceHigh="70" />
+<SteadyState Duration="240" Power="0.91" Cadence="80" CadenceLow="80" CadenceHigh="80" />
+<SteadyState Duration="240" Power="0.91" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="240" Power="0.91" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<SteadyState Duration="240" Power="0.91" Cadence="110" CadenceLow="110" CadenceHigh="110" />
+<SteadyState Duration="60" Power="1.13" Cadence="120" CadenceLow="120" CadenceHigh="120" />
+<Cooldown Duration="240" Power="0.53" />
+</workout>
+    </workout_file>

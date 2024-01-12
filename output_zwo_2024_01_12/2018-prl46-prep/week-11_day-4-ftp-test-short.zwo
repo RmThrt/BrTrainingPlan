@@ -1,0 +1,19 @@
+<workout_file>
+    <author></author>
+    <name>week-11_day-4-ftp-test-short</name>
+    <description>Let's see how much you have improved over the last 10 weeks!The short variation of the standard FTP test starts off with a short warmup, a quick leg opening ramp, and a 5 minute hard effort to get the legs pumping.  After a brief rest it's time to give it your all and go as hard as you can for 20 solid minutes.  Pace yourself and try to go as hard as you can sustain for the entire 20 minutes - you will be scored on the final 20 minute segment.  Upon saving your ride, you will be notified if your FTP improved.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="300" PowerLow="0.3" PowerHigh="0.7" />
+<SteadyState Duration="20" Power="0.9" />
+<SteadyState Duration="20" Power="1.1" />
+<SteadyState Duration="20" Power="1.3" />
+<SteadyState Duration="180" Power="0.6" />
+<SteadyState Duration="180" Power="1.1" />
+<SteadyState Duration="120" Power="1.2" />
+<SteadyState Duration="360" Power="0.55" />
+<FreeRide Duration="1200" />
+<Cooldown Duration="300" PowerLow="0.5" PowerHigh="0.3" />
+</workout>
+    </workout_file>

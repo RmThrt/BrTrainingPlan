@@ -1,0 +1,17 @@
+<workout_file>
+    <author></author>
+    <name>week-1_18-dpc-zone-2-ride-sweetspot-session-1</name>
+    <description>Author: Direct Power Coaching (Zwift Fitness)</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="600" PowerLow="0.25" PowerHigh="0.75" />
+<SteadyState Duration="1800" Power="0.7" />
+<SteadyState Duration="300" Power="0.88" />
+<SteadyState Duration="900" Power="0.55" />
+<SteadyState Duration="1800" Power="0.7" />
+<SteadyState Duration="300" Power="0.88" />
+<SteadyState Duration="900" Power="0.55" />
+<Cooldown Duration="600" PowerLow="0.5" PowerHigh="0.25" />
+</workout>
+    </workout_file>

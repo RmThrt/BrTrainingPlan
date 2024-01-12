@@ -1,0 +1,19 @@
+<workout_file>
+    <author></author>
+    <name>semifinals_2-phosphate-sprints</name>
+    <description>This is a good 'pre-race' ride, perfect activation ahead of an event, test, race, or just to open the legs! The session includes a steady priming effort close to your FTP and some phosphate sprints to prime the neuromuscular system without fatiguing the body too much. The day after this session you should be ready to race! It is better to do this session with ERG Mode OFF.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="180" Power="0.6" />
+<SteadyState Duration="180" Power="0.68" />
+<SteadyState Duration="180" Power="0.83" />
+<SteadyState Duration="180" Power="0.55" />
+<SteadyState Duration="300" Power="0.93" Cadence="70" CadenceLow="70" CadenceHigh="70" />
+<SteadyState Duration="360" Power="0.55" />
+<IntervalsT Repeat="5" OnDuration="10" OffDuration="50" OnPower="2.0" OffPower="0.55" />
+<SteadyState Duration="420" Power="0.55" />
+<IntervalsT Repeat="5" OnDuration="10" OffDuration="50" OnPower="2.0" OffPower="0.55" />
+<Cooldown Duration="300" Power="0.55" />
+</workout>
+    </workout_file>

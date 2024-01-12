@@ -1,0 +1,14 @@
+<workout_file>
+    <author></author>
+    <name>week-1_day-4-cadence-drills</name>
+    <description>Don't worry too much with watts or HR in this one. Just make it a fun and challenging trainer ride. 10 minutes fast warm-up with Cadence in 90-95 range and at 75% of FTP or 80% of FT HR. Then a 5 minute rest followed by 20 minutes of sweet spot pedaling with 10 bursts for 20 seconds each.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="600" PowerLow="0.55" PowerHigh="0.72" />
+<IntervalsT Repeat="10" OnDuration="60" OffDuration="60" OnPower="1.14" OffPower="0.87" Cadence="120" CadenceLow="120" CadenceHigh="120" CadenceResting="85" />
+<SteadyState Duration="300" Power="0.72" Cadence="65" CadenceLow="65" CadenceHigh="65" />
+<IntervalsT Repeat="10" OnDuration="20" OffDuration="100" OnPower="0.87" OffPower="0.87" Cadence="110" CadenceLow="110" CadenceHigh="110" CadenceResting="90" />
+<Cooldown Duration="600" PowerLow="0.72" PowerHigh="0.55" Cadence="68" CadenceLow="68" CadenceHigh="68" />
+</workout>
+    </workout_file>

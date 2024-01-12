@@ -1,0 +1,9 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+After warming up you will complete 2 x 20min efforts that vary in cadence and power.5min higher power / lower cadence5min lower power / higher cadenceTake note of your heart rate at the beginning and end of each 30min interval.,1,180,50,50,%,,,,,,
+,4,10,181,181,%,,50,50,50,%,
+,1,180,70,70,%,,,,,,
+,1,120,50,50,%,,,,,,
+,2,300,95,95,%,100,300,81,81,%,80
+,1,300,50,50,%,,,,,,
+,2,300,95,95,%,100,300,81,81,%,80
+,1,300,75,50,%,,,,,,

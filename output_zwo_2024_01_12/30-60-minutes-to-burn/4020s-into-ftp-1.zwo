@@ -1,0 +1,34 @@
+<workout_file>
+    <author></author>
+    <name>4020s-into-ftp-1</name>
+    <description>After a series of short, hard intervals, take on a sustained block of FTP. Opposite of some of the previous workouts where a sustained sub-threshold effort was followed by high-power intervals, in this workout we build some fatigue with the intervals before tackling the sustained threshold effort.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="180" Power="0.5" />
+<IntervalsT Repeat="3" OnDuration="30" OffDuration="60" OnPower="0.94" OffPower="0.61" />
+<SteadyState Duration="150" Power="0.71" />
+<SteadyState Duration="60" Power="0.5" />
+<SteadyState Duration="40" Power="1.21" />
+<SteadyState Duration="20" Power="0.55" />
+<SteadyState Duration="40" Power="1.21" />
+<SteadyState Duration="20" Power="0.55" />
+<SteadyState Duration="40" Power="1.21" />
+<SteadyState Duration="20" Power="0.55" />
+<SteadyState Duration="40" Power="1.21" />
+<SteadyState Duration="20" Power="0.55" />
+<SteadyState Duration="600" Power="0.95" />
+<SteadyState Duration="600" Power="0.55" />
+<SteadyState Duration="40" Power="1.21" />
+<SteadyState Duration="20" Power="0.55" />
+<SteadyState Duration="40" Power="1.21" />
+<SteadyState Duration="20" Power="0.55" />
+<SteadyState Duration="40" Power="1.21" />
+<SteadyState Duration="20" Power="0.55" />
+<SteadyState Duration="40" Power="1.21" />
+<SteadyState Duration="20" Power="0.55" />
+<SteadyState Duration="600" Power="0.95" />
+<SteadyState Duration="60" Power="0.5" />
+<Cooldown Duration="300" PowerLow="0.75" PowerHigh="0.5" />
+</workout>
+    </workout_file>

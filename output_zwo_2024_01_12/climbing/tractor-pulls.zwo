@@ -1,0 +1,13 @@
+<workout_file>
+    <author></author>
+    <name>tractor-pulls</name>
+    <description>Tractor Pulls are big gear intervals that are designed to improve your muscular strength, as you push hard as possible against maximum resistance.  Stay Seated during these intervals and grip the handlebars tightly and push hard on those pedals for each interval.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="600" PowerLow="0.25" PowerHigh="0.75" />
+<IntervalsT Repeat="3" OnDuration="60" OffDuration="60" OnPower="0.75" OffPower="0.5" Cadence="110" CadenceLow="110" CadenceHigh="110" CadenceResting="90" />
+<IntervalsT Repeat="10" OnDuration="25" OffDuration="180" OnPower="3.0" OffPower="0.75" Cadence="50" CadenceLow="50" CadenceHigh="50" CadenceResting="90" />
+<Cooldown Duration="600" PowerLow="0.75" PowerHigh="0.25" />
+</workout>
+    </workout_file>

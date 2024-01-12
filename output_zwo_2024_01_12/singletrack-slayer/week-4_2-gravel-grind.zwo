@@ -1,0 +1,27 @@
+<workout_file>
+    <author></author>
+    <name>week-4_2-gravel-grind</name>
+    <description>Quite often when riding loose gravel or dirt, we hit a small hill with some speed, but soon lose this momentum. This results in the need to produce more power at a lower rpm.Today's session prepares us for such a scenario. Picture yourself hitting the hill with speed, and then grinding over the top.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="180" Power="0.5" />
+<IntervalsT Repeat="4" OnDuration="10" OffDuration="50" OnPower="1.5" OffPower="0.5" />
+<SteadyState Duration="180" Power="0.7" />
+<SteadyState Duration="120" Power="0.5" />
+<SteadyState Duration="300" Power="0.9" />
+<SteadyState Duration="180" Power="0.5" />
+<Ramp Duration="180" PowerLow="0.65" PowerHigh="1.05" Cadence="75" CadenceLow="75" CadenceHigh="75" />
+<SteadyState Duration="240" Power="0.55" />
+<Ramp Duration="180" PowerLow="0.65" PowerHigh="1.05" Cadence="75" CadenceLow="75" CadenceHigh="75" />
+<SteadyState Duration="240" Power="0.55" />
+<Ramp Duration="180" PowerLow="0.65" PowerHigh="1.05" Cadence="75" CadenceLow="75" CadenceHigh="75" />
+<SteadyState Duration="240" Power="0.55" />
+<Ramp Duration="180" PowerLow="0.75" PowerHigh="0.95" Cadence="65" CadenceLow="65" CadenceHigh="65" />
+<SteadyState Duration="180" Power="0.55" />
+<Ramp Duration="180" PowerLow="0.75" PowerHigh="0.95" Cadence="65" CadenceLow="65" CadenceHigh="65" />
+<SteadyState Duration="180" Power="0.55" />
+<Ramp Duration="180" PowerLow="0.75" PowerHigh="0.95" Cadence="65" CadenceLow="65" CadenceHigh="65" />
+<Cooldown Duration="300" Power="0.55" />
+</workout>
+    </workout_file>

@@ -1,0 +1,33 @@
+<workout_file>
+    <author></author>
+    <name>lamas-sydney-harbour-bridge</name>
+    <description>Author: Shane Miller - GPLama</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="600" />
+<SteadyState Duration="60" Power="1.0" />
+<Ramp Duration="90" PowerLow="0.6" PowerHigh="0.75" />
+<Ramp Duration="90" PowerLow="0.75" PowerHigh="0.85" />
+<Ramp Duration="90" PowerLow="0.85" PowerHigh="0.9" />
+<Ramp Duration="90" PowerLow="0.9" PowerHigh="0.95" />
+<SteadyState Duration="300" Power="0.95" />
+<Ramp Duration="90" PowerLow="0.95" PowerHigh="0.9" />
+<Ramp Duration="90" PowerLow="0.9" PowerHigh="0.85" />
+<Ramp Duration="90" PowerLow="0.85" PowerHigh="0.75" />
+<Ramp Duration="90" PowerLow="0.75" PowerHigh="0.6" />
+<SteadyState Duration="60" Power="1.0" />
+<FreeRide Duration="240" />
+<SteadyState Duration="60" Power="1.1" />
+<Ramp Duration="90" PowerLow="0.6" PowerHigh="0.75" />
+<Ramp Duration="90" PowerLow="0.75" PowerHigh="0.85" />
+<Ramp Duration="90" PowerLow="0.85" PowerHigh="0.9" />
+<Ramp Duration="90" PowerLow="0.9" PowerHigh="0.95" />
+<SteadyState Duration="300" Power="0.95" />
+<Ramp Duration="90" PowerLow="0.95" PowerHigh="0.9" />
+<Ramp Duration="90" PowerLow="0.9" PowerHigh="0.85" />
+<Ramp Duration="90" PowerLow="0.85" PowerHigh="0.75" />
+<Ramp Duration="90" PowerLow="0.75" PowerHigh="0.6" />
+<Cooldown Duration="60" Power="1.1" />
+</workout>
+    </workout_file>

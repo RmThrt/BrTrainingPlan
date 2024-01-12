@@ -1,0 +1,16 @@
+<workout_file>
+    <author></author>
+    <name>week-2_c-90-ftp-3x10-75-rpm</name>
+    <description>Author: Shayne Gaffney | GC Coaching (via TrainingPeaks)</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><IntervalsT Repeat="1" OnDuration="300" OffDuration="300" OnPower="0.45" OffPower="0.6" />
+<IntervalsT Repeat="1" OnDuration="30" OffDuration="30" OnPower="1.0" OffPower="0.5" />
+<IntervalsT Repeat="1" OnDuration="30" OffDuration="30" OnPower="1.1" OffPower="0.5" />
+<IntervalsT Repeat="1" OnDuration="30" OffDuration="30" OnPower="1.2" OffPower="0.5" />
+<SteadyState Duration="120" Power="0.5" />
+<IntervalsT Repeat="3" OnDuration="600" OffDuration="240" OnPower="0.9" OffPower="0.55" Cadence="75" CadenceLow="75" CadenceHigh="75" CadenceResting="90" />
+<Cooldown Duration="180" PowerLow="0.5" PowerHigh="0.3" />
+</workout>
+    </workout_file>

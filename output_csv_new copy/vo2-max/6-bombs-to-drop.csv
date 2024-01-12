@@ -1,0 +1,10 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"This workout can be likened to a mountain bike race with a hard start - a steady middle and a hard finish as we complete 2 blocks of efforts at 110% of FTP (Zone 5 - Vo2 Max), with an 8 minute block of Zone 3 (80% of FTP) in the middle. We are going to complete the first block of the Zone 5 efforts at a low cadence (65rpm) to simulate being stuck on a really steep section, where you are having to navigate around rocks.We will complete the second block of efforts at your chosen cadence, which should feel a lot easier, and certainly less demanding of your muscular strength!",1,420,44,75,%,,,,,,
+,1,30,109,109,%,,,,,,
+,1,180,50,50,%,,,,,,
+,1,30,109,109,%,,,,,,
+,1,180,50,50,%,,,,,,
+,3,150,110,110,%,65,150,30,30,%,90
+,1,480,80,80,%,,,,,,
+,3,150,110,110,%,,150,30,30,%,
+,1,360,40,40,%,,,,,,

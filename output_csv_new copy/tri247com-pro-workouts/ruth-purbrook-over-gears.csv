@@ -1,0 +1,7 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+Author: Will Clarke,1,300,53,68,%,,,,,,
+,1,960,93,93,%,70,,,,,
+,1,360,53,53,%,85,,,,,
+,2,480,97,97,%,60,240,55,55,%,85
+,4,240,101,101,%,60,120,55,55,%,85
+,1,300,63,49,%,,,,,,

@@ -1,0 +1,19 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"MTB riding often requires you to fight for position before exploding out of the corners. This effort requires a sustained power before accelerating well above threshold.Over a flat course you will have to perform these accelerations at a high cadence, adding another element to your performance.",1,420,50,75,%,,,,,,
+,1,60,50,50,%,,,,,,
+,5,60,90,90,%,,60,70,70,%,
+,1,60,50,50,%,,,,,,
+,1,180,88,88,%,,,,,,
+,1,120,50,50,%,,,,,,
+,1,180,90,90,%,100,120,65,65,%,80
+,1,60,110,110,%,110,,,,,
+,1,180,50,50,%,,,,,,
+,1,180,90,90,%,100,120,65,65,%,80
+,1,60,110,110,%,110,,,,,
+,1,180,50,50,%,,,,,,
+,1,180,90,90,%,100,120,65,65,%,80
+,1,60,110,110,%,110,,,,,
+,1,180,50,50,%,,,,,,
+,1,180,90,90,%,100,120,65,65,%,80
+,1,60,110,110,%,110,,,,,
+,1,300,50,50,%,,,,,,

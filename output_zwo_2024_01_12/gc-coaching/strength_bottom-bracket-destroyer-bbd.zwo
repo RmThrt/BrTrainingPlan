@@ -1,0 +1,32 @@
+<workout_file>
+    <author></author>
+    <name>strength_bottom-bracket-destroyer-bbd</name>
+    <description>Author: S.Gaffney (GC Coaching)</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="600" PowerLow="0.25" PowerHigh="0.75" />
+<IntervalsT Repeat="3" OnDuration="30" OffDuration="30" OnPower="1.15" OffPower="0.5" />
+<FreeRide Duration="120" />
+<Ramp Duration="30" PowerLow="1.0" PowerHigh="3.0" />
+<SteadyState Duration="240" Power="0.65" />
+<Ramp Duration="30" PowerLow="1.0" PowerHigh="3.0" />
+<SteadyState Duration="240" Power="0.65" />
+<Ramp Duration="30" PowerLow="1.0" PowerHigh="3.0" />
+<SteadyState Duration="240" Power="0.65" />
+<Ramp Duration="30" PowerLow="1.0" PowerHigh="3.0" />
+<SteadyState Duration="240" Power="0.65" />
+<Ramp Duration="30" PowerLow="1.0" PowerHigh="3.0" />
+<SteadyState Duration="240" Power="0.65" />
+<Ramp Duration="30" PowerLow="1.0" PowerHigh="3.0" />
+<SteadyState Duration="240" Power="0.65" />
+<Ramp Duration="30" PowerLow="1.0" PowerHigh="3.0" />
+<SteadyState Duration="240" Power="0.65" />
+<Ramp Duration="30" PowerLow="1.0" PowerHigh="3.0" />
+<SteadyState Duration="240" Power="0.65" />
+<Ramp Duration="30" PowerLow="1.0" PowerHigh="3.0" />
+<SteadyState Duration="240" Power="0.65" />
+<Ramp Duration="30" PowerLow="1.0" PowerHigh="3.0" />
+<Cooldown Duration="300" PowerLow="0.65" PowerHigh="0.25" />
+</workout>
+    </workout_file>

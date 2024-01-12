@@ -1,0 +1,17 @@
+<workout_file>
+    <author></author>
+    <name>nino-schurter-punchy-climbs</name>
+    <description>Nino Schurter is arguably the greatest male cross-country mountain bike rider of all time. He completed the 2017 World Cup season with 6 consecutive wins, something no one else has ever achieved before, won the gold medal in mountain biking at the 2016 Olympics, the silver medal at the 2012 Olympics, and the bronze medal at the 2008 Olympics. Surging over threshold and returning to it repeatedly is a crucial skill for any great mountain biker. This workout will help develop that ability.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="300" PowerLow="0.55" PowerHigh="0.75" />
+<SteadyState Duration="120" Power="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<IntervalsT Repeat="3" OnDuration="120" OffDuration="30" OnPower="0.93" OffPower="1.08" Cadence="90" CadenceLow="90" CadenceHigh="90" CadenceResting="75" />
+<SteadyState Duration="180" Power="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<IntervalsT Repeat="3" OnDuration="120" OffDuration="30" OnPower="0.93" OffPower="1.08" Cadence="90" CadenceLow="90" CadenceHigh="90" CadenceResting="100" />
+<SteadyState Duration="180" Power="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<IntervalsT Repeat="3" OnDuration="120" OffDuration="30" OnPower="0.93" OffPower="1.08" Cadence="90" CadenceLow="90" CadenceHigh="90" CadenceResting="75" />
+<Cooldown Duration="300" PowerLow="0.55" PowerHigh="0.35" />
+</workout>
+    </workout_file>

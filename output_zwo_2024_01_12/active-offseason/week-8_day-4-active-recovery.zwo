@@ -1,0 +1,21 @@
+<workout_file>
+    <author></author>
+    <name>week-8_day-4-active-recovery</name>
+    <description>You get faster when you are resting and recovering, not when you are working hard!! Rest days are about going easy enough to really allow your legs to recover.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="600" PowerLow="0.24" PowerHigh="0.6" />
+<SteadyState Duration="300" Power="0.5" />
+<IntervalsT Repeat="7" OnDuration="60" OffDuration="60" OnPower="0.65" OffPower="0.5" />
+<SteadyState Duration="300" Power="0.5" />
+<IntervalsT Repeat="7" OnDuration="60" OffDuration="60" OnPower="0.65" OffPower="0.5" />
+<SteadyState Duration="300" Power="0.5" />
+<IntervalsT Repeat="7" OnDuration="60" OffDuration="60" OnPower="0.65" OffPower="0.5" />
+<SteadyState Duration="300" Power="0.5" />
+<IntervalsT Repeat="7" OnDuration="60" OffDuration="60" OnPower="0.65" OffPower="0.5" />
+<SteadyState Duration="300" Power="0.5" />
+<IntervalsT Repeat="7" OnDuration="60" OffDuration="60" OnPower="0.65" OffPower="0.5" />
+<Cooldown Duration="600" PowerLow="0.6" PowerHigh="0.25" />
+</workout>
+    </workout_file>

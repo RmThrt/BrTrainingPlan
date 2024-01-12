@@ -1,0 +1,18 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"Pro cyclist Mat Hayman proved that indoor training worked when he won Paris-Roubaix—one of the biggest races in the world—after breaking his arm earlier that year. This workout is how he did it. Note that this workout is made for a pro. If it's too difficult, try completing just one of the interval blocks and skipping the second.",1,300,39,62,%,85,,,,,
+,1,10,278,278,%,105,,,,,
+,1,60,64,64,%,85,,,,,
+,1,10,278,278,%,105,,,,,
+,1,60,64,64,%,85,,,,,
+,1,10,278,278,%,105,,,,,
+,1,180,75,75,%,85,,,,,
+,4,180,85,85,%,95,120,85,85,%,65
+,1,300,50,50,%,85,,,,,
+,6,120,88,88,%,95,20,140,140,%,105
+,1,60,110,110,%,95,,,,,
+,1,300,50,50,%,85,,,,,
+,6,120,88,88,%,95,20,140,140,%,105
+,1,30,110,110,%,95,,,,,
+,1,20,120,120,%,105,,,,,
+,1,10,150,150,%,120,,,,,
+,1,300,64,25,%,,,,,,

@@ -1,0 +1,14 @@
+<workout_file>
+    <author></author>
+    <name>week-8_day-4</name>
+    <description>This is hard, but you gotta commit! PUSH IT!</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="1200" PowerLow="0.25" PowerHigh="0.75" />
+<SteadyState Duration="900" Power="0.65" />
+<IntervalsT Repeat="4" OnDuration="300" OffDuration="300" OnPower="1.2" OffPower="0.5" />
+<SteadyState Duration="1800" Power="0.65" />
+<Cooldown Duration="900" PowerLow="0.65" PowerHigh="0.25" />
+</workout>
+    </workout_file>

@@ -1,0 +1,95 @@
+<workout_file>
+    <author></author>
+    <name>04-30-20-10-go</name>
+    <description>Get set for the '30-20-10 Ride'! This session is a fantastic fat-burner and endurance enhancer, all wrapped up in a short, sweet package. We're talking controlled 30-second efforts, spicier 20-second pulls, and all-out 10-second sprints. Repeat 5 times with 2-minute recovery breaks. Time to feel the burn!</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="60" Power="0.55" />
+<SteadyState Duration="120" Power="0.68" />
+<SteadyState Duration="120" Power="0.82" />
+<SteadyState Duration="120" Power="0.95" />
+<SteadyState Duration="120" Power="0.55" />
+<SteadyState Duration="30" Power="0.8" />
+<SteadyState Duration="20" Power="0.9" />
+<SteadyState Duration="10" Power="1.2" />
+<SteadyState Duration="30" Power="0.8" />
+<SteadyState Duration="20" Power="0.9" />
+<SteadyState Duration="10" Power="1.2" />
+<SteadyState Duration="30" Power="0.8" />
+<SteadyState Duration="20" Power="0.9" />
+<SteadyState Duration="10" Power="1.2" />
+<SteadyState Duration="30" Power="0.8" />
+<SteadyState Duration="20" Power="0.9" />
+<SteadyState Duration="10" Power="1.2" />
+<SteadyState Duration="30" Power="0.8" />
+<SteadyState Duration="20" Power="0.9" />
+<SteadyState Duration="10" Power="1.2" />
+<SteadyState Duration="120" Power="0.5" />
+<SteadyState Duration="30" Power="0.8" />
+<SteadyState Duration="20" Power="0.9" />
+<SteadyState Duration="10" Power="1.2" />
+<SteadyState Duration="30" Power="0.8" />
+<SteadyState Duration="20" Power="0.9" />
+<SteadyState Duration="10" Power="1.2" />
+<SteadyState Duration="30" Power="0.8" />
+<SteadyState Duration="20" Power="0.9" />
+<SteadyState Duration="10" Power="1.2" />
+<SteadyState Duration="30" Power="0.8" />
+<SteadyState Duration="20" Power="0.9" />
+<SteadyState Duration="10" Power="1.2" />
+<SteadyState Duration="30" Power="0.8" />
+<SteadyState Duration="20" Power="0.9" />
+<SteadyState Duration="10" Power="1.2" />
+<SteadyState Duration="120" Power="0.5" />
+<SteadyState Duration="30" Power="0.8" />
+<SteadyState Duration="20" Power="0.9" />
+<SteadyState Duration="10" Power="1.2" />
+<SteadyState Duration="30" Power="0.8" />
+<SteadyState Duration="20" Power="0.9" />
+<SteadyState Duration="10" Power="1.2" />
+<SteadyState Duration="30" Power="0.8" />
+<SteadyState Duration="20" Power="0.9" />
+<SteadyState Duration="10" Power="1.2" />
+<SteadyState Duration="30" Power="0.8" />
+<SteadyState Duration="20" Power="0.9" />
+<SteadyState Duration="10" Power="1.2" />
+<SteadyState Duration="30" Power="0.8" />
+<SteadyState Duration="20" Power="0.9" />
+<SteadyState Duration="10" Power="1.2" />
+<SteadyState Duration="120" Power="0.5" />
+<SteadyState Duration="30" Power="0.8" />
+<SteadyState Duration="20" Power="0.9" />
+<SteadyState Duration="10" Power="1.2" />
+<SteadyState Duration="30" Power="0.8" />
+<SteadyState Duration="20" Power="0.9" />
+<SteadyState Duration="10" Power="1.2" />
+<SteadyState Duration="30" Power="0.8" />
+<SteadyState Duration="20" Power="0.9" />
+<SteadyState Duration="10" Power="1.2" />
+<SteadyState Duration="30" Power="0.8" />
+<SteadyState Duration="20" Power="0.9" />
+<SteadyState Duration="10" Power="1.2" />
+<SteadyState Duration="30" Power="0.8" />
+<SteadyState Duration="20" Power="0.9" />
+<SteadyState Duration="10" Power="1.2" />
+<SteadyState Duration="120" Power="0.5" />
+<SteadyState Duration="30" Power="0.8" />
+<SteadyState Duration="20" Power="0.9" />
+<SteadyState Duration="10" Power="1.2" />
+<SteadyState Duration="30" Power="0.8" />
+<SteadyState Duration="20" Power="0.9" />
+<SteadyState Duration="10" Power="1.2" />
+<SteadyState Duration="30" Power="0.8" />
+<SteadyState Duration="20" Power="0.9" />
+<SteadyState Duration="10" Power="1.2" />
+<SteadyState Duration="30" Power="0.8" />
+<SteadyState Duration="20" Power="0.9" />
+<SteadyState Duration="10" Power="1.2" />
+<SteadyState Duration="30" Power="0.8" />
+<SteadyState Duration="20" Power="0.9" />
+<SteadyState Duration="10" Power="1.2" />
+<SteadyState Duration="60" Power="0.6" />
+<Cooldown Duration="120" Power="0.6" />
+</workout>
+    </workout_file>

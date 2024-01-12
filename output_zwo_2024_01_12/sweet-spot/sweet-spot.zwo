@@ -1,0 +1,21 @@
+<workout_file>
+    <author></author>
+    <name>sweet-spot</name>
+    <description>Cycling is about becoming comfortable at being uncomfortable. This type of effort is exactly that! The initial power will not hurt the legs but as the effort goes on and you start using up the substrate (fuel) in your body, it's amazing how quickly a relatively easy effort can turn quite nasty on you. A 20min effort is the main set, then once the legs are carrying some fatigue, we'll move onto 5 x 1min bang on FTP.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="180" PowerLow="0.45" PowerHigh="0.6" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="0.6" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="60" Power="0.65" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="60" Power="0.81" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<SteadyState Duration="60" Power="1.09" Cadence="105" CadenceLow="105" CadenceHigh="105" />
+<SteadyState Duration="120" Power="0.5" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="240" Power="0.95" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="180" Power="0.5" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<Ramp Duration="1200" PowerLow="0.85" PowerHigh="0.91" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="120" Power="0.5" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<IntervalsT Repeat="5" OnDuration="60" OffDuration="120" OnPower="1.0" OffPower="0.5" Cadence="100" CadenceLow="100" CadenceHigh="100" CadenceResting="85" />
+<Cooldown Duration="120" PowerLow="0.5" PowerHigh="0.4" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+</workout>
+    </workout_file>

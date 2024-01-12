@@ -1,0 +1,19 @@
+<workout_file>
+    <author></author>
+    <name>week-5-recovery_4-thu-sweet-spot-2</name>
+    <description>We'll be working at sweet spot (SST) zone today, featuring an extensive 20min effort ramping up from 85% to 91% FTP. This makes us efficient at riding at a high pace during the day of racing. The session is finished with 8 x 1 min efforts right at FTP. FTP efforts feel a lot harder after spending 20 mins at SST, so be prepared :-)</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="180" PowerLow="0.45" PowerHigh="0.6" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="0.6" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="60" Power="0.65" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="60" Power="0.81" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<SteadyState Duration="60" Power="1.09" Cadence="105" CadenceLow="105" CadenceHigh="105" />
+<SteadyState Duration="180" Power="0.5" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<Ramp Duration="1200" PowerLow="0.85" PowerHigh="0.91" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="180" Power="0.5" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<IntervalsT Repeat="8" OnDuration="60" OffDuration="60" OnPower="1.0" OffPower="0.5" Cadence="100" CadenceLow="100" CadenceHigh="100" CadenceResting="85" />
+<Cooldown Duration="120" PowerLow="0.5" PowerHigh="0.4" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+</workout>
+    </workout_file>

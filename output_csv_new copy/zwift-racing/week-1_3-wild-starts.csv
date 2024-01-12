@@ -1,0 +1,12 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+A Zwift race start simulation workout with an initial very hard effort followed by a sweet spot ramp.,1,480,50,80,%,,,,,,
+,1,120,55,55,%,,,,,,
+,1,60,150,150,%,110,,,,,
+,1,540,88,95,%,85,,,,,
+,1,300,55,55,%,,,,,,
+,1,45,150,150,%,110,,,,,
+,1,555,88,95,%,85,,,,,
+,1,300,55,55,%,,,,,,
+,1,30,150,150,%,110,,,,,
+,1,570,88,95,%,85,,,,,
+,1,300,50,30,%,,,,,,

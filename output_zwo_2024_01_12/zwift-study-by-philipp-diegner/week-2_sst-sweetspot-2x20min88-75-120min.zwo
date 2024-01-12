@@ -1,0 +1,19 @@
+<workout_file>
+    <author></author>
+    <name>week-2_sst-sweetspot-2x20min88-75-120min</name>
+    <description>Author: Zwift Study (via TrainingPeaks)</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="300" Power="0.5" />
+<SteadyState Duration="300" Power="0.65" />
+<SteadyState Duration="20" Power="0.95" />
+<SteadyState Duration="280" Power="0.65" />
+<SteadyState Duration="1200" Power="0.88" />
+<SteadyState Duration="600" Power="0.5" />
+<SteadyState Duration="1200" Power="0.88" />
+<SteadyState Duration="180" Power="0.55" />
+<SteadyState Duration="900" Power="0.65" />
+<Cooldown Duration="300" Power="0.45" />
+</workout>
+    </workout_file>

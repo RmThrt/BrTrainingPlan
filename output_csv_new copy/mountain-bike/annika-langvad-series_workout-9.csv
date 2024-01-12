@@ -1,0 +1,10 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"In today's session we're working right at threshold. By chunking up the workload in to blocks 7 minutes, we will complete a total of 6 x 7 minute blocks at 100% of FTP, which gives us a really good training stress as we rack up 42 minutes worth of threshold power in total.While riding under threshold is a smart and efficient way to develop all sorts of physical attributes, there is no substitute for developing yourself physically and mentally for pushing your body right to threshold power. This session helps to give you the confidence that you can push yourself right up to your FTP for over 40 minutes worth of work, while also creating plenty of muscle damage. When you hit lactate threshold, the sensations are hugely different vs riding even 2-3% below - so we need to prepare ourselves. Depending on how fatigued you are going in to this session, you may need an easy day tomorrow!",1,420,44,75,%,,,,,,
+,1,30,109,109,%,,,,,,
+,1,180,50,50,%,,,,,,
+,1,30,109,109,%,,,,,,
+,1,300,50,50,%,,,,,,
+,3,420,100,100,%,,180,40,40,%,
+,1,600,40,40,%,,,,,,
+,3,420,100,100,%,,180,50,50,%,
+,1,420,50,25,%,,,,,,

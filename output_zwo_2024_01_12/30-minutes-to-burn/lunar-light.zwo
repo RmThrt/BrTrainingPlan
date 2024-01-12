@@ -1,0 +1,34 @@
+<workout_file>
+    <author></author>
+    <name>lunar-light</name>
+    <description> Lunar Light is a workout with unusual interval changes and challenging efforts. It starts off with a progressive warm up and bounces between short efforts, medium efforts with varying cadence, and finally finishes with some short challenging ramps at the end. This is not your typical interval workout, but provides a nice balance of work and rest to get in your daily burn. This workout is great for time crunched athletes looking for an efficient session.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="70" PowerLow="0.7" PowerHigh="0.9" />
+<SteadyState Duration="76" Power="0.8" />
+<SteadyState Duration="30" Power="0.88" />
+<SteadyState Duration="15" Power="0.7" />
+<SteadyState Duration="30" Power="0.88" />
+<SteadyState Duration="15" Power="0.7" />
+<SteadyState Duration="60" Power="0.75" Cadence="60" CadenceLow="60" CadenceHigh="60" />
+<SteadyState Duration="60" Power="0.8" Cadence="70" CadenceLow="70" CadenceHigh="70" />
+<SteadyState Duration="70" Power="0.85" Cadence="80" CadenceLow="80" CadenceHigh="80" />
+<SteadyState Duration="43" Power="0.65" />
+<SteadyState Duration="20" Power="0.9" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="14" Power="0.7" />
+<Ramp Duration="96" PowerLow="0.88" PowerHigh="1.0" />
+<SteadyState Duration="30" Power="1.05" />
+<SteadyState Duration="30" Power="0.7" />
+<SteadyState Duration="56" Power="1.05" />
+<SteadyState Duration="30" Power="0.7" />
+<SteadyState Duration="30" Power="1.05" />
+<SteadyState Duration="30" Power="0.7" />
+<SteadyState Duration="66" Power="0.88" Cadence="80" CadenceLow="80" CadenceHigh="80" />
+<SteadyState Duration="67" Power="0.7" />
+<Ramp Duration="87" PowerLow="0.92" PowerHigh="1.08" />
+<SteadyState Duration="31" Power="0.7" />
+<Ramp Duration="37" PowerLow="0.95" PowerHigh="1.1" />
+<Cooldown Duration="60" PowerLow="0.7" PowerHigh="0.65" />
+</workout>
+    </workout_file>

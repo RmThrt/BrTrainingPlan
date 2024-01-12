@@ -1,0 +1,18 @@
+<workout_file>
+    <author></author>
+    <name>aktivitus-power-endurance-5</name>
+    <description>Author: M.Lundqvist/Aktivitus Coaching(A)</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="600" PowerLow="0.48" PowerHigh="0.91" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<IntervalsT Repeat="2" OnDuration="180" OffDuration="60" OnPower="1.0" OffPower="0.5" Cadence="70" CadenceLow="70" CadenceHigh="70" CadenceResting="80" />
+<IntervalsT Repeat="2" OnDuration="180" OffDuration="60" OnPower="1.05" OffPower="0.5" Cadence="60" CadenceLow="60" CadenceHigh="60" CadenceResting="90" />
+<IntervalsT Repeat="2" OnDuration="180" OffDuration="60" OnPower="1.1" OffPower="0.5" Cadence="50" CadenceLow="50" CadenceHigh="50" CadenceResting="100" />
+<SteadyState Duration="240" Power="0.42" />
+<IntervalsT Repeat="20" OnDuration="10" OffDuration="20" OnPower="2.0" OffPower="0.4" />
+<IntervalsT Repeat="7" OnDuration="10" OffDuration="20" OnPower="2.0" OffPower="0.4" />
+<SteadyState Duration="30" Power="2.0" />
+<Cooldown Duration="300" PowerLow="0.38" PowerHigh="0.49" />
+</workout>
+    </workout_file>

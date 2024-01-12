@@ -1,0 +1,10 @@
+<workout_file>
+    <author></author>
+    <name>1-hour-cadence-change-z2z1</name>
+    <description>Author: J.Hunt</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><IntervalsT Repeat="6" OnDuration="600" OffDuration="600" OnPower="0.74" OffPower="0.7" Cadence="80" CadenceLow="80" CadenceHigh="80" CadenceResting="95" />
+</workout>
+    </workout_file>

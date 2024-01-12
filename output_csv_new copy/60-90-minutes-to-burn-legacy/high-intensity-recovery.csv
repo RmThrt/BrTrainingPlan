@@ -1,0 +1,7 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"This workout is similar to a very common FTP building working, the 2x20's, but with a twist. By changing the threshold blocks to Over/Under intervals you may also help train your body to recover when effort goes just below your threshold power.",1,600,30,80,%,,,,,,
+,3,180,106,106,%,,180,95,95,%,
+,1,900,60,60,%,,,,,,
+,3,180,106,106,%,,180,95,95,%,
+,1,900,60,60,%,,,,,,
+,1,300,75,45,%,,,,,,

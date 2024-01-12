@@ -1,0 +1,16 @@
+<workout_file>
+    <author></author>
+    <name>aerobic-sustainability</name>
+    <description>We start this program with some basic aerobic endurance intervals. Small30 sec spikes to load the legs up every 3.5 mins throughout the interval. A chance to climb out of the saddle.4 x 12 min aerobic efforts with 3min recovery.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="300" PowerLow="0.45" PowerHigh="0.7" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<IntervalsT Repeat="3" OnDuration="30" OffDuration="210" OnPower="0.9" OffPower="0.74" Cadence="105" CadenceLow="105" CadenceHigh="105" CadenceResting="90" />
+<SteadyState Duration="180" Power="0.5" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<IntervalsT Repeat="3" OnDuration="30" OffDuration="210" OnPower="0.9" OffPower="0.75" Cadence="70" CadenceLow="70" CadenceHigh="70" CadenceResting="90" />
+<SteadyState Duration="180" Power="0.5" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<IntervalsT Repeat="3" OnDuration="30" OffDuration="210" OnPower="0.91" OffPower="0.75" Cadence="105" CadenceLow="105" CadenceHigh="105" CadenceResting="75" />
+<Cooldown Duration="180" PowerLow="0.7" PowerHigh="0.45" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+</workout>
+    </workout_file>

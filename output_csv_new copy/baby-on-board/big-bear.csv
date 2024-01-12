@@ -1,0 +1,8 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"This workout will see you complete 21 efforts in total. 7 of which are 45 seconds at zone 3, sandwiched by 14 shorter (30 second) zone 6 efforts. The zone 6 efforts are short enough to ensure your heart rate never gets close to max.",1,300,25,70,%,,,,,,
+,7,45,41,41,%,,30,116,116,%,
+,1,165,45,45,%,,,,,,
+,7,45,76,76,%,,15,40,40,%,
+,1,165,45,45,%,,,,,,
+,7,45,41,41,%,,30,116,116,%,
+,1,300,65,35,%,,,,,,

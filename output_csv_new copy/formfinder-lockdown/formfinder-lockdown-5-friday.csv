@@ -1,0 +1,8 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+Author: Jeremy Hunt Formfinder.cc,1,60,35,55,%,,,,,,
+,8,440,60,60,%,,10,170,170,%,
+,1,300,75,75,%,,,,,,
+,4,280,83,83,%,,20,125,125,%,
+,1,600,55,55,%,,,,,,
+,4,280,83,83,%,,20,125,125,%,
+,1,300,55,35,%,,,,,,

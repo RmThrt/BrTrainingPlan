@@ -1,0 +1,14 @@
+<workout_file>
+    <author></author>
+    <name>sevens</name>
+    <description>Powerful and efficient, this high-intensity interval workout uses short bursts mixed with recovery periods to build up your energy and strength. In classic HIIT form, you'll do seven sets of 30 seconds of hard effort, and 1 minute of rest in between. Lucky you.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="300" PowerLow="0.25" PowerHigh="0.75" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<IntervalsT Repeat="7" OnDuration="30" OffDuration="60" OnPower="1.2" OffPower="0.65" Cadence="110" CadenceLow="110" CadenceHigh="110" CadenceResting="85" />
+<SteadyState Duration="120" Power="0.4" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<IntervalsT Repeat="7" OnDuration="30" OffDuration="60" OnPower="1.2" OffPower="0.65" Cadence="110" CadenceLow="110" CadenceHigh="110" CadenceResting="85" />
+<Cooldown Duration="120" PowerLow="0.5" PowerHigh="0.25" />
+</workout>
+    </workout_file>

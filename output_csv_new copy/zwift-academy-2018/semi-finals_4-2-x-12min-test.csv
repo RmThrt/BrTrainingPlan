@@ -1,0 +1,13 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"This will be the final test effort of the 2018 Zwift Academy! You can use this test to gauge any improvements you may have made; take the average power of the two intervals, this correlates well to a traditional 20 minute effort. Use the average power from the first 12 minutes as a target to push your 20 minute power to within the next 2 - 4 months of training. Treat each 12 minute interval as if it were the only effort. We generally expect the first interval to be ~20 Watts higher than the second. Give it FULL-GAS!",1,180,55,55,%,,,,,,
+,1,180,70,70,%,85,,,,,
+,1,180,85,85,%,70,,,,,
+,1,180,55,55,%,,,,,,
+,1,180,105,105,%,,,,,,
+,1,120,50,50,%,,,,,,
+,2,30,150,150,%,,90,45,45,%,
+,1,180,50,50,%,,,,,,
+,1,720,0,0,0,,,,,,
+,1,600,55,55,%,,,,,,
+,1,720,0,0,0,,,,,,
+,1,300,75,75,%,,,,,,

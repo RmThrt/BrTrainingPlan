@@ -1,0 +1,10 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+Author: C.Hui,1,600,25,75,%,,,,,,
+,1,300,0,0,0,,,,,,
+,5,30,120,120,%,110,30,50,50,%,65
+,1,300,81,81,%,85,,,,,
+,1,120,50,50,%,,,,,,
+,1,300,95,95,%,85,,,,,
+,1,120,50,50,%,,,,,,
+,2,240,75,75,%,85,120,110,110,%,75
+,1,900,67,25,%,90,,,,,

@@ -1,0 +1,31 @@
+<workout_file>
+    <author></author>
+    <name>week-2_4-thu-climbing-adaption</name>
+    <description>Steady tempo efforts are great, but by incorporating 30sec high-intensity efforts into them, you will improve your body's ability to work aerobically for longer periods of time. This helps the body adapt to the natural surges in climbing around hairpin corners or even following the increased pace after an attack. Today's sessions consists of 2 x 16min tempo efforts with a 30sec surge every 3.5min.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="180" Power="0.5" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<IntervalsT Repeat="4" OnDuration="10" OffDuration="50" OnPower="1.5" OffPower="0.5" Cadence="100" CadenceLow="100" CadenceHigh="100" CadenceResting="90" />
+<Ramp Duration="180" PowerLow="0.6" PowerHigh="0.75" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="180" Power="0.5" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<Ramp Duration="30" PowerLow="1.06" PowerHigh="1.2" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<Ramp Duration="210" PowerLow="0.76" PowerHigh="0.9" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<Ramp Duration="30" PowerLow="1.06" PowerHigh="1.2" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<Ramp Duration="210" PowerLow="0.76" PowerHigh="0.9" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<Ramp Duration="30" PowerLow="1.06" PowerHigh="1.2" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<Ramp Duration="210" PowerLow="0.76" PowerHigh="0.9" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<Ramp Duration="30" PowerLow="1.06" PowerHigh="1.2" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<Ramp Duration="210" PowerLow="0.76" PowerHigh="0.9" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="300" Power="0.5" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<Ramp Duration="30" PowerLow="1.06" PowerHigh="1.2" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<Ramp Duration="210" PowerLow="0.76" PowerHigh="0.9" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<Ramp Duration="30" PowerLow="1.06" PowerHigh="1.2" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<Ramp Duration="210" PowerLow="0.76" PowerHigh="0.9" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<Ramp Duration="30" PowerLow="1.06" PowerHigh="1.2" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<Ramp Duration="210" PowerLow="0.76" PowerHigh="0.9" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<Ramp Duration="30" PowerLow="1.06" PowerHigh="1.2" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<Ramp Duration="210" PowerLow="0.76" PowerHigh="0.9" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<Cooldown Duration="180" PowerLow="0.7" PowerHigh="0.45" />
+</workout>
+    </workout_file>

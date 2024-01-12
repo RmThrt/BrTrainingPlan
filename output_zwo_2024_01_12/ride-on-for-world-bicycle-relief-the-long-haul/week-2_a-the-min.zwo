@@ -1,0 +1,35 @@
+<workout_file>
+    <author></author>
+    <name>week-2_a-the-min</name>
+    <description>Author: Shayne Gaffney | GC Coaching (via TrainingPeaks)</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="120" Power="0.4" />
+<SteadyState Duration="120" Power="0.5" />
+<SteadyState Duration="120" Power="0.6" />
+<SteadyState Duration="120" Power="0.7" />
+<SteadyState Duration="120" Power="0.8" />
+<IntervalsT Repeat="3" OnDuration="30" OffDuration="30" OnPower="1.1" OffPower="0.55" />
+<SteadyState Duration="120" Power="0.55" />
+<IntervalsT Repeat="5" OnDuration="30" OffDuration="30" OnPower="1.5" OffPower="0.65" />
+<SteadyState Duration="300" Power="0.55" />
+<IntervalsT Repeat="5" OnDuration="30" OffDuration="30" OnPower="1.5" OffPower="0.65" />
+<SteadyState Duration="300" Power="0.55" />
+<IntervalsT Repeat="5" OnDuration="30" OffDuration="30" OnPower="1.5" OffPower="0.65" />
+<SteadyState Duration="300" Power="0.55" />
+<SteadyState Duration="240" Power="0.95" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="480" Power="0.75" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="300" Power="0.55" Cadence="75" CadenceLow="75" CadenceHigh="75" />
+<SteadyState Duration="240" Power="0.95" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="480" Power="0.75" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="300" Power="0.55" Cadence="75" CadenceLow="75" CadenceHigh="75" />
+<SteadyState Duration="240" Power="0.95" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="480" Power="0.75" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="300" Power="0.55" Cadence="75" CadenceLow="75" CadenceHigh="75" />
+<SteadyState Duration="240" Power="0.95" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="480" Power="0.75" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="300" Power="0.55" Cadence="75" CadenceLow="75" CadenceHigh="75" />
+<Cooldown Duration="420" PowerLow="0.5" PowerHigh="0.3" />
+</workout>
+    </workout_file>

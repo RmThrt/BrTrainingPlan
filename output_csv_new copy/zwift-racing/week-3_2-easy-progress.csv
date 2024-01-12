@@ -1,0 +1,8 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+A progressive zone 2 workout featuring cadence increases every interval.,1,300,30,50,%,,,,,,
+,1,600,65,65,%,75,,,,,
+,1,600,67,67,%,80,,,,,
+,1,600,70,70,%,85,,,,,
+,1,600,73,73,%,90,,,,,
+,1,600,75,75,%,95,,,,,
+,1,300,50,30,%,,,,,,

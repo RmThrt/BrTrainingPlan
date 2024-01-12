@@ -1,0 +1,18 @@
+<workout_file>
+    <author></author>
+    <name>week-3_day-6-threshold-block-1</name>
+    <description>Getting you ready for next weeks FTP test day.With 4 x 5min sub-threshold efforts, with little recovery, you will touch on the physical and mental effort you face next week.Focus on producing 4 steady efforts of equal intensity.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="300" Power="0.5" />
+<IntervalsT Repeat="2" OnDuration="10" OffDuration="50" OnPower="1.75" OffPower="0.5" Cadence="110" CadenceLow="110" CadenceHigh="110" CadenceResting="85" />
+<SteadyState Duration="120" Power="0.5" />
+<SteadyState Duration="60" Power="1.09" />
+<SteadyState Duration="120" Power="0.5" />
+<SteadyState Duration="240" Power="0.85" />
+<SteadyState Duration="180" Power="0.5" />
+<IntervalsT Repeat="4" OnDuration="300" OffDuration="60" OnPower="0.95" OffPower="0.61" Cadence="95" CadenceLow="95" CadenceHigh="95" CadenceResting="65" />
+<Cooldown Duration="300" Power="0.5" />
+</workout>
+    </workout_file>

@@ -1,0 +1,41 @@
+<workout_file>
+    <author></author>
+    <name>running_run-hill-repeats-with-stryd</name>
+    <description>Author: Karen Parnell</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="900" PowerLow="1.04" PowerHigh="1.28" />
+<SteadyState Duration="10" Power="1.84" />
+<SteadyState Duration="60" Power="1.2" />
+<SteadyState Duration="10" Power="1.84" />
+<SteadyState Duration="60" Power="1.2" />
+<SteadyState Duration="10" Power="1.84" />
+<SteadyState Duration="60" Power="1.2" />
+<SteadyState Duration="10" Power="1.84" />
+<SteadyState Duration="60" Power="1.2" />
+<SteadyState Duration="10" Power="1.84" />
+<SteadyState Duration="60" Power="1.2" />
+<SteadyState Duration="10" Power="1.84" />
+<SteadyState Duration="60" Power="1.2" />
+<SteadyState Duration="10" Power="1.84" />
+<SteadyState Duration="60" Power="1.2" />
+<SteadyState Duration="10" Power="1.84" />
+<SteadyState Duration="60" Power="1.2" />
+<SteadyState Duration="10" Power="1.84" />
+<SteadyState Duration="60" Power="1.2" />
+<SteadyState Duration="10" Power="1.84" />
+<SteadyState Duration="60" Power="1.2" />
+<SteadyState Duration="10" Power="1.84" />
+<SteadyState Duration="60" Power="1.2" />
+<SteadyState Duration="10" Power="1.84" />
+<SteadyState Duration="60" Power="1.2" />
+<SteadyState Duration="10" Power="1.84" />
+<SteadyState Duration="60" Power="1.2" />
+<SteadyState Duration="10" Power="1.84" />
+<SteadyState Duration="60" Power="1.2" />
+<SteadyState Duration="10" Power="1.84" />
+<SteadyState Duration="60" Power="1.2" />
+<Cooldown Duration="900" PowerLow="1.28" PowerHigh="1.04" />
+</workout>
+    </workout_file>

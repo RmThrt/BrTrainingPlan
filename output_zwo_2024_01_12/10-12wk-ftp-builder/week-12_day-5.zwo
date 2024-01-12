@@ -1,0 +1,10 @@
+<workout_file>
+    <author></author>
+    <name>week-12_day-5</name>
+    <description>Optional</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="2700" />
+</workout>
+    </workout_file>

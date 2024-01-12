@@ -1,0 +1,21 @@
+<workout_file>
+    <author></author>
+    <name>stage-12</name>
+    <description>Author: Dig Deep Coaching</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="300" Power="0.5" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="30" Power="1.2" Cadence="125" CadenceLow="125" CadenceHigh="125" />
+<SteadyState Duration="90" Power="0.55" />
+<SteadyState Duration="30" Power="1.2" Cadence="125" CadenceLow="125" CadenceHigh="125" />
+<SteadyState Duration="90" Power="0.55" />
+<SteadyState Duration="30" Power="1.2" Cadence="125" CadenceLow="125" CadenceHigh="125" />
+<SteadyState Duration="90" Power="0.55" />
+<SteadyState Duration="600" Power="1.02" Cadence="78" CadenceLow="78" CadenceHigh="78" />
+<SteadyState Duration="600" Power="0.97" Cadence="78" CadenceLow="78" CadenceHigh="78" />
+<SteadyState Duration="600" Power="0.93" Cadence="78" CadenceLow="78" CadenceHigh="78" />
+<SteadyState Duration="660" Power="0.8" Cadence="78" CadenceLow="78" CadenceHigh="78" />
+<Cooldown Duration="300" Power="0.5" />
+</workout>
+    </workout_file>

@@ -1,0 +1,10 @@
+<workout_file>
+    <author></author>
+    <name>week-6_day-5-flexible-free-ride</name>
+    <description>Ride as you feel. No intervals. Go hard if you feel to.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="2700" />
+</workout>
+    </workout_file>

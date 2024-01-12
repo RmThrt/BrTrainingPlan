@@ -1,0 +1,16 @@
+<workout_file>
+    <author></author>
+    <name>week-3_day-1-strength-training</name>
+    <description>Start with a good warm up. Then 4 x 5 mins at FTP with 5 mins recovery between efforts, spin your legs easily for 10 minutes then 6 x 1 minute Upper Z6 power efforts with 2 minutes recovery in between - spin your legs out for 10 minutes then finally 10 x 15 second max sprint efforts with 45 seconds rest inbetweeen efforts.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="600" PowerLow="0.25" PowerHigh="0.75" />
+<IntervalsT Repeat="4" OnDuration="300" OffDuration="300" OnPower="1.0" OffPower="0.5" />
+<SteadyState Duration="300" Power="0.5" />
+<IntervalsT Repeat="4" OnDuration="60" OffDuration="120" OnPower="1.3" OffPower="0.5" />
+<SteadyState Duration="420" Power="0.5" />
+<IntervalsT Repeat="10" OnDuration="15" OffDuration="45" OnPower="2.0" OffPower="0.5" />
+<Cooldown Duration="600" PowerLow="0.75" PowerHigh="0.25" />
+</workout>
+    </workout_file>

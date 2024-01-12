@@ -1,0 +1,10 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"In this session we include short, controlled intervals above threshold with minimal recovery. This type of training provides the perfect stimulus to increase mitochondrial density and sustainable power.There is a sting in the tail though. The session finishes with a 10 minute sub-threshold effort. There is no getting away from the benefits of long aerobic intervals.",1,180,50,50,%,,,,,,
+,1,60,85,85,%,,,,,,
+,1,120,50,50,%,,,,,,
+,1,180,90,90,%,,,,,,
+,1,180,50,50,%,,,,,,
+,10,60,113,113,%,,120,65,65,%,
+,1,180,50,50,%,,,,,,
+,1,600,94,88,%,,,,,,
+,1,300,50,50,%,,,,,,

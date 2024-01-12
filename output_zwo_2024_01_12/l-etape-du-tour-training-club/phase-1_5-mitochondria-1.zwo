@@ -1,0 +1,19 @@
+<workout_file>
+    <author></author>
+    <name>phase-1_5-mitochondria-1</name>
+    <description>One of the main aims of our 'Early Base' training phase is to increase your mitochondrial density. In basic terms, these are the power stations in your muscles. Recent studies have shown that the right amount of High Intensity training can provide the same benefits as traditional Long Slow Distance training.With the demands of the L'Etape du Tour event requiring a high proportion of aerobic endurance, this increases the importance of focusing on quality work that increases this Mitochondria.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="180" Power="0.5" />
+<SteadyState Duration="60" Power="0.6" />
+<SteadyState Duration="60" Power="0.65" />
+<SteadyState Duration="60" Power="0.81" />
+<SteadyState Duration="60" Power="1.09" />
+<SteadyState Duration="120" Power="0.5" />
+<SteadyState Duration="240" Power="0.9" />
+<SteadyState Duration="180" Power="0.5" />
+<IntervalsT Repeat="10" OnDuration="60" OffDuration="180" OnPower="1.13" OffPower="0.65" />
+<Cooldown Duration="240" Power="0.5" />
+</workout>
+    </workout_file>

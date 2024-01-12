@@ -1,0 +1,25 @@
+<workout_file>
+    <author></author>
+    <name>lamas-tour-of-bright-itt</name>
+    <description>Author: GPLama</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="600" />
+<SteadyState Duration="60" Power="1.1" />
+<SteadyState Duration="240" Power="1.05" />
+<FreeRide Duration="10" />
+<SteadyState Duration="40" Power="1.05" />
+<FreeRide Duration="5" />
+<SteadyState Duration="180" Power="1.05" />
+<SteadyState Duration="30" Power="1.1" />
+<SteadyState Duration="60" Power="1.02" />
+<FreeRide Duration="10" />
+<SteadyState Duration="60" Power="1.05" />
+<SteadyState Duration="150" Power="0.9" />
+<FreeRide Duration="10" />
+<SteadyState Duration="195" Power="1.05" />
+<SteadyState Duration="30" Power="1.15" />
+<Cooldown Duration="30" />
+</workout>
+    </workout_file>

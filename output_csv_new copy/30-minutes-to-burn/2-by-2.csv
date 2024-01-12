@@ -1,0 +1,12 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"Go hard then go harder: That's the gist of 2 by 2. This workout runs you through a series of hard one-minute efforts followed immediately by even harder efforts, helping you work on quick recovery. Only half an hour for a very full workout.",1,480,50,75,%,85,,,,,
+,1,120,100,100,%,90,120,65,65,%,85
+,1,60,110,110,%,90,60,130,130,%,100
+,1,120,65,65,%,85,,,,,
+,1,60,110,110,%,90,60,130,130,%,100
+,1,120,65,65,%,85,,,,,
+,1,60,110,110,%,90,60,130,130,%,100
+,1,120,65,65,%,85,,,,,
+,1,60,110,110,%,90,60,130,130,%,100
+,1,120,65,65,%,85,,,,,
+,1,120,50,30,%,85,,,,,

@@ -1,0 +1,26 @@
+<workout_file>
+    <author></author>
+    <name>random-lengths</name>
+    <description>To prep you for different length hills, here are a bunch of hill intervals of random length and intensities.  Go for it!  Warm up for 10minutes with 3 x 1 minute fast pedaling drills &gt;110rpm. Then ride at tempo pace and complete the hard hills!Cool-down</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="600" PowerLow="0.25" PowerHigh="0.75" />
+<IntervalsT Repeat="3" OnDuration="60" OffDuration="60" OnPower="0.75" OffPower="0.5" Cadence="110" CadenceLow="110" CadenceHigh="110" CadenceResting="80" />
+<SteadyState Duration="60" Power="1.25" />
+<SteadyState Duration="120" Power="0.81" />
+<SteadyState Duration="138" Power="1.09" />
+<SteadyState Duration="72" Power="0.93" />
+<SteadyState Duration="47" Power="1.5" />
+<Ramp Duration="213" PowerLow="0.79" PowerHigh="1.2" />
+<SteadyState Duration="300" Power="0.87" />
+<SteadyState Duration="300" Power="1.09" />
+<SteadyState Duration="300" Power="0.76" />
+<Ramp Duration="154" PowerLow="1.0" PowerHigh="1.5" />
+<Ramp Duration="300" PowerLow="0.65" PowerHigh="1.1" />
+<SteadyState Duration="300" Power="0.65" />
+<SteadyState Duration="133" Power="1.35" />
+<Ramp Duration="323" PowerLow="0.89" PowerHigh="1.3" />
+<Cooldown Duration="480" PowerLow="0.75" PowerHigh="0.25" />
+</workout>
+    </workout_file>

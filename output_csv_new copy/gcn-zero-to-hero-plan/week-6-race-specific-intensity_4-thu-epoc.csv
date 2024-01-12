@@ -1,0 +1,12 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"EPOC stand for 'Excess Post-Exercise Oxygen Consumption', and is how much work it takes after exercise to return your body to normal resting level. This type of interval sessions 'costs' a lot of energy. After training the calories you burn to recover are quite large. This also has a great benefit to your power profiles.",1,600,45,95,%,85,,,,,
+,1,120,40,40,%,100,20,155,155,%,85
+,1,120,55,55,%,85,,,,,
+,4,15,165,165,%,100,45,55,55,%,90
+,1,300,55,55,%,85,,,,,
+,4,30,140,140,%,100,30,55,55,%,90
+,1,300,55,55,%,85,,,,,
+,4,60,120,120,%,100,60,55,55,%,90
+,1,300,55,55,%,85,,,,,
+,4,15,165,165,%,100,45,55,55,%,90
+,1,180,55,40,%,85,,,,,

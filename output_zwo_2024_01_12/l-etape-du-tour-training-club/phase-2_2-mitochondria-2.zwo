@@ -1,0 +1,18 @@
+<workout_file>
+    <author></author>
+    <name>phase-2_2-mitochondria-2</name>
+    <description>In this session we include short, controlled intervals above threshold with minimal recovery. This type of training provides the perfect stimulus to increase mitochondrial density and sustainable power.There is a sting in the tail though. The session finishes with a 10 minute sub-threshold effort. There is no getting away from the benefits of long aerobic intervals.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="180" Power="0.5" />
+<SteadyState Duration="60" Power="0.85" />
+<SteadyState Duration="120" Power="0.5" />
+<SteadyState Duration="180" Power="0.9" />
+<SteadyState Duration="180" Power="0.5" />
+<IntervalsT Repeat="10" OnDuration="60" OffDuration="120" OnPower="1.13" OffPower="0.65" />
+<SteadyState Duration="180" Power="0.5" />
+<Ramp Duration="600" PowerLow="0.94" PowerHigh="0.88" />
+<Cooldown Duration="300" Power="0.5" />
+</workout>
+    </workout_file>

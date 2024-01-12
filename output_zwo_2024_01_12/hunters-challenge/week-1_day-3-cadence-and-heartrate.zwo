@@ -1,0 +1,18 @@
+<workout_file>
+    <author></author>
+    <name>week-1_day-3-cadence-and-heartrate</name>
+    <description>Let's see how cadence affects that HR at 85% of FT watts. Try a cadence of 105 rpm at 85% watts for 10 minutes and let's see what your HR does. Then 5 minutes easy. Then let's try cadence of 90 rpm at 85% of FT watts for 10 minutes, 5 minutes easy, then let's see what cadence of 75 rpm at 85% watts for 10 minutes does to your HR.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="600" PowerLow="0.55" PowerHigh="0.72" />
+<IntervalsT Repeat="6" OnDuration="60" OffDuration="60" OnPower="0.87" OffPower="0.72" Cadence="120" CadenceLow="120" CadenceHigh="120" CadenceResting="70" />
+<SteadyState Duration="900" Power="0.87" Cadence="105" CadenceLow="105" CadenceHigh="105" />
+<SteadyState Duration="300" Power="0.72" Cadence="68" CadenceLow="68" CadenceHigh="68" />
+<SteadyState Duration="900" Power="0.87" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="300" Power="0.72" Cadence="68" CadenceLow="68" CadenceHigh="68" />
+<SteadyState Duration="900" Power="0.87" Cadence="75" CadenceLow="75" CadenceHigh="75" />
+<SteadyState Duration="300" Power="0.72" Cadence="68" CadenceLow="68" CadenceHigh="68" />
+<Cooldown Duration="300" PowerLow="0.72" PowerHigh="0.55" Cadence="68" CadenceLow="68" CadenceHigh="68" />
+</workout>
+    </workout_file>

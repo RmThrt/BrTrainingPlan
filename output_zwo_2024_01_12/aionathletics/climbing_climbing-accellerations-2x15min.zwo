@@ -1,0 +1,14 @@
+<workout_file>
+    <author></author>
+    <name>climbing_climbing-accellerations-2x15min</name>
+    <description>Author: aionathletics.com</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="900" PowerLow="0.25" PowerHigh="0.75" Cadence="75" CadenceLow="75" CadenceHigh="75" />
+<IntervalsT Repeat="5" OnDuration="180" OffDuration="30" OnPower="0.9" OffPower="1.1" Cadence="75" CadenceLow="75" CadenceHigh="75" CadenceResting="65" />
+<SteadyState Duration="900" Power="0.6" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<IntervalsT Repeat="5" OnDuration="180" OffDuration="30" OnPower="0.9" OffPower="1.1" Cadence="75" CadenceLow="75" CadenceHigh="75" CadenceResting="65" />
+<Cooldown Duration="900" PowerLow="0.75" PowerHigh="0.25" />
+</workout>
+    </workout_file>

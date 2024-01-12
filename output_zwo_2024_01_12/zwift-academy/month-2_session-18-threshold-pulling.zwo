@@ -1,0 +1,13 @@
+<workout_file>
+    <author></author>
+    <name>month-2_session-18-threshold-pulling</name>
+    <description>Cadence is wherever you feel comfortable.The recovery period between intervals is short so make sure you make the most of it. Keep the legs moving, breathe, and drink. This is a hard workout so be prepared, well rested, and focused.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="1200" PowerLow="0.35" PowerHigh="0.85" />
+<SteadyState Duration="300" Power="0.4" />
+<IntervalsT Repeat="5" OnDuration="240" OffDuration="240" OnPower="1.05" OffPower="0.4" />
+<Cooldown Duration="300" Power="0.4" />
+</workout>
+    </workout_file>

@@ -1,0 +1,27 @@
+<workout_file>
+    <author></author>
+    <name>strength-into-ftp-1</name>
+    <description>Short, high-power, low-cadence intervals help to boost fitness in a variety of ways. Focus on keeping the cadence in the prescribed range. The power here should not be a challenge... except for at the cadence specified.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="600" PowerLow="0.5" PowerHigh="0.75" />
+<SteadyState Duration="60" Power="0.5" />
+<SteadyState Duration="45" Power="0.9" Cadence="50" CadenceLow="50" CadenceHigh="50" />
+<SteadyState Duration="240" Power="1.0" />
+<SteadyState Duration="300" Power="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="45" Power="0.9" Cadence="50" CadenceLow="50" CadenceHigh="50" />
+<SteadyState Duration="240" Power="1.0" />
+<SteadyState Duration="300" Power="0.55" />
+<SteadyState Duration="45" Power="0.9" Cadence="50" CadenceLow="50" CadenceHigh="50" />
+<SteadyState Duration="240" Power="1.0" />
+<SteadyState Duration="300" Power="0.55" />
+<SteadyState Duration="300" Power="0.98" />
+<SteadyState Duration="240" Power="0.55" />
+<SteadyState Duration="300" Power="0.98" />
+<SteadyState Duration="240" Power="0.55" />
+<SteadyState Duration="300" Power="0.98" />
+<SteadyState Duration="240" Power="0.55" />
+<Cooldown Duration="300" PowerLow="0.75" PowerHigh="0.5" />
+</workout>
+    </workout_file>

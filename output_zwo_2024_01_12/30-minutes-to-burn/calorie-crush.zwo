@@ -1,0 +1,60 @@
+<workout_file>
+    <author></author>
+    <name>calorie-crush</name>
+    <description>Back at it with another super fun workout! We're going to push the workout length up again today to 25min too! We'll start with a warm-up, then dive into quick 20sec long intervals at various intensities. Fear not, though, this workout may be high-intensity, but it will crush your daily calorie count!</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="180" PowerLow="0.65" PowerHigh="0.75" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="20" Power="0.9" />
+<SteadyState Duration="20" Power="1.0" />
+<SteadyState Duration="20" Power="0.75" />
+<SteadyState Duration="20" Power="0.95" />
+<SteadyState Duration="20" Power="1.05" />
+<SteadyState Duration="20" Power="0.8" />
+<SteadyState Duration="20" Power="0.98" />
+<SteadyState Duration="20" Power="1.1" />
+<SteadyState Duration="20" Power="0.85" />
+<SteadyState Duration="60" Power="0.6" />
+<SteadyState Duration="20" Power="0.9" />
+<SteadyState Duration="20" Power="1.0" />
+<SteadyState Duration="20" Power="0.75" />
+<SteadyState Duration="20" Power="0.95" />
+<SteadyState Duration="20" Power="1.05" />
+<SteadyState Duration="20" Power="0.8" />
+<SteadyState Duration="20" Power="0.98" />
+<SteadyState Duration="20" Power="1.1" />
+<SteadyState Duration="20" Power="0.85" />
+<SteadyState Duration="60" Power="0.6" />
+<SteadyState Duration="20" Power="0.9" />
+<SteadyState Duration="20" Power="1.0" />
+<SteadyState Duration="20" Power="0.75" />
+<SteadyState Duration="20" Power="0.95" />
+<SteadyState Duration="20" Power="1.05" />
+<SteadyState Duration="20" Power="0.8" />
+<SteadyState Duration="20" Power="0.98" />
+<SteadyState Duration="20" Power="1.1" />
+<SteadyState Duration="20" Power="0.85" />
+<SteadyState Duration="60" Power="0.6" />
+<SteadyState Duration="20" Power="0.9" />
+<SteadyState Duration="20" Power="1.0" />
+<SteadyState Duration="20" Power="0.75" />
+<SteadyState Duration="20" Power="0.95" />
+<SteadyState Duration="20" Power="1.05" />
+<SteadyState Duration="20" Power="0.8" />
+<SteadyState Duration="20" Power="0.98" />
+<SteadyState Duration="20" Power="1.1" />
+<SteadyState Duration="20" Power="0.85" />
+<SteadyState Duration="60" Power="0.6" />
+<SteadyState Duration="20" Power="0.9" />
+<SteadyState Duration="20" Power="1.0" />
+<SteadyState Duration="20" Power="0.75" />
+<SteadyState Duration="20" Power="0.95" />
+<SteadyState Duration="20" Power="1.05" />
+<SteadyState Duration="20" Power="0.8" />
+<SteadyState Duration="20" Power="0.98" />
+<SteadyState Duration="20" Power="1.1" />
+<SteadyState Duration="20" Power="0.85" />
+<Cooldown Duration="180" PowerLow="0.75" PowerHigh="0.65" />
+</workout>
+    </workout_file>

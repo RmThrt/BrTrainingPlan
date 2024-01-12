@@ -1,0 +1,27 @@
+<workout_file>
+    <author></author>
+    <name>classic-villains_dr-octopus</name>
+    <description>Author: HumanPowerPerformance.com</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="420" Power="0.4" />
+<SteadyState Duration="300" Power="0.75" />
+<SteadyState Duration="240" Power="0.95" />
+<SteadyState Duration="60" Power="1.2" />
+<SteadyState Duration="300" Power="0.8" />
+<SteadyState Duration="240" Power="1.0" />
+<SteadyState Duration="60" Power="1.2" />
+<SteadyState Duration="300" Power="0.85" />
+<SteadyState Duration="600" Power="1.0" />
+<SteadyState Duration="300" Power="0.55" />
+<SteadyState Duration="300" Power="0.85" />
+<SteadyState Duration="240" Power="1.0" />
+<SteadyState Duration="60" Power="1.2" />
+<SteadyState Duration="300" Power="0.8" />
+<SteadyState Duration="240" Power="0.95" />
+<SteadyState Duration="60" Power="1.2" />
+<SteadyState Duration="300" Power="0.75" />
+<Cooldown Duration="420" Power="0.4" />
+</workout>
+    </workout_file>

@@ -1,0 +1,12 @@
+<workout_file>
+    <author></author>
+    <name>month-2_session-15-2040-hill-reps</name>
+    <description>IMPORTANT: Start the first 20 seconds of each minute of every 5 minute interval out of the saddle maintaining the power and cadence targets to the best of your abilities.Try not to spike the power and keep your pedaling smooth.We want to see smooth power throughout each 5 minute effort despite being out of the saddle for the first 20 seconds of each and every minute of the interval.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="1200" PowerLow="0.35" PowerHigh="0.82" />
+<SteadyState Duration="300" Power="0.4" />
+<IntervalsT Repeat="4" OnDuration="300" OffDuration="300" OnPower="1.0" OffPower="0.4" />
+</workout>
+    </workout_file>

@@ -1,0 +1,22 @@
+<workout_file>
+    <author></author>
+    <name>climbing_3x9-progressive-climbing</name>
+    <description>Author: aionathletics.com</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="900" PowerLow="0.24" PowerHigh="0.7" />
+<SteadyState Duration="180" Power="0.8" Cadence="60" CadenceLow="60" CadenceHigh="60" />
+<SteadyState Duration="180" Power="0.87" Cadence="60" CadenceLow="60" CadenceHigh="60" />
+<SteadyState Duration="180" Power="0.94" Cadence="60" CadenceLow="60" CadenceHigh="60" />
+<SteadyState Duration="720" Power="0.55" />
+<SteadyState Duration="180" Power="0.8" />
+<SteadyState Duration="180" Power="0.87" />
+<SteadyState Duration="180" Power="0.94" />
+<SteadyState Duration="720" Power="0.55" />
+<SteadyState Duration="180" Power="0.8" />
+<SteadyState Duration="180" Power="0.87" />
+<SteadyState Duration="180" Power="0.94" />
+<Cooldown Duration="720" PowerLow="0.6" PowerHigh="0.25" />
+</workout>
+    </workout_file>

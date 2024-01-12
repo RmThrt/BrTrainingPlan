@@ -1,0 +1,13 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+WU:10 Min including 1 minute efforts in zone 4 and 5.-----MS1:3 x 6 Min Threshold Intervals.TARGET: Power Zone 4CADENCE: 90-100rpmRECOVERY: 2 Mins-----MS2:Ride prescribed time in Tempo ZoneTARGET: Power Zone 3CADENCE: Vary cadence throughout the ride from 85-105rpm.,1,60,50,50,%,,,,,,
+,2,60,50,50,%,,60,91,91,%,
+,2,60,50,50,%,,60,107,107,%,
+,1,60,50,50,%,,,,,,
+,1,360,98,98,%,,,,,,
+,1,120,55,55,%,,,,,,
+,1,360,98,98,%,,,,,,
+,1,120,55,55,%,,,,,,
+,1,360,98,98,%,,,,,,
+,1,120,55,55,%,,,,,,
+,1,1200,78,78,%,,,,,,
+,1,300,75,50,%,,,,,,

@@ -1,0 +1,17 @@
+<workout_file>
+    <author></author>
+    <name>teamwkg_wkg-w2w1</name>
+    <description>Author: Franklin Bespoke</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="600" PowerLow="0.4" PowerHigh="0.75" />
+<IntervalsT Repeat="10" OnDuration="20" OffDuration="30" OnPower="1.25" OffPower="0.6" />
+<SteadyState Duration="300" Power="0.85" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<IntervalsT Repeat="10" OnDuration="20" OffDuration="40" OnPower="1.2" OffPower="0.6" />
+<SteadyState Duration="180" Power="0.8" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="120" Power="0.95" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="60" Power="1.1" />
+<Cooldown Duration="540" PowerLow="0.75" PowerHigh="0.4" />
+</workout>
+    </workout_file>

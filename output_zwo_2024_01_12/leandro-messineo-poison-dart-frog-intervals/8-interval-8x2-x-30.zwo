@@ -1,0 +1,13 @@
+<workout_file>
+    <author></author>
+    <name>8-interval-8x2-x-30</name>
+    <description>Author: L.Messineo | Poison Dart Frog</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="420" PowerLow="0.25" PowerHigh="0.75" />
+<IntervalsT Repeat="8" OnDuration="120" OffDuration="30" OnPower="1.14" OffPower="0.26" />
+<SteadyState Duration="420" Power="0.57" />
+<Cooldown Duration="180" PowerLow="0.57" PowerHigh="0.36" />
+</workout>
+    </workout_file>

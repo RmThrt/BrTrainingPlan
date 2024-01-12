@@ -1,0 +1,9 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+Author: C.O'Hearn ZHR Masters,1,840,50,75,%,,,,,,
+,1,60,100,100,%,,,,,,
+,1,60,75,75,%,,,,,,
+,1,60,100,100,%,,,,,,
+,1,120,70,70,%,,,,,,
+,3,240,112,112,%,,240,50,50,%,
+,1,240,112,112,%,,,,,,
+,1,900,70,50,%,,,,,,

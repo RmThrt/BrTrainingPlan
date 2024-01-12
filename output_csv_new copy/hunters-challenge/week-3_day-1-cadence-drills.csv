@@ -1,0 +1,6 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+Don't worry too much with watts or HR in this one. Just make it a fun and challenging trainer ride.,1,600,55,72,%,,,,,,
+,10,60,72,72,%,105,60,72,72,%,85
+,1,1200,87,87,%,,,,,,
+,10,60,87,87,%,105,60,87,87,%,85
+,1,600,72,55,%,,,,,,

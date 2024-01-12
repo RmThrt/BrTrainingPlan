@@ -1,0 +1,15 @@
+<workout_file>
+    <author></author>
+    <name>week-2_day-2-peaks-pedal-drills</name>
+    <description>This workout is to help you improve your pedal stroke.  Follow the instructions throughout the workout closely!</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="600" PowerLow="0.5" PowerHigh="0.65" />
+<IntervalsT Repeat="6" OnDuration="60" OffDuration="120" OnPower="0.95" OffPower="0.72" Cadence="65" CadenceLow="65" CadenceHigh="65" CadenceResting="85" />
+<IntervalsT Repeat="6" OnDuration="60" OffDuration="120" OnPower="0.95" OffPower="0.72" Cadence="65" CadenceLow="65" CadenceHigh="65" CadenceResting="85" />
+<SteadyState Duration="300" Power="0.72" />
+<IntervalsT Repeat="8" OnDuration="60" OffDuration="60" OnPower="0.95" OffPower="0.72" Cadence="120" CadenceLow="120" CadenceHigh="120" CadenceResting="85" />
+<Cooldown Duration="600" PowerLow="0.72" PowerHigh="0.55" />
+</workout>
+    </workout_file>

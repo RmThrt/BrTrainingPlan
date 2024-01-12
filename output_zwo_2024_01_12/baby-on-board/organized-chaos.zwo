@@ -1,0 +1,51 @@
+<workout_file>
+    <author></author>
+    <name>organized-chaos</name>
+    <description>This workout is filled with a number of inconsistent segments ranging from :10 seconds to 2 minutes in duration. This is a great way to train "tackling the unknown". Being nimble whether it is on the bike or off is important. Sometimes we just need to go with what's put in front of us! Enjoy, it's a fun one and will fly by before you know it.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="30" Power="0.35" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="30" Power="0.4" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="30" Power="0.45" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="30" Power="0.5" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="45" Power="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="45" Power="0.6" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="45" Power="0.65" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="45" Power="0.7" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="0.9" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="30" Power="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="45" Power="1.0" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="0.65" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<IntervalsT Repeat="1" OnDuration="25" OffDuration="25" OnPower="1.0" OffPower="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" CadenceResting="85" />
+<IntervalsT Repeat="1" OnDuration="25" OffDuration="25" OnPower="1.0" OffPower="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" CadenceResting="85" />
+<SteadyState Duration="60" Power="0.85" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="30" Power="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="20" Power="1.1" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="30" Power="0.65" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="30" Power="1.1" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="45" Power="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="20" Power="1.0" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="30" Power="0.65" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<IntervalsT Repeat="1" OnDuration="10" OffDuration="25" OnPower="1.05" OffPower="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" CadenceResting="85" />
+<IntervalsT Repeat="1" OnDuration="25" OffDuration="25" OnPower="1.0" OffPower="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" CadenceResting="85" />
+<SteadyState Duration="45" Power="0.9" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="30" Power="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="30" Power="1.0" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="45" Power="0.65" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="120" Power="0.8" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="45" Power="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="20" Power="1.1" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="30" Power="0.65" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<IntervalsT Repeat="1" OnDuration="25" OffDuration="25" OnPower="1.0" OffPower="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" CadenceResting="85" />
+<SteadyState Duration="30" Power="1.1" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="30" Power="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="20" Power="1.05" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="0.6" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="0.5" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="0.45" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<Cooldown Duration="60" Power="0.4" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+</workout>
+    </workout_file>

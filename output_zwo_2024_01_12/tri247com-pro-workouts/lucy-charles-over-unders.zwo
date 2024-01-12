@@ -1,0 +1,23 @@
+<workout_file>
+    <author></author>
+    <name>lucy-charles-over-unders</name>
+    <description>Author: Reece Barclay</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="600" PowerLow="0.5" PowerHigh="0.81" />
+<SteadyState Duration="120" Power="1.05" />
+<SteadyState Duration="120" Power="0.5" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<IntervalsT Repeat="3" OnDuration="40" OffDuration="60" OnPower="1.09" OffPower="0.91" />
+<SteadyState Duration="150" Power="0.5" />
+<IntervalsT Repeat="3" OnDuration="40" OffDuration="60" OnPower="1.09" OffPower="0.91" />
+<SteadyState Duration="150" Power="0.5" />
+<IntervalsT Repeat="3" OnDuration="40" OffDuration="60" OnPower="1.09" OffPower="0.9" />
+<SteadyState Duration="150" Power="0.5" />
+<IntervalsT Repeat="3" OnDuration="40" OffDuration="60" OnPower="1.09" OffPower="0.91" />
+<SteadyState Duration="150" Power="0.51" />
+<IntervalsT Repeat="3" OnDuration="40" OffDuration="60" OnPower="1.09" OffPower="0.9" />
+<SteadyState Duration="150" Power="0.5" />
+<Cooldown Duration="510" PowerLow="0.75" PowerHigh="0.25" />
+</workout>
+    </workout_file>

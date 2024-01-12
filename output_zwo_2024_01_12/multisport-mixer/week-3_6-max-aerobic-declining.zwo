@@ -1,0 +1,23 @@
+<workout_file>
+    <author></author>
+    <name>week-3_6-max-aerobic-declining</name>
+    <description>Working entirely in your Max Aerobic area, this session maintains the interval duration throughout all efforts, but decreases the intensity.With adequate recovery we are looking at your HR response to the effort.Power is decreasing. Is your HR decreasing along with the effort?</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="360" PowerLow="0.42" PowerHigh="0.7" />
+<SteadyState Duration="60" Power="0.5" />
+<SteadyState Duration="60" Power="1.09" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="120" Power="0.5" />
+<SteadyState Duration="180" Power="0.9" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="180" Power="0.5" />
+<SteadyState Duration="360" Power="1.05" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="300" Power="0.56" />
+<SteadyState Duration="360" Power="1.0" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="300" Power="0.57" />
+<SteadyState Duration="360" Power="0.95" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="300" Power="0.57" />
+<SteadyState Duration="360" Power="0.9" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<Cooldown Duration="300" Power="0.56" />
+</workout>
+    </workout_file>

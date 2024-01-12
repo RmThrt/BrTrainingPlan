@@ -1,0 +1,28 @@
+<workout_file>
+    <author></author>
+    <name>orange-unicorn</name>
+    <description>All the Unicorn workouts are based off of the visual spectrum (Red, Orange, Yellow, Green, Blue, Indigo, Violet (purple)) with the same order of easiest to hardest.  So, Red Unicorn features the least training load, Orange Unicorn the second, etc.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="600" PowerLow="0.25" PowerHigh="0.75" />
+<SteadyState Duration="60" Power="0.8" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="30" Power="0.95" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="30" Power="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="0.8" Cadence="105" CadenceLow="105" CadenceHigh="105" />
+<SteadyState Duration="30" Power="1.05" Cadence="105" CadenceLow="105" CadenceHigh="105" />
+<SteadyState Duration="30" Power="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="0.8" Cadence="110" CadenceLow="110" CadenceHigh="110" />
+<SteadyState Duration="30" Power="1.15" Cadence="110" CadenceLow="110" CadenceHigh="110" />
+<SteadyState Duration="30" Power="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="240" Power="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<IntervalsT Repeat="6" OnDuration="120" OffDuration="30" OnPower="0.85" OffPower="1.05" />
+<SteadyState Duration="120" Power="0.55" />
+<IntervalsT Repeat="6" OnDuration="120" OffDuration="30" OnPower="0.85" OffPower="1.05" Cadence="75" CadenceLow="75" CadenceHigh="75" CadenceResting="110" />
+<SteadyState Duration="120" Power="0.55" />
+<IntervalsT Repeat="6" OnDuration="120" OffDuration="30" OnPower="0.85" OffPower="1.05" Cadence="65" CadenceLow="65" CadenceHigh="65" CadenceResting="65" />
+<SteadyState Duration="120" Power="0.55" />
+<IntervalsT Repeat="6" OnDuration="120" OffDuration="30" OnPower="0.85" OffPower="1.05" />
+<Cooldown Duration="240" PowerLow="0.75" PowerHigh="0.25" />
+</workout>
+    </workout_file>

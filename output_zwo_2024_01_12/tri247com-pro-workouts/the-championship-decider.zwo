@@ -1,0 +1,52 @@
+<workout_file>
+    <author></author>
+    <name>the-championship-decider</name>
+    <description>Author: Chris Standidge</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="600" PowerLow="0.45" PowerHigh="0.65" />
+<SteadyState Duration="30" Power="0.83" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<SteadyState Duration="30" Power="0.45" />
+<SteadyState Duration="30" Power="0.83" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<SteadyState Duration="30" Power="0.45" />
+<SteadyState Duration="30" Power="0.83" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<SteadyState Duration="30" Power="0.45" />
+<SteadyState Duration="30" Power="0.83" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<SteadyState Duration="30" Power="0.45" />
+<SteadyState Duration="30" Power="0.83" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<SteadyState Duration="30" Power="0.45" />
+<SteadyState Duration="60" Power="0.89" Cadence="53" CadenceLow="53" CadenceHigh="53" />
+<SteadyState Duration="60" Power="0.48" />
+<SteadyState Duration="60" Power="0.89" Cadence="53" CadenceLow="53" CadenceHigh="53" />
+<SteadyState Duration="60" Power="0.48" />
+<SteadyState Duration="60" Power="0.89" Cadence="53" CadenceLow="53" CadenceHigh="53" />
+<SteadyState Duration="60" Power="0.48" />
+<SteadyState Duration="60" Power="0.89" Cadence="53" CadenceLow="53" CadenceHigh="53" />
+<SteadyState Duration="60" Power="0.48" />
+<SteadyState Duration="60" Power="0.89" Cadence="53" CadenceLow="53" CadenceHigh="53" />
+<SteadyState Duration="60" Power="0.48" />
+<SteadyState Duration="60" Power="0.89" Cadence="53" CadenceLow="53" CadenceHigh="53" />
+<SteadyState Duration="60" Power="0.48" />
+<SteadyState Duration="120" Power="0.92" Cadence="58" CadenceLow="58" CadenceHigh="58" />
+<SteadyState Duration="60" Power="0.48" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="120" Power="0.92" Cadence="58" CadenceLow="58" CadenceHigh="58" />
+<SteadyState Duration="60" Power="0.48" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="120" Power="0.92" Cadence="58" CadenceLow="58" CadenceHigh="58" />
+<SteadyState Duration="60" Power="0.48" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="120" Power="0.92" Cadence="58" CadenceLow="58" CadenceHigh="58" />
+<SteadyState Duration="60" Power="0.48" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="180" Power="0.95" Cadence="63" CadenceLow="63" CadenceHigh="63" />
+<SteadyState Duration="60" Power="0.48" />
+<SteadyState Duration="180" Power="0.95" Cadence="63" CadenceLow="63" CadenceHigh="63" />
+<SteadyState Duration="60" Power="0.48" />
+<SteadyState Duration="180" Power="0.95" Cadence="63" CadenceLow="63" CadenceHigh="63" />
+<SteadyState Duration="60" Power="0.48" />
+<SteadyState Duration="240" Power="0.98" Cadence="68" CadenceLow="68" CadenceHigh="68" />
+<SteadyState Duration="180" Power="0.55" />
+<SteadyState Duration="240" Power="0.98" Cadence="68" CadenceLow="68" CadenceHigh="68" />
+<SteadyState Duration="180" Power="0.55" />
+<SteadyState Duration="720" Power="1.03" Cadence="83" CadenceLow="83" CadenceHigh="83" />
+<Cooldown Duration="900" Power="0.48" />
+</workout>
+    </workout_file>

@@ -1,0 +1,10 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+Targeting your aerobic efficiency with 5 x 5min sub-threshold efforts with 3min recovery.We are also introducing an added stress by challenging your neuromuscular system by increasing the target cadence.,1,300,50,50,%,,,,,,
+,2,10,181,181,%,,50,50,50,%,
+,1,120,50,50,%,,,,,,
+,1,60,109,109,%,,,,,,
+,1,120,56,56,%,,,,,,
+,1,180,84,84,%,,,,,,
+,1,180,56,56,%,,,,,,
+,4,300,92,92,%,100,180,50,50,%,80
+,1,600,75,50,%,,,,,,

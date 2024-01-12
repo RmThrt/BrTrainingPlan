@@ -1,0 +1,6 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"SST intervals are part of a continued effort to build and maintain base. Warm up in Endurance with 2 x 1 minute Fast Pedals (fast as you can pedal without bouncing in the saddle) to wake up your legs. Complete 2 x 17 minute intervals in the ""Sweet Spot"" zone with 5 minutes recovery in-between. Ride all other time in Endurance. Cadence: 85 - 105 rpm.",1,900,25,75,%,,,,,,
+,1,1080,75,75,%,,,,,,
+,2,1020,85,85,%,,300,50,50,%,
+,1,1080,75,75,%,,,,,,
+,1,600,75,25,%,,,,,,

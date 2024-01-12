@@ -1,0 +1,9 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"In today's workout, you will complete 3 x 10 minute blocks of effort. The first and third block are at 88% of FTP (top-end of Zone 3), with the middle block a Free Ride, so you can ride as hard or easy as you like (target being to complete another Zone 3 block).This is another purist way to develop your endurance - no free wheeling and consistent muscle tension.",1,480,35,95,%,,,,,,
+,1,120,45,45,%,,,,,,
+,1,600,88,88,%,,,,,,
+,1,240,50,50,%,,,,,,
+,1,600,0,0,0,,,,,,
+,1,240,50,50,%,,,,,,
+,1,600,88,88,%,,,,,,
+,1,300,60,35,%,,,,,,

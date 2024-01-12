@@ -1,0 +1,20 @@
+<workout_file>
+    <author></author>
+    <name>strength_time-under-tension</name>
+    <description>Author: S.Gaffney (GC Coaching)</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="600" PowerLow="0.25" PowerHigh="0.75" />
+<IntervalsT Repeat="3" OnDuration="30" OffDuration="30" OnPower="1.15" OffPower="0.5" />
+<FreeRide Duration="120" />
+<SteadyState Duration="480" Power="0.81" Cadence="55" CadenceLow="55" CadenceHigh="55" />
+<SteadyState Duration="240" Power="0.65" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="480" Power="0.81" Cadence="55" CadenceLow="55" CadenceHigh="55" />
+<SteadyState Duration="240" Power="0.65" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="480" Power="0.81" Cadence="55" CadenceLow="55" CadenceHigh="55" />
+<SteadyState Duration="240" Power="0.65" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="480" Power="0.81" Cadence="55" CadenceLow="55" CadenceHigh="55" />
+<Cooldown Duration="300" PowerLow="0.75" PowerHigh="0.25" />
+</workout>
+    </workout_file>

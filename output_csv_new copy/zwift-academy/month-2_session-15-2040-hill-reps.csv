@@ -1,0 +1,4 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+IMPORTANT: Start the first 20 seconds of each minute of every 5 minute interval out of the saddle maintaining the power and cadence targets to the best of your abilities.Try not to spike the power and keep your pedaling smooth.We want to see smooth power throughout each 5 minute effort despite being out of the saddle for the first 20 seconds of each and every minute of the interval.,1,1200,35,82,%,,,,,,
+,1,300,40,40,%,,,,,,
+,4,300,100,100,%,,300,40,40,%,

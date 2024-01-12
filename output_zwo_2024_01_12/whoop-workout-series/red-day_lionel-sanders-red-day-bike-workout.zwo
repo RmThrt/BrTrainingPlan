@@ -1,0 +1,12 @@
+<workout_file>
+    <author></author>
+    <name>red-day_lionel-sanders-red-day-bike-workout</name>
+    <description>Lionel Sanders says 'A Red day likely means that I didn't sleep very much or the quality of the sleep was quite low. On these days, I try to not cancel my workout which is why I like to do roller riding. The reason I don't cancel is doing something that is progressing you as an athlete, and you can do successfully, allows you to not put any unnecessary stress into the body on that day. This in turn let's you make sure you get to bed at a decent time and get a good quality sleep to set yourself up for success next day, for the interval work you potentially missed on the red day.'</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="600" PowerLow="0.25" PowerHigh="0.75" />
+<FreeRide Duration="1500" />
+<Cooldown Duration="300" PowerLow="0.75" PowerHigh="0.25" />
+</workout>
+    </workout_file>

@@ -1,0 +1,9 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"Building upon your previous HIT 45sec session, this time we are extending the final sub-threshold interval to 8min.The same principles apply. Burn up some carbs before completing a steady sub-threshold effort.",1,180,50,50,%,,,,,,
+,2,60,75,75,%,100,60,50,50,%,80
+,2,60,90,90,%,100,60,50,50,%,80
+,1,180,50,50,%,85,,,,,
+,6,45,175,175,%,100,255,60,60,%,85
+,1,180,50,50,%,,,,,,
+,1,480,95,95,%,90,,,,,
+,1,300,50,50,%,,,,,,

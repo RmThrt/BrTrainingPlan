@@ -1,0 +1,12 @@
+<workout_file>
+    <author></author>
+    <name>week-2_day-2-bike</name>
+    <description>Bike - 90 min. -30 min. warm up-30 min. big gear 70 rpm @ 88% FTP-30 min. cool @ 60% FTP</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="600" PowerLow="0.5" PowerHigh="0.75" />
+<SteadyState Duration="1800" Power="0.88" />
+<Cooldown Duration="1200" Power="0.6" />
+</workout>
+    </workout_file>

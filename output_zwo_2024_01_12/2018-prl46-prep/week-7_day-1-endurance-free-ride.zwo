@@ -1,0 +1,10 @@
+<workout_file>
+    <author></author>
+    <name>week-7_day-1-endurance-free-ride</name>
+    <description>A steady endurance ride today.Ride as you feel aiming to keep power within Z2-3.Don't forget it's fine to miss a day if you have to. Just move onto the next planned session.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="3000" />
+</workout>
+    </workout_file>

@@ -1,0 +1,20 @@
+<workout_file>
+    <author></author>
+    <name>bike_2-strength-endurancethreshold-combo</name>
+    <description>The combination of both strength/endurance and threshold riding makes this session very challenging. With the change in specific cadence between the sets giving this workout a unique context. This session is great to work on specific strength, and threshold power, with the changes in torque throughout really helping to push up your FTP. This session is great when done in Erg mode.	For WHOOP users — This workout is good to do on a Yellow or Green Recovery day. Although the middle part of this session is at 100% of FTP, the duration of each rep is short. This means you can likely still manage this session, even on days when you’re not fully recovered.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="300" PowerLow="0.35" PowerHigh="0.55" />
+<Ramp Duration="120" PowerLow="0.85" PowerHigh="1.05" />
+<SteadyState Duration="60" Power="0.55" />
+<IntervalsT Repeat="2" OnDuration="300" OffDuration="120" OnPower="0.8" OffPower="0.55" Cadence="60" CadenceLow="60" CadenceHigh="60" CadenceResting="90" />
+<IntervalsT Repeat="1" OnDuration="120" OffDuration="60" OnPower="1.0" OffPower="0.55" />
+<IntervalsT Repeat="1" OnDuration="180" OffDuration="90" OnPower="1.0" OffPower="0.55" />
+<IntervalsT Repeat="1" OnDuration="240" OffDuration="120" OnPower="1.0" OffPower="0.55" />
+<IntervalsT Repeat="1" OnDuration="180" OffDuration="90" OnPower="1.0" OffPower="0.55" />
+<IntervalsT Repeat="1" OnDuration="120" OffDuration="60" OnPower="1.0" OffPower="0.55" />
+<IntervalsT Repeat="2" OnDuration="300" OffDuration="120" OnPower="0.8" OffPower="0.55" Cadence="60" CadenceLow="60" CadenceHigh="60" CadenceResting="90" />
+<Cooldown Duration="180" PowerLow="0.55" PowerHigh="0.35" />
+</workout>
+    </workout_file>

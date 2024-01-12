@@ -1,0 +1,6 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"This is hard, but you gotta commit! PUSH IT!",1,1200,25,75,%,,,,,,
+,1,900,65,65,%,,,,,,
+,4,300,120,120,%,,300,50,50,%,
+,1,1800,65,65,%,,,,,,
+,1,900,65,25,%,,,,,,

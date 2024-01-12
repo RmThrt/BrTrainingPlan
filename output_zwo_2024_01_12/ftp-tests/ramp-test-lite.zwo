@@ -1,0 +1,32 @@
+<workout_file>
+    <author></author>
+    <name>ramp-test-lite</name>
+    <description>"Want to test your limits? The Ramp Test Lite is for you. This test version of the Ramp Test ramps up the power every minute until you find your breaking point. It's designed to quickly identify the upper limit of your aerobic capacity and estimate your FTP (functional threshold power). The ramp portion will ideally take 3-5 minutes to complete. It should feel easy at first, but then get very hard very fast. Stay seated, keep a steady cadence, and keep ramping up until you simply can't go any longer.        Note that this test is designed for lighter riders or beginners. For more experienced and/or heavier riders, try the Ramp Test, which starts at a higher wattage and uses larger increments to cover a higher range on the power spectrum."</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="480" />
+<SteadyState Duration="60" Power="50" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="60" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="70" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="80" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="90" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="100" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="110" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="120" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="130" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="140" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="150" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="160" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="170" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="180" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="190" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="200" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="210" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="220" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="230" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="240" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="250" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<Cooldown Duration="600" PowerLow="75" PowerHigh="70" />
+</workout>
+    </workout_file>

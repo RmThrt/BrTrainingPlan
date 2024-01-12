@@ -1,0 +1,7 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"After first completing a solid 20min high end tempo effort, the session finishes with 2 x 5min sub-threshold efforts.",1,300,50,50,%,85,,,,,
+,5,30,65,65,%,85,30,80,80,%,95
+,1,180,50,50,%,,,,,,
+,1,1200,81,81,%,90,,,,,
+,1,300,50,50,%,85,,,,,
+,2,300,96,96,%,95,180,56,56,%,80

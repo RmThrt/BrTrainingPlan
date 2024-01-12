@@ -1,0 +1,12 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"Short intervals are great for adapting the anaerobic and aerobic systems as well as having a high neuromuscular component. Moreover, by specifically manipulating the work-to-rest ratios, we are able to specifically target each of these three factors to a greater extent. This session includes all the classic short intervals, from 30/30 to 30/15 to 40/20. We'll then be gradually shifting toward a more aerobic component. These sessions are great for improving your VO2 max and anaerobic capacity, and should be included early in your training season.	For WHOOP users - This workout is ideally done on a Green Recovery day. These FTP intervals will challenge you and result in a higher strain score. If you aren’t well recovered, get some rest and come back to this workout on another day",1,600,35,55,%,,,,,,
+,2,20,100,100,%,,40,55,55,%,
+,2,15,105,105,%,,45,55,55,%,
+,2,10,110,110,%,,50,55,55,%,
+,1,60,55,55,%,,,,,,
+,10,40,110,110,%,,20,55,55,%,
+,1,300,55,55,%,,,,,,
+,10,30,112,112,%,,15,55,55,%,
+,1,330,55,55,%,,,,,,
+,10,30,112,112,%,,30,55,55,%,
+,1,300,55,35,%,,,,,,

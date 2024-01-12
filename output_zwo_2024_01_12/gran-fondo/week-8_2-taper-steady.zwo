@@ -1,0 +1,18 @@
+<workout_file>
+    <author></author>
+    <name>week-8_2-taper-steady</name>
+    <description>Keeping the rhythm flowing here. Some nice, light work just to keep things ticking over. Hold that rhythm right through to the Fondo!</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="600" PowerLow="0.55" PowerHigh="0.7" />
+<SteadyState Duration="300" Power="0.7" />
+<Ramp Duration="300" PowerLow="0.7" PowerHigh="0.65" />
+<Ramp Duration="300" PowerLow="0.65" PowerHigh="1.0" />
+<SteadyState Duration="300" Power="1.0" />
+<Ramp Duration="300" PowerLow="1.0" PowerHigh="0.65" />
+<Ramp Duration="300" PowerLow="0.65" PowerHigh="0.8" />
+<SteadyState Duration="300" Power="0.8" />
+<Cooldown Duration="300" PowerLow="0.8" PowerHigh="0.55" />
+</workout>
+    </workout_file>

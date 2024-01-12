@@ -1,0 +1,17 @@
+<workout_file>
+    <author></author>
+    <name>week-3_day-5-threshold-and-vo2-max</name>
+    <description>Just to make sure you are being honest and getting in your threshold and Vo2 Max work.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="600" PowerLow="0.55" PowerHigh="0.72" />
+<IntervalsT Repeat="6" OnDuration="60" OffDuration="60" OnPower="0.95" OffPower="0.87" Cadence="105" CadenceLow="105" CadenceHigh="105" CadenceResting="85" />
+<SteadyState Duration="300" Power="0.72" />
+<IntervalsT Repeat="4" OnDuration="120" OffDuration="30" OnPower="0.87" OffPower="0.95" />
+<SteadyState Duration="300" Power="0.87" />
+<IntervalsT Repeat="4" OnDuration="120" OffDuration="30" OnPower="0.87" OffPower="0.95" />
+<SteadyState Duration="300" Power="0.87" />
+<Cooldown Duration="600" PowerLow="0.72" PowerHigh="0.55" />
+</workout>
+    </workout_file>

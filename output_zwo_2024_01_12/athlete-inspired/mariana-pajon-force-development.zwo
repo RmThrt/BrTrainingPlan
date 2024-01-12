@@ -1,0 +1,17 @@
+<workout_file>
+    <author></author>
+    <name>mariana-pajon-force-development</name>
+    <description>With the nickname 'Queen of BMX', you know Mariana Pajón, ODB, is the real deal, and her 2 Olympic gold medals in BMX, multiple World Championships, and Pan American Games victories just back it up! An essential skill for BMX athletes is to generate massive force and torque to the pedals, especially when the gate drops. This workout features low cadence intervals, and pedal stroke work, which help develop pedaling force.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="300" PowerLow="0.5" PowerHigh="0.75" />
+<SteadyState Duration="120" Power="0.55" />
+<SteadyState Duration="300" Power="0.85" Cadence="70" CadenceLow="70" CadenceHigh="70" />
+<SteadyState Duration="180" Power="0.65" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="300" Power="0.85" Cadence="70" CadenceLow="70" CadenceHigh="70" />
+<SteadyState Duration="180" Power="0.65" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="300" Power="0.85" Cadence="70" CadenceLow="70" CadenceHigh="70" />
+<Cooldown Duration="300" PowerLow="0.55" PowerHigh="0.35" />
+</workout>
+    </workout_file>

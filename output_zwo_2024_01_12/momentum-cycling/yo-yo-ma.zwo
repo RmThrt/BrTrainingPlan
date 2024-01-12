@@ -1,0 +1,29 @@
+<workout_file>
+    <author></author>
+    <name>yo-yo-ma</name>
+    <description>Author: T.Delfs - Momentum Cycling</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="240" Power="0.45" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="60" Power="0.5" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<SteadyState Duration="60" Power="0.6" Cadence="105" CadenceLow="105" CadenceHigh="105" />
+<SteadyState Duration="60" Power="0.7" Cadence="110" CadenceLow="110" CadenceHigh="110" />
+<SteadyState Duration="60" Power="0.8" Cadence="115" CadenceLow="115" CadenceHigh="115" />
+<SteadyState Duration="60" Power="0.9" Cadence="120" CadenceLow="120" CadenceHigh="120" />
+<SteadyState Duration="120" Power="0.5" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<IntervalsT Repeat="10" OnDuration="30" OffDuration="30" OnPower="0.8" OffPower="0.6" Cadence="115" CadenceLow="115" CadenceHigh="115" CadenceResting="100" />
+<SteadyState Duration="120" Power="0.5" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<IntervalsT Repeat="10" OnDuration="30" OffDuration="30" OnPower="0.8" OffPower="0.6" Cadence="120" CadenceLow="120" CadenceHigh="120" CadenceResting="105" />
+<SteadyState Duration="120" Power="0.5" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<IntervalsT Repeat="12" OnDuration="60" OffDuration="30" OnPower="0.8" OffPower="0.6" Cadence="115" CadenceLow="115" CadenceHigh="115" CadenceResting="105" />
+<SteadyState Duration="120" Power="0.5" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="480" Power="0.75" Cadence="105" CadenceLow="105" CadenceHigh="105" />
+<SteadyState Duration="60" Power="0.6" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<SteadyState Duration="60" Power="0.7" Cadence="105" CadenceLow="105" CadenceHigh="105" />
+<SteadyState Duration="60" Power="0.8" Cadence="110" CadenceLow="110" CadenceHigh="110" />
+<SteadyState Duration="60" Power="0.9" Cadence="115" CadenceLow="115" CadenceHigh="115" />
+<SteadyState Duration="60" Power="1.0" Cadence="120" CadenceLow="120" CadenceHigh="120" />
+<Cooldown Duration="420" Power="0.4" Cadence="105" CadenceLow="105" CadenceHigh="105" />
+</workout>
+    </workout_file>

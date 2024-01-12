@@ -1,0 +1,43 @@
+<workout_file>
+    <author></author>
+    <name>shark-week-workout-gplama</name>
+    <description>Author: Shane Miller - GPLama</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="360" />
+<Ramp Duration="30" PowerLow="0.75" PowerHigh="1.3" />
+<Ramp Duration="30" PowerLow="1.3" PowerHigh="0.75" />
+<Ramp Duration="30" PowerLow="0.75" PowerHigh="1.3" />
+<Ramp Duration="30" PowerLow="1.3" PowerHigh="0.75" />
+<Ramp Duration="30" PowerLow="0.75" PowerHigh="1.3" />
+<Ramp Duration="30" PowerLow="1.3" PowerHigh="0.75" />
+<Ramp Duration="30" PowerLow="0.75" PowerHigh="1.3" />
+<Ramp Duration="30" PowerLow="1.3" PowerHigh="0.75" />
+<Ramp Duration="30" PowerLow="0.75" PowerHigh="1.3" />
+<Ramp Duration="30" PowerLow="1.3" PowerHigh="0.75" />
+<FreeRide Duration="120" />
+<Ramp Duration="45" PowerLow="0.75" PowerHigh="1.15" />
+<Ramp Duration="45" PowerLow="1.15" PowerHigh="0.75" />
+<Ramp Duration="45" PowerLow="0.75" PowerHigh="1.15" />
+<Ramp Duration="45" PowerLow="1.15" PowerHigh="0.75" />
+<Ramp Duration="45" PowerLow="0.75" PowerHigh="1.15" />
+<Ramp Duration="45" PowerLow="1.15" PowerHigh="0.75" />
+<Ramp Duration="45" PowerLow="0.75" PowerHigh="1.15" />
+<Ramp Duration="45" PowerLow="1.15" PowerHigh="0.75" />
+<Ramp Duration="45" PowerLow="0.75" PowerHigh="1.15" />
+<Ramp Duration="45" PowerLow="1.15" PowerHigh="0.75" />
+<FreeRide Duration="120" />
+<Ramp Duration="30" PowerLow="0.75" PowerHigh="1.3" />
+<Ramp Duration="30" PowerLow="1.3" PowerHigh="0.75" />
+<Ramp Duration="30" PowerLow="0.75" PowerHigh="1.3" />
+<Ramp Duration="30" PowerLow="1.3" PowerHigh="0.75" />
+<Ramp Duration="30" PowerLow="0.75" PowerHigh="1.3" />
+<Ramp Duration="30" PowerLow="1.3" PowerHigh="0.75" />
+<Ramp Duration="30" PowerLow="0.75" PowerHigh="1.3" />
+<Ramp Duration="30" PowerLow="1.3" PowerHigh="0.75" />
+<Ramp Duration="30" PowerLow="0.75" PowerHigh="1.3" />
+<Ramp Duration="30" PowerLow="1.3" PowerHigh="0.75" />
+<Cooldown Duration="360" />
+</workout>
+    </workout_file>

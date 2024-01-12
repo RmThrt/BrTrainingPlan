@@ -1,0 +1,14 @@
+<workout_file>
+    <author></author>
+    <name>endurance-2</name>
+    <description>Author: f.bassis</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="900" PowerLow="0.58" PowerHigh="0.75" />
+<IntervalsT Repeat="12" OnDuration="10" OffDuration="170" OnPower="1.41" OffPower="0.82" />
+<FreeRide Duration="240" />
+<Ramp Duration="600" PowerLow="0.87" PowerHigh="0.95" />
+<Cooldown Duration="300" PowerLow="0.75" PowerHigh="0.25" />
+</workout>
+    </workout_file>

@@ -1,0 +1,13 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"This session is designed to progressively stretch you as you tick-off each interval. The main sets are 4 x 5 minutes, starting just above your FTP and reducing the power after a set duration to just below your FTP.  Start with a good warm up, followed by a Zone 3 low cadence block (60-70 rpm). This is a system priming section and should set you up nicely for the main intervals. Think of this block being comfortably hard, but hardly comfortable!  The 5 minutes are as follows, with ""pulling"" referring to your power above FTP, and ""pushing"" referring to power below FTP. Recovery periods are 3 minutes between each interval.  ""Pulling""/""Pushing"" : 1/4, 2/3, 3/2, 4/1.",1,900,49,92,%,,,,,,
+,1,300,51,51,%,,,,,,
+,1,900,88,88,%,65,600,49,49,%,100
+,1,60,107,107,%,,,,,,
+,1,240,98,98,%,,180,49,49,%,
+,1,120,107,107,%,,,,,,
+,1,180,98,98,%,,180,49,49,%,
+,1,180,107,107,%,,,,,,
+,1,120,98,98,%,,180,49,49,%,
+,1,240,107,107,%,,,,,,
+,1,60,98,98,%,,,,,,
+,1,900,57,49,%,,,,,,

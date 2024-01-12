@@ -1,0 +1,10 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+A Zwift race start specific workout with 30/30s followed by 10min at zone 4.,1,480,50,80,%,85,,,,,
+,2,30,110,110,%,110,30,55,55,%,85
+,1,120,50,50,%,85,,,,,
+,5,30,120,120,%,,30,55,55,%,
+,1,600,92,92,%,90,,,,,
+,1,300,55,55,%,85,,,,,
+,5,30,120,120,%,,30,55,55,%,
+,1,600,92,92,%,90,,,,,
+,1,300,55,55,%,,,,,,

@@ -1,0 +1,13 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"After completing a good warmup, the session is focused on two areas. Completing 2 x 10min Sub-threshold intervals, and 8 x 20sec accelerations.However, with the 20sec accelerations coming after the first 10min sub-threshold interval, we are aiming to deplete your intramuscular glycogen stores and see what effect this has on the second 10min interval.Is the second 10min interval as comfortable as the first?",1,240,50,50,%,,,,,,
+,5,30,65,65,%,,30,85,85,%,
+,1,60,50,50,%,,,,,,
+,1,180,85,85,%,,,,,,
+,1,60,50,50,%,,,,,,
+,1,60,102,102,%,,,,,,
+,1,120,50,50,%,,,,,,
+,1,600,65,90,%,,,,,,
+,1,60,50,50,%,,,,,,
+,8,20,160,160,%,,100,65,65,%,
+,1,600,65,90,%,,,,,,
+,1,300,50,50,%,,,,,,

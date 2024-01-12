@@ -1,0 +1,21 @@
+<workout_file>
+    <author></author>
+    <name>rainy-day-15mins-set</name>
+    <description>Author: C.Hui</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="600" PowerLow="0.25" PowerHigh="0.75" />
+<FreeRide Duration="300" />
+<IntervalsT Repeat="10" OnDuration="30" OffDuration="30" OnPower="1.0" OffPower="0.5" Cadence="110" CadenceLow="110" CadenceHigh="110" CadenceResting="65" />
+<IntervalsT Repeat="6" OnDuration="180" OffDuration="120" OnPower="0.9" OffPower="0.5" Cadence="60" CadenceLow="60" CadenceHigh="60" CadenceResting="65" />
+<SteadyState Duration="900" Power="0.85" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="300" Power="0.48" />
+<SteadyState Duration="900" Power="0.85" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="300" Power="0.5" />
+<SteadyState Duration="900" Power="0.85" Cadence="80" CadenceLow="80" CadenceHigh="80" />
+<SteadyState Duration="300" Power="0.5" />
+<SteadyState Duration="900" Power="0.85" Cadence="75" CadenceLow="75" CadenceHigh="75" />
+<Cooldown Duration="600" PowerLow="0.75" PowerHigh="0.25" />
+</workout>
+    </workout_file>

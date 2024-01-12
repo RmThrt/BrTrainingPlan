@@ -1,0 +1,50 @@
+<workout_file>
+    <author></author>
+    <name>womens-team-recovery-ride</name>
+    <description>It's no secret that Team Jumbo-Visma is a force to be reckoned with in the women's peloton. With athletes like Marianne Vos, Anna Henderson, and Coryn Labecki highlighting the team, there's no wonder why! Today we will be doing a crucial workout for the team, and the type of workout that is crucial for all cyclists, a recovery ride! This ride is cadence focused, so don't forget to bring your RPM's!</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="180" PowerLow="0.55" PowerHigh="0.65" />
+<IntervalsT Repeat="4" OnDuration="30" OffDuration="30" OnPower="0.72" OffPower="0.65" Cadence="105" CadenceLow="105" CadenceHigh="105" CadenceResting="90" />
+<SteadyState Duration="40" Power="0.72" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="40" Power="0.74" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<SteadyState Duration="40" Power="0.76" Cadence="105" CadenceLow="105" CadenceHigh="105" />
+<SteadyState Duration="40" Power="0.78" Cadence="110" CadenceLow="110" CadenceHigh="110" />
+<SteadyState Duration="40" Power="0.8" Cadence="115" CadenceLow="115" CadenceHigh="115" />
+<SteadyState Duration="40" Power="0.82" Cadence="120" CadenceLow="120" CadenceHigh="120" />
+<SteadyState Duration="40" Power="0.72" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="40" Power="0.74" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<SteadyState Duration="40" Power="0.76" Cadence="105" CadenceLow="105" CadenceHigh="105" />
+<SteadyState Duration="40" Power="0.78" Cadence="110" CadenceLow="110" CadenceHigh="110" />
+<SteadyState Duration="40" Power="0.8" Cadence="115" CadenceLow="115" CadenceHigh="115" />
+<SteadyState Duration="40" Power="0.82" Cadence="120" CadenceLow="120" CadenceHigh="120" />
+<SteadyState Duration="40" Power="0.72" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="40" Power="0.74" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<SteadyState Duration="40" Power="0.76" Cadence="105" CadenceLow="105" CadenceHigh="105" />
+<SteadyState Duration="40" Power="0.78" Cadence="110" CadenceLow="110" CadenceHigh="110" />
+<SteadyState Duration="40" Power="0.8" Cadence="115" CadenceLow="115" CadenceHigh="115" />
+<SteadyState Duration="40" Power="0.82" Cadence="120" CadenceLow="120" CadenceHigh="120" />
+<SteadyState Duration="360" Power="0.74" Cadence="70" CadenceLow="70" CadenceHigh="70" />
+<SteadyState Duration="40" Power="0.72" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="40" Power="0.74" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<SteadyState Duration="40" Power="0.76" Cadence="105" CadenceLow="105" CadenceHigh="105" />
+<SteadyState Duration="40" Power="0.78" Cadence="110" CadenceLow="110" CadenceHigh="110" />
+<SteadyState Duration="40" Power="0.8" Cadence="115" CadenceLow="115" CadenceHigh="115" />
+<SteadyState Duration="40" Power="0.82" Cadence="120" CadenceLow="120" CadenceHigh="120" />
+<SteadyState Duration="40" Power="0.72" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="40" Power="0.74" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<SteadyState Duration="40" Power="0.76" Cadence="105" CadenceLow="105" CadenceHigh="105" />
+<SteadyState Duration="40" Power="0.78" Cadence="110" CadenceLow="110" CadenceHigh="110" />
+<SteadyState Duration="40" Power="0.8" Cadence="115" CadenceLow="115" CadenceHigh="115" />
+<SteadyState Duration="40" Power="0.82" Cadence="120" CadenceLow="120" CadenceHigh="120" />
+<SteadyState Duration="40" Power="0.72" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="40" Power="0.74" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<SteadyState Duration="40" Power="0.76" Cadence="105" CadenceLow="105" CadenceHigh="105" />
+<SteadyState Duration="40" Power="0.78" Cadence="110" CadenceLow="110" CadenceHigh="110" />
+<SteadyState Duration="40" Power="0.8" Cadence="115" CadenceLow="115" CadenceHigh="115" />
+<SteadyState Duration="40" Power="0.82" Cadence="120" CadenceLow="120" CadenceHigh="120" />
+<SteadyState Duration="360" Power="0.74" Cadence="70" CadenceLow="70" CadenceHigh="70" />
+<Cooldown Duration="120" PowerLow="0.65" PowerHigh="0.55" />
+</workout>
+    </workout_file>

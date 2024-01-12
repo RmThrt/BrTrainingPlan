@@ -1,0 +1,27 @@
+<workout_file>
+    <author></author>
+    <name>week-10_3-tempo-4</name>
+    <description>Tempo work is the basis of many training programs and is an area of great necessity. The key benefit to completing tempo work indoors is the lack of interruptions to the effort and ERG mode makes things much simpler.In this workout we move around tempo intensity, but with dramatic changes in target cadence.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="180" Power="0.5" />
+<SteadyState Duration="60" Power="0.6" />
+<SteadyState Duration="60" Power="0.65" />
+<SteadyState Duration="60" Power="0.81" />
+<SteadyState Duration="60" Power="1.09" />
+<SteadyState Duration="120" Power="0.5" />
+<SteadyState Duration="240" Power="0.9" />
+<SteadyState Duration="180" Power="0.5" />
+<SteadyState Duration="300" Power="0.76" Cadence="70" CadenceLow="70" CadenceHigh="70" />
+<SteadyState Duration="300" Power="0.85" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<SteadyState Duration="300" Power="0.91" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="180" Power="0.5" />
+<SteadyState Duration="300" Power="0.76" Cadence="70" CadenceLow="70" CadenceHigh="70" />
+<SteadyState Duration="300" Power="0.85" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<SteadyState Duration="300" Power="0.91" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="180" Power="0.5" />
+<SteadyState Duration="300" Power="0.85" />
+<Cooldown Duration="300" Power="0.5" />
+</workout>
+    </workout_file>

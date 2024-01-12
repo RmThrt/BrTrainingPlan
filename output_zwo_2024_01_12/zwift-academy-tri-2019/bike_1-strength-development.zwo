@@ -1,0 +1,40 @@
+<workout_file>
+    <author></author>
+    <name>bike_1-strength-development</name>
+    <description>Sport specific strength is a critical component of long-distance triathlon. This session aims to produce large amounts of muscular force with limited disturbance to the cardiovascular systems. Many professional long-distance triathletes include regular strength endurance work as part of their micro-cycle routines. And for good reason. Research has shown that training at a lower cadence produced more significant power benefits at threshold than training at a higher cadence.These types of sessions are great if you've got tired legs but still want some quality. This session in particular is made up of 5 x 8 minute reps where the cadence is kept low (60-75 rpm), with moderate intensity (78-84% of FTP).</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="120" Power="0.5" />
+<SteadyState Duration="120" Power="0.65" />
+<SteadyState Duration="120" Power="0.75" />
+<SteadyState Duration="60" Power="0.95" />
+<SteadyState Duration="120" Power="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="120" Power="0.78" Cadence="60" CadenceLow="60" CadenceHigh="60" />
+<SteadyState Duration="120" Power="0.8" Cadence="65" CadenceLow="65" CadenceHigh="65" />
+<SteadyState Duration="120" Power="0.82" Cadence="70" CadenceLow="70" CadenceHigh="70" />
+<SteadyState Duration="120" Power="0.84" Cadence="75" CadenceLow="75" CadenceHigh="75" />
+<SteadyState Duration="120" Power="0.5" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="120" Power="0.78" Cadence="60" CadenceLow="60" CadenceHigh="60" />
+<SteadyState Duration="120" Power="0.8" Cadence="65" CadenceLow="65" CadenceHigh="65" />
+<SteadyState Duration="120" Power="0.82" Cadence="70" CadenceLow="70" CadenceHigh="70" />
+<SteadyState Duration="120" Power="0.84" Cadence="75" CadenceLow="75" CadenceHigh="75" />
+<SteadyState Duration="120" Power="0.5" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="120" Power="0.78" Cadence="60" CadenceLow="60" CadenceHigh="60" />
+<SteadyState Duration="120" Power="0.8" Cadence="65" CadenceLow="65" CadenceHigh="65" />
+<SteadyState Duration="120" Power="0.82" Cadence="70" CadenceLow="70" CadenceHigh="70" />
+<SteadyState Duration="120" Power="0.84" Cadence="75" CadenceLow="75" CadenceHigh="75" />
+<SteadyState Duration="120" Power="0.5" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="120" Power="0.78" Cadence="60" CadenceLow="60" CadenceHigh="60" />
+<SteadyState Duration="120" Power="0.8" Cadence="65" CadenceLow="65" CadenceHigh="65" />
+<SteadyState Duration="120" Power="0.82" Cadence="70" CadenceLow="70" CadenceHigh="70" />
+<SteadyState Duration="120" Power="0.84" Cadence="75" CadenceLow="75" CadenceHigh="75" />
+<SteadyState Duration="120" Power="0.5" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="120" Power="0.78" Cadence="60" CadenceLow="60" CadenceHigh="60" />
+<SteadyState Duration="120" Power="0.8" Cadence="65" CadenceLow="65" CadenceHigh="65" />
+<SteadyState Duration="120" Power="0.82" Cadence="70" CadenceLow="70" CadenceHigh="70" />
+<SteadyState Duration="120" Power="0.84" Cadence="75" CadenceLow="75" CadenceHigh="75" />
+<SteadyState Duration="150" Power="0.5" />
+<Cooldown Duration="150" Power="0.45" />
+</workout>
+    </workout_file>

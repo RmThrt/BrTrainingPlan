@@ -1,0 +1,23 @@
+<workout_file>
+    <author></author>
+    <name>renewal</name>
+    <description>Recovery. Regeneration. Renewal. It is just as important at the hard stuff. Fast cadence efforts facilitate flushing the legs without fatiguing them. Today is an active recovery day, NO HARD EFFORTS!</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="300" PowerLow="0.25" PowerHigh="0.5" />
+<SteadyState Duration="300" Power="0.5" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="60" Power="0.6" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<Ramp Duration="30" PowerLow="0.6" PowerHigh="0.7" />
+<SteadyState Duration="300" Power="0.5" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="60" Power="0.6" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<Ramp Duration="30" PowerLow="0.6" PowerHigh="0.7" />
+<SteadyState Duration="240" Power="0.5" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="60" Power="0.6" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<Ramp Duration="30" PowerLow="0.6" PowerHigh="0.7" />
+<SteadyState Duration="180" Power="0.5" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="60" Power="0.6" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<Ramp Duration="30" PowerLow="0.6" PowerHigh="0.7" />
+<Cooldown Duration="120" PowerLow="0.5" PowerHigh="0.25" />
+</workout>
+    </workout_file>

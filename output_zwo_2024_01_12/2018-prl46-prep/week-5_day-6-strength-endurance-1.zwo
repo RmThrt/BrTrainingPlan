@@ -1,0 +1,23 @@
+<workout_file>
+    <author></author>
+    <name>week-5_day-6-strength-endurance-1</name>
+    <description>Focusing on strength endurance work by completing steady, low cadence intervals. Strength Endurance increases crank torque and therefore recruits more of your fast twitch muscle fibres.After warming up you will complete 2 x 10 min Strength endurance intervals. Target cadence drops from 65 to 60rpm during the effort.Finish the session with a high cadence 2min Max Aerobic effort.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="360" PowerLow="0.5" PowerHigh="0.7" />
+<SteadyState Duration="60" Power="0.5" />
+<SteadyState Duration="60" Power="1.09" />
+<SteadyState Duration="120" Power="0.5" />
+<SteadyState Duration="240" Power="0.9" />
+<SteadyState Duration="180" Power="0.5" />
+<SteadyState Duration="300" Power="0.81" Cadence="65" CadenceLow="65" CadenceHigh="65" />
+<SteadyState Duration="300" Power="0.81" Cadence="60" CadenceLow="60" CadenceHigh="60" />
+<SteadyState Duration="300" Power="0.5" />
+<SteadyState Duration="300" Power="0.81" Cadence="65" CadenceLow="65" CadenceHigh="65" />
+<SteadyState Duration="300" Power="0.8" Cadence="60" CadenceLow="60" CadenceHigh="60" />
+<SteadyState Duration="300" Power="0.5" />
+<SteadyState Duration="120" Power="1.09" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<Cooldown Duration="600" PowerLow="0.75" PowerHigh="0.5" />
+</workout>
+    </workout_file>

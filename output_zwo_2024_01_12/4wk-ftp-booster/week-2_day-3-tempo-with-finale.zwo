@@ -1,0 +1,19 @@
+<workout_file>
+    <author></author>
+    <name>week-2_day-3-tempo-with-finale</name>
+    <description>After first completing a 15min Tempo effort, you will go straight into 4 x 2min VO2 efforts.With no recovery period after the initial 15min, this session will challenge your aerobic efficiency.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="300" Power="0.5" />
+<IntervalsT Repeat="2" OnDuration="10" OffDuration="50" OnPower="1.75" OffPower="0.5" Cadence="110" CadenceLow="110" CadenceHigh="110" CadenceResting="80" />
+<SteadyState Duration="120" Power="0.5" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="1.09" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="120" Power="0.5" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="300" Power="0.9" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="180" Power="0.5" />
+<SteadyState Duration="900" Power="0.81" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<IntervalsT Repeat="4" OnDuration="120" OffDuration="180" OnPower="1.09" OffPower="0.75" Cadence="95" CadenceLow="95" CadenceHigh="95" CadenceResting="80" />
+<Cooldown Duration="300" Power="0.5" />
+</workout>
+    </workout_file>

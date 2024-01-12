@@ -1,0 +1,10 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+Author: Franklin Bespoke,1,180,30,50,%,,,,,,
+,1,30,95,95,%,,,,,,
+,1,180,50,65,%,,,,,,
+,1,30,95,95,%,,,,,,
+,1,180,65,75,%,,,,,,
+,3,30,120,120,%,,60,50,50,%,
+,1,300,65,65,%,90,,,,,
+,3,600,85,85,%,,120,60,60,%,
+,1,270,60,30,%,,,,,,

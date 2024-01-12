@@ -1,0 +1,30 @@
+<workout_file>
+    <author></author>
+    <name>the-rowe</name>
+    <description>Luke Rowe, one of the most respected team captains in the peloton, is a versatile rider. He has found success in grand tours, Classics, and on the track. Riders like Luke Rowe never crack under the pressure, and after today, neither will you!</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="300" PowerLow="0.3" PowerHigh="0.5" />
+<SteadyState Duration="180" Power="0.65" Cadence="60" CadenceLow="60" CadenceHigh="60" />
+<SteadyState Duration="120" Power="0.4" />
+<SteadyState Duration="30" Power="0.85" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="30" Power="0.4" />
+<SteadyState Duration="30" Power="0.95" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<SteadyState Duration="30" Power="0.4" />
+<SteadyState Duration="30" Power="1.08" Cadence="110" CadenceLow="110" CadenceHigh="110" />
+<SteadyState Duration="30" Power="0.4" />
+<SteadyState Duration="30" Power="0.85" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="30" Power="0.4" />
+<SteadyState Duration="30" Power="0.95" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<SteadyState Duration="30" Power="0.4" />
+<SteadyState Duration="30" Power="1.08" Cadence="110" CadenceLow="110" CadenceHigh="110" />
+<SteadyState Duration="180" Power="0.65" />
+<IntervalsT Repeat="3" OnDuration="60" OffDuration="60" OnPower="1.15" OffPower="0.4" />
+<SteadyState Duration="180" Power="0.4" />
+<IntervalsT Repeat="3" OnDuration="60" OffDuration="60" OnPower="1.15" OffPower="0.4" />
+<SteadyState Duration="180" Power="0.4" />
+<IntervalsT Repeat="6" OnDuration="15" OffDuration="45" OnPower="1.3" OffPower="0.4" />
+<Cooldown Duration="300" PowerLow="0.5" PowerHigh="0.3" />
+</workout>
+    </workout_file>

@@ -1,0 +1,20 @@
+<workout_file>
+    <author></author>
+    <name>presto</name>
+    <description>Author: T.Delfs - Momentum Cycling</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="600" PowerLow="0.4" PowerHigh="0.75" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<IntervalsT Repeat="3" OnDuration="30" OffDuration="90" OnPower="1.0" OffPower="0.7" Cadence="105" CadenceLow="105" CadenceHigh="105" CadenceResting="95" />
+<IntervalsT Repeat="5" OnDuration="90" OffDuration="30" OnPower="0.75" OffPower="0.6" Cadence="105" CadenceLow="105" CadenceHigh="105" CadenceResting="95" />
+<SteadyState Duration="480" Power="0.75" Cadence="105" CadenceLow="105" CadenceHigh="105" />
+<SteadyState Duration="120" Power="0.6" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<IntervalsT Repeat="10" OnDuration="45" OffDuration="15" OnPower="0.85" OffPower="0.6" Cadence="110" CadenceLow="110" CadenceHigh="110" CadenceResting="100" />
+<SteadyState Duration="180" Power="0.5" />
+<IntervalsT Repeat="2" OnDuration="300" OffDuration="120" OnPower="0.85" OffPower="0.7" Cadence="95" CadenceLow="95" CadenceHigh="95" CadenceResting="105" />
+<SteadyState Duration="180" Power="0.5" />
+<IntervalsT Repeat="7" OnDuration="90" OffDuration="30" OnPower="0.85" OffPower="0.75" Cadence="95" CadenceLow="95" CadenceHigh="95" CadenceResting="105" />
+<Cooldown Duration="600" PowerLow="0.65" PowerHigh="0.5" />
+</workout>
+    </workout_file>

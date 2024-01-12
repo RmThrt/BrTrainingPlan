@@ -1,0 +1,18 @@
+<workout_file>
+    <author></author>
+    <name>openers</name>
+    <description>Look who get's to do some "openers" today! You do, I was talking to you. This is good stuff and I think you'll like it. These are not max effort "sprints" but rather building efforts from out of the saddle meant to "open" the legs. 3 rounds of 20 second efforts at 120% with a focus on good high RPM's. I'd like you to start these efforts seated and "sprint" out of the saddle about 10 seconds in and finish standing. Not meant to be deeply difficult, but opening the legs up!</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="480" PowerLow="0.45" PowerHigh="0.65" />
+<IntervalsT Repeat="3" OnDuration="60" OffDuration="60" OnPower="0.8" OffPower="0.55" />
+<IntervalsT Repeat="3" OnDuration="120" OffDuration="120" OnPower="0.9" OffPower="0.55" />
+<IntervalsT Repeat="4" OnDuration="20" OffDuration="100" OnPower="1.2" OffPower="0.55" />
+<SteadyState Duration="210" Power="0.5" />
+<IntervalsT Repeat="4" OnDuration="20" OffDuration="100" OnPower="1.2" OffPower="0.55" />
+<SteadyState Duration="210" Power="0.5" />
+<IntervalsT Repeat="4" OnDuration="20" OffDuration="100" OnPower="1.2" OffPower="0.55" />
+<Cooldown Duration="600" PowerLow="0.55" PowerHigh="0.45" />
+</workout>
+    </workout_file>

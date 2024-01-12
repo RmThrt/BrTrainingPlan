@@ -1,0 +1,20 @@
+<workout_file>
+    <author></author>
+    <name>ineos-pre-race-warm-up</name>
+    <description>Let's get in some intensity today! Do this 20min warm-up, then hop into a Zwift race. Make sure you leave about 5min to get into the pre-race pen and get a spot close to the front!</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="300" PowerLow="0.35" PowerHigh="0.55" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="120" Power="0.6" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="120" Power="0.7" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="120" Power="0.85" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<SteadyState Duration="90" Power="1.0" Cadence="105" CadenceLow="105" CadenceHigh="105" />
+<SteadyState Duration="30" Power="1.1" Cadence="110" CadenceLow="110" CadenceHigh="110" />
+<SteadyState Duration="120" Power="0.55" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<IntervalsT Repeat="1" OnDuration="6" OffDuration="60" OnPower="1.5" OffPower="0.55" />
+<IntervalsT Repeat="1" OnDuration="6" OffDuration="60" OnPower="1.75" OffPower="0.55" />
+<IntervalsT Repeat="1" OnDuration="6" OffDuration="60" OnPower="2.0" OffPower="0.55" />
+<Cooldown Duration="102" PowerLow="0.55" PowerHigh="0.35" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+</workout>
+    </workout_file>

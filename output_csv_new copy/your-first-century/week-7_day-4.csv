@@ -1,0 +1,5 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"SST Intervals. On the trainer, out on the road, or in a group, SST intervals are part of our continued effort to build and maintain base.",1,900,25,75,%,,,,,,
+,2,1020,89,89,%,,300,50,50,%,
+,1,2160,65,65,%,,,,,,
+,1,600,66,25,%,,,,,,

@@ -1,0 +1,8 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+Author: Mattias Thyr,1,180,45,75,%,,,,,,
+,4,360,100,100,%,90,60,50,50,%,90
+,5,70,121,121,%,,20,50,50,%,
+,3,360,100,100,%,110,60,50,50,%,90
+,1,60,0,0,0,,,,,,
+,3,12,220,220,%,,168,50,50,%,
+,1,60,50,25,%,,,,,,

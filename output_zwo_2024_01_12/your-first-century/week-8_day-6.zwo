@@ -1,0 +1,12 @@
+<workout_file>
+    <author></author>
+    <name>week-8_day-6</name>
+    <description>Today is simple, ride the prescribed time in your Endurance Zone. Vary your cadence throughout ride and work on pedaling form. Practice "coming over the top" and "pulling through the bottom" of the pedal. Enjoy the day</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="600" PowerLow="0.25" PowerHigh="0.65" />
+<SteadyState Duration="13200" Power="0.65" />
+<Cooldown Duration="600" PowerLow="0.65" PowerHigh="0.25" />
+</workout>
+    </workout_file>

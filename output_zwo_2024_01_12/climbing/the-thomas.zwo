@@ -1,0 +1,28 @@
+<workout_file>
+    <author></author>
+    <name>the-thomas</name>
+    <description>Geraint Thomas, more affectionately known as 'G' is one of the best known riders of his generation. With success on the track, one-day races, and grand tours, he is a threat no matter what bike he's on. He is known for his ability to climb and today's workout is set up to mimic the real life scenery that takes place in racing when there is a climb approaching.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="480" PowerLow="0.39" PowerHigh="0.95" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="110" Power="0.5" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="10" Power="1.25" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<SteadyState Duration="180" Power="0.5" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="30" Power="1.0" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<SteadyState Duration="15" Power="0.5" />
+<SteadyState Duration="300" Power="0.9" Cadence="75" CadenceLow="75" CadenceHigh="75" />
+<SteadyState Duration="30" Power="1.3" Cadence="70" CadenceLow="70" CadenceHigh="70" />
+<SteadyState Duration="300" Power="0.5" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="30" Power="1.2" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<SteadyState Duration="15" Power="0.5" />
+<SteadyState Duration="300" Power="0.92" Cadence="75" CadenceLow="75" CadenceHigh="75" />
+<SteadyState Duration="30" Power="1.3" Cadence="70" CadenceLow="70" CadenceHigh="70" />
+<SteadyState Duration="300" Power="0.5" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="30" Power="1.4" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<SteadyState Duration="15" Power="0.5" />
+<SteadyState Duration="300" Power="1.0" Cadence="75" CadenceLow="75" CadenceHigh="75" />
+<SteadyState Duration="60" Power="1.3" Cadence="70" CadenceLow="70" CadenceHigh="70" />
+<Cooldown Duration="300" PowerLow="0.55" PowerHigh="0.35" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+</workout>
+    </workout_file>

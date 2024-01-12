@@ -1,0 +1,28 @@
+<workout_file>
+    <author></author>
+    <name>week-2_1-tuesday-sst-pyramids-3x12</name>
+    <description>Author: Shayne Gaffney | GC Coaching</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="120" Power="0.6" />
+<SteadyState Duration="120" Power="0.68" />
+<SteadyState Duration="120" Power="0.75" />
+<SteadyState Duration="120" Power="0.83" />
+<SteadyState Duration="120" Power="0.9" />
+<IntervalsT Repeat="3" OnDuration="30" OffDuration="30" OnPower="1.2" OffPower="0.55" />
+<SteadyState Duration="120" Power="0.55" />
+<SteadyState Duration="240" Power="0.86" />
+<SteadyState Duration="240" Power="0.95" />
+<SteadyState Duration="240" Power="0.86" />
+<SteadyState Duration="240" Power="0.55" />
+<SteadyState Duration="240" Power="0.86" />
+<SteadyState Duration="240" Power="0.95" />
+<SteadyState Duration="240" Power="0.86" />
+<SteadyState Duration="240" Power="0.55" />
+<SteadyState Duration="240" Power="0.86" />
+<SteadyState Duration="240" Power="0.95" />
+<SteadyState Duration="240" Power="0.86" />
+<Cooldown Duration="300" Power="0.4" />
+</workout>
+    </workout_file>

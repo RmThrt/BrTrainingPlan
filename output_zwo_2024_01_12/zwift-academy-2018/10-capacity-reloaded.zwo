@@ -1,0 +1,34 @@
+<workout_file>
+    <author></author>
+    <name>10-capacity-reloaded</name>
+    <description>This final session for the 2018 Zwift Academy was another favorite from 2017! This time with a little extra...Last year we went up to the 4/1minute rep, this year we take it over the top and back down again! The main intervals are 7 x 5 minutes with 3 minutes easy spinning between efforts, starting just above threshold then settling into high Zone 3 (comfortably hard, but hardly comfortable).This is pushing your threshold up. Working up the pyramid isn't too difficult, it is the return-leg when it starts to bite! Hang in and try and keep the power where it needs to be.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="180" Power="0.55" />
+<SteadyState Duration="180" Power="0.7" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="180" Power="0.85" Cadence="70" CadenceLow="70" CadenceHigh="70" />
+<SteadyState Duration="180" Power="0.55" />
+<SteadyState Duration="60" Power="1.15" />
+<SteadyState Duration="240" Power="0.87" />
+<SteadyState Duration="180" Power="0.5" />
+<SteadyState Duration="120" Power="1.15" />
+<SteadyState Duration="180" Power="0.87" />
+<SteadyState Duration="180" Power="0.5" />
+<SteadyState Duration="180" Power="1.15" />
+<SteadyState Duration="120" Power="0.87" />
+<SteadyState Duration="180" Power="0.5" />
+<SteadyState Duration="240" Power="1.15" />
+<SteadyState Duration="60" Power="0.87" />
+<SteadyState Duration="180" Power="0.5" />
+<SteadyState Duration="180" Power="1.15" />
+<SteadyState Duration="120" Power="0.87" />
+<SteadyState Duration="180" Power="0.5" />
+<SteadyState Duration="120" Power="1.15" />
+<SteadyState Duration="180" Power="0.87" />
+<SteadyState Duration="180" Power="0.5" />
+<SteadyState Duration="60" Power="1.15" />
+<SteadyState Duration="240" Power="0.87" />
+<Cooldown Duration="300" Power="0.5" />
+</workout>
+    </workout_file>

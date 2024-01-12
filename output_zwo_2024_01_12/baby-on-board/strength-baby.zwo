@@ -1,0 +1,12 @@
+<workout_file>
+    <author></author>
+    <name>strength-baby</name>
+    <description>This workout offers an introduction to developing your strength by completing 3 blocks of 4 minute at zone 3 but critically at a low cadence of 60rpm.Focus on keeping your upper body still and allowing your legs to generate all the power.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="300" PowerLow="0.25" PowerHigh="0.7" />
+<IntervalsT Repeat="3" OnDuration="180" OffDuration="240" OnPower="0.46" OffPower="0.79" Cadence="90" CadenceLow="90" CadenceHigh="90" CadenceResting="60" />
+<Cooldown Duration="300" PowerLow="0.65" PowerHigh="0.35" />
+</workout>
+    </workout_file>

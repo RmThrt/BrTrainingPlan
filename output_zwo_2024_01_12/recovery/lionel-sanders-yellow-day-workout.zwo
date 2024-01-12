@@ -1,0 +1,16 @@
+<workout_file>
+    <author></author>
+    <name>lionel-sanders-yellow-day-workout</name>
+    <description>Lionel Sanders says 'These days make up most of my days just because of my training volume. I would certainly not plan on a yellow day to do something crazy high intensity. You certainly can do a bit of your low intensity stuff, as well and your technical stuff, like you do on a red day - but you also have to work a bit, so it's a great day to do more of your race pace specific work, which isn't super crazy taxing but also isn't super easy. I think it's a good day to plan more sweet spot or mid type intensity workout if you have an intense workout plan for that week.'</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="600" PowerLow="0.25" PowerHigh="0.75" />
+<SteadyState Duration="600" Power="0.75" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="300" Power="0.5" />
+<SteadyState Duration="600" Power="0.75" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="300" Power="0.5" />
+<SteadyState Duration="600" Power="0.75" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<Cooldown Duration="300" PowerLow="0.75" PowerHigh="0.25" />
+</workout>
+    </workout_file>

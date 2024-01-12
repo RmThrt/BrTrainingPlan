@@ -1,0 +1,14 @@
+<workout_file>
+    <author></author>
+    <name>week-3_day-1-cadence-drills</name>
+    <description>Don't worry too much with watts or HR in this one. Just make it a fun and challenging trainer ride.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="600" PowerLow="0.55" PowerHigh="0.72" />
+<IntervalsT Repeat="10" OnDuration="60" OffDuration="60" OnPower="0.72" OffPower="0.72" Cadence="105" CadenceLow="105" CadenceHigh="105" CadenceResting="85" />
+<SteadyState Duration="1200" Power="0.87" />
+<IntervalsT Repeat="10" OnDuration="60" OffDuration="60" OnPower="0.87" OffPower="0.87" Cadence="105" CadenceLow="105" CadenceHigh="105" CadenceResting="85" />
+<Cooldown Duration="600" PowerLow="0.72" PowerHigh="0.55" />
+</workout>
+    </workout_file>

@@ -1,0 +1,21 @@
+<workout_file>
+    <author></author>
+    <name>week-11_breakfast-returns</name>
+    <description>A block of 30s/30s intervals that an athlete once told me (who worked out early in the morning and usually right after breakfast) always caused his "breakfast to return." Even if your breakfast - or lunch or dinner - stays put, one thing will certainly rise - your fitness!</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="600" PowerLow="0.25" PowerHigh="0.75" />
+<IntervalsT Repeat="1" OnDuration="30" OffDuration="30" OnPower="0.95" OffPower="0.5" Cadence="95" CadenceLow="95" CadenceHigh="95" CadenceResting="85" />
+<IntervalsT Repeat="1" OnDuration="30" OffDuration="30" OnPower="1.05" OffPower="0.5" Cadence="105" CadenceLow="105" CadenceHigh="105" CadenceResting="85" />
+<IntervalsT Repeat="1" OnDuration="30" OffDuration="30" OnPower="1.15" OffPower="0.5" Cadence="115" CadenceLow="115" CadenceHigh="115" CadenceResting="85" />
+<SteadyState Duration="120" Power="0.5" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<IntervalsT Repeat="10" OnDuration="30" OffDuration="30" OnPower="1.3" OffPower="0.7" Cadence="105" CadenceLow="105" CadenceHigh="105" CadenceResting="90" />
+<SteadyState Duration="180" Power="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<IntervalsT Repeat="10" OnDuration="30" OffDuration="30" OnPower="1.3" OffPower="0.7" Cadence="105" CadenceLow="105" CadenceHigh="105" CadenceResting="90" />
+<SteadyState Duration="180" Power="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<IntervalsT Repeat="10" OnDuration="30" OffDuration="30" OnPower="1.3" OffPower="0.7" Cadence="105" CadenceLow="105" CadenceHigh="105" CadenceResting="90" />
+<SteadyState Duration="180" Power="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<Cooldown Duration="360" PowerLow="0.55" PowerHigh="0.25" />
+</workout>
+    </workout_file>

@@ -1,0 +1,17 @@
+<workout_file>
+    <author></author>
+    <name>week-7_stone-roller</name>
+    <description>Stone roller, gravel crusher, pebble pounder are all things you can call yourself after completing UNBOUND! We have a climbing-focused workout planned for today that features surging and recovery. Over the 10 minute intervals, we'll switch between 4 min efforts at a moderate cadence just below FTP to 1 min low cadence work above FTP to mimic a steep section of the Flint Hills. UNBOUND Gravel is a grassroots event, organized and managed by folks who are passionate about cycling, and have done so for the primary purpose of providing life-enriching cycling experiences for event participants.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="420" PowerLow="0.6" PowerHigh="0.9" />
+<SteadyState Duration="120" Power="0.55" />
+<IntervalsT Repeat="2" OnDuration="240" OffDuration="60" OnPower="0.95" OffPower="1.1" Cadence="90" CadenceLow="90" CadenceHigh="90" CadenceResting="60" />
+<SteadyState Duration="240" Power="0.55" />
+<IntervalsT Repeat="2" OnDuration="240" OffDuration="60" OnPower="0.95" OffPower="1.1" Cadence="90" CadenceLow="90" CadenceHigh="90" CadenceResting="60" />
+<SteadyState Duration="240" Power="0.55" />
+<IntervalsT Repeat="2" OnDuration="240" OffDuration="60" OnPower="0.95" OffPower="1.1" Cadence="90" CadenceLow="90" CadenceHigh="90" CadenceResting="60" />
+<Cooldown Duration="180" PowerLow="0.5" PowerHigh="0.3" />
+</workout>
+    </workout_file>

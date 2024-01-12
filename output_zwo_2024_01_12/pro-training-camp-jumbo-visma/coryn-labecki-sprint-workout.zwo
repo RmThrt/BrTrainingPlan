@@ -1,0 +1,14 @@
+<workout_file>
+    <author></author>
+    <name>coryn-labecki-sprint-workout</name>
+    <description>It's time for another workout courtesy of our friends over at Team Jumbo-Visma. This workout is designed for their American sprinting superstar, Coryn Labecki. Hang on for just 5 short and sharp intervals!</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="300" Power="0.55" />
+<Ramp Duration="300" PowerLow="0.6" PowerHigh="0.8" />
+<SteadyState Duration="300" Power="0.55" />
+<IntervalsT Repeat="5" OnDuration="20" OffDuration="260" OnPower="2.5" OffPower="0.55" />
+<Cooldown Duration="420" Power="0.55" />
+</workout>
+    </workout_file>

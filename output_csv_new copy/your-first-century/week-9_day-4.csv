@@ -1,0 +1,5 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+VO2max Intervals. Complete 4 x 5-minute intervals at VO2Max with 5 minutes of rest between intervals. Ride at Endurance all other times.,1,1200,25,75,%,,,,,,
+,4,300,110,110,%,,300,50,50,%,
+,1,2700,65,65,%,,,,,,
+,1,900,75,25,%,,,,,,

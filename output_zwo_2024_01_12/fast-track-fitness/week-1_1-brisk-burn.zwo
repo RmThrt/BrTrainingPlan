@@ -1,0 +1,21 @@
+<workout_file>
+    <author></author>
+    <name>week-1_1-brisk-burn</name>
+    <description>Every journey starts with a single step, and we'll start this fitness journey with a 16min workout. The only focus for you today is to have fun working through the power zones! We'll start with a quick warm-up, then get into the workout intervals, which feature various lengths and intensities. All aboard the train going down the fast track to fitness!</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="120" PowerLow="0.65" PowerHigh="0.8" />
+<IntervalsT Repeat="3" OnDuration="40" OffDuration="20" OnPower="0.88" OffPower="0.72" />
+<SteadyState Duration="60" Power="0.78" Cadence="80" CadenceLow="80" CadenceHigh="80" />
+<IntervalsT Repeat="3" OnDuration="30" OffDuration="30" OnPower="0.92" OffPower="0.72" />
+<SteadyState Duration="60" Power="0.78" Cadence="80" CadenceLow="80" CadenceHigh="80" />
+<IntervalsT Repeat="3" OnDuration="20" OffDuration="40" OnPower="0.96" OffPower="0.72" />
+<SteadyState Duration="10" Power="1.25" />
+<SteadyState Duration="50" Power="0.72" />
+<SteadyState Duration="10" Power="1.25" />
+<SteadyState Duration="50" Power="0.72" />
+<SteadyState Duration="10" Power="1.25" />
+<Cooldown Duration="50" PowerLow="0.7" PowerHigh="0.65" />
+</workout>
+    </workout_file>

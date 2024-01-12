@@ -1,0 +1,13 @@
+<workout_file>
+    <author></author>
+    <name>week-2_day-3-earn-your-bacon</name>
+    <description>Time to push it at your FTP and get a good long sweat in! GO for it!</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="600" PowerLow="0.5" PowerHigh="0.65" />
+<IntervalsT Repeat="4" OnDuration="600" OffDuration="300" OnPower="0.95" OffPower="0.72" />
+<IntervalsT Repeat="4" OnDuration="60" OffDuration="60" OnPower="1.6" OffPower="0.72" />
+<Cooldown Duration="300" PowerLow="0.72" PowerHigh="0.55" />
+</workout>
+    </workout_file>

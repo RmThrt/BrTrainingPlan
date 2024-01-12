@@ -1,0 +1,15 @@
+<workout_file>
+    <author></author>
+    <name>middle-threshold-2</name>
+    <description>Author: f.bassis</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="600" PowerLow="0.41" PowerHigh="0.75" />
+<SteadyState Duration="180" Power="1.1" />
+<IntervalsT Repeat="5" OnDuration="60" OffDuration="60" OnPower="0.85" OffPower="0.5" />
+<SteadyState Duration="300" Power="0.69" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<IntervalsT Repeat="10" OnDuration="20" OffDuration="160" OnPower="0.99" OffPower="0.72" />
+<Cooldown Duration="420" PowerLow="0.75" PowerHigh="0.36" />
+</workout>
+    </workout_file>

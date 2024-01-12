@@ -1,0 +1,15 @@
+<workout_file>
+    <author></author>
+    <name>week-8_day-6-ftp-test</name>
+    <description>This is your 8 week test. Warm up well and really CRUSH IT!</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="600" PowerLow="0.25" PowerHigh="0.8" />
+<SteadyState Duration="300" Power="1.05" />
+<SteadyState Duration="900" Power="0.65" />
+<FreeRide Duration="1200" />
+<SteadyState Duration="600" Power="0.65" />
+<Cooldown Duration="600" PowerLow="0.65" PowerHigh="0.25" />
+</workout>
+    </workout_file>

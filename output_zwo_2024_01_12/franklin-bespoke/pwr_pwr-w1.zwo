@@ -1,0 +1,18 @@
+<workout_file>
+    <author></author>
+    <name>pwr_pwr-w1</name>
+    <description>Author: Franklin Bespoke</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="600" PowerLow="0.4" PowerHigh="0.75" />
+<IntervalsT Repeat="3" OnDuration="180" OffDuration="60" OnPower="0.9" OffPower="0.65" Cadence="80" CadenceLow="80" CadenceHigh="80" CadenceResting="80" />
+<Ramp Duration="180" PowerLow="0.4" PowerHigh="0.9" />
+<Ramp Duration="180" PowerLow="0.9" PowerHigh="0.4" />
+<IntervalsT Repeat="3" OnDuration="180" OffDuration="60" OnPower="0.9" OffPower="0.65" Cadence="85" CadenceLow="85" CadenceHigh="85" CadenceResting="80" />
+<Ramp Duration="180" PowerLow="0.5" PowerHigh="0.9" />
+<Ramp Duration="180" PowerLow="0.9" PowerHigh="0.5" />
+<IntervalsT Repeat="3" OnDuration="180" OffDuration="60" OnPower="0.9" OffPower="0.65" Cadence="90" CadenceLow="90" CadenceHigh="90" CadenceResting="80" />
+<Cooldown Duration="420" PowerLow="0.75" PowerHigh="0.25" />
+</workout>
+    </workout_file>

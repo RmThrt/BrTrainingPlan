@@ -1,0 +1,19 @@
+<workout_file>
+    <author></author>
+    <name>knife-edge</name>
+    <description>You'll be right on the knife's edge from start to finish with this workout, which kicks things off with a very spicy 1-minute effort. The intervals back down from there, but you won't have much time to recover. Make it through to the finish, and you'll be well sharpened for your next ride!</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="300" PowerLow="0.25" PowerHigh="0.75" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="1.25" Cadence="110" CadenceLow="110" CadenceHigh="110" />
+<SteadyState Duration="120" Power="1.0" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<SteadyState Duration="90" Power="1.15" Cadence="105" CadenceLow="105" CadenceHigh="105" />
+<SteadyState Duration="120" Power="0.98" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<SteadyState Duration="120" Power="1.08" Cadence="100" CadenceLow="100" CadenceHigh="100" />
+<SteadyState Duration="120" Power="0.95" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<SteadyState Duration="120" Power="0.92" Cadence="95" CadenceLow="95" CadenceHigh="95" />
+<FreeRide Duration="30" />
+<Cooldown Duration="120" PowerLow="0.5" PowerHigh="0.25" />
+</workout>
+    </workout_file>

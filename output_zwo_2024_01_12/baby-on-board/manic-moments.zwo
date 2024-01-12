@@ -1,0 +1,35 @@
+<workout_file>
+    <author></author>
+    <name>manic-moments</name>
+    <description>This workout includes segments beginning with 3-minutes in duration decreasing to :20 seconds in duration. The challenge is while the duration decreases the intensity will increase throughout working between 70-120% of your FTP. Once you hit the peak intensity, it's time to come back down in intensity and build back the duration. There will be plenty of pit stops along the way allowing for recovery as well as an opportunity to continue hydrating.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="30" Power="0.35" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="30" Power="0.4" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="30" Power="0.45" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="30" Power="0.5" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="45" Power="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="45" Power="0.6" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="45" Power="0.65" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="45" Power="0.7" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="90" Power="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<IntervalsT Repeat="1" OnDuration="180" OffDuration="45" OnPower="0.7" OffPower="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" CadenceResting="85" />
+<IntervalsT Repeat="1" OnDuration="120" OffDuration="45" OnPower="0.8" OffPower="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" CadenceResting="85" />
+<IntervalsT Repeat="1" OnDuration="60" OffDuration="45" OnPower="0.9" OffPower="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" CadenceResting="85" />
+<IntervalsT Repeat="1" OnDuration="45" OffDuration="45" OnPower="1.0" OffPower="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" CadenceResting="85" />
+<IntervalsT Repeat="1" OnDuration="30" OffDuration="45" OnPower="1.1" OffPower="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" CadenceResting="85" />
+<IntervalsT Repeat="1" OnDuration="20" OffDuration="45" OnPower="1.2" OffPower="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" CadenceResting="85" />
+<IntervalsT Repeat="1" OnDuration="20" OffDuration="45" OnPower="1.2" OffPower="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" CadenceResting="85" />
+<IntervalsT Repeat="1" OnDuration="30" OffDuration="45" OnPower="1.1" OffPower="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" CadenceResting="85" />
+<IntervalsT Repeat="1" OnDuration="45" OffDuration="45" OnPower="1.0" OffPower="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" CadenceResting="85" />
+<IntervalsT Repeat="1" OnDuration="60" OffDuration="45" OnPower="0.9" OffPower="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" CadenceResting="85" />
+<IntervalsT Repeat="1" OnDuration="120" OffDuration="45" OnPower="0.8" OffPower="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" CadenceResting="85" />
+<IntervalsT Repeat="1" OnDuration="180" OffDuration="45" OnPower="0.7" OffPower="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" CadenceResting="85" />
+<SteadyState Duration="45" Power="0.6" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="45" Power="0.55" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="50" Power="0.5" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<SteadyState Duration="60" Power="0.45" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<Cooldown Duration="60" Power="0.4" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+</workout>
+    </workout_file>

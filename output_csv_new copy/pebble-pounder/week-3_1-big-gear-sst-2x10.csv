@@ -1,0 +1,13 @@
+description,number_of_time,time_in_seconds,low_power,high_power,power_unit,cadence,time_in_seconds2,low_power2,high_power2,power_unit2,cadence2
+"Welcome back to the 3rd week of the Pebble Pounder! Today, we're going to be continuing our progressive build of time spent at SST, as well as further improve your ability to sustain low cadence for a longer duration. Let's CRUSH it today!",1,300,40,75,%,0,,,,,
+,1,30,80,80,%,85,,,,,
+,1,30,85,85,%,90,,,,,
+,1,30,85,85,%,95,,,,,
+,1,30,90,90,%,100,,,,,
+,1,30,95,95,%,105,,,,,
+,1,30,100,100,%,110,,,,,
+,1,120,50,50,%,85,,,,,
+,1,600,88,95,%,75,,,,,
+,1,300,65,65,%,90,,,,,
+,1,600,88,95,%,75,,,,,
+,1,300,65,40,%,0,,,,,

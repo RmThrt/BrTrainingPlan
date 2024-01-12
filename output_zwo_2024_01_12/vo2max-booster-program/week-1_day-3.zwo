@@ -1,0 +1,12 @@
+<workout_file>
+    <author></author>
+    <name>week-1_day-3</name>
+    <description>Author: Jesper Bondo Medhus</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="600" PowerLow="0.25" PowerHigh="0.5" />
+<IntervalsT Repeat="3" OnDuration="300" OffDuration="600" OnPower="0.9" OffPower="0.5" />
+<Cooldown Duration="600" PowerLow="0.5" PowerHigh="0.25" />
+</workout>
+    </workout_file>

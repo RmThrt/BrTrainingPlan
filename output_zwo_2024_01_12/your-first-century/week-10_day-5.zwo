@@ -1,0 +1,14 @@
+<workout_file>
+    <author></author>
+    <name>week-10_day-5</name>
+    <description>PCG classic tune-up - The day before your big ride, you need some little short efforts to make sure your legs will feel good tomorrow. They are so short that they will not adversely impact you for tomorrow, but actually make your legs feel better. Eat extra carbs again today! Not too much standing on the feet today!</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="900" PowerLow="0.25" PowerHigh="0.75" />
+<IntervalsT Repeat="3" OnDuration="60" OffDuration="300" OnPower="1.2" OffPower="0.5" />
+<IntervalsT Repeat="3" OnDuration="30" OffDuration="300" OnPower="1.05" OffPower="0.5" />
+<SteadyState Duration="1830" Power="0.65" />
+<Cooldown Duration="600" PowerLow="0.75" PowerHigh="0.25" />
+</workout>
+    </workout_file>

@@ -1,0 +1,17 @@
+<workout_file>
+    <author></author>
+    <name>week-6_159</name>
+    <description>Named for the atomic mass of Oxygen, this VO2max workout is designed to help you make better use of that oh-so-precious resource. The workout features two main sets. The first is a block of intervals above threshold, pushing your body to work and recover repeatedly. The second is a sustained sub-threshold effort that asks you to work hard on tired legs. You get to breathe easy - and grab some extra O2 - during the long warm up and cool down.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="600" PowerLow="0.25" PowerHigh="0.75" />
+<IntervalsT Repeat="1" OnDuration="30" OffDuration="30" OnPower="0.95" OffPower="0.5" Cadence="95" CadenceLow="95" CadenceHigh="95" CadenceResting="85" />
+<IntervalsT Repeat="1" OnDuration="30" OffDuration="30" OnPower="1.05" OffPower="0.5" Cadence="105" CadenceLow="105" CadenceHigh="105" CadenceResting="85" />
+<IntervalsT Repeat="1" OnDuration="30" OffDuration="30" OnPower="1.15" OffPower="0.5" Cadence="115" CadenceLow="115" CadenceHigh="115" CadenceResting="85" />
+<SteadyState Duration="120" Power="0.5" Cadence="85" CadenceLow="85" CadenceHigh="85" />
+<IntervalsT Repeat="5" OnDuration="150" OffDuration="180" OnPower="1.15" OffPower="0.55" Cadence="105" CadenceLow="105" CadenceHigh="105" CadenceResting="85" />
+<SteadyState Duration="600" Power="0.9" Cadence="90" CadenceLow="90" CadenceHigh="90" />
+<Cooldown Duration="450" PowerLow="0.9" PowerHigh="0.25" />
+</workout>
+    </workout_file>

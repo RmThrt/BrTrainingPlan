@@ -1,0 +1,12 @@
+<workout_file>
+    <author></author>
+    <name>week-1_day-7-bike</name>
+    <description>Bike - 60 min.-20 min. warm up-8x (20 sec. @ 135% FTP @ 85-90 rpm, 30 sec. total rest)-30 min. cooldown</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="1200" PowerLow="0.6" PowerHigh="0.75" />
+<IntervalsT Repeat="8" OnDuration="20" OffDuration="30" OnPower="1.35" OffPower="0.1" />
+<Cooldown Duration="1800" PowerLow="0.65" PowerHigh="0.45" />
+</workout>
+    </workout_file>

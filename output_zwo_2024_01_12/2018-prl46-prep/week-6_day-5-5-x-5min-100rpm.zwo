@@ -1,0 +1,18 @@
+<workout_file>
+    <author></author>
+    <name>week-6_day-5-5-x-5min-100rpm</name>
+    <description>Targeting your aerobic efficiency with 5 x 5min sub-threshold efforts with 3min recovery.We are also introducing an added stress by challenging your neuromuscular system by increasing the target cadence.</description>
+    <sportType>bike</sportType>
+    <tags>
+    </tags>
+    <workout><Warmup Duration="300" Power="0.5" />
+<IntervalsT Repeat="2" OnDuration="10" OffDuration="50" OnPower="1.81" OffPower="0.5" />
+<SteadyState Duration="120" Power="0.5" />
+<SteadyState Duration="60" Power="1.09" />
+<SteadyState Duration="120" Power="0.56" />
+<SteadyState Duration="180" Power="0.84" />
+<SteadyState Duration="180" Power="0.56" />
+<IntervalsT Repeat="4" OnDuration="300" OffDuration="180" OnPower="0.92" OffPower="0.5" Cadence="100" CadenceLow="100" CadenceHigh="100" CadenceResting="80" />
+<Cooldown Duration="600" PowerLow="0.75" PowerHigh="0.5" />
+</workout>
+    </workout_file>
