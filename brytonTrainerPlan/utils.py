@@ -52,6 +52,7 @@ def slugify(value, allow_unicode=False):
 
 def search_in_google(search_term):
     url = f"https://google.com/search?q={search_term}"
+    return url
 
     headers = {
         'Accept': '*/*',

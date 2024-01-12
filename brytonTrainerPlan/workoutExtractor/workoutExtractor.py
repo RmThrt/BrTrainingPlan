@@ -64,13 +64,13 @@ class ZwitBrowserManager:
         training_plans = [x.replace("+", "plus").replace("L'Etape", 'l-etape')  for x in training_plans]
         training_plans = [slugify(x) for x in training_plans]
         training_plans = [x.replace("4wk-prudential-ride-london-prl-prep", "4wk-prl-prep")\
-                        .replace('zwift-academy-2016','zwift-academy'\
+                        .replace('zwift-academy-2016','zwift-academy')\
                         .replace('ride-on-for-world-bicycle-relief-watopia-1-lap-tt-plan', 'ride-on-for-world-bicycle-relief-watopia-1lap-tt-plan')\
                         .replace('mattias-thyrs-unstructured-workouts', 'mattias-thyr-unstructured-workouts')\
                         .replace('leandro-messineos-poison-dart-frog-intervals', 'leandro-messineo-poison-dart-frog-intervals')\
                         .replace('dig-deep-coaching-3-week-grand-tour-2018', 'dig-deep-coaching-3-week-grand-tour')\
                         .replace('classics-and-climbing', 'classics-climbing')\
-                        )  for x in training_plans]
+                        for x in training_plans]
         return training_plans
 
     def getPage(self): 

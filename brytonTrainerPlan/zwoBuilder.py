@@ -217,7 +217,7 @@ class ZwoBuilder:
 
     def __init__(self, csv_path=None, training_plan ='') -> None:
         self.csv_path = csv_path
-        self.title = training_plan + '_' + os.path.splitext(os.path.basename(csv_path))[0]
+        self.title = training_plan + '_' + os.path.splitext(os.path.basename(csv_path))[0] if training_plan != '' else os.path.splitext(os.path.basename(csv_path))[0]
 
         self.csv_content = csv.DictReader(open(csv_path, newline='\n'))
         self.zwo_content = ""

@@ -1,6 +1,6 @@
 import os
 import sys
-import time
+import threading
 import getopt
 from pathlib import Path
 from brytonTrainerPlan.zwoBuilder import ZwoBuilder
@@ -11,6 +11,74 @@ from tqdm import tqdm
 
 from brytonTrainerPlan.prepareWorkout import prepare_workout_dict
 
+from queue import Queue
+
+jobs = Queue()
+
+def build_job():
+    while True:
+        value = jobs.get()
+        func = value[0]
+        args = value[1:]
+        func(*args)
+        print(value)
+        jobs.task_done()
+
+
+def csv_to_zwo(filename,outputs_zwo, zwift_link_file_path ):
+    parent_directory = filename.parent.name
+    output_training_plan = outputs_zwo + '/' + parent_directory
+    if not os.path.exists(output_training_plan):
+        try:
+            os.mkdir(output_training_plan)
+        except Exception as e:
+            if e.winerror == 183:
+                pass
+    csv_file_path = str(filename.absolute())
+    zwoBuildertest = ZwoBuilder(
+        csv_file_path, training_plan='')#filename.parent.name)
+    zwoBuildertest.build_zwo_workout()
+    zwo_file_path = zwoBuildertest.write_zwo_file(
+        output_training_plan)
+
+    link = search_in_google('zwift_' + zwoBuildertest.get_title())
+    with open(zwift_link_file_path, 'a') as f:
+        f.write(link + '; file:///' + csv_file_path +
+                '; file:///' + zwo_file_path + '\n')
+        
+
+def extract_training_plan(training_plan,outputfolder, headless):
+    zwift_url = "https://whatsonzwift.com/workouts/" + training_plan
+    training_plan_folder = outputfolder + '/' + training_plan
+    
+    zwiftBrowserManager = ZwitBrowserManager(
+    headless)
+
+    zwiftBrowserManager.goto(zwift_url)
+    try:
+        prepare_output_folder(training_plan_folder,
+                            training_plan, zwift_url)
+    
+        already_scrapped = False
+        zwiftWorkoutsBrowser = ZwiftWorkoutsBrowser(
+            zwiftBrowserManager.getPage(), training_plan_folder)
+        workout_count = zwiftWorkoutsBrowser.get_workouts_count()
+
+        if os.path.exists(training_plan_folder):
+            training_plan_files_count = count_files(training_plan_folder)
+            if training_plan_files_count > workout_count:
+                print('training plan already scrapped')
+                already_scrapped = True
+        
+        if not already_scrapped:
+            for i in tqdm(range(workout_count), total=workout_count, desc='extraction of: ' + zwift_url):
+                zwiftWorkoutsBrowser.extract_workouts(i)
+    except Exception as e:
+        print('ERROR : ' + str(e))
+
+    finally:
+        zwiftBrowserManager.dispose()
+        del zwiftBrowserManager
 
 def main(argv):
 
@@ -54,8 +122,8 @@ def main(argv):
             training_plans = [arg]
 
     assert csvToZwo ^ injectInBryton ^ parseZwift, "please choose between csv-to-zwo, --inject-in-bryton, or --parse-zwift, it cannot be used in the same time"
-    assert (websiteUrlToGetTrainingPlans != '') ^ (len(training_plans) >
-                                                   0), "please choose between website-url-to-get-training-plans and training-plans, cannot be used in the same time"
+    assert not ((websiteUrlToGetTrainingPlans != '') and  (len(training_plans) >
+                                                   0)), "please choose between website-url-to-get-training-plans and training-plans, cannot be used in the same time"
 
     if csvToZwo:
         csv_filenames = [f for f in Path(inputfolder).rglob('*.csv')]
@@ -66,58 +134,31 @@ def main(argv):
             os.mkdir(outputs_zwo)
         open(zwift_link_file_path, 'w')
         for filename in tqdm(csv_filenames):
-            csv_file_path = str(filename.absolute())
-            zwoBuildertest = ZwoBuilder(
-                csv_file_path, training_plan=filename.parent.name)
-            zwoBuildertest.build_zwo_workout()
-            zwo_file_path = zwoBuildertest.write_zwo_file(
-                outputs_zwo)
-
-            link = search_in_google('zwift_' + zwoBuildertest.get_title())
-            with open(zwift_link_file_path, 'a') as f:
-                f.write(link + '; file:///' + csv_file_path +
-                        '; file:///' + zwo_file_path + '\n')
+            x= threading.Thread(target=csv_to_zwo, args=(filename,outputs_zwo, zwift_link_file_path ))
+            x.start()
 
     elif parseZwift:
-        zwiftBrowserManager = ZwitBrowserManager(
-            headless)
         if websiteUrlToGetTrainingPlans != '':
+            zwiftBrowserManager = ZwitBrowserManager(
+            headless)
 
             zwiftBrowserManager.goto(websiteUrlToGetTrainingPlans)
             training_plans = zwiftBrowserManager.get_training_plans()
 
+            zwiftBrowserManager.dispose()
+            del zwiftBrowserManager
+        
         
         for training_plan in training_plans:
-            zwift_url = "https://whatsonzwift.com/workouts/" + training_plan
-            print("training_plan:", zwift_url)
-            training_plan_folder = outputfolder + '/' + training_plan
+            jobs.put((extract_training_plan, training_plan, outputfolder, headless))
 
-            zwiftBrowserManager.goto(zwift_url)
-            try:
-                prepare_output_folder(training_plan_folder,
-                                  training_plan, zwift_url)
-            
+        for i in range(5):
+            worker = threading.Thread(target=build_job)
+            worker.start()
 
-                zwiftWorkoutsBrowser = ZwiftWorkoutsBrowser(
-                    zwiftBrowserManager.getPage(), training_plan_folder)
-                workout_count = zwiftWorkoutsBrowser.get_workouts_count()
-
-                if os.path.exists(training_plan_folder):
-                    training_plan_files_count = count_files(training_plan_folder)
-                    if training_plan_files_count > workout_count:
-                        print('training plan already scrapped')
-                        continue
-
-                print("workout_count:", workout_count)
-                for i in tqdm(range(workout_count), total=workout_count):
-                    zwiftWorkoutsBrowser.extract_workouts(i)
-            except Exception as e:
-                print('ERROR : ' + str(e))
-                continue
-
-
-        zwiftBrowserManager.dispose()
-        del zwiftBrowserManager
+        print("waiting for queue to complete", jobs.qsize(), "tasks")
+        jobs.join()
+        print("all done")
 
     elif injectInBryton:
         if not os.path.exists('tmp'):
